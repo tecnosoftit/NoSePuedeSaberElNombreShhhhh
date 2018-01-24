@@ -1,0 +1,3144 @@
+Fecha:           2015/03/24 04:11
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 
+Sesion WS: 
+
+Fecha:           2015/03/24 04:12
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Object reference not set to an instance of an object.
+Info:        No se puede recuperar la sesion
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.csGeneralsPag.SesionIdPage() in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\Utilidades\csGeneralsPag.cs:line 636
+Sesion Local: 6356281032570463204c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 04:14
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6356281032570463204c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281032570463204c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 04:14
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6356281032570463204c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281032570463204c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 04:38
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 
+Sesion WS: 
+
+Fecha:           2015/03/24 04:39
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Object reference not set to an instance of an object.
+Info:        No se puede recuperar la sesion
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.csGeneralsPag.SesionIdPage() in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\Utilidades\csGeneralsPag.cs:line 636
+Sesion Local: 6356281198213237434c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 04:42
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6356281198213237434c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281198213237434c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 04:42
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/Index.aspx
+Complmeneto: ResultadoPlanes.aspx?ORIGEN=BUSCADOR
+Sesion Local: 6356281198213237434c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 04:42
+Codigo:      0
+Tipo:        Libreria
+Método:      setGuardarParametrosBusqueda
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft
+StackTrace:     at Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:line 4470
+   at Ssoft.Pages.PaginaPlanes.csBuscadorPlanes.GuardarParametrosBusquedaCircular(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csBuscadorPlanes.cs:line 167
+Complmeneto: Error en al guardar los parametros de busqueda en traslados
+Sesion Local: 6356281198213237434c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 04:42
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/ResultadoPlanes.aspx?ORIGEN=BUSCADOR
+Complmeneto: ResultadoPlanes.aspx?ORIGEN=BUSCADOR
+Sesion Local: 6356281198213237434c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 04:42
+Codigo:      0
+Tipo:        Libreria
+Método:      setGuardarParametrosBusqueda
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft
+StackTrace:     at Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:line 4470
+   at Ssoft.Pages.PaginaPlanes.csBuscadorPlanes.GuardarParametrosBusquedaCircular(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csBuscadorPlanes.cs:line 167
+Complmeneto: Error en al guardar los parametros de busqueda en traslados
+Sesion Local: 6356281198213237434c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 04:45
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 
+Sesion WS: 
+
+Fecha:           2015/03/24 04:45
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Object reference not set to an instance of an object.
+Info:        No se puede recuperar la sesion
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.csGeneralsPag.SesionIdPage() in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\Utilidades\csGeneralsPag.cs:line 636
+Sesion Local: 6356281235121248454c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 04:48
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Object reference not set to an instance of an object.
+Info:        No se puede recuperar la sesion
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.csGeneralsPag.SesionIdPage() in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\Utilidades\csGeneralsPag.cs:line 636
+Sesion Local: 6356281251535587294c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 04:48
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/Index.aspx
+Complmeneto: ResultadoPlanes.aspx?ORIGEN=BUSCADOR
+Sesion Local: 6356281251535587294c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 04:48
+Codigo:      0
+Tipo:        Libreria
+Método:      setGuardarParametrosBusqueda
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft
+StackTrace:     at Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:line 4470
+   at Ssoft.Pages.PaginaPlanes.csBuscadorPlanes.GuardarParametrosBusquedaCircular(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csBuscadorPlanes.cs:line 167
+Complmeneto: Error en al guardar los parametros de busqueda en traslados
+Sesion Local: 6356281251535587294c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 04:48
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Invalid column name 'ECU'.
+Source:      .Net SqlClient Data Provider
+StackTrace:     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 699
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 603
+   at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 78
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurincoTest; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6356281251535587294c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 04:48
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/ResultadoPlanes.aspx?ORIGEN=BUSCADOR
+Complmeneto: ResultadoPlanes.aspx?ORIGEN=BUSCADOR
+Sesion Local: 6356281251535587294c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 04:48
+Codigo:      0
+Tipo:        Libreria
+Método:      setGuardarParametrosBusqueda
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft
+StackTrace:     at Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:line 4470
+   at Ssoft.Pages.PaginaPlanes.csBuscadorPlanes.GuardarParametrosBusquedaCircular(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csBuscadorPlanes.cs:line 167
+Complmeneto: Error en al guardar los parametros de busqueda en traslados
+Sesion Local: 6356281251535587294c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 04:48
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Invalid column name 'ECU'.
+Source:      .Net SqlClient Data Provider
+StackTrace:     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 699
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 603
+   at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 78
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurincoTest; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6356281251535587294c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 04:53
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/ResultadoPlanes.aspx?ORIGEN=BUSCADOR
+Complmeneto: ResultadoPlanes.aspx?ORIGEN=BUSCADOR
+Sesion Local: 6356281251535587294c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 04:53
+Codigo:      0
+Tipo:        Libreria
+Método:      setGuardarParametrosBusqueda
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft
+StackTrace:     at Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:line 4470
+   at Ssoft.Pages.PaginaPlanes.csBuscadorPlanes.GuardarParametrosBusquedaCircular(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csBuscadorPlanes.cs:line 167
+Complmeneto: Error en al guardar los parametros de busqueda en traslados
+Sesion Local: 6356281251535587294c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 04:53
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Invalid column name 'ECU'.
+Source:      .Net SqlClient Data Provider
+StackTrace:     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 699
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 603
+   at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 78
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurincoTest; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6356281251535587294c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:02
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 
+Sesion WS: 
+
+Fecha:           2015/03/24 05:02
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Object reference not set to an instance of an object.
+Info:        No se puede recuperar la sesion
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.csGeneralsPag.SesionIdPage() in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\Utilidades\csGeneralsPag.cs:line 636
+Sesion Local: 6356281337232088854c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:02
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Index was outside the bounds of the array.
+Source:      Ssoft
+StackTrace:     at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 76
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurincoTest; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6356281337232088854c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:04
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Index was outside the bounds of the array.
+Source:      Ssoft
+StackTrace:     at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 76
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurincoTest; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6356281337232088854c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:04
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Index was outside the bounds of the array.
+Source:      Ssoft
+StackTrace:     at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 76
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurincoTest; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6356281337232088854c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:04
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6356281337232088854c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281337232088854c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:04
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Index was outside the bounds of the array.
+Source:      Ssoft
+StackTrace:     at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 76
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurincoTest; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6356281337232088854c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:04
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6356281337232088854c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281337232088854c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:04
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/index.aspx
+Complmeneto: ResultadoPlanes.aspx?ORIGEN=BUSCADOR&FiltroTexto=
+Sesion Local: 6356281337232088854c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:04
+Codigo:      0
+Tipo:        Libreria
+Método:      setGuardarParametrosBusqueda
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft
+StackTrace:     at Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:line 4470
+   at Ssoft.Pages.PaginaPlanes.csBuscadorPlanes.GuardarParametrosBusquedaCircular(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csBuscadorPlanes.cs:line 184
+Complmeneto: Error en al guardar los parametros de busqueda en traslados
+Sesion Local: 6356281337232088854c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:04
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Invalid column name 'ECU'.
+Source:      .Net SqlClient Data Provider
+StackTrace:     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 699
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 603
+   at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 78
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurincoTest; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6356281337232088854c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:04
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Index was outside the bounds of the array.
+Source:      Ssoft
+StackTrace:     at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 76
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurincoTest; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6356281337232088854c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:05
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6356281337232088854c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281337232088854c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:05
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Index was outside the bounds of the array.
+Source:      Ssoft
+StackTrace:     at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 76
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurincoTest; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6356281337232088854c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:05
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Index was outside the bounds of the array.
+Source:      Ssoft
+StackTrace:     at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 76
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurincoTest; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6356281337232088854c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:06
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Index was outside the bounds of the array.
+Source:      Ssoft
+StackTrace:     at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 76
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurincoTest; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6356281337232088854c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:07
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Index was outside the bounds of the array.
+Source:      Ssoft
+StackTrace:     at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 76
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurincoTest; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6356281337232088854c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:07
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 
+Sesion WS: 
+
+Fecha:           2015/03/24 05:07
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Object reference not set to an instance of an object.
+Info:        No se puede recuperar la sesion
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.csGeneralsPag.SesionIdPage() in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\Utilidades\csGeneralsPag.cs:line 636
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:10
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_carros_aspx
+Info:        Sesion recuperada 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:10
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:10
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/Index.aspx
+Complmeneto: ResultadoPlanes.aspx?ORIGEN=BUSCADOR&FiltroTexto=orlando
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:10
+Codigo:      0
+Tipo:        Libreria
+Método:      setGuardarParametrosBusqueda
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft
+StackTrace:     at Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:line 4470
+   at Ssoft.Pages.PaginaPlanes.csBuscadorPlanes.GuardarParametrosBusquedaCircular(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csBuscadorPlanes.cs:line 184
+Complmeneto: Error en al guardar los parametros de busqueda en traslados
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:10
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Invalid column name 'ECU'.
+Source:      .Net SqlClient Data Provider
+StackTrace:     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 699
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 603
+   at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 78
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurinco; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:11
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:11
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:11
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:11
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:11
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/index.aspx
+Complmeneto: ResultadoPlanes.aspx?ORIGEN=BUSCADOR&FiltroTexto=
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:11
+Codigo:      0
+Tipo:        Libreria
+Método:      setGuardarParametrosBusqueda
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft
+StackTrace:     at Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:line 4470
+   at Ssoft.Pages.PaginaPlanes.csBuscadorPlanes.GuardarParametrosBusquedaCircular(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csBuscadorPlanes.cs:line 184
+Complmeneto: Error en al guardar los parametros de busqueda en traslados
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:11
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Invalid column name 'ECU'.
+Source:      .Net SqlClient Data Provider
+StackTrace:     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 699
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 603
+   at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 78
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurinco; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:11
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:12
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:12
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:12
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/index.aspx
+Complmeneto: ResultadoPlanes.aspx?ORIGEN=BUSCADOR&FiltroTexto=
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:12
+Codigo:      0
+Tipo:        Libreria
+Método:      setGuardarParametrosBusqueda
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft
+StackTrace:     at Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:line 4470
+   at Ssoft.Pages.PaginaPlanes.csBuscadorPlanes.GuardarParametrosBusquedaCircular(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csBuscadorPlanes.cs:line 184
+Complmeneto: Error en al guardar los parametros de busqueda en traslados
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:12
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Invalid column name 'ECU'.
+Source:      .Net SqlClient Data Provider
+StackTrace:     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 699
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 603
+   at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 78
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurinco; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:12
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/ResultadoPlanes.aspx?ORIGEN=BUSCADOR&FiltroTexto=
+Complmeneto: ResultadoPlanes.aspx?ORIGEN=BUSCADOR&FiltroTexto=
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:12
+Codigo:      0
+Tipo:        Libreria
+Método:      setGuardarParametrosBusqueda
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft
+StackTrace:     at Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:line 4470
+   at Ssoft.Pages.PaginaPlanes.csBuscadorPlanes.GuardarParametrosBusquedaCircular(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csBuscadorPlanes.cs:line 184
+Complmeneto: Error en al guardar los parametros de busqueda en traslados
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:12
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Invalid column name 'ECU'.
+Source:      .Net SqlClient Data Provider
+StackTrace:     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 699
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 603
+   at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 78
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurinco; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:12
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:12
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:12
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:12
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:12
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/index.aspx
+Complmeneto: ResultadoPlanes.aspx?ORIGEN=BUSCADOR&FiltroTexto=
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:12
+Codigo:      0
+Tipo:        Libreria
+Método:      setGuardarParametrosBusqueda
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft
+StackTrace:     at Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:line 4470
+   at Ssoft.Pages.PaginaPlanes.csBuscadorPlanes.GuardarParametrosBusquedaCircular(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csBuscadorPlanes.cs:line 184
+Complmeneto: Error en al guardar los parametros de busqueda en traslados
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:12
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Invalid column name 'ECU'.
+Source:      .Net SqlClient Data Provider
+StackTrace:     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 699
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 603
+   at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 78
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurinco; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:12
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:12
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:12
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:13
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:13
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/index.aspx
+Complmeneto: ResultadoPlanes.aspx?ORIGEN=BUSCADOR&FiltroTexto=
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:13
+Codigo:      0
+Tipo:        Libreria
+Método:      setGuardarParametrosBusqueda
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft
+StackTrace:     at Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:line 4470
+   at Ssoft.Pages.PaginaPlanes.csBuscadorPlanes.GuardarParametrosBusquedaCircular(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csBuscadorPlanes.cs:line 184
+Complmeneto: Error en al guardar los parametros de busqueda en traslados
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:13
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Invalid column name 'ECU'.
+Source:      .Net SqlClient Data Provider
+StackTrace:     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 699
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 603
+   at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 78
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurinco; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:13
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/ResultadoPlanes.aspx?ORIGEN=BUSCADOR&FiltroTexto=
+Complmeneto: ResultadoPlanes.aspx?ORIGEN=BUSCADOR&FiltroTexto=outlet
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:13
+Codigo:      0
+Tipo:        Libreria
+Método:      setGuardarParametrosBusqueda
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft
+StackTrace:     at Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:line 4470
+   at Ssoft.Pages.PaginaPlanes.csBuscadorPlanes.GuardarParametrosBusquedaCircular(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csBuscadorPlanes.cs:line 184
+Complmeneto: Error en al guardar los parametros de busqueda en traslados
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:13
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Invalid column name 'ECU'.
+Source:      .Net SqlClient Data Provider
+StackTrace:     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 699
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 603
+   at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 78
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurinco; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:16
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:16
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:16
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:16
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:16
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:16
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:16
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/index.aspx
+Complmeneto: ResultadoPlanes.aspx?ORIGEN=BUSCADOR&FiltroTexto=
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:16
+Codigo:      0
+Tipo:        Libreria
+Método:      setGuardarParametrosBusqueda
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft
+StackTrace:     at Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:line 4470
+   at Ssoft.Pages.PaginaPlanes.csBuscadorPlanes.GuardarParametrosBusquedaCircular(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csBuscadorPlanes.cs:line 184
+Complmeneto: Error en al guardar los parametros de busqueda en traslados
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:16
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Invalid column name 'ECU'.
+Source:      .Net SqlClient Data Provider
+StackTrace:     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 699
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 603
+   at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 78
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurinco; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:17
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281364614555044c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:19
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 
+Sesion WS: 
+
+Fecha:           2015/03/24 05:20
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Object reference not set to an instance of an object.
+Info:        No se puede recuperar la sesion
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.csGeneralsPag.SesionIdPage() in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\Utilidades\csGeneralsPag.cs:line 636
+Sesion Local: 6356281441293340824c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:21
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Index was outside the bounds of the array.
+Source:      Ssoft
+StackTrace:     at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 76
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurinco; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6356281441293340824c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:21
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6356281441293340824c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281441293340824c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:47
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 
+Sesion WS: 
+
+Fecha:           2015/03/24 05:48
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Object reference not set to an instance of an object.
+Info:        No se puede recuperar la sesion
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.csGeneralsPag.SesionIdPage() in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\Utilidades\csGeneralsPag.cs:line 636
+Sesion Local: 6356281610324408844c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:52
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Object reference not set to an instance of an object.
+Info:        No se puede recuperar la sesion
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.csGeneralsPag.SesionIdPage() in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\Utilidades\csGeneralsPag.cs:line 636
+Sesion Local: 6356281634421087094c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:55
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6356281634421087094c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281634421087094c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:55
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/Index.aspx
+Complmeneto: ../Presentacion/Login.aspx
+Sesion Local: 6356281634421087094c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:55
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_login_aspx
+Info:        Sesion recuperada 6356281634421087094c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281634421087094c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:56
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_login_aspx
+Info:        Sesion recuperada 6356281634421087094c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281634421087094c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha del evento: 2015/03/24 05:56
+
+
+Mensaje de error: *************************////////////////////////////-- USUARIO ENCONTRADO MAIL: prueba@turinco.co & PASSWORD: ssoft00 & SESION: 6356281634421087094c5thuajmpl0c5hwjxnlbwci  --////////////////////////
+
+
+Aplicación: 
+
+
+StackTrace: 
+
+
+Fecha:           2015/03/24 05:56
+Codigo:      0
+Mensaje:     RedirectPaginaSesion - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/Login.aspx
+Complmeneto: ../Presentacion/MiCuenta.aspx
+Sesion Local: 6356281634421087094c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:56
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft
+StackTrace:     at Ssoft.Utils.clsValidaciones.RedirectPaginaSesion(String sPagina) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:line 4515
+   at Ssoft.Pages.csResultadoVuelos.SetEntrar(String strUsuario, String strPassword, UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaVuelos\csResultadoVuelos.cs:line 4450
+Complmeneto: SetEntrar; no se pudo actualizar el cache con los datos del contacto
+Sesion Local: 6356281634421087094c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 05:56
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_micuenta_aspx
+Info:        Sesion recuperada 6356281634421087094c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281634421087094c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 06:02
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Object reference not set to an instance of an object.
+Info:        No se puede recuperar la sesion
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.csGeneralsPag.SesionIdPage() in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\Utilidades\csGeneralsPag.cs:line 636
+Sesion Local: 
+Sesion WS: 
+
+Fecha:           2015/03/24 06:05
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Object reference not set to an instance of an object.
+Info:        No se puede recuperar la sesion
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.csGeneralsPag.SesionIdPage() in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\Utilidades\csGeneralsPag.cs:line 636
+Sesion Local: 
+Sesion WS: 
+
+Fecha:           2015/03/24 06:06
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 
+Sesion WS: 
+
+Fecha:           2015/03/24 06:06
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Object reference not set to an instance of an object.
+Info:        No se puede recuperar la sesion
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.csGeneralsPag.SesionIdPage() in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\Utilidades\csGeneralsPag.cs:line 636
+Sesion Local: 6356281719379646444c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 06:08
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Object reference not set to an instance of an object.
+Info:        No se puede recuperar la sesion
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.csGeneralsPag.SesionIdPage() in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\Utilidades\csGeneralsPag.cs:line 636
+Sesion Local: 6356281731649648254c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 06:08
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/Index.aspx
+Complmeneto: ResultadoPlanes.aspx?ORIGEN=BUSCADOR&FiltroTexto=
+Sesion Local: 6356281731649648254c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 06:08
+Codigo:      0
+Tipo:        Libreria
+Método:      setGuardarParametrosBusqueda
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft
+StackTrace:     at Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:line 4470
+   at Ssoft.Pages.PaginaPlanes.csBuscadorPlanes.GuardarParametrosBusquedaCircular(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csBuscadorPlanes.cs:line 184
+Complmeneto: Error en al guardar los parametros de busqueda en traslados
+Sesion Local: 6356281731649648254c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 06:09
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Invalid column name 'ECU'.
+Source:      .Net SqlClient Data Provider
+StackTrace:     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 699
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 603
+   at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 78
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurinco; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6356281731649648254c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 06:25
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Adding the specified count to the semaphore would cause it to exceed its maximum count.
+Source:      System
+StackTrace:     at System.Threading.Semaphore.Release(Int32 releaseCount)
+   at System.Data.ProviderBase.DbConnectionPool.PutNewObject(DbConnectionInternal obj)
+   at System.Data.ProviderBase.DbConnectionPool.DeactivateObject(DbConnectionInternal obj)
+   at System.Data.ProviderBase.DbConnectionPool.PutObject(DbConnectionInternal obj, Object owningObject)
+   at System.Data.ProviderBase.DbConnectionInternal.CloseConnection(DbConnection owningObject, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlInternalConnection.CloseConnection(DbConnection owningObject, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Close()
+   at Ssoft.Data.AccesoSQLParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 2783
+   at Ssoft.Data.AccesoSQLParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 2993
+   at Ssoft.Data.AccesoSQLParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 2927
+   at Ssoft.Data.AccesoSQLParameterCache.GetSpParameterSet(String connectionString, String spName) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 2902
+   at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 73
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurinco; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6356281731649648254c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 06:27
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 
+Sesion WS: 
+
+Fecha:           2015/03/24 06:28
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Object reference not set to an instance of an object.
+Info:        No se puede recuperar la sesion
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.csGeneralsPag.SesionIdPage() in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\Utilidades\csGeneralsPag.cs:line 636
+Sesion Local: 6356281850338136844c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 06:29
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6356281850338136844c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281850338136844c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 06:29
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6356281850338136844c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281850338136844c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 06:29
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/index.aspx
+Complmeneto: ResultadoPlanes.aspx?ORIGEN=BUSCADOR&FiltroTexto=
+Sesion Local: 6356281850338136844c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 06:29
+Codigo:      0
+Tipo:        Libreria
+Método:      setGuardarParametrosBusqueda
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft
+StackTrace:     at Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:line 4470
+   at Ssoft.Pages.PaginaPlanes.csBuscadorPlanes.GuardarParametrosBusquedaCircular(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csBuscadorPlanes.cs:line 184
+Complmeneto: Error en al guardar los parametros de busqueda en traslados
+Sesion Local: 6356281850338136844c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 06:29
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Invalid column name 'ECU'.
+Source:      .Net SqlClient Data Provider
+StackTrace:     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 699
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 603
+   at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 78
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurinco; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6356281850338136844c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 06:29
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Invalid column name 'ECU'.
+Source:      .Net SqlClient Data Provider
+StackTrace:     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 699
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 603
+   at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 78
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurinco; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6356281850338136844c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 06:30
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/ResultadoPlanes.aspx?ORIGEN=BUSCADOR&FiltroTexto=
+Complmeneto: ../Presentacion/Login.aspx
+Sesion Local: 6356281850338136844c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 06:30
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_login_aspx
+Info:        Sesion recuperada 6356281850338136844c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281850338136844c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 06:32
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_login_aspx
+Info:        Sesion recuperada 6356281850338136844c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281850338136844c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 06:33
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Object reference not set to an instance of an object.
+Info:        No se puede recuperar la sesion
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.csGeneralsPag.SesionIdPage() in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\Utilidades\csGeneralsPag.cs:line 636
+Sesion Local: 6356281880289949994c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 06:35
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Object reference not set to an instance of an object.
+Info:        No se puede recuperar la sesion
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.csGeneralsPag.SesionIdPage() in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\Utilidades\csGeneralsPag.cs:line 636
+Sesion Local: 6356281890123712444c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 06:35
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_login_aspx
+Info:        Sesion recuperada 6356281890123712444c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281890123712444c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 06:36
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_login_aspx
+Info:        Sesion recuperada 6356281890123712444c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281890123712444c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 06:36
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Invalid object name 'tblTipoRefere'.
+Source:      .Net SqlClient Data Provider
+StackTrace:     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 699
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 603
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 573
+   at Ssoft.Sql.DataSql.Select(String Sql) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 52
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurinco; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select. Sql:  SELECT     tblRefereControls_1.strValor AS strControlValue, tblIdioma.strObject AS strEtiqueta, tblIdioma.strLabel, tblIdioma.strText,  
+ tblIdioma.strTooltip, tblIdioma.strLink, tblIdioma.strLinkClient, tblIdioma.strImagen, tblIdioma.intTipo 
+ FROM         tblTipoRefere AS tblTipoRefere_1 INNER JOIN 
+ tblRefereControls AS tblRefereControls_1 ON tblTipoRefere_1.intidTipoRefere = tblRefereControls_1.intidTipoRefere INNER JOIN 
+ tblTipoRefere INNER JOIN 
+ tblRefereControls ON tblTipoRefere.intidTipoRefere = tblRefereControls.intidTipoRefere INNER JOIN 
+ tblRelaRefereControls ON tblRefereControls.intidRefere = tblRelaRefereControls.intidRefereControl INNER JOIN 
+ tblIdioma ON tblRelaRefereControls.intidRefereAsociado = tblIdioma.intForma AND  
+ tblRefereControls.intAplicacion = tblIdioma.intAplicacion ON tblRefereControls_1.intidRefere = tblIdioma.intEtiqueta AND  
+ tblRefereControls_1.intAplicacion = tblIdioma.intAplicacion 
+ WHERE     (tblTipoRefere.strTipoRefere = 'userControls') 
+ AND (tblRefereControls.strIdioma = 'es') 
+ AND (tblTipoRefere.strIdioma = 'es') 
+ AND (tblTipoRefere_1.strIdioma = 'es') 
+ AND (tblRefereControls_1.strIdioma = 'es') 
+ AND (tblIdioma.strIdioma = 'es') 
+ AND (tblRefereControls.strRefere = 'Login.aspx') 
+ AND (tblIdioma.intAplicacion = 1)  
+ AND (tblTipoRefere_1.strTipoRefere = 'Controls')  
+ AND (tblRefereControls_1.intOrden = 0) 
+ ORDER BY tblIdioma.intTipo 
+   
+ SELECT     tblRefereControls_1.strValor AS strControlValue, tblIdioma.strObject AS strEtiqueta 
+ FROM         tblTipoRefere AS tblTipoRefere_1 INNER JOIN 
+ tblRefereControls AS tblRefereControls_1 ON tblTipoRefere_1.intidTipoRefere = tblRefereControls_1.intidTipoRefere INNER JOIN 
+ tblTipoRefere INNER JOIN 
+ tblRefereControls ON tblTipoRefere.intidTipoRefere = tblRefereControls.intidTipoRefere INNER JOIN 
+ tblRelaRefereControls ON tblRefereControls.intidRefere = tblRelaRefereControls.intidRefereControl INNER JOIN 
+ tblIdioma ON tblRelaRefereControls.intidRefereAsociado = tblIdioma.intForma AND  
+ tblRefereControls.intAplicacion = tblIdioma.intAplicacion ON tblRefereControls_1.intidRefere = tblIdioma.intEtiqueta AND  
+ tblRefereControls_1.intAplicacion = tblIdioma.intAplicacion 
+ WHERE     (tblTipoRefere.strTipoRefere = 'userControls') 
+ AND (tblRefereControls.strIdioma = 'es') 
+ AND (tblTipoRefere.strIdioma = 'es') 
+ AND (tblTipoRefere_1.strIdioma = 'es') 
+ AND (tblRefereControls_1.strIdioma = 'es') 
+ AND (tblIdioma.strIdioma = 'es') 
+ AND (tblRefereControls.strRefere = 'Login.aspx') 
+ AND (tblIdioma.intAplicacion = 1)  
+ AND (tblTipoRefere_1.strTipoRefere = 'Controls')  
+ AND (tblRefereControls_1.intOrden = 0) 
+ GROUP BY tblRefereControls_1.strValor, tblIdioma.strObject   
+
+Sesion Local: 6356281890123712444c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 06:36
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Invalid object name 'tblTipoRefere'.
+Source:      .Net SqlClient Data Provider
+StackTrace:     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 699
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 603
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 573
+   at Ssoft.Sql.DataSql.Select(String Sql) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 52
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurinco; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select. Sql:  SELECT     tblRefereControls_1.strValor AS strControlValue, tblIdioma.strObject AS strEtiqueta, tblIdioma.strLabel, tblIdioma.strText,  
+ tblIdioma.strTooltip, tblIdioma.strLink, tblIdioma.strLinkClient, tblIdioma.strImagen, tblIdioma.intTipo 
+ FROM         tblTipoRefere AS tblTipoRefere_1 INNER JOIN 
+ tblRefereControls AS tblRefereControls_1 ON tblTipoRefere_1.intidTipoRefere = tblRefereControls_1.intidTipoRefere INNER JOIN 
+ tblTipoRefere INNER JOIN 
+ tblRefereControls ON tblTipoRefere.intidTipoRefere = tblRefereControls.intidTipoRefere INNER JOIN 
+ tblRelaRefereControls ON tblRefereControls.intidRefere = tblRelaRefereControls.intidRefereControl INNER JOIN 
+ tblIdioma ON tblRelaRefereControls.intidRefereAsociado = tblIdioma.intForma AND  
+ tblRefereControls.intAplicacion = tblIdioma.intAplicacion ON tblRefereControls_1.intidRefere = tblIdioma.intEtiqueta AND  
+ tblRefereControls_1.intAplicacion = tblIdioma.intAplicacion 
+ WHERE     (tblTipoRefere.strTipoRefere = 'userControls') 
+ AND (tblRefereControls.strIdioma = 'es') 
+ AND (tblTipoRefere.strIdioma = 'es') 
+ AND (tblTipoRefere_1.strIdioma = 'es') 
+ AND (tblRefereControls_1.strIdioma = 'es') 
+ AND (tblIdioma.strIdioma = 'es') 
+ AND (tblRefereControls.strRefere = 'Login.aspx') 
+ AND (tblIdioma.intAplicacion = 1)  
+ AND (tblTipoRefere_1.strTipoRefere = 'Controls')  
+ AND (tblRefereControls_1.intOrden = 1) 
+ ORDER BY tblIdioma.intTipo 
+   
+ SELECT     tblRefereControls_1.strValor AS strControlValue, tblIdioma.strObject AS strEtiqueta 
+ FROM         tblTipoRefere AS tblTipoRefere_1 INNER JOIN 
+ tblRefereControls AS tblRefereControls_1 ON tblTipoRefere_1.intidTipoRefere = tblRefereControls_1.intidTipoRefere INNER JOIN 
+ tblTipoRefere INNER JOIN 
+ tblRefereControls ON tblTipoRefere.intidTipoRefere = tblRefereControls.intidTipoRefere INNER JOIN 
+ tblRelaRefereControls ON tblRefereControls.intidRefere = tblRelaRefereControls.intidRefereControl INNER JOIN 
+ tblIdioma ON tblRelaRefereControls.intidRefereAsociado = tblIdioma.intForma AND  
+ tblRefereControls.intAplicacion = tblIdioma.intAplicacion ON tblRefereControls_1.intidRefere = tblIdioma.intEtiqueta AND  
+ tblRefereControls_1.intAplicacion = tblIdioma.intAplicacion 
+ WHERE     (tblTipoRefere.strTipoRefere = 'userControls') 
+ AND (tblRefereControls.strIdioma = 'es') 
+ AND (tblTipoRefere.strIdioma = 'es') 
+ AND (tblTipoRefere_1.strIdioma = 'es') 
+ AND (tblRefereControls_1.strIdioma = 'es') 
+ AND (tblIdioma.strIdioma = 'es') 
+ AND (tblRefereControls.strRefere = 'Login.aspx') 
+ AND (tblIdioma.intAplicacion = 1)  
+ AND (tblTipoRefere_1.strTipoRefere = 'Controls')  
+ AND (tblRefereControls_1.intOrden = 1) 
+ GROUP BY tblRefereControls_1.strValor, tblIdioma.strObject   
+
+Sesion Local: 6356281890123712444c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 06:36
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_login_aspx
+Info:        Sesion recuperada 6356281890123712444c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281890123712444c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 06:36
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Moderada
+Mensaje:     Object reference not set to an instance of an object.
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.csUtilitarios.setOlvido(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\Utilidades\csUtilitarios.cs:line 772
+Complmeneto: Gastos 
+Sesion Local: 6356281890123712444c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 06:46
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6356281890123712444c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281890123712444c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 06:47
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 6356281890123712444c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 06:47
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Object reference not set to an instance of an object.
+Info:        No se puede recuperar la sesion
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.csGeneralsPag.SesionIdPage() in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\Utilidades\csGeneralsPag.cs:line 636
+Sesion Local: 6356281963578213804c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 06:48
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6356281963578213804c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281963578213804c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 06:48
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/Index.aspx
+Complmeneto: ../Presentacion/Login.aspx
+Sesion Local: 6356281963578213804c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 06:48
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_login_aspx
+Info:        Sesion recuperada 6356281963578213804c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281963578213804c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 06:48
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_login_aspx
+Info:        Sesion recuperada 6356281963578213804c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281963578213804c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 06:48
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_login_aspx
+Info:        Sesion recuperada 6356281963578213804c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356281963578213804c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 06:48
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Moderada
+Mensaje:     Object reference not set to an instance of an object.
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.csUtilitarios.setOlvido(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\Utilidades\csUtilitarios.cs:line 772
+Complmeneto: Gastos 
+Sesion Local: 6356281963578213804c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 06:56
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 
+Sesion WS: 
+
+Fecha:           2015/03/24 06:57
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Object reference not set to an instance of an object.
+Info:        No se puede recuperar la sesion
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.csGeneralsPag.SesionIdPage() in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\Utilidades\csGeneralsPag.cs:line 636
+Sesion Local: 6356282023901464094c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:00
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/planes.aspx?tipo=PLN
+Complmeneto: ResultadoPlanes.aspx?ORIGEN=BUSCADOR&FiltroTexto=
+Sesion Local: 6356282023901464094c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:00
+Codigo:      0
+Tipo:        Libreria
+Método:      setGuardarParametrosBusqueda
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft
+StackTrace:     at Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:line 4470
+   at Ssoft.Pages.PaginaPlanes.csBuscadorPlanes.GuardarParametrosBusquedaCircular(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csBuscadorPlanes.cs:line 187
+Complmeneto: Error en al guardar los parametros de busqueda en traslados
+Sesion Local: 6356282023901464094c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:00
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Invalid column name 'ECU'.
+Source:      .Net SqlClient Data Provider
+StackTrace:     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 699
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 603
+   at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 78
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurinco; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6356282023901464094c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:01
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/planes.aspx?tipo=PLN
+Complmeneto: ResultadoPlanes.aspx?ORIGEN=BUSCADOR&FiltroTexto=
+Sesion Local: 6356282023901464094c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:01
+Codigo:      0
+Tipo:        Libreria
+Método:      setGuardarParametrosBusqueda
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft
+StackTrace:     at Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:line 4470
+   at Ssoft.Pages.PaginaPlanes.csBuscadorPlanes.GuardarParametrosBusquedaCircular(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csBuscadorPlanes.cs:line 187
+Complmeneto: Error en al guardar los parametros de busqueda en traslados
+Sesion Local: 6356282023901464094c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:01
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Invalid column name 'ECU'.
+Source:      .Net SqlClient Data Provider
+StackTrace:     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 699
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 603
+   at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 78
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurinco; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6356282023901464094c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:01
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/planes.aspx?tipo=PLN
+Complmeneto: ResultadoPlanes.aspx?ORIGEN=BUSCADOR&FiltroTexto=
+Sesion Local: 6356282023901464094c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:01
+Codigo:      0
+Tipo:        Libreria
+Método:      setGuardarParametrosBusqueda
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft
+StackTrace:     at Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:line 4470
+   at Ssoft.Pages.PaginaPlanes.csBuscadorPlanes.GuardarParametrosBusquedaCircular(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csBuscadorPlanes.cs:line 187
+Complmeneto: Error en al guardar los parametros de busqueda en traslados
+Sesion Local: 6356282023901464094c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:01
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Invalid column name 'ECU'.
+Source:      .Net SqlClient Data Provider
+StackTrace:     at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 699
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 603
+   at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 78
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurinco; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6356282023901464094c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:03
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 
+Sesion WS: 
+
+Fecha:           2015/03/24 07:03
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Object reference not set to an instance of an object.
+Info:        No se puede recuperar la sesion
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.csGeneralsPag.SesionIdPage() in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\Utilidades\csGeneralsPag.cs:line 636
+Sesion Local: 6356282063475827624c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:06
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/planes.aspx?tipo=PLN
+Complmeneto: Planes.aspx?ORIGEN=BUSCADOR&FiltroTexto=
+Sesion Local: 6356282063475827624c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:06
+Codigo:      0
+Tipo:        Libreria
+Método:      setGuardarParametrosBusqueda
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft
+StackTrace:     at Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:line 4470
+   at Ssoft.Pages.PaginaPlanes.csBuscadorPlanes.GuardarParametrosBusquedaCircularD(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csBuscadorPlanes.cs:line 330
+Complmeneto: Error en al guardar los parametros de busqueda en traslados
+Sesion Local: 6356282063475827624c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:06
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/Planes.aspx?ORIGEN=BUSCADOR&FiltroTexto=
+Complmeneto: Planes.aspx?ORIGEN=BUSCADOR&FiltroTexto=majestic
+Sesion Local: 6356282063475827624c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:06
+Codigo:      0
+Tipo:        Libreria
+Método:      setGuardarParametrosBusqueda
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft
+StackTrace:     at Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:line 4470
+   at Ssoft.Pages.PaginaPlanes.csBuscadorPlanes.GuardarParametrosBusquedaCircularD(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csBuscadorPlanes.cs:line 330
+Complmeneto: Error en al guardar los parametros de busqueda en traslados
+Sesion Local: 6356282063475827624c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:13
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/DetallePlan.aspx?id=228&Codigo=228&TipoPlan=CIRC&Detalle=PALLADIUM+PUNTA+CANA+4+NOCHES+-+5+DIAS&ControlCupos=Normal&Plantilla=PLNORM&Cotizacion=Normal
+Complmeneto: ../Presentacion/Login.aspx
+Sesion Local: 6356282116562163984c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:13
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft
+StackTrace:     at Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:line 4470
+   at Ssoft.Pages.PaginaPlanes.csTarifasPlanes.EnviarACarritoDeComprasCircuitos(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csTarifasPlanes.cs:line 7113
+Complmeneto: EnviarACarritoDeComprasCircuitos
+Sesion Local: 6356282116562163984c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:13
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.PaginaPlanes.csTarifasPlanes.EnviarACarritoDeComprasCircuitos(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csTarifasPlanes.cs:line 7134
+   at Ssoft.Pages.PaginaPlanes.csTarifasPlanes.setReservarPlanes(UserControl PageSource, Object sender) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csTarifasPlanes.cs:line 6581
+Complmeneto: SetReservarCruceros
+Sesion Local: 6356282116562163984c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:13
+Codigo:      0
+Tipo:        Libreria
+Método:      setCommand
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.PaginaPlanes.csTarifasPlanes.setReservarPlanes(UserControl PageSource, Object sender) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csTarifasPlanes.cs:line 6664
+   at Ssoft.Pages.PaginaPlanes.csTarifasPlanes.setCommand(UserControl PageSource, Object source, CommandEventArgs e) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csTarifasPlanes.cs:line 1547
+Complmeneto: Tarifas
+Sesion Local: 6356282116562163984c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:14
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_login_aspx
+Info:        Sesion recuperada 6356282116562163984c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356282116562163984c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:24
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 
+Sesion WS: 
+
+Fecha:           2015/03/24 07:25
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Object reference not set to an instance of an object.
+Info:        No se puede recuperar la sesion
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.csGeneralsPag.SesionIdPage() in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\Utilidades\csGeneralsPag.cs:line 636
+Sesion Local: 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:26
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/DetallePlan.aspx?id=228&Codigo=228&TipoPlan=CIRC&Detalle=PALLADIUM+PUNTA+CANA+4+NOCHES+-+5+DIAS&ControlCupos=Normal&Plantilla=PLNORM&Cotizacion=Normal
+Complmeneto: ../Presentacion/Login.aspx
+Sesion Local: 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:26
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft
+StackTrace:     at Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:line 4470
+   at Ssoft.Pages.PaginaPlanes.csTarifasPlanes.EnviarACarritoDeComprasCircuitos(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csTarifasPlanes.cs:line 7113
+Complmeneto: EnviarACarritoDeComprasCircuitos
+Sesion Local: 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:26
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.PaginaPlanes.csTarifasPlanes.EnviarACarritoDeComprasCircuitos(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csTarifasPlanes.cs:line 7134
+   at Ssoft.Pages.PaginaPlanes.csTarifasPlanes.setReservarPlanes(UserControl PageSource, Object sender) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csTarifasPlanes.cs:line 6581
+Complmeneto: SetReservarCruceros
+Sesion Local: 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:26
+Codigo:      0
+Tipo:        Libreria
+Método:      setCommand
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.PaginaPlanes.csTarifasPlanes.setReservarPlanes(UserControl PageSource, Object sender) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csTarifasPlanes.cs:line 6664
+   at Ssoft.Pages.PaginaPlanes.csTarifasPlanes.setCommand(UserControl PageSource, Object source, CommandEventArgs e) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csTarifasPlanes.cs:line 1547
+Complmeneto: Tarifas
+Sesion Local: 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:26
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_login_aspx
+Info:        Sesion recuperada 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:26
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_login_aspx
+Info:        Sesion recuperada 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha del evento: 2015/03/24 07:26
+
+
+Mensaje de error: *************************////////////////////////////-- USUARIO ENCONTRADO MAIL: prueba@turinco.co & PASSWORD: ssoft00 & SESION: 6356282193153244744c5thuajmpl0c5hwjxnlbwci  --////////////////////////
+
+
+Aplicación: 
+
+
+StackTrace: 
+
+
+Fecha:           2015/03/24 07:26
+Codigo:      0
+Mensaje:     RedirectPaginaSesion - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/Login.aspx
+Sesion Local: 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:26
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft
+StackTrace:     at Ssoft.Utils.clsValidaciones.RedirectPaginaSesion(String sPagina) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:line 4515
+   at Ssoft.Pages.csResultadoVuelos.SetEntrar(String strUsuario, String strPassword, UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaVuelos\csResultadoVuelos.cs:line 4450
+Complmeneto: SetEntrar; no se pudo actualizar el cache con los datos del contacto
+Sesion Local: 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:27
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_login_aspx
+Info:        Sesion recuperada 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:27
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_login_aspx
+Info:        Sesion recuperada 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha del evento: 2015/03/24 07:27
+
+
+Mensaje de error: *************************////////////////////////////-- USUARIO ENCONTRADO MAIL: prueba@turinco.co & PASSWORD: ssoft00 & SESION: 6356282193153244744c5thuajmpl0c5hwjxnlbwci  --////////////////////////
+
+
+Aplicación: 
+
+
+StackTrace: 
+
+
+Fecha:           2015/03/24 07:27
+Codigo:      0
+Mensaje:     RedirectPaginaSesion - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/Login.aspx
+Sesion Local: 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:27
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft
+StackTrace:     at Ssoft.Utils.clsValidaciones.RedirectPaginaSesion(String sPagina) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:line 4515
+   at Ssoft.Pages.csResultadoVuelos.SetEntrar(String strUsuario, String strPassword, UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaVuelos\csResultadoVuelos.cs:line 4450
+Complmeneto: SetEntrar; no se pudo actualizar el cache con los datos del contacto
+Sesion Local: 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:27
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_login_aspx
+Info:        Sesion recuperada 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:27
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_login_aspx
+Info:        Sesion recuperada 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha del evento: 2015/03/24 07:27
+
+
+Mensaje de error: *************************////////////////////////////-- USUARIO ENCONTRADO MAIL: prueba@turinco.co & PASSWORD: ssoft00 & SESION: 6356282193153244744c5thuajmpl0c5hwjxnlbwci  --////////////////////////
+
+
+Aplicación: 
+
+
+StackTrace: 
+
+
+Fecha:           2015/03/24 07:27
+Codigo:      0
+Mensaje:     RedirectPaginaSesion - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/Login.aspx
+Sesion Local: 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:27
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft
+StackTrace:     at Ssoft.Utils.clsValidaciones.RedirectPaginaSesion(String sPagina) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:line 4515
+   at Ssoft.Pages.csResultadoVuelos.SetEntrar(String strUsuario, String strPassword, UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaVuelos\csResultadoVuelos.cs:line 4450
+Complmeneto: SetEntrar; no se pudo actualizar el cache con los datos del contacto
+Sesion Local: 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:27
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_login_aspx
+Info:        Sesion recuperada 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:28
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_login_aspx
+Info:        Sesion recuperada 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha del evento: 2015/03/24 07:28
+
+
+Mensaje de error: *************************////////////////////////////-- USUARIO ENCONTRADO MAIL: prueba@turinco.co & PASSWORD: ssoft00 & SESION: 6356282193153244744c5thuajmpl0c5hwjxnlbwci  --////////////////////////
+
+
+Aplicación: 
+
+
+StackTrace: 
+
+
+Fecha:           2015/03/24 07:28
+Codigo:      0
+Mensaje:     RedirectPaginaSesion - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/Login.aspx
+Sesion Local: 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:28
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft
+StackTrace:     at Ssoft.Utils.clsValidaciones.RedirectPaginaSesion(String sPagina) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:line 4515
+   at Ssoft.Pages.csResultadoVuelos.SetEntrar(String strUsuario, String strPassword, UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaVuelos\csResultadoVuelos.cs:line 4450
+Complmeneto: SetEntrar; no se pudo actualizar el cache con los datos del contacto
+Sesion Local: 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:29
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_login_aspx
+Info:        Sesion recuperada 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:29
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_login_aspx
+Info:        Sesion recuperada 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha del evento: 2015/03/24 07:29
+
+
+Mensaje de error: *************************////////////////////////////-- USUARIO ENCONTRADO MAIL: prueba@turinco.co & PASSWORD: ssoft00 & SESION: 6356282193153244744c5thuajmpl0c5hwjxnlbwci  --////////////////////////
+
+
+Aplicación: 
+
+
+StackTrace: 
+
+
+Fecha:           2015/03/24 07:29
+Codigo:      0
+Mensaje:     RedirectPaginaSesion - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/Login.aspx
+Sesion Local: 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:29
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft
+StackTrace:     at Ssoft.Utils.clsValidaciones.RedirectPaginaSesion(String sPagina) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:line 4515
+   at Ssoft.Pages.csResultadoVuelos.SetEntrar(String strUsuario, String strPassword, UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaVuelos\csResultadoVuelos.cs:line 4450
+Complmeneto: SetEntrar; no se pudo actualizar el cache con los datos del contacto
+Sesion Local: 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:29
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_login_aspx
+Info:        Sesion recuperada 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:29
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_login_aspx
+Info:        Sesion recuperada 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha del evento: 2015/03/24 07:29
+
+
+Mensaje de error: *************************////////////////////////////-- USUARIO ENCONTRADO MAIL: prueba@turinco.co & PASSWORD: ssoft00 & SESION: 6356282193153244744c5thuajmpl0c5hwjxnlbwci  --////////////////////////
+
+
+Aplicación: 
+
+
+StackTrace: 
+
+
+Fecha:           2015/03/24 07:29
+Codigo:      0
+Mensaje:     RedirectPaginaSesion - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/Login.aspx
+Sesion Local: 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:29
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft
+StackTrace:     at Ssoft.Utils.clsValidaciones.RedirectPaginaSesion(String sPagina) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:line 4515
+   at Ssoft.Pages.csResultadoVuelos.SetEntrar(String strUsuario, String strPassword, UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaVuelos\csResultadoVuelos.cs:line 4450
+Complmeneto: SetEntrar; no se pudo actualizar el cache con los datos del contacto
+Sesion Local: 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:30
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 6356282193153244744c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:30
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Object reference not set to an instance of an object.
+Info:        No se puede recuperar la sesion
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.csGeneralsPag.SesionIdPage() in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\Utilidades\csGeneralsPag.cs:line 636
+Sesion Local: 6356282221991594204c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:30
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/DetallePlan.aspx?id=228&Codigo=228&TipoPlan=CIRC&Detalle=PALLADIUM+PUNTA+CANA+4+NOCHES+-+5+DIAS&ControlCupos=Normal&Plantilla=PLNORM&Cotizacion=Normal
+Complmeneto: ../Presentacion/Login.aspx
+Sesion Local: 6356282221991594204c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:30
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft
+StackTrace:     at Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:line 4470
+   at Ssoft.Pages.PaginaPlanes.csTarifasPlanes.EnviarACarritoDeComprasCircuitos(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csTarifasPlanes.cs:line 7113
+Complmeneto: EnviarACarritoDeComprasCircuitos
+Sesion Local: 6356282221991594204c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:30
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.PaginaPlanes.csTarifasPlanes.EnviarACarritoDeComprasCircuitos(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csTarifasPlanes.cs:line 7134
+   at Ssoft.Pages.PaginaPlanes.csTarifasPlanes.setReservarPlanes(UserControl PageSource, Object sender) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csTarifasPlanes.cs:line 6581
+Complmeneto: SetReservarCruceros
+Sesion Local: 6356282221991594204c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:30
+Codigo:      0
+Tipo:        Libreria
+Método:      setCommand
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.PaginaPlanes.csTarifasPlanes.setReservarPlanes(UserControl PageSource, Object sender) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csTarifasPlanes.cs:line 6664
+   at Ssoft.Pages.PaginaPlanes.csTarifasPlanes.setCommand(UserControl PageSource, Object source, CommandEventArgs e) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csTarifasPlanes.cs:line 1547
+Complmeneto: Tarifas
+Sesion Local: 6356282221991594204c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:30
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_login_aspx
+Info:        Sesion recuperada 6356282221991594204c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356282221991594204c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:30
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_login_aspx
+Info:        Sesion recuperada 6356282221991594204c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356282221991594204c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha del evento: 2015/03/24 07:30
+
+
+Mensaje de error: *************************////////////////////////////-- USUARIO ENCONTRADO MAIL: prueba@turinco.co & PASSWORD: ssoft00 & SESION: 6356282221991594204c5thuajmpl0c5hwjxnlbwci  --////////////////////////
+
+
+Aplicación: 
+
+
+StackTrace: 
+
+
+Fecha:           2015/03/24 07:31
+Codigo:      0
+Mensaje:     RedirectPaginaSesion - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/Login.aspx
+Sesion Local: 6356282221991594204c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:31
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft
+StackTrace:     at Ssoft.Utils.clsValidaciones.RedirectPaginaSesion(String sPagina) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:line 4515
+   at Ssoft.Pages.csResultadoVuelos.SetEntrar(String strUsuario, String strPassword, UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaVuelos\csResultadoVuelos.cs:line 4450
+Complmeneto: SetEntrar; no se pudo actualizar el cache con los datos del contacto
+Sesion Local: 6356282221991594204c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:31
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_login_aspx
+Info:        Sesion recuperada 6356282221991594204c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356282221991594204c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:33
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/DetallePlan.aspx?id=228&Codigo=228&TipoPlan=CIRC&Detalle=PALLADIUM+PUNTA+CANA+4+NOCHES+-+5+DIAS&ControlCupos=Normal&Plantilla=PLNORM&Cotizacion=Normal
+Complmeneto: ../Presentacion/ReservaCircuito.aspx?Codigo=228&TipoPlan=CIRC&ControlCupos=Normal&PaxControl=1
+Sesion Local: 6356282221991594204c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:33
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft
+StackTrace:     at Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:line 4470
+   at Ssoft.Pages.PaginaPlanes.csTarifasPlanes.EnviarACarritoDeComprasCircuitos(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csTarifasPlanes.cs:line 7109
+Complmeneto: EnviarACarritoDeComprasCircuitos
+Sesion Local: 6356282221991594204c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:33
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.PaginaPlanes.csTarifasPlanes.EnviarACarritoDeComprasCircuitos(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csTarifasPlanes.cs:line 7134
+   at Ssoft.Pages.PaginaPlanes.csTarifasPlanes.setReservarPlanes(UserControl PageSource, Object sender) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csTarifasPlanes.cs:line 6581
+Complmeneto: SetReservarCruceros
+Sesion Local: 6356282221991594204c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:33
+Codigo:      0
+Tipo:        Libreria
+Método:      setCommand
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.PaginaPlanes.csTarifasPlanes.setReservarPlanes(UserControl PageSource, Object sender) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csTarifasPlanes.cs:line 6664
+   at Ssoft.Pages.PaginaPlanes.csTarifasPlanes.setCommand(UserControl PageSource, Object source, CommandEventArgs e) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csTarifasPlanes.cs:line 1547
+Complmeneto: Tarifas
+Sesion Local: 6356282221991594204c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:33
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Moderada
+Mensaje:     Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source:      mscorlib
+StackTrace:     at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Ssoft.Pages.PaginaPlanes.csReservaPlanes.InsertarFechaNacPax(Repeater rptPasajeros, UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csReservaPlanes.cs:line 690
+Complmeneto: InsertarFechaNacPax
+Sesion Local: 6356282221991594204c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:33
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Moderada
+Mensaje:     Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source:      mscorlib
+StackTrace:     at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Ssoft.Pages.PaginaPlanes.csReservaPlanes.InsertarFechaNacPax(Repeater rptPasajeros, UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csReservaPlanes.cs:line 690
+Complmeneto: InsertarFechaNacPax
+Sesion Local: 6356282221991594204c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:34
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Moderada
+Mensaje:     Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source:      mscorlib
+StackTrace:     at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Ssoft.Pages.PaginaPlanes.csReservaPlanes.InsertarFechaNacPax(Repeater rptPasajeros, UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csReservaPlanes.cs:line 690
+Complmeneto: InsertarFechaNacPax
+Sesion Local: 6356282221991594204c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:34
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Moderada
+Mensaje:     Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source:      mscorlib
+StackTrace:     at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Ssoft.Pages.PaginaPlanes.csReservaPlanes.InsertarFechaNacPax(Repeater rptPasajeros, UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csReservaPlanes.cs:line 690
+Complmeneto: InsertarFechaNacPax
+Sesion Local: 6356282221991594204c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:34
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Moderada
+Mensaje:     There is no row at position 0.
+Source:      System.Data
+StackTrace:     at System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   at System.Data.DataRowCollection.get_Item(Int32 index)
+   at Ssoft.Pages.PaginaPlanes.csReservaPlanes.setCondiciones(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csReservaPlanes.cs:line 739
+Complmeneto: setCondiciones
+Sesion Local: 6356282221991594204c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:36
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 
+Sesion WS: 
+
+Fecha:           2015/03/24 07:38
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Object reference not set to an instance of an object.
+Info:        No se puede recuperar la sesion
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.csGeneralsPag.SesionIdPage() in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\Utilidades\csGeneralsPag.cs:line 636
+Sesion Local: 6356282266234424754c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:39
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/DetallePlan.aspx?id=228&Codigo=228&TipoPlan=CIRC&Detalle=PALLADIUM+PUNTA+CANA+4+NOCHES+-+5+DIAS&ControlCupos=Normal&Plantilla=PLNORM&Cotizacion=Normal
+Complmeneto: ../Presentacion/Login.aspx
+Sesion Local: 6356282266234424754c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:39
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft
+StackTrace:     at Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:line 4470
+   at Ssoft.Pages.PaginaPlanes.csTarifasPlanes.EnviarACarritoDeComprasCircuitos(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csTarifasPlanes.cs:line 7113
+Complmeneto: EnviarACarritoDeComprasCircuitos
+Sesion Local: 6356282266234424754c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:39
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.PaginaPlanes.csTarifasPlanes.EnviarACarritoDeComprasCircuitos(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csTarifasPlanes.cs:line 7134
+   at Ssoft.Pages.PaginaPlanes.csTarifasPlanes.setReservarPlanes(UserControl PageSource, Object sender) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csTarifasPlanes.cs:line 6581
+Complmeneto: SetReservarCruceros
+Sesion Local: 6356282266234424754c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:39
+Codigo:      0
+Tipo:        Libreria
+Método:      setCommand
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.PaginaPlanes.csTarifasPlanes.setReservarPlanes(UserControl PageSource, Object sender) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csTarifasPlanes.cs:line 6664
+   at Ssoft.Pages.PaginaPlanes.csTarifasPlanes.setCommand(UserControl PageSource, Object source, CommandEventArgs e) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csTarifasPlanes.cs:line 1547
+Complmeneto: Tarifas
+Sesion Local: 6356282266234424754c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:39
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_login_aspx
+Info:        Sesion recuperada 6356282266234424754c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356282266234424754c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:39
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_login_aspx
+Info:        Sesion recuperada 6356282266234424754c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356282266234424754c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha del evento: 2015/03/24 07:39
+
+
+Mensaje de error: *************************////////////////////////////-- USUARIO ENCONTRADO MAIL: prueba@turinco.co & PASSWORD: ssoft00 & SESION: 6356282266234424754c5thuajmpl0c5hwjxnlbwci  --////////////////////////
+
+
+Aplicación: 
+
+
+StackTrace: 
+
+
+Fecha:           2015/03/24 07:40
+Codigo:      0
+Mensaje:     RedirectPaginaSesion - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/Login.aspx
+Sesion Local: 6356282266234424754c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:40
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft
+StackTrace:     at Ssoft.Utils.clsValidaciones.RedirectPaginaSesion(String sPagina) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:line 4515
+   at Ssoft.Pages.csResultadoVuelos.SetEntrar(String strUsuario, String strPassword, UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaVuelos\csResultadoVuelos.cs:line 4450
+Complmeneto: SetEntrar; no se pudo actualizar el cache con los datos del contacto
+Sesion Local: 6356282266234424754c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:40
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_login_aspx
+Info:        Sesion recuperada 6356282266234424754c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356282266234424754c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:40
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/DetallePlan.aspx?id=228&Codigo=228&TipoPlan=CIRC&Detalle=PALLADIUM+PUNTA+CANA+4+NOCHES+-+5+DIAS&ControlCupos=Normal&Plantilla=PLNORM&Cotizacion=Normal
+Complmeneto: ../Presentacion/ReservaCircuito.aspx?Codigo=228&TipoPlan=CIRC&ControlCupos=Normal&PaxControl=1
+Sesion Local: 6356282266234424754c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:40
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft
+StackTrace:     at Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:line 4470
+   at Ssoft.Pages.PaginaPlanes.csTarifasPlanes.EnviarACarritoDeComprasCircuitos(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csTarifasPlanes.cs:line 7109
+Complmeneto: EnviarACarritoDeComprasCircuitos
+Sesion Local: 6356282266234424754c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:40
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.PaginaPlanes.csTarifasPlanes.EnviarACarritoDeComprasCircuitos(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csTarifasPlanes.cs:line 7134
+   at Ssoft.Pages.PaginaPlanes.csTarifasPlanes.setReservarPlanes(UserControl PageSource, Object sender) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csTarifasPlanes.cs:line 6581
+Complmeneto: SetReservarCruceros
+Sesion Local: 6356282266234424754c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:40
+Codigo:      0
+Tipo:        Libreria
+Método:      setCommand
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.PaginaPlanes.csTarifasPlanes.setReservarPlanes(UserControl PageSource, Object sender) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csTarifasPlanes.cs:line 6664
+   at Ssoft.Pages.PaginaPlanes.csTarifasPlanes.setCommand(UserControl PageSource, Object source, CommandEventArgs e) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csTarifasPlanes.cs:line 1547
+Complmeneto: Tarifas
+Sesion Local: 6356282266234424754c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:40
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Moderada
+Mensaje:     Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source:      mscorlib
+StackTrace:     at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Ssoft.Pages.PaginaPlanes.csReservaPlanes.InsertarFechaNacPax(Repeater rptPasajeros, UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csReservaPlanes.cs:line 690
+Complmeneto: InsertarFechaNacPax
+Sesion Local: 6356282266234424754c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:42
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 6356282266234424754c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:42
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Object reference not set to an instance of an object.
+Info:        No se puede recuperar la sesion
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.csGeneralsPag.SesionIdPage() in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\Utilidades\csGeneralsPag.cs:line 636
+Sesion Local: 6356282297340903944c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:44
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/DetallePlan.aspx?id=228&Codigo=228&TipoPlan=CIRC&Detalle=PALLADIUM+PUNTA+CANA+4+NOCHES+-+5+DIAS&ControlCupos=Normal&Plantilla=PLNORM&Cotizacion=Normal
+Complmeneto: ../Presentacion/Login.aspx
+Sesion Local: 
+Sesion WS: 
+
+Fecha:           2015/03/24 07:44
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft
+StackTrace:     at Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:line 4470
+   at Ssoft.Pages.PaginaPlanes.csTarifasPlanes.EnviarACarritoDeComprasCircuitos(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csTarifasPlanes.cs:line 7113
+Complmeneto: EnviarACarritoDeComprasCircuitos
+Sesion Local: 6356282297340903944c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:44
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.PaginaPlanes.csTarifasPlanes.EnviarACarritoDeComprasCircuitos(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csTarifasPlanes.cs:line 7134
+   at Ssoft.Pages.PaginaPlanes.csTarifasPlanes.setReservarPlanes(UserControl PageSource, Object sender) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csTarifasPlanes.cs:line 6581
+Complmeneto: SetReservarCruceros
+Sesion Local: 6356282297340903944c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:44
+Codigo:      0
+Tipo:        Libreria
+Método:      setCommand
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.PaginaPlanes.csTarifasPlanes.setReservarPlanes(UserControl PageSource, Object sender) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csTarifasPlanes.cs:line 6664
+   at Ssoft.Pages.PaginaPlanes.csTarifasPlanes.setCommand(UserControl PageSource, Object source, CommandEventArgs e) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csTarifasPlanes.cs:line 1547
+Complmeneto: Tarifas
+Sesion Local: 6356282297340903944c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:44
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_login_aspx
+Info:        Sesion recuperada 6356282297340903944c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356282297340903944c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:46
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 
+Sesion WS: 
+
+Fecha:           2015/03/24 07:48
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Object reference not set to an instance of an object.
+Info:        No se puede recuperar la sesion
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.csGeneralsPag.SesionIdPage() in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\Utilidades\csGeneralsPag.cs:line 636
+Sesion Local: 6356282323700211604c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:48
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/DetallePlan.aspx?id=228&Codigo=228&TipoPlan=CIRC&Detalle=PALLADIUM+PUNTA+CANA+4+NOCHES+-+5+DIAS&ControlCupos=Normal&Plantilla=PLNORM&Cotizacion=Normal
+Complmeneto: ../Presentacion/Login.aspx
+Sesion Local: 6356282323700211604c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:48
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft
+StackTrace:     at Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:line 4470
+   at Ssoft.Pages.PaginaPlanes.csTarifasPlanes.EnviarACarritoDeComprasCircuitos(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csTarifasPlanes.cs:line 7113
+Complmeneto: EnviarACarritoDeComprasCircuitos
+Sesion Local: 6356282323700211604c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:48
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.PaginaPlanes.csTarifasPlanes.EnviarACarritoDeComprasCircuitos(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csTarifasPlanes.cs:line 7134
+   at Ssoft.Pages.PaginaPlanes.csTarifasPlanes.setReservarPlanes(UserControl PageSource, Object sender) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csTarifasPlanes.cs:line 6581
+Complmeneto: SetReservarCruceros
+Sesion Local: 6356282323700211604c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:48
+Codigo:      0
+Tipo:        Libreria
+Método:      setCommand
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.PaginaPlanes.csTarifasPlanes.setReservarPlanes(UserControl PageSource, Object sender) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csTarifasPlanes.cs:line 6664
+   at Ssoft.Pages.PaginaPlanes.csTarifasPlanes.setCommand(UserControl PageSource, Object source, CommandEventArgs e) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csTarifasPlanes.cs:line 1547
+Complmeneto: Tarifas
+Sesion Local: 6356282323700211604c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:48
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_login_aspx
+Info:        Sesion recuperada 6356282323700211604c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356282323700211604c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:48
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_login_aspx
+Info:        Sesion recuperada 6356282323700211604c5thuajmpl0c5hwjxnlbwci
+Sesion Local: 6356282323700211604c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha del evento: 2015/03/24 07:48
+
+
+Mensaje de error: *************************////////////////////////////-- USUARIO ENCONTRADO MAIL: prueba@turinco.co & PASSWORD: ssoft00 & SESION: 6356282323700211604c5thuajmpl0c5hwjxnlbwci  --////////////////////////
+
+
+Aplicación: 
+
+
+StackTrace: 
+
+
+Fecha:           2015/03/24 07:48
+Codigo:      0
+Mensaje:     RedirectPaginaSesion - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/Login.aspx
+Complmeneto: ../Presentacion/ReservaCircuito.aspx?Codigo=228&TipoPlan=CIRC&ControlCupos=Normal&PaxControl=1
+Sesion Local: 6356282323700211604c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:48
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Moderada
+Mensaje:     Thread was being aborted.
+Source:      Ssoft
+StackTrace:     at Ssoft.Utils.clsValidaciones.RedirectPaginaSesion(String sPagina) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:line 4515
+   at Ssoft.Pages.csResultadoVuelos.SetEntrar(String strUsuario, String strPassword, UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaVuelos\csResultadoVuelos.cs:line 4450
+Complmeneto: SetEntrar; no se pudo actualizar el cache con los datos del contacto
+Sesion Local: 6356282323700211604c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+
+Fecha:           2015/03/24 07:49
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Moderada
+Mensaje:     Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source:      mscorlib
+StackTrace:     at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at Ssoft.Pages.PaginaPlanes.csReservaPlanes.InsertarFechaNacPax(Repeater rptPasajeros, UserControl PageSource) in D:\Desarrollo\Desarrollo2013\Turinco_New_TFS\Turinco\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csReservaPlanes.cs:line 690
+Complmeneto: InsertarFechaNacPax
+Sesion Local: 6356282323700211604c5thuajmpl0c5hwjxnlbwci
+Sesion WS: 
+

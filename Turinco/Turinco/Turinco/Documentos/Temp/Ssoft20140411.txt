@@ -1,0 +1,279 @@
+Fecha:           2014/04/11 09:11
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 
+Sesion WS: 
+
+Fecha:           2014/04/11 09:11
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Referencia a objeto no establecida como instancia de un objeto.
+Info:        No se puede recuperar la sesion
+Source:      Ssoft.Pages
+StackTrace:     en Ssoft.Pages.csGeneralsPag.SesionIdPage()
+Sesion Local: 635328043050167612q5x3bf4rfdrz2iop3nawyzsy
+Sesion WS: 
+
+Fecha:           2014/04/11 09:14
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Presentacion/Index.aspx
+Complmeneto: ResultadoPlanes.aspx?ORIGEN=BUSCADOR
+Sesion Local: 635328043050167612q5x3bf4rfdrz2iop3nawyzsy
+Sesion WS: 
+
+Fecha:           2014/04/11 09:14
+Codigo:      0
+Tipo:        Libreria
+Método:      setGuardarParametrosBusqueda
+Severidad:   Moderada
+Mensaje:     Subproceso anulado.
+Source:      Ssoft
+StackTrace:     en Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina)
+   en Ssoft.Pages.PaginaPlanes.csBuscadorPlanes.GuardarParametrosBusquedaCircular(UserControl PageSource)
+Complmeneto: Error en al guardar los parametros de busqueda en traslados
+Sesion Local: 635328043050167612q5x3bf4rfdrz2iop3nawyzsy
+Sesion WS: 
+
+Fecha:           2014/04/11 09:38
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 
+Sesion WS: 
+
+Fecha:           2014/04/11 09:38
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Presentacion/Index.aspx
+Complmeneto: ResultadoPlanes.aspx?ORIGEN=BUSCADOR
+Sesion Local: 635328059186870578o1x3axnlrqb5c2kjyq2z2vhx
+Sesion WS: 
+
+Fecha:           2014/04/11 09:38
+Codigo:      0
+Tipo:        Libreria
+Método:      setGuardarParametrosBusqueda
+Severidad:   Moderada
+Mensaje:     Subproceso anulado.
+Source:      Ssoft
+StackTrace:     en Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina)
+   en Ssoft.Pages.PaginaPlanes.csBuscadorPlanes.GuardarParametrosBusquedaCircular(UserControl PageSource)
+Complmeneto: Error en al guardar los parametros de busqueda en traslados
+Sesion Local: 635328059186870578o1x3axnlrqb5c2kjyq2z2vhx
+Sesion WS: 
+
+Fecha:           2014/04/11 09:49
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Presentacion/Index.aspx
+Complmeneto: ResultadoPlanes.aspx?ORIGEN=BUSCADOR
+Sesion Local: 635328059186870578o1x3axnlrqb5c2kjyq2z2vhx
+Sesion WS: 
+
+Fecha:           2014/04/11 09:49
+Codigo:      0
+Tipo:        Libreria
+Método:      setGuardarParametrosBusqueda
+Severidad:   Moderada
+Mensaje:     Subproceso anulado.
+Source:      Ssoft
+StackTrace:     en Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina)
+   en Ssoft.Pages.PaginaPlanes.csBuscadorPlanes.GuardarParametrosBusquedaCircular(UserControl PageSource)
+Complmeneto: Error en al guardar los parametros de busqueda en traslados
+Sesion Local: 635328059186870578o1x3axnlrqb5c2kjyq2z2vhx
+Sesion WS: 
+
+Fecha:           2014/04/11 10:03
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Presentacion/ResultadoPlanes.aspx?ORIGEN=BUSCADOR
+Complmeneto: ResultadoPlanes.aspx?ORIGEN=BUSCADOR
+Sesion Local: 635328059186870578o1x3axnlrqb5c2kjyq2z2vhx
+Sesion WS: 
+
+Fecha:           2014/04/11 10:03
+Codigo:      0
+Tipo:        Libreria
+Método:      setGuardarParametrosBusqueda
+Severidad:   Moderada
+Mensaje:     Subproceso anulado.
+Source:      Ssoft
+StackTrace:     en Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina)
+   en Ssoft.Pages.PaginaPlanes.csBuscadorPlanes.GuardarParametrosBusquedaCircular(UserControl PageSource)
+Complmeneto: Error en al guardar los parametros de busqueda en traslados
+Sesion Local: 635328059186870578o1x3axnlrqb5c2kjyq2z2vhx
+Sesion WS: 
+
+Fecha:           2014/04/11 10:11
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Presentacion/ResultadoPlanes.aspx?ORIGEN=BUSCADOR
+Complmeneto: ResultadoPlanes.aspx?ORIGEN=BUSCADOR
+Sesion Local: 635328059186870578o1x3axnlrqb5c2kjyq2z2vhx
+Sesion WS: 
+
+Fecha:           2014/04/11 10:11
+Codigo:      0
+Tipo:        Libreria
+Método:      setGuardarParametrosBusqueda
+Severidad:   Moderada
+Mensaje:     Subproceso anulado.
+Source:      Ssoft
+StackTrace:     en Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina)
+   en Ssoft.Pages.PaginaPlanes.csBuscadorPlanes.GuardarParametrosBusquedaCircular(UserControl PageSource)
+Complmeneto: Error en al guardar los parametros de busqueda en traslados
+Sesion Local: 635328059186870578o1x3axnlrqb5c2kjyq2z2vhx
+Sesion WS: 
+
+Fecha:           2014/04/11 12:16
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Presentacion/ResultadoPlanes.aspx?ORIGEN=BUSCADOR
+Complmeneto: ResultadoPlanes.aspx?ORIGEN=BUSCADOR
+Sesion Local: 635328059186870578o1x3axnlrqb5c2kjyq2z2vhx
+Sesion WS: 
+
+Fecha:           2014/04/11 12:16
+Codigo:      0
+Tipo:        Libreria
+Método:      setGuardarParametrosBusqueda
+Severidad:   Moderada
+Mensaje:     Subproceso anulado.
+Source:      Ssoft
+StackTrace:     en Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina)
+   en Ssoft.Pages.PaginaPlanes.csBuscadorPlanes.GuardarParametrosBusquedaCircular(UserControl PageSource)
+Complmeneto: Error en al guardar los parametros de busqueda en traslados
+Sesion Local: 635328059186870578o1x3axnlrqb5c2kjyq2z2vhx
+Sesion WS: 
+
+Fecha:           2014/04/11 12:53
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Presentacion/ResultadoPlanes.aspx?ORIGEN=BUSCADOR
+Complmeneto: ResultadoPlanes.aspx?ORIGEN=BUSCADOR
+Sesion Local: 635328059186870578o1x3axnlrqb5c2kjyq2z2vhx
+Sesion WS: 
+
+Fecha:           2014/04/11 12:53
+Codigo:      0
+Tipo:        Libreria
+Método:      setGuardarParametrosBusqueda
+Severidad:   Moderada
+Mensaje:     Subproceso anulado.
+Source:      Ssoft
+StackTrace:     en Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina)
+   en Ssoft.Pages.PaginaPlanes.csBuscadorPlanes.GuardarParametrosBusquedaCircular(UserControl PageSource)
+Complmeneto: Error en al guardar los parametros de busqueda en traslados
+Sesion Local: 635328059186870578o1x3axnlrqb5c2kjyq2z2vhx
+Sesion WS: 
+
+Fecha:           2014/04/11 02:04
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Presentacion/ResultadoPlanes.aspx?ORIGEN=BUSCADOR
+Complmeneto: ResultadoPlanes.aspx?ORIGEN=BUSCADOR
+Sesion Local: 635328059186870578o1x3axnlrqb5c2kjyq2z2vhx
+Sesion WS: 
+
+Fecha:           2014/04/11 02:04
+Codigo:      0
+Tipo:        Libreria
+Método:      setGuardarParametrosBusqueda
+Severidad:   Moderada
+Mensaje:     Subproceso anulado.
+Source:      Ssoft
+StackTrace:     en Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina)
+   en Ssoft.Pages.PaginaPlanes.csBuscadorPlanes.GuardarParametrosBusquedaCircular(UserControl PageSource)
+Complmeneto: Error en al guardar los parametros de busqueda en traslados
+Sesion Local: 635328059186870578o1x3axnlrqb5c2kjyq2z2vhx
+Sesion WS: 
+
+Fecha:           2014/04/11 02:52
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Presentacion/ResultadoPlanes.aspx?ORIGEN=BUSCADOR
+Complmeneto: ResultadoPlanes.aspx?ORIGEN=BUSCADOR
+Sesion Local: 635328059186870578o1x3axnlrqb5c2kjyq2z2vhx
+Sesion WS: 
+
+Fecha:           2014/04/11 02:52
+Codigo:      0
+Tipo:        Libreria
+Método:      setGuardarParametrosBusqueda
+Severidad:   Moderada
+Mensaje:     Subproceso anulado.
+Source:      Ssoft
+StackTrace:     en Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina)
+   en Ssoft.Pages.PaginaPlanes.csBuscadorPlanes.GuardarParametrosBusquedaCircular(UserControl PageSource)
+Complmeneto: Error en al guardar los parametros de busqueda en traslados
+Sesion Local: 635328059186870578o1x3axnlrqb5c2kjyq2z2vhx
+Sesion WS: 
+
+Fecha:           2014/04/11 03:09
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Presentacion/ResultadoPlanes.aspx?ORIGEN=BUSCADOR
+Complmeneto: ResultadoPlanes.aspx?ORIGEN=BUSCADOR
+Sesion Local: 635328059186870578o1x3axnlrqb5c2kjyq2z2vhx
+Sesion WS: 
+
+Fecha:           2014/04/11 03:09
+Codigo:      0
+Tipo:        Libreria
+Método:      setGuardarParametrosBusqueda
+Severidad:   Moderada
+Mensaje:     Subproceso anulado.
+Source:      Ssoft
+StackTrace:     en Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina)
+   en Ssoft.Pages.PaginaPlanes.csBuscadorPlanes.GuardarParametrosBusquedaCircular(UserControl PageSource)
+Complmeneto: Error en al guardar los parametros de busqueda en traslados
+Sesion Local: 635328059186870578o1x3axnlrqb5c2kjyq2z2vhx
+Sesion WS: 
+
+Fecha:           2014/04/11 03:16
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Presentacion/ResultadoPlanes.aspx?ORIGEN=BUSCADOR
+Complmeneto: ResultadoPlanes.aspx?ORIGEN=BUSCADOR
+Sesion Local: 635328059186870578o1x3axnlrqb5c2kjyq2z2vhx
+Sesion WS: 
+
+Fecha:           2014/04/11 03:16
+Codigo:      0
+Tipo:        Libreria
+Método:      setGuardarParametrosBusqueda
+Severidad:   Moderada
+Mensaje:     Subproceso anulado.
+Source:      Ssoft
+StackTrace:     en Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina)
+   en Ssoft.Pages.PaginaPlanes.csBuscadorPlanes.GuardarParametrosBusquedaCircular(UserControl PageSource)
+Complmeneto: Error en al guardar los parametros de busqueda en traslados
+Sesion Local: 635328059186870578o1x3axnlrqb5c2kjyq2z2vhx
+Sesion WS: 
+
+Fecha:           2014/04/11 03:27
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Presentacion/ResultadoPlanes.aspx?ORIGEN=BUSCADOR
+Complmeneto: ResultadoPlanes.aspx?ORIGEN=BUSCADOR
+Sesion Local: 635328059186870578o1x3axnlrqb5c2kjyq2z2vhx
+Sesion WS: 
+
+Fecha:           2014/04/11 03:27
+Codigo:      0
+Tipo:        Libreria
+Método:      setGuardarParametrosBusqueda
+Severidad:   Moderada
+Mensaje:     Subproceso anulado.
+Source:      Ssoft
+StackTrace:     en Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina)
+   en Ssoft.Pages.PaginaPlanes.csBuscadorPlanes.GuardarParametrosBusquedaCircular(UserControl PageSource)
+Complmeneto: Error en al guardar los parametros de busqueda en traslados
+Sesion Local: 635328059186870578o1x3axnlrqb5c2kjyq2z2vhx
+Sesion WS: 
+

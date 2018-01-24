@@ -1,0 +1,108 @@
+<ServiceAddRS xmlns="http://www.hotelbeds.com/schemas/2005/06/messages" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.hotelbeds.com/schemas/2005/06/messages ServiceAddRS.xsd" echoToken="DummyEchoToken">
+	<AuditData>
+		<ProcessTime>7119</ProcessTime>
+		<Timestamp>2007-01-16 11:44:48.382</Timestamp>
+		<RequestHost>10.0.44.157</RequestHost>
+		<ServerName>TEST</ServerName>
+		<ServerId>TS</ServerId>
+		<SchemaRelease>2005/06</SchemaRelease>
+		<HydraCoreRelease>2.0.200612181200</HydraCoreRelease>
+		<HydraEnumerationsRelease>1.0.200612181200</HydraEnumerationsRelease>
+		<MerlinRelease>N/A</MerlinRelease>
+	</AuditData>
+	<Purchase purchaseToken="TS114441002" timeToExpiration="299697">
+		<Status>SHOPPING_CART</Status>
+		<Agency>
+			<Code>30543</Code>
+			<Branch>1</Branch>
+		</Agency>
+		<Language>CAS</Language>
+		<ServiceList>
+			<Service xsi:type="ServiceHotel" SPUI="1#H#1">
+				<Status>NEW</Status>
+				<ContractList>
+					<Contract>
+						<Name>CGM-VARIOS</Name>
+						<IncomingOffice code="1"/>
+					</Contract>
+				</ContractList>
+				<Supplier name="HOTELBEDS ESPAÑA" vatNumber="B28916765"/>
+				<DateFrom date="20070316"/>
+				<DateTo date="20070318"/>
+				<Currency code="EUR">Euro</Currency>
+				<TotalAmount>285.700</TotalAmount>
+				<AdditionalCostList>
+					<AdditionalCost type="AG_COMMISSION">
+						<Price>
+							<Amount>40.000</Amount>
+						</Price>
+					</AdditionalCost>
+					<AdditionalCost type="COMMISSION_VAT">
+						<Price>
+							<Amount>6.400</Amount>
+						</Price>
+					</AdditionalCost>
+				</AdditionalCostList>
+				<ModificationPolicyList>
+					<ModificationPolicy>Cancellation</ModificationPolicy>
+					<ModificationPolicy>Confirmation</ModificationPolicy>
+					<ModificationPolicy>Modification</ModificationPolicy>
+				</ModificationPolicyList>
+				<HotelInfo xsi:type="ProductHotel">
+					<Code>76</Code>
+					<Name>Bendinat</Name>
+					<Category type="SIMPLE" code="4EST">4 ESTRELLAS</Category>
+					<Destination type="SIMPLE" code="PMI">
+						<Name>Mallorca</Name>
+						<ZoneList>
+							<Zone type="SIMPLE" code="25">Bendinat</Zone>
+						</ZoneList>
+					</Destination>
+				</HotelInfo>
+				<AvailableRoom>
+					<HotelOccupancy>
+						<RoomCount>1</RoomCount>
+						<Occupancy>
+							<AdultCount>2</AdultCount>
+							<ChildCount>0</ChildCount>
+							<GuestList>
+								<Customer type="AD">
+									<CustomerId>1</CustomerId>
+									<Age>45</Age>
+									<Name>Test</Name>
+									<LastName>Test</LastName>
+									<BirthDate date="19761116"/>
+									<CountryCode>ES</CountryCode>
+								</Customer>
+								<Customer type="AD">
+									<CustomerId>2</CustomerId>
+									<Age>45</Age>
+									<Name>Test</Name>
+									<LastName>Test</LastName>
+									<BirthDate date="19761116"/>
+									<CountryCode>ES</CountryCode>
+								</Customer>
+							</GuestList>
+						</Occupancy>
+					</HotelOccupancy>
+					<HotelRoom SHRUI="jEk+MTbM1xOEWpOcV02AhA==" availCount="1" status="NEW">
+						<Board type="SIMPLE" code="HD-E10">HABITACION Y DESAYUNO</Board>
+						<RoomType type="SIMPLE" code="DBL-E10" characteristic="ST">DOBLE</RoomType>
+						<Price>
+							<Amount>285.700</Amount>
+						</Price>
+						<CancellationPolicy>
+							<Price>
+								<Amount>142.850</Amount>
+								<DateTimeFrom date="20070314" time="0000"/>
+								<DateTimeTo date="20070316"/>
+							</Price>
+						</CancellationPolicy>
+					</HotelRoom>
+				</AvailableRoom>
+			</Service>
+		</ServiceList>
+		<Currency code="EUR"/>
+		<TotalPrice>285.700</TotalPrice>
+	</Purchase>
+</ServiceAddRS>

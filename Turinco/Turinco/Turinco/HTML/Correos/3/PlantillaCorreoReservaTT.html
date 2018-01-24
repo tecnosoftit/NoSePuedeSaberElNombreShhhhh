@@ -1,0 +1,284 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1">
+    <title>Turinco </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta content="True" name="vs_showGrid" />
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <style type="text/css">
+        body
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.8em;
+        }
+        
+        .bold
+        {
+            font-weight: bold;
+        }
+        .tituloPlan
+        {
+            font-weight: bold;
+            font-size: 15px;
+        }
+        .valorTotalReserva
+        {
+            color: #069;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .recordReserva
+        {
+            color: #900;
+            font-weight: bold;
+        }
+        .bordetabla
+        {
+            background-color: #E7E9E8;
+        }
+        .tituloTabla
+        {
+            font-weight: bold;
+            color: #069;
+            background-color: #CCD6EF;
+        }
+        .titulo
+        {
+            width: 800px;
+            border-bottom: 1px solid #85C226;
+            margin-bottom: 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <form>
+    <div>
+        <table width="880">
+            <tr>
+                <td>
+                    <table width="880">
+                        <tr>
+                            <td colspan="2">
+                                <input type="image" name="PlantillaReserva$imgLogo" id="PlantillaReserva_imgLogo"
+                                    src="http://www.tutiquete.com/pagina/App_Themes/Imagenes/LogoCorreo.jpg" border="0" />
+                                <br />
+                                <br />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <span style="font-weight: bold"><span id="PlantillaReserva_Label1">Apreciado(a): </span>
+                                </span><span id="PlantillaReserva_lblUsuario">Nnombre</span>
+                                <br />
+                                <span id="PlantillaReserva_Label3">Se ha creado un proyecto de viaje bajo localizador
+                                    No. </span><span style="font-size: 15px; font-weight: bold; color: #186e9b;"><span
+                                        id="PlantillaReserva_lblLocalizador" class="recordReserva">nloc</span> </span>
+                                <br />
+                                <br />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <span style="font-weight: bold"><span id="PlantillaReserva_Label5">Datos de Contacto</span>
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="width: 180px;">
+                                <span style="font-weight: bold"><span id="PlantillaReserva_Label6">Nombre cliente: </span>
+                                </span>
+                            </td>
+                            <td style="width: 700px;">
+                                <span id="PlantillaReserva_lblUsuario2">Nnombre</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span style="font-weight: bold"><span id="PlantillaReserva_Label8">Teléfono: </span>
+                                </span>
+                            </td>
+                            <td>
+                                <span id="PlantillaReserva_lblTelUsuario">stelefono</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span style="font-weight: bold"><span id="PlantillaReserva_Label10">Correo electrónico:
+                                </span></span>
+                            </td>
+                            <td>
+                                <span id="PlantillaReserva_lblMailUsuario">sCorreo</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                &nbsp;<br />
+                            </td>
+                            <td>
+                                &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span style="font-weight: bold"><span>Forma de pago elegida: </span></span>
+                            </td>
+                            <td>
+                                <span style="font-weight: bold"><span>fpago</span></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <span id="PlantillaReserva_lblFormaPago">
+                                    <p>
+                                        sTextoformapago</p>
+                                    <p>
+                                        Te recordamos que nuestro horario de atenci&oacute;n es Lunes a&nbsp;Domingo de
+                                        8:00 am - 12:00 pm</p>
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <hr style="color: #036; height: 1px;" />
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table width="880" cellspacing="0" cellpadding="3">
+                        <tr>
+                            <td colspan="2">
+                                <span style="font-weight: bold"><span id="PlantillaReserva_rptReserva_ctl01_lblTipoPlan">
+                                    Record</span> &nbsp;&nbsp;&nbsp; <span id="PlantillaReserva_rptReserva_ctl01_Label30">
+                                        Nrecord</span> </span>
+                            </td>
+                        </tr>
+                      
+                        <tr>
+                            <td colspan="2">
+                                ||
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <table width="880">
+                                    <tr>
+                                        <td style="width: 150px">
+                                            <span style="font-weight: bold"><span id="PlantillaReserva_rptReserva_ctl01_rptValor_ctl00_Label3">
+                                                Valor Total: sMoneda</span> </span>
+                                        </td>
+                                        <td style="width: 700px">
+                                            <span id="PlantillaReserva_rptReserva_ctl01_rptValor_ctl00_Label5">sValortotal</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span style="font-weight: bold"><span id="PlantillaReserva_rptReserva_ctl01_Label12">
+                                                Fecha límite de Pago: </span></span>
+                                        </td>
+                                        <td>
+                                            <span id="PlantillaReserva_rptReserva_ctl01_Label13">femision</span>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span style="font-weight: bold"><span id="PlantillaReserva_rptReserva_ctl01_Label8">
+                                    Forma de pago elegida: </span></span>
+                            </td>
+                            <td>
+                                <span id="PlantillaReserva_rptReserva_ctl01_Label9">fpago</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <div>
+                                    ??
+                                </div>
+                            </td>
+                        </tr>                  
+                      
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table width="880">
+                        <tr>
+                            <td>
+                                <hr style="color: #000; height: 1px;" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <br />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <span id="PlantillaReserva_lblTexto3">
+                                    <p>
+                                        <p>
+                                            <span style="font-weight: bold;">Gracias por tu compra</span></p>
+                                        <div>
+                                            <p>
+                                                Te recordamos las condiciones de reserva de tiquetes:</p>
+                                            <p>
+                                                &nbsp;</p>
+                                            <ul>
+                                                <li>Las aerol&iacute;neas pueden modificar, sin previo aviso, sus tarifas y condiciones,
+                                                    por esta raz&oacute;n las tarifas a&eacute;reas solo se garantizan con la emisi&oacute;n
+                                                    del tiquete.</li>
+                                                <li>Esta reserva tiene un plazo l&iacute;mite de emis&oacute;n, si este plazo no se
+                                                    cumple la reserva ser&aacute; cancelada.</li>
+                                                <li>Las aerol&iacute;neas pueden modificar, sin previo aviso, sus convenios con otras
+                                                    l&iacute;neas a&eacute;reas permitiendo o no la emisi&oacute;n de tiquetes.&nbsp;</li>
+                                                <li>Una vez expedido el tiquete a&eacute;reo no se puede reasignar a otra persona, consulta
+                                                    las excepciones en las condiciones espec&iacute;ficas de la tarifa.&nbsp;</li>
+                                                <li>Esta tarifa no es reembolsable, consulta las excepciones en las condiciones espec&iacute;ficas
+                                                    de la tarifa.&nbsp;</li>
+                                                <li>Este precio incluye una tarifa administrativa no reembolsable.&nbsp;</li>
+                                                <li>Las tarifas de tiquetes internacionales se liquidan a la tasa IATA vigente a la
+                                                    fecha de expedici&oacute;n del tiquete a&eacute;reo.&nbsp;</li>
+                                                <li><span style="font-weight: bold;"><strong>La tarifa reservada solo se garantiza con
+                                                    la emisi&oacute;n del tiquete una vez se haya recibido el pago.</strong></span></li>
+                                            </ul>
+                                        </div>
+                                    </p>
+                                </span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <br />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <em><span id="PlantillaReserva_lblDespedida">Cordialmente</span><br />
+                                    <span id="PlantillaReserva_lblCorreo">reservas@turinco.co</span>
+                                    <br />
+                                    <strong><span id="PlantillaReserva_lblAgencia">Turinco - Turismo Internacional Colombia SAS </span>
+                                    </strong>
+                                    <br />
+                                    <span id="PlantillaReserva_lblTTelefono">Teléfono:</span>&nbsp;&nbsp;</strong> <span
+                                        id="PlantillaReserva_lblTel">(57) 1 256 88 88</span><br />
+                                    <span id="PlantillaReserva_lblDir">Carrera 11 No 86-32 Of 401</span><br />
+                                    <span id="PlantillaReserva_lblCiudad">Bogotá - Colombia</span><br />
+                                    <span id="PlantillaReserva_lblUrl">http://www.turinco.co</span></em>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

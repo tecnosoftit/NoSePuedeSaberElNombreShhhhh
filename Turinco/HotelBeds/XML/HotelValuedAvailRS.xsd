@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://www.hotelbeds.com/schemas/2005/06/messages" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.hotelbeds.com/schemas/2005/06/messages" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:include schemaLocation="HotelbedsCommonTypes.xsd"/>
+	<xs:element name="HotelValuedAvailRS">
+		<xs:annotation>
+			<xs:documentation>Response data containing a list of hotel services with available rooms according to the requested parameters. The returned prices are final prices.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="CoreResponse">
+					<xs:sequence minOccurs="0">
+						<xs:element name="PaginationData" type="PaginationResponseData">
+							<xs:annotation>
+								<xs:documentation>Pagination response data.</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+						<xs:element name="ServiceHotel" type="ServiceHotel" minOccurs="0" maxOccurs="unbounded">
+							<xs:annotation>
+								<xs:documentation>Hotel service data.</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+					</xs:sequence>
+					<xs:attribute name="timeToExpiration" type="xs:long">
+						<xs:annotation>
+							<xs:documentation>Time left for the availability to become invalid. Expressed in milliseconds.</xs:documentation>
+						</xs:annotation>
+					</xs:attribute>
+					<xs:attribute name="totalItems" type="xs:int">
+						<xs:annotation>
+							<xs:documentation>Total available services in the list.</xs:documentation>
+						</xs:annotation>
+					</xs:attribute>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

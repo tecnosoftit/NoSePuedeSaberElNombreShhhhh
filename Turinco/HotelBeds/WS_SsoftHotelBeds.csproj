@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{284DFE99-4C64-4213-8D02-85B73F370365}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WS_SsoftHotelBeds</RootNamespace>
+    <AssemblyName>WS_SsoftHotelBeds</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ssoft, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rules\Ssoft.Rules\bin\Debug\Ssoft.dll</HintPath>
+    </Reference>
+    <Reference Include="Ssoft.Rules, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rules\Ssoft.Rules\bin\Debug\Ssoft.Rules.dll</HintPath>
+    </Reference>
+    <Reference Include="SsoftQuery, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Rules\Ssoft.Rules\bin\Debug\SsoftQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Hoteles\clsHotelDetailHB.cs" />
+    <Compile Include="Hoteles\clsHotelValuedAvailHB.cs" />
+    <Compile Include="Hoteles\clsPurchaseCancel.cs" />
+    <Compile Include="Hoteles\clsPurchaseConfirmHB.cs" />
+    <Compile Include="Hoteles\clsServiceAddHB.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Utilidades\clsCredencialesHB.cs" />
+    <Compile Include="Utilidades\clsEstilosXmlHB.cs" />
+    <Compile Include="Utilidades\clsSolicitudesXmlHB.cs" />
+    <Compile Include="Web References\FrontendService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://212.170.239.71/appservices/ws/FrontendService%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\FrontendService\</RelPath>
+      <UpdateFromURL>http://212.170.239.71/appservices/ws/FrontendService%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>WS_SsoftHotelBeds_FrontendService_FrontendServiceService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\FrontendService\FrontendService.wsdl" />
+    <None Include="Web References\FrontendService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="XML\CancelProtectionAddRQ.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XML\CancelProtectionAddRS.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XML\CancelProtectionRemoveRQ.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XML\CancelProtectionRemoveRS.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XML\HotelbedsCommonTypes.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XML\HotelbedsSimpleTypes.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XML\HotelDetailRQ.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XML\HotelDetailRQ.xsx">
+      <DependentUpon>HotelDetailRQ.xsd</DependentUpon>
+    </None>
+    <None Include="XML\HotelDetailRS.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XML\HotelValuedAvailRQ.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XML\HotelValuedAvailRQ.xsx">
+      <DependentUpon>HotelValuedAvailRQ.xsd</DependentUpon>
+    </None>
+    <None Include="XML\HotelValuedAvailRS.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XML\HotelValuedAvailRS.xsx">
+      <DependentUpon>HotelValuedAvailRS.xsd</DependentUpon>
+    </None>
+    <None Include="XML\ServiceAddRQ.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XML\ServiceAddRQ.xsx">
+      <DependentUpon>ServiceAddRQ.xsd</DependentUpon>
+    </None>
+    <None Include="XML\ServiceAddRS.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XML\ServiceRemoveRQ.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XML\ServiceRemoveRS.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XML\TicketAvailRQ.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XML\TicketAvailRS.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XML\TicketClassificationListRQ.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XML\TicketClassificationListRS.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XML\TicketDetailRQ.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XML\TicketDetailRS.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XML\TicketValuationRQ.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XML\TicketValuationRS.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XML\TransferValuedAvailRQ.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="XML\TransferValuedAvailRS.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="XML\CancelProtectionAddRQ.xml" />
+    <Content Include="XML\CancelProtectionAddRS.xml" />
+    <Content Include="XML\CancelProtectionRemoveRQ.xml" />
+    <Content Include="XML\CancelProtectionRemoveRS.xml" />
+    <Content Include="XML\HotelDetailRQ.xml" />
+    <Content Include="XML\HotelDetailRS.xml" />
+    <Content Include="XML\HotelValuedAvailRQ.xml" />
+    <Content Include="XML\HotelValuedAvailRS.xml" />
+    <Content Include="XML\ServiceAddRQ_Hotel.xml" />
+    <Content Include="XML\ServiceAddRQ_Ticket.xml" />
+    <Content Include="XML\ServiceAddRQ_Transfer_IN.xml" />
+    <Content Include="XML\ServiceAddRQ_Transfer_OUT.xml" />
+    <Content Include="XML\ServiceAddRS_Car.xml" />
+    <Content Include="XML\ServiceAddRS_Hotel.xml" />
+    <Content Include="XML\ServiceAddRS_Ticket.xml" />
+    <Content Include="XML\ServiceAddRS_Transfer.xml" />
+    <Content Include="XML\ServiceRemoveRQ.xml" />
+    <Content Include="XML\ServiceRemoveRS.xml" />
+    <Content Include="XML\TicketAvailRQ.xml" />
+    <Content Include="XML\TicketAvailRS.xml" />
+    <Content Include="XML\TicketClassificationListRQ.xml" />
+    <Content Include="XML\TicketClassificationListRS.xml" />
+    <Content Include="XML\TicketDetailRQ.xml" />
+    <Content Include="XML\TicketDetailRS.xml" />
+    <Content Include="XML\TicketValuationRQ.xml" />
+    <Content Include="XML\TicketValuationRS.xml" />
+    <Content Include="XML\TransferValuedAvailRQ.xml" />
+    <Content Include="XML\TransferValuedAvailRS.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

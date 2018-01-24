@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <config>
+    <ServerName>smtpout.secureserver.net</ServerName>
+    <MailFrom>correo@correossoft.com</MailFrom>
+    <MailSubject>Ssoft Colombia</MailSubject>
+    <Password>ssoftcolombia</Password>
+    <HeadBody>Ssoft Colombia</HeadBody>
+    <Port>80</Port>
+    <SendPort>2</SendPort>
+  </config>
+</root>

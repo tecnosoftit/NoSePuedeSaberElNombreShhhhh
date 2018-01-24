@@ -1,0 +1,288 @@
+Fecha:           2014/05/15 03:05
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 
+Sesion WS: 
+
+Fecha:           2014/05/15 03:06
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Object reference not set to an instance of an object.
+Info:        No se puede recuperar la sesion
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.csGeneralsPag.SesionIdPage() in D:\Desarrollo\Desarrollo2013\PSsoftNew\PSoftnewstructure\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\Utilidades\csGeneralsPag.cs:line 636
+Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 03:19
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Presentacion/Index.aspx
+Complmeneto: ResultadoVuelos.aspx?COTAIR
+Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 03:34
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Presentacion/ResultadoVuelos.aspx?COTAIR
+Complmeneto: ResultadoVuelos.aspx?COTAIR
+Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 03:34
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Presentacion/index.aspx
+Complmeneto: ResultadoVuelos.aspx?COTAIR
+Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 03:39
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Presentacion/ResultadoVuelos.aspx?COTAIR
+Complmeneto: ResultadoVuelos.aspx?COTAIR
+Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 03:42
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Presentacion/ResultadoVuelos.aspx?COTAIR
+Complmeneto: ResultadoVuelos.aspx?COTAIR
+Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:01
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 
+Sesion WS: 
+
+Fecha:           2014/05/15 04:02
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Presentacion/Index.aspx
+Complmeneto: ResultadoVuelos.aspx?COTAIR
+Sesion Local: 635357665010326815emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:08
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 
+Sesion WS: 
+
+Fecha:           2014/05/15 04:09
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Presentacion/Index.aspx
+Complmeneto: ResultadoVuelos.aspx?COTAIR
+Sesion Local: 635357669304472426emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:15
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 635357669304472426emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:15
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Presentacion/Index.aspx
+Complmeneto: ResultadoVuelos.aspx?COTAIR
+Sesion Local: 635357669304472426emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:18
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Presentacion/ResultadoVuelos.aspx?COTAIR
+Complmeneto: ResultadoVuelos.aspx?COTAIR
+Sesion Local: 635357669304472426emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:23
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 
+Sesion WS: 
+
+Fecha:           2014/05/15 04:25
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Presentacion/Index.aspx
+Complmeneto: ResultadoVuelos.aspx?COTAIR
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:27
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Presentacion/ResultadoVuelos.aspx?COTAIR
+Complmeneto: ResultadoVuelos.aspx?COTAIR
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:41
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Presentacion/ResultadoVuelos.aspx?COTAIR
+Complmeneto: ResultadoVuelos.aspx?COTAIR
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:42
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Presentacion/ResultadoVuelos.aspx?COTAIR
+Complmeneto: ResultadoVuelos.aspx?COTAIR
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:44
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Presentacion/ResultadoVuelos.aspx?COTAIR
+Complmeneto: ResultadoVuelos.aspx?COTAIR
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:46
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Presentacion/ResultadoVuelos.aspx?COTAIR
+Complmeneto: ResultadoVuelos.aspx?COTAIR
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:47
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Presentacion/ResultadoVuelos.aspx?COTAIR
+Complmeneto: ResultadoVuelos.aspx?COTAIR
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:48
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Presentacion/ResultadoVuelos.aspx?COTAIR
+Complmeneto: ResultadoVuelos.aspx?COTAIR
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:51
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Presentacion/ResultadoVuelos.aspx?COTAIR
+Complmeneto: ResultadoVuelos.aspx?COTAIR
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:52
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Presentacion/ResultadoVuelos.aspx?COTAIR
+Complmeneto: ResultadoVuelos.aspx?COTAIR
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 05:02
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 
+Sesion WS: 
+
+Fecha:           2014/05/15 05:05
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Presentacion/Index.aspx
+Complmeneto: ResultadoVuelos.aspx?COTAIR
+Sesion Local: 635357701759168729emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha del evento: 2014/05/15 05:06
+
+
+Mensaje de error: La aerolinea con codigo DL no existe en la BD
+
+
+Aplicación: 
+
+
+StackTrace: 
+
+
+Fecha:           2014/05/15 05:43
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 
+Sesion WS: 
+
+Fecha:           2014/05/15 05:44
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Presentacion/Index.aspx
+Complmeneto: ResultadoVuelos.aspx?COTAIR
+Sesion Local: 635357726131222731emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 05:49
+Codigo:      0
+Tipo:        WebServices
+Método:      getBusqueda
+Severidad:   Moderada
+Complmeneto: HostCommand: ÂÂÂAÂÂRS01S093ÂJA200003760048QH 01SBS                                  DT0064FL 0101   BOG  PTY  201407180650201407180841   CM 0416W 73G00016SP 0101001NN0064FL 0202   PTY  EWR  201407181005201407181625   CM 1922W 73900016SP 0202001NN0064FL 0303   EWR  PTY  201407281705201407282125   CM 1921W 73900016SP 0303001NN0064FL 0404   PTY  BOG  201407290750201407290932   CM 0535W E9000016SP 0404001NN
+Sesion Local: 635357726131222731emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 05:49
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Presentacion/ResultadoVuelos.aspx?COTAIR
+Complmeneto: ReservaVuelosTarjeta.aspx?ITIID=4
+Sesion Local: 635357726131222731emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 05:54
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 635357726131222731emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 05:55
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Presentacion/Index.aspx
+Complmeneto: ResultadoVuelos.aspx?COTAIR
+Sesion Local: 635357726131222731emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 06:12
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Presentacion/index.aspx
+Complmeneto: ResultadoVuelos.aspx?COTAIR
+Sesion Local: 635357726131222731emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+

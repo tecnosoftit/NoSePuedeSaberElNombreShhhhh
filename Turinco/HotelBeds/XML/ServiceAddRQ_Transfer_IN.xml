@@ -1,0 +1,47 @@
+<ServiceAddRQ echoToken="DummyEchoToken" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.hotelbeds.com/schemas/2005/06/messages ServiceAddRQ.xsd" xmlns="http://www.hotelbeds.com/schemas/2005/06/messages">
+	<Language>ENG</Language>
+	<Credentials>
+		<User>16783</User>
+		<Password>16783</Password>
+	</Credentials>
+	<Service availToken="PXGVDKWZLh9HuzfJT0QiCg==" transferType="IN" xsi:type="ServiceTransfer">
+		<DateFrom date="20071215" time="0000"/>
+		<TransferInfo xsi:type="ProductTransfer">
+			<Code>0|0|0</Code>
+			<Type code="P">Private</Type>
+			<VehicleType code="H">Adapted vehicle</VehicleType>
+		</TransferInfo>
+		<ContractList>
+			<Contract>
+				<Name>CGM-EUROTAXI</Name>
+				<IncomingOffice code="1"/>
+			</Contract>
+		</ContractList>
+		<PickupLocation xsi:type="ProductTransferTerminal">
+			<Code>PMI</Code>
+		</PickupLocation>
+		<DestinationLocation xsi:type="ProductZone">
+			<Code>1-CJARDIN</Code>
+			<HotelName>name1</HotelName>
+			<HotelAddress>address1</HotelAddress>
+		</DestinationLocation>
+		<Paxes>
+			<AdultCount>1</AdultCount>
+			<ChildCount>0</ChildCount>
+			<GuestList>
+				<Customer type="AD"/>
+			</GuestList>
+		</Paxes>
+		<TravelInfo>
+			<DepartInfo xsi:type="ProductTransferTerminal">
+				<Code>PMI</Code>		
+				<DateTime date="20071215" time="1500"/>				
+			</DepartInfo>
+			<ArrivalInfo xsi:type="ProductTransferTerminal">
+				<Code>BCN</Code>				
+				<DateTime date="20071215" time="1500"/>				
+			</ArrivalInfo>
+			<TravelNumber>null</TravelNumber>
+		</TravelInfo>
+	</Service>
+</ServiceAddRQ>

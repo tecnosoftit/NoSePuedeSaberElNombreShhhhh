@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://www.hotelbeds.com/schemas/2005/06/messages" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.hotelbeds.com/schemas/2005/06/messages" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:include schemaLocation="HotelbedsCommonTypes.xsd"/>
+	<xs:element name="TransferValuedAvailRQ">
+		<xs:annotation>
+			<xs:documentation>Request data to obtain a list of available tranfer services according to the requested parameters. The returned prices are final prices.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="CoreRequest">
+					<xs:sequence>
+						<xs:element name="AvailData" type="ServiceTransferAvailData" maxOccurs="2">
+							<xs:annotation>
+								<xs:documentation>If two avail data are provided one must have the type attribute set to 'IN' and the other to 'OUT'.</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+					</xs:sequence>
+					<xs:attribute name="sessionId" use="required">
+						<xs:annotation>
+							<xs:documentation>Unique session identifier by user. For each new request you must generate a different session id. If you are using pagination and retrieving next pages from a previous initial search you must use the same session id, because the list results are cached using the session id. This is also applicable when changing sort criteria.</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:minLength value="1"/>
+								<xs:maxLength value="25"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:attribute>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

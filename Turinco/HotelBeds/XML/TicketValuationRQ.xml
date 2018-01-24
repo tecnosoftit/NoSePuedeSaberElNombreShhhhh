@@ -1,0 +1,16 @@
+<TicketValuationRQ xmlns="http://www.hotelbeds.com/schemas/2005/06/messages" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.hotelbeds.com/schemas/2005/06/messages TicketValuationRQ.xsd">
+	<Language>ENG</Language>
+	<Credentials>
+		<User>TEST</User>
+		<Password>TEST</Password>
+	</Credentials>
+	<AvailToken>baJNknypviUi+psO68/NDw==</AvailToken>
+	<ServiceOccupancy>
+		<AdultCount>2</AdultCount>
+		<ChildCount>0</ChildCount>
+	</ServiceOccupancy>
+	<DateFrom date="20070309"/>
+	<DateTo date="20070309"/>
+	<ModalityCode>"GENERAL</ModalityCode>
+	<TicketCode>CITYSIGHTS</TicketCode>
+</TicketValuationRQ>

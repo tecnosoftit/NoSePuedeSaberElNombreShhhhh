@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://webservices.sabre.com/sabreXML/2003/07" elementFormDefault="qualified" targetNamespace="http://webservices.sabre.com/sabreXML/2003/07" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="OTA_AirAvailRS">
+    <xs:annotation>
+      <xs:documentation>Comment describing your root element</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Success" type="xs:string" />
+        <xs:element minOccurs="0" name="Warnings">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Warning">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="ShortText" type="xs:string" use="optional" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" name="OriginDestinationOptions">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" maxOccurs="unbounded" name="OriginDestinationOption">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="TPA_Extensions">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element minOccurs="0" name="OriginCityTimeZoneCode">
+                            <xs:complexType>
+                              <xs:attribute name="Code" type="xs:string" use="optional" />
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element minOccurs="0" name="DestinationCityTimeZoneCode">
+                            <xs:complexType>
+                              <xs:attribute name="Code" type="xs:string" use="optional" />
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element minOccurs="0" name="TimeZoneDifference">
+                            <xs:complexType>
+                              <xs:attribute name="Code" type="xs:string" use="optional" />
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element minOccurs="0" maxOccurs="unbounded" name="Text" type="xs:string" />
+                          <xs:element minOccurs="0" name="DayOfWeek" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="FlightSegment">
+                      <xs:annotation>
+                        <xs:documentation>Details of the flight option for an origin destination pair.</xs:documentation>
+                      </xs:annotation>
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element minOccurs="0" name="DepartureAirport">
+                            <xs:complexType>
+                              <xs:annotation>
+                                <xs:documentation xml:lang="en">Code and optional string to describe a location point.</xs:documentation>
+                              </xs:annotation>
+                              <xs:attribute name="LocationCode" use="required">
+                                <xs:simpleType>
+                                  <xs:annotation>
+                                    <xs:documentation xml:lang="en">Used for Character Strings, length 1 to 8</xs:documentation>
+                                  </xs:annotation>
+                                  <xs:restriction base="xs:string">
+                                    <xs:minLength value="1" />
+                                    <xs:maxLength value="8" />
+                                  </xs:restriction>
+                                </xs:simpleType>
+                              </xs:attribute>
+                              <xs:attribute default="IATA" name="CodeContext">
+                                <xs:simpleType>
+                                  <xs:annotation>
+                                    <xs:documentation xml:lang="en">Used for Character Strings, length 1 to 32</xs:documentation>
+                                  </xs:annotation>
+                                  <xs:restriction base="xs:string">
+                                    <xs:minLength value="1" />
+                                    <xs:maxLength value="32" />
+                                  </xs:restriction>
+                                </xs:simpleType>
+                              </xs:attribute>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element minOccurs="0" name="ArrivalAirport">
+                            <xs:complexType>
+                              <xs:annotation>
+                                <xs:documentation xml:lang="en">Code and optional string to describe a location point.</xs:documentation>
+                              </xs:annotation>
+                              <xs:attribute name="LocationCode" use="required">
+                                <xs:simpleType>
+                                  <xs:annotation>
+                                    <xs:documentation xml:lang="en">Used for Character Strings, length 1 to 8</xs:documentation>
+                                  </xs:annotation>
+                                  <xs:restriction base="xs:string">
+                                    <xs:minLength value="1" />
+                                    <xs:maxLength value="8" />
+                                  </xs:restriction>
+                                </xs:simpleType>
+                              </xs:attribute>
+                              <xs:attribute default="IATA" name="CodeContext">
+                                <xs:simpleType>
+                                  <xs:annotation>
+                                    <xs:documentation xml:lang="en">Used for Character Strings, length 1 to 32</xs:documentation>
+                                  </xs:annotation>
+                                  <xs:restriction base="xs:string">
+                                    <xs:minLength value="1" />
+                                    <xs:maxLength value="32" />
+                                  </xs:restriction>
+                                </xs:simpleType>
+                              </xs:attribute>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element minOccurs="0" name="OperatingAirline">
+                            <xs:complexType>
+                              <xs:attribute name="Code" use="optional">
+                                <xs:annotation>
+                                  <xs:documentation xml:lang="en">Identifies a company by the company code.</xs:documentation>
+                                </xs:annotation>
+                                <xs:simpleType>
+                                  <xs:annotation>
+                                    <xs:documentation xml:lang="en">Used for Character Strings, length 1 to 8</xs:documentation>
+                                  </xs:annotation>
+                                  <xs:restriction base="xs:string">
+                                    <xs:minLength value="1" />
+                                    <xs:maxLength value="8" />
+                                  </xs:restriction>
+                                </xs:simpleType>
+                              </xs:attribute>
+                              <xs:attribute name="FlightNumber" type="xs:string" use="optional" />
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element minOccurs="0" name="Equipment">
+                            <xs:complexType>
+                              <xs:annotation>
+                                <xs:documentation xml:lang="en">Specifies the aircraft equipment type.</xs:documentation>
+                              </xs:annotation>
+                              <xs:attribute name="AirEquipType" use="required">
+                                <xs:annotation>
+                                  <xs:documentation>This is the 3 character IATA code.</xs:documentation>
+                                </xs:annotation>
+                                <xs:simpleType>
+                                  <xs:annotation>
+                                    <xs:documentation xml:lang="en">Used for Strings, length exactly 3</xs:documentation>
+                                  </xs:annotation>
+                                  <xs:restriction base="xs:string">
+                                    <xs:minLength value="3" />
+                                    <xs:maxLength value="3" />
+                                  </xs:restriction>
+                                </xs:simpleType>
+                              </xs:attribute>
+                              <xs:attribute default="false" name="ChangeofGauge" type="xs:boolean" use="optional">
+                                <xs:annotation>
+                                  <xs:documentation>Indicates there is an equipment change.</xs:documentation>
+                                </xs:annotation>
+                              </xs:attribute>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element minOccurs="0" name="MarketingAirline">
+                            <xs:complexType>
+                              <xs:attribute name="Code" use="optional">
+                                <xs:annotation>
+                                  <xs:documentation xml:lang="en">Identifies a company by the company code.</xs:documentation>
+                                </xs:annotation>
+                                <xs:simpleType>
+                                  <xs:annotation>
+                                    <xs:documentation xml:lang="en">Used for Character Strings, length 1 to 8</xs:documentation>
+                                  </xs:annotation>
+                                  <xs:restriction base="xs:string">
+                                    <xs:minLength value="1" />
+                                    <xs:maxLength value="8" />
+                                  </xs:restriction>
+                                </xs:simpleType>
+                              </xs:attribute>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element minOccurs="0" maxOccurs="unbounded" name="Comment">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute name="Language" type="xs:language" use="optional">
+                                    <xs:annotation>
+                                      <xs:documentation>Language identification.</xs:documentation>
+                                    </xs:annotation>
+                                  </xs:attribute>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element minOccurs="0" name="MarketingCabin">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element minOccurs="0" maxOccurs="unbounded" name="Meal">
+                                  <xs:complexType>
+                                    <xs:attribute name="MealCode" type="xs:string" use="required">
+                                      <xs:annotation>
+                                        <xs:documentation xml:lang="en"> Enumerated List (Meal Code in brackets):
+																								Breakfast				(B)
+																								Snack  					(S)
+																								Dinner					(D)
+																								Hot Meal				(H)
+																								Lunch					(L)
+																								Refreshments			(R)
+																								Complimentary Liquor	(C)
+																								Meal					(M)
+																								Liquor for Purchase		(P)
+																								Food for Purchase		(F)
+																								Cold Meal				(O)
+																								No Meal Service			(-)
+																								
+																						Alternately, a String of Length 32 can be used if the above list does not suffice.
+																						</xs:documentation>
+                                      </xs:annotation>
+                                    </xs:attribute>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element minOccurs="0" maxOccurs="unbounded" name="BookingClassAvail">
+                            <xs:annotation>
+                              <xs:documentation>Booking codes available to be sold for a particular flight segment.</xs:documentation>
+                            </xs:annotation>
+                            <xs:complexType>
+                              <xs:attribute name="ResBookDesigCode" use="optional">
+                                <xs:simpleType>
+                                  <xs:annotation>
+                                    <xs:documentation xml:lang="en">Used for an Alpha String, length 2 (for letter codes)</xs:documentation>
+                                  </xs:annotation>
+                                  <xs:restriction base="xs:string">
+                                    <xs:pattern value="[A-Z]{1,2}" />
+                                  </xs:restriction>
+                                </xs:simpleType>
+                              </xs:attribute>
+                              <xs:attribute name="RPH" type="xs:string" use="optional" />
+                              <xs:attribute name="Availability" type="xs:string" use="optional" />
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element minOccurs="0" name="TPA_Extensions">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element minOccurs="0" name="CancelledStatus">
+                                  <xs:complexType>
+                                    <xs:attribute name="Ind" type="xs:boolean" use="optional" />
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element minOccurs="0" name="EffectiveDate" type="xs:string" />
+                                <xs:element minOccurs="0" name="DiscontinueDate" type="xs:string" />
+                                <xs:element minOccurs="0" maxOccurs="unbounded" name="Text" type="xs:string" />
+                                <xs:element minOccurs="0" name="CodeShareBlock">
+                                  <xs:complexType>
+                                    <xs:attribute name="Code" type="xs:string" use="optional" />
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element minOccurs="0" name="CharterService">
+                                  <xs:complexType>
+                                    <xs:attribute name="Ind" type="xs:string" use="optional" />
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element minOccurs="0" name="ConnectionIndicator">
+                                  <xs:complexType>
+                                    <xs:attribute name="Ind" type="xs:boolean" use="optional" />
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element minOccurs="0" name="ParticipationLevel">
+                                  <xs:complexType>
+                                    <xs:attribute name="Code" type="xs:string" use="optional" />
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element minOccurs="0" name="DaysOfOperation">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element minOccurs="0" name="OperationSchedule">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element minOccurs="0" name="OperationTimes">
+                                              <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element minOccurs="0" name="OperationTime">
+                                                    <xs:complexType>
+                                                      <xs:attribute name="Sun" type="xs:boolean" use="optional" />
+                                                      <xs:attribute name="Mon" type="xs:boolean" use="optional" />
+                                                      <xs:attribute name="Tue" type="xs:boolean" use="optional" />
+                                                      <xs:attribute name="Weds" type="xs:boolean" use="optional" />
+                                                      <xs:attribute name="Thur" type="xs:boolean" use="optional" />
+                                                      <xs:attribute name="Fri" type="xs:boolean" use="optional" />
+                                                      <xs:attribute name="Sat" type="xs:boolean" use="optional" />
+                                                    </xs:complexType>
+                                                  </xs:element>
+                                                </xs:sequence>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element minOccurs="0" maxOccurs="unbounded" name="FlightFacts" type="xs:string" />
+                                <xs:element minOccurs="0" name="TrafficRestriction">
+                                  <xs:complexType>
+                                    <xs:attribute name="Code" type="xs:string" use="optional" />
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="DepartureDateTime" type="xs:string" use="optional" />
+                        <xs:attribute name="ArrivalDateTime" type="xs:string" use="optional" />
+                        <xs:attribute name="StopQuantity" type="xs:nonNegativeInteger" use="optional">
+                          <xs:annotation>
+                            <xs:documentation> The number of stops the flight makes</xs:documentation>
+                          </xs:annotation>
+                        </xs:attribute>
+                        <xs:attribute name="RPH" type="xs:string" use="optional" />
+                        <xs:attribute name="FlightNumber" type="xs:string" use="optional">
+                          <xs:annotation>
+                            <xs:documentation> The flight number of the flight.</xs:documentation>
+                          </xs:annotation>
+                        </xs:attribute>
+                        <xs:attribute name="OnTimeRate" type="xs:string" use="optional">
+                          <xs:annotation>
+                            <xs:documentation> Specifies the Dept. of Transport on time rate of the  flight.</xs:documentation>
+                          </xs:annotation>
+                        </xs:attribute>
+                        <xs:attribute name="SmokingAllowed" type="xs:string" use="optional">
+                          <xs:annotation>
+                            <xs:documentation> Specifies if the flight is smoking or not.</xs:documentation>
+                          </xs:annotation>
+                        </xs:attribute>
+                        <xs:attribute name="Ticket" type="xs:string" use="optional" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" name="TPA_Extensions">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="HostCommand" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" name="Errors">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Error">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="ErrorInfo">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element minOccurs="0" name="Message" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="ErrorCode" type="xs:string" use="optional" />
+                  <xs:attribute name="Severity" type="xs:string" use="optional" />
+                  <xs:attribute name="ErrorMessage" type="xs:string" use="optional" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="EchoToken" use="optional">
+        <xs:annotation>
+          <xs:documentation>A sequence number for additional message identification, assigned by the requesting host system. When a request 											message includes an echo token the corresponding response message MUST include an echo token with an identical value.												</xs:documentation>
+        </xs:annotation>
+        <xs:simpleType>
+          <xs:annotation>
+            <xs:documentation xml:lang="en">Used for Character Strings, length 1 to 64</xs:documentation>
+          </xs:annotation>
+          <xs:restriction base="xs:string">
+            <xs:minLength value="1" />
+            <xs:maxLength value="64" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="TimeStamp" type="xs:string" use="optional">
+        <xs:annotation>
+          <xs:documentation>Indicates the creation date and time of the message in UTC using the following format specified by ISO 8601; YYYY-	MM-						DDThh:mm:ssZ with time values using the 24 hour clock (e.g. 20 November 2003, 1:59:38 pm UTC becomes 2003-11-	20T13:59:38Z).							</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+      <xs:attribute default="Production" name="Target" use="optional">
+        <xs:annotation>
+          <xs:documentation>Used to indicate whether the request is for the Test or Production system.</xs:documentation>
+        </xs:annotation>
+        <xs:simpleType>
+          <xs:restriction base="xs:NMTOKEN">
+            <xs:enumeration value="Test" />
+            <xs:enumeration value="Production" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="Version" type="xs:string" use="optional">
+        <xs:annotation>
+          <xs:documentation>For all OTA versioned messages, the version of the message is indicated by a decimal value.</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+      <xs:attribute name="SequenceNmbr" type="xs:nonNegativeInteger" use="optional">
+        <xs:annotation>
+          <xs:documentation>Used to identify the sequence number of the transaction as assigned by the sending system; allows for an application 	to 						process messages in a certain order or to request a resynchronization of messages in the event that a system has been off-line and 	needs to 				retrieve 		messages that were missed. </xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+      <xs:attribute name="PrimaryLangID" type="xs:language" use="optional">
+        <xs:annotation>
+          <xs:documentation>Identifes the primary language preference for the form of travel represented in a collection.
+						 The human language is identified by ISO 639 codes.</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+      <xs:attribute name="AltLangID" type="xs:language" use="optional">
+        <xs:annotation>
+          <xs:documentation>Identifes the primary language preference for the form of travel represented in a collection.
+						 The human language is identified by ISO 639 codes.</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

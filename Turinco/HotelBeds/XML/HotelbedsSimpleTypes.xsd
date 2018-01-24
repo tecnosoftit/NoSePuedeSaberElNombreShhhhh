@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0.0">
+	<xs:simpleType name="CommentType">
+		<xs:annotation>
+			<xs:documentation>Used for comment types.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:NMTOKEN">
+			<xs:enumeration value="INCOMING"/>
+			<xs:enumeration value="AGENCY"/>
+			<xs:enumeration value="SERVICE"/>
+			<xs:enumeration value="CONTRACT"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="EmailType">
+		<xs:annotation>
+			<xs:documentation>Used for email address.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:token">
+			<xs:pattern value="([\.a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(([a-zA-Z0-9_-])*\.([a-zA-Z0-9_-])+)+"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="HHMMTime">
+		<xs:annotation>
+			<xs:documentation>Used to indicate a time in the hotelbeds system. The format is (HHMM).</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:pattern value="([0,1][0-9]|[2][0-3])([0-5][0-9])"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="HotelbedsClassificationType">
+		<xs:annotation>
+			<xs:documentation>Used to indicate the classification type. TICKET for tickets. More classification types may be added in the furutre.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="TICKET"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="HotelbedsCustomerType">
+		<xs:annotation>
+			<xs:documentation>Used to indicate the type of a customer. AD for adult and CH for child.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="AD"/>
+			<xs:enumeration value="CH"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="HotelbedsFacilityAccessType">
+		<xs:annotation>
+			<xs:documentation>Used to indicate direct access to the facility 'DIRECT' or separated access to the facility 'SEPARATED'.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:NMTOKEN">
+			<xs:enumeration value="DIRECT"/>
+			<xs:enumeration value="SEPARATED"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="HotelbedsInsuranceCoverageType">
+		<xs:annotation>
+			<xs:documentation>Used to indicate the insurance coverage types. (MUN for mondial coverage. CON for continental coverage. NAC for national coverage).</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:NMTOKEN">
+			<xs:enumeration value="MUN"/>
+			<xs:enumeration value="CON"/>
+			<xs:enumeration value="NAC"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="HotelbedsPurchaseStatus">
+		<xs:annotation>
+			<xs:documentation>Used to indicate the purchase status. ('SHOPPING_CART', 'BOOKING', 'MODIFIED' or 'CANCELLED')</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:NMTOKEN">
+			<xs:enumeration value="SHOPPING_CART"/>
+			<xs:enumeration value="BOOKING"/>
+			<xs:enumeration value="MODIFIED"/>
+			<xs:enumeration value="CANCELLED"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="HotelbedsServiceStatus">
+		<xs:annotation>
+			<xs:documentation>Used to indicate the service status. ('NEW', 'CONFIRMED', 'MODIFIED' or 'CANCELLED')</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:NMTOKEN">
+			<xs:enumeration value="NEW"/>
+			<xs:enumeration value="CONFIRMED"/>
+			<xs:enumeration value="MODIFIED"/>
+			<xs:enumeration value="CANCELLED"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="HotelbedsTransferType">
+		<xs:annotation>
+			<xs:documentation>Used to indicate the transfer type. ('IN', 'OUT').</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:NMTOKEN">
+			<xs:enumeration value="IN"/>
+			<xs:enumeration value="OUT"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="HotelbedsZoneServiceType">
+		<xs:annotation>
+			<xs:documentation>Used to indicate the different zone service types. ('TR' for transfers, 'HO' for hotels).</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:NMTOKEN">
+			<xs:enumeration value="TR"/>
+			<xs:enumeration value="HO"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="Number1To99999">
+		<xs:annotation>
+			<xs:documentation>Used for a number from 1 to 99999.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:int">
+			<xs:minInclusive value="1"/>
+			<xs:maxInclusive value="99999"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="Number1To999999999">
+		<xs:annotation>
+			<xs:documentation>Used for a number from 1 to 999999999.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:int">
+			<xs:minInclusive value="1"/>
+			<xs:maxInclusive value="999999999"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="PreferLevelType">
+		<xs:annotation>
+			<xs:documentation>Used to specify a preference level for something that is or will be requested (e.g. a supplier of a service, a type of service, a form of payment, etc.).
+	</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:NMTOKEN">
+			<xs:enumeration value="ONLY"/>
+			<xs:enumeration value="UNACCEPTABLE"/>
+			<xs:enumeration value="PREFERRED"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="SimpleGroup">
+		<xs:annotation>
+			<xs:documentation>Used for 'SIMPLE' to indicate simple data or 'GROUP' values to indicate agrupation data .</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:NMTOKEN">
+			<xs:enumeration value="SIMPLE"/>
+			<xs:enumeration value="GROUP"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="StringLength0to50">
+		<xs:annotation>
+			<xs:documentation>Used for string restriction up to 50 characters.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:minLength value="0"/>
+			<xs:maxLength value="50"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="StringLength0to1024">
+		<xs:annotation>
+			<xs:documentation>Used for string restriction up to 1024 characters.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:minLength value="0"/>
+			<xs:maxLength value="1024"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="StringLength0to2000">
+		<xs:annotation>
+			<xs:documentation>Used for string restriction up to 2000 characters.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:minLength value="0"/>
+			<xs:maxLength value="2000"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="StringLength0to255">
+		<xs:annotation>
+			<xs:documentation>Used for string restriction up to 255 characters.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:minLength value="0"/>
+			<xs:maxLength value="255"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="StringLength1to1024">
+		<xs:annotation>
+			<xs:documentation>Used for string restriction up to 1024 characters.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1"/>
+			<xs:maxLength value="1024"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="StringLength1to2000">
+		<xs:annotation>
+			<xs:documentation>Used for string restriction up to 2000 characters.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1"/>
+			<xs:maxLength value="2000"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="StringLength1to255">
+		<xs:annotation>
+			<xs:documentation>Used for string restriction up to 255 characters.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1"/>
+			<xs:maxLength value="255"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="StringLength1to4000">
+		<xs:annotation>
+			<xs:documentation>Used for string restriction up to 4000 characters.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1"/>
+			<xs:maxLength value="4000"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="StringLength1to50">
+		<xs:annotation>
+			<xs:documentation>Used for string restriction up to 50 characters.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1"/>
+			<xs:maxLength value="50"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="StringLength1to10">
+		<xs:annotation>
+			<xs:documentation>Used for string restriction up to 10 characters.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1"/>
+			<xs:maxLength value="10"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="VehicleTransmissionSimpleType">
+		<xs:annotation>
+			<xs:documentation>The VehicleTransmissionSimpleType simple type defines a set of valid values for the transmission type of a vehicle.  The valid values are automatic and manual.  Use of this attribute can help in describing a vehicle.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:NMTOKEN">
+			<xs:enumeration value="AUTOMATIC"/>
+			<xs:enumeration value="MANUAL"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="YesNo">
+		<xs:annotation>
+			<xs:documentation>Used for 'Y' or 'N' values.</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:NMTOKEN">
+			<xs:enumeration value="Y"/>
+			<xs:enumeration value="N"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="YYYYMMDDDate">
+		<xs:annotation>
+			<xs:documentation>Used to indicate a date in the hotelbeds system. The format is (YYYYMMDD).</xs:documentation>
+		</xs:annotation>
+		<xs:restriction base="xs:string">
+			<xs:pattern value="((19[0-9]{2}|20[0-9]{2})((09|04|06|11)((0[1-9])|(1[0-9])|(2[0-9])|30)|(02((0[1-9])|(1[0-9])|(2[0-9]))|((01|03|05|07|08|10|12)((0[1-9])|(1[0-9])|(2[0-9])|30|31)))))"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>

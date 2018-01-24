@@ -1,0 +1,147 @@
+<CancelProtectionAddRS xmlns="http://www.hotelbeds.com/schemas/2005/06/messages" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.hotelbeds.com/schemas/2005/06/messages CancelProtectionAddRS.xsd" echoToken="String">
+	<AuditData>
+		<ProcessTime>141</ProcessTime>
+		<Timestamp>2007-01-09 12:57:33.252</Timestamp>
+		<RequestHost>10.0.0.182</RequestHost>
+		<ServerName>ITINTERNET08</ServerName>
+		<ServerId>LO</ServerId>
+		<SchemaRelease>2005/06</SchemaRelease>
+		<HydraCoreRelease>2.0.200701021600</HydraCoreRelease>
+		<HydraEnumerationsRelease>1.0.200701021600</HydraEnumerationsRelease>
+		<MerlinRelease>N/A</MerlinRelease>
+	</AuditData>
+	<Purchase purchaseToken="12094159051" timeToExpiration="1768154">
+		<Status>SHOPPING_CART</Status>
+		<Agency>
+			<Code>30543</Code>
+			<Branch>1</Branch>
+		</Agency>
+		<Language>CAS</Language>
+		<ServiceList>
+			<Service xsi:type="ServiceHotel" SPUI="1#H#1">
+				<Status>NEW</Status>
+				<ContractList>
+					<Contract>
+						<Name>CGM-VARIOS</Name>
+						<IncomingOffice code="1"/>
+					</Contract>
+				</ContractList>
+				<Supplier name="HOTELBEDS SPAIN S.L.U." vatNumber="B28916765"/>
+				<DateFrom date="20070509"/>
+				<DateTo date="20070512"/>
+				<Currency code="EUR">Euro</Currency>
+				<TotalAmount>62.430</TotalAmount>
+				<AdditionalCostList>
+					<AdditionalCost type="AG_COMMISSION">
+						<Price>
+							<Amount>8.740</Amount>
+						</Price>
+					</AdditionalCost>
+					<AdditionalCost type="COMMISSION_VAT">
+						<Price>
+							<Amount>1.400</Amount>
+						</Price>
+					</AdditionalCost>
+				</AdditionalCostList>
+				<ModificationPolicyList>
+					<ModificationPolicy>Cancellation</ModificationPolicy>
+					<ModificationPolicy>Confirmation</ModificationPolicy>
+					<ModificationPolicy>Modification</ModificationPolicy>
+				</ModificationPolicyList>
+				<HotelInfo xsi:type="ProductHotel">
+					<Code>3813</Code>
+					<Name>Africamar</Name>
+					<Category type="SIMPLE" code="APTH3">APARTHOTEL 3*</Category>
+					<Destination type="SIMPLE" code="PMI">
+						<Name>Mallorca</Name>
+						<ZoneList>
+							<Zone type="SIMPLE" code="39">Ca&apos;n Picafort</Zone>
+						</ZoneList>
+					</Destination>
+				</HotelInfo>
+				<AvailableRoom>
+					<HotelOccupancy>
+						<RoomCount>1</RoomCount>
+						<Occupancy>
+							<AdultCount>2</AdultCount>
+							<ChildCount>0</ChildCount>
+							<GuestList>
+								<Customer type="AD">
+									<CustomerId>1</CustomerId>
+									<Age>30</Age>
+								</Customer>
+								<Customer type="AD">
+									<CustomerId>2</CustomerId>
+									<Age>30</Age>
+								</Customer>
+							</GuestList>
+						</Occupancy>
+					</HotelOccupancy>
+					<HotelRoom SHRUI="GKFtRfK31G7Jtiox6EZ9Pg==" availCount="1" status="NEW">
+						<Board type="SIMPLE" code="SA-E10">SOLO ALOJAMIENTO</Board>
+						<RoomType type="SIMPLE" code="DBL-E10" characteristic="ST">DOBLE</RoomType>
+						<Price>
+							<Amount>62.430</Amount>
+						</Price>
+						<CancellationPolicy>
+							<Price>
+								<Amount>20.810</Amount>
+								<DateTimeFrom date="20070507" time="0000"/>
+								<DateTimeTo date="20070509"/>
+							</Price>
+						</CancellationPolicy>
+					</HotelRoom>
+				</AvailableRoom>
+			</Service>
+		</ServiceList>
+		<CancelProtection>
+			<Status>NEW</Status>
+			<Price>
+				<Amount>5.500</Amount>
+			</Price>
+			<ModificationPolicyList>
+				<ModificationPolicy>Cancellation</ModificationPolicy>
+				<ModificationPolicy>Confirmation</ModificationPolicy>
+			</ModificationPolicyList>
+			<CancellationPolicy>
+				<Price>
+					<Amount>5.500</Amount>
+					<DateTimeFrom date="20070309"/>
+					<DateTimeTo date="20070509"/>
+				</Price>
+			</CancellationPolicy>
+			<CommentList>
+				<Comment type="CONTRACT">Si necesita anular la reserva debe llamar al 902 24 02 03 e indicar nuestro n&#250;mero de p&#243;liza:  1/26/5237758
+
+Documentaci&#243;n necesaria para reclarmar el reembolso: 
+1- Carta del asegurado a Intermundial explicando lo sucedido 
+2- Bono de viaje donde se refleje la contrataci&#243;n del seguro o confirmaci&#243;n de la reserva con el precio total. 
+3- Factura de los gastos de anulaci&#243;n facilitados por la agencia. 
+4- Toda documentaci&#243;n que acredite la causa justificada para la anulaci&#243;n del viaje: certificado m&#233;dico, de defunci&#243;n, denuncia en comisar&#237;a, comunicado de despido, etc,...
+
+Los documentos aportados se enviar&#225;n a:
+
+Intermundial Seguros
+Ir&#250;n, 7
+28008- Madrid
+
+o a siniestros@intermundial.es
+</Comment>
+			</CommentList>
+			<AdditionalCostList>
+				<AdditionalCost type="AG_COMMISSION">
+					<Price>
+						<Amount>0.603</Amount>
+					</Price>
+				</AdditionalCost>
+				<AdditionalCost type="COMMISSION_VAT">
+					<Price>
+						<Amount>0.097</Amount>
+					</Price>
+				</AdditionalCost>
+			</AdditionalCostList>
+		</CancelProtection>
+		<Currency code="EUR"/>
+		<TotalPrice>67.930</TotalPrice>
+	</Purchase>
+</CancelProtectionAddRS>

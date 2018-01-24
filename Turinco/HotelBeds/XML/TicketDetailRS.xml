@@ -1,0 +1,156 @@
+<TicketDetailRS xmlns="http://www.hotelbeds.com/schemas/2005/06/messages" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.hotelbeds.com/schemas/2005/06/messages TicketDetailRS.xsd" echoToken="String">
+	<AuditData>
+		<ProcessTime>25</ProcessTime>
+		<Timestamp>2007-03-09 10:02:55.316</Timestamp>
+		<RequestHost>172.22.136.5</RequestHost>
+		<ServerName>LIVE</ServerName>
+		<ServerId>12</ServerId>
+		<SchemaRelease>2005/06</SchemaRelease>
+		<HydraCoreRelease>2.0.200701021600</HydraCoreRelease>
+		<HydraEnumerationsRelease>1.0.200701021600</HydraEnumerationsRelease>
+		<MerlinRelease>N/A</MerlinRelease>
+	</AuditData>
+	<Ticket xsi:type="ProductTicket">
+		<Code>55</Code>
+		<Name>Bus tur&#237;sitico por Palma</Name>
+		<DescriptionList>
+			<Description type="TICKET" languageCode="CAS">El tour m&#225;s completo e informativo para visitar Palma de Mallorca, con una frecuencia de autobuses cada 20 minutos. El ticket es v&#225;lido durante 24 horas y permite subir y bajar del autob&#250;s en cualquier parada. El sistema de audio multiling&#252;e le proporciona un fascinante y detallado comentario del tour en multiples idiomas.
+El tour consta de 16 paradas: 1.Almudauna (Pl. Reina) - c/ Conquistador, 2. Plaza Juan Carlos I, 3. La Rambla, 4. Plaza de Espa&#241;a, 5. Avenida Alejandro Rossell&#243;, 6. Avenida Gabriel Alomar y Villalonga (Porta des Camp), 7. Muelle Comercial, 8. Paseo Mar&#237;timo (Los Molinos), 9. Pueblo Espa&#241;ol, 10. Castillo de Bellver, 11. Plaza Gomila, 12. Avenida Joan Mir&#243; (frente Centro Comercial Porto P&#237;), 13. Estaci&#243;n Mar&#237;tima, 14. Avenida Gabriel Roca (frente Auditorium), 15. Plaza Puerta de santa Catalina (Es Baluard) y 16. Avenida Jaime III.</Description>
+		</DescriptionList>
+		<ImageList>
+			<Image>
+				<Type>TIC</Type>
+				<Order>1</Order>
+				<VisualizationOrder>1</VisualizationOrder>
+				<Url>00055/bus_1</Url>
+			</Image>
+			<Image>
+				<Type>TIC</Type>
+				<Order>2</Order>
+				<VisualizationOrder>2</VisualizationOrder>
+				<Url>00055/bus_2</Url>
+			</Image>
+			<Image>
+				<Type>TIC</Type>
+				<Order>3</Order>
+				<VisualizationOrder>3</VisualizationOrder>
+				<Url>00055/bus_3</Url>
+			</Image>
+		</ImageList>
+		<Destination type="SIMPLE" code="PMI">
+			<Name>Mallorca</Name>
+		</Destination>
+		<TicketFeature xsi:type="ProductFeatureGroup" group="1">
+			<Code>1</Code>
+			<Name>Lugar</Name>
+			<FeatureList>
+				<Feature xsi:type="ProductFeatureData" group="1">
+					<Code>1</Code>
+					<Name>Pa&#237;s</Name>
+					<Description>Espa&#241;a</Description>
+				</Feature>
+				<Feature xsi:type="ProductFeatureData" group="1">
+					<Code>2</Code>
+					<Name>Zona o regi&#243;n</Name>
+					<Description>Islas Baleares</Description>
+				</Feature>
+				<Feature xsi:type="ProductFeatureData" group="1">
+					<Code>3</Code>
+					<Name>Ciudad</Name>
+					<Description>Palma de Mallorca (Mallorca)</Description>
+				</Feature>
+			</FeatureList>
+		</TicketFeature>
+		<TicketFeature xsi:type="ProductFeatureGroup" group="2">
+			<Code>2</Code>
+			<Name>Duraci&#243;n</Name>
+			<FeatureList>
+				<Feature xsi:type="ProductFeatureData" group="2">
+					<Code>1</Code>
+					<Name>Horas y minutos</Name>
+					<Description>1hora y 15 minutos (aproximadamente)</Description>
+				</Feature>
+				<Feature xsi:type="ProductFeatureData" group="2">
+					<Code>3</Code>
+					<Name>Hora de inicio o apertura</Name>
+					<Description>Invierno: 10:00h, Primavera-Oto&#241;o: 10:00h y Verano: 09:30h.</Description>
+				</Feature>
+				<Feature xsi:type="ProductFeatureData" group="2">
+					<Code>4</Code>
+					<Name>Hora final o cierre</Name>
+					<Description>Invierno: 18:00h, Primavera-Oto&#241;o: 20:00h y Verano: 22:00h.</Description>
+				</Feature>
+			</FeatureList>
+		</TicketFeature>
+		<TicketFeature xsi:type="ProductFeatureGroup" group="3">
+			<Code>3</Code>
+			<Name>Participantes</Name>
+			<FeatureList>
+				<Feature xsi:type="ProductFeatureData" group="3">
+					<Code>1</Code>
+					<Name>N&#250;mero m&#225;ximo</Name>
+					<Description>50 personas</Description>
+				</Feature>
+			</FeatureList>
+		</TicketFeature>
+		<TicketFeature xsi:type="ProductFeatureGroup" group="5">
+			<Code>5</Code>
+			<Name>Gu&#237;as y personal</Name>
+			<FeatureList>
+				<Feature xsi:type="ProductFeatureData" group="5">
+					<Code>3</Code>
+					<Name>&#191;Hay gu&#237;as de audio o folletos?&#191;En qu&#233; idiomas?</Name>
+					<Description>S&#237;, en Castellano, Ingl&#233;s, Franc&#233;s, Alem&#225;n, Italiano, Portugu&#233;s, Japon&#233;s y Ruso.
+</Description>
+				</Feature>
+				<Feature xsi:type="ProductFeatureData" group="5">
+					<Code>5</Code>
+					<Name>&#191;Est&#225;n preparados para dar primeros auxilios?</Name>
+					<Description>No</Description>
+				</Feature>
+				<Feature xsi:type="ProductFeatureData" group="5">
+					<Code>6</Code>
+					<Name>&#191;Alg&#250;n tipo adicional de acompa&#241;ante?&#191;Cu&#225;l?</Name>
+					<Description>No</Description>
+				</Feature>
+			</FeatureList>
+		</TicketFeature>
+		<TicketFeature xsi:type="ProductFeatureGroup" group="12">
+			<Code>12</Code>
+			<Name>Condici&#243;n f&#237;sica</Name>
+			<FeatureList>
+				<Feature xsi:type="ProductFeatureData" group="12">
+					<Code>2</Code>
+					<Name>&#191;Tienen problemas de acceso las personas con movilidad reducida? (al veh&#237;culo, al restaurante,...)</Name>
+					<Description>S&#237;</Description>
+				</Feature>
+				<Feature xsi:type="ProductFeatureData" group="12">
+					<Code>3</Code>
+					<Name>&#191;Es realizable con silla de ruedas?</Name>
+					<Description>No</Description>
+				</Feature>
+			</FeatureList>
+		</TicketFeature>
+		<TicketFeature xsi:type="ProductFeatureGroup" group="13">
+			<Code>13</Code>
+			<Name>Restricciones</Name>
+			<FeatureList>
+				<Feature xsi:type="ProductFeatureData" group="13">
+					<Code>1</Code>
+					<Name>Impedimentos o costes para usar c&#225;maras de fotos o de v&#237;deo</Name>
+					<Description>No</Description>
+				</Feature>
+				<Feature xsi:type="ProductFeatureData" group="13">
+					<Code>2</Code>
+					<Name>&#191;Existen costes adicionales para el cliente? Listarlos</Name>
+					<Description>No</Description>
+				</Feature>
+				<Feature xsi:type="ProductFeatureData" group="13">
+					<Code>4</Code>
+					<Name>&#191;Cu&#225;les son las divisas aceptadas?</Name>
+					<Description>Euros</Description>
+				</Feature>
+			</FeatureList>
+		</TicketFeature>
+	</Ticket>
+</TicketDetailRS>

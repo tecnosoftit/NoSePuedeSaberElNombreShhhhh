@@ -1,0 +1,1590 @@
+<HotelValuedAvailRS xmlns="http://www.hotelbeds.com/schemas/2005/06/messages" xmlns:xsi="http://www.w3.org/2001/XMLSchemainstance" xsi:schemaLocation="http://www.hotelbeds.com/schemas/2005/06/messages HotelValuedAvailRS.xsd" timeToExpiration="1799559" totalItems="326" echoToken="DummyEchoToken">
+	<AuditData>
+		<ProcessTime>1016</ProcessTime>
+		<Timestamp>2007-01-09 16:08:56.263</Timestamp>
+		<RequestHost>10.0.0.182</RequestHost>
+		<ServerName>ITINTERNET08</ServerName>
+		<ServerId>LO</ServerId>
+		<SchemaRelease>2005/06</SchemaRelease>
+		<HydraCoreRelease>2.0.200701021600</HydraCoreRelease>
+		<HydraEnumerationsRelease>1.0.200701021600</HydraEnumerationsRelease>
+		<MerlinRelease>N/A</MerlinRelease>
+	</AuditData>
+	<PaginationData currentPage="1" totalPages="17"/>
+	<ServiceHotel xsi:type="ServiceHotel" availToken="gSPgFZmXOz/wKAXjNFfUdQ==">
+		<ContractList>
+			<Contract>
+				<Name>CGMVARIOS</Name>
+				<IncomingOffice code="1"/>
+				<Classification code="NOR">STANDARD PRICING</Classification>
+			</Contract>
+		</ContractList>
+		<DateFrom date="20071022"/>
+		<DateTo date="20071024"/>
+		<Currency code="EUR">Euro</Currency>
+		<HotelInfo xsi:type="ProductHotel">
+			<Code>76</Code>
+			<Name>Bendinat</Name>
+			<ImageList>
+				<Image>
+					<Type>JPG</Type>
+					<Order>1</Order>
+					<VisualizationOrder>1</VisualizationOrder>
+					<Url>http://www.hotelbeds.com/giata/small/old/MALLORCA/BENDINAT/BENDINATHOT.JPG</Url>
+				</Image>
+				<Image>
+					<Type>jpg</Type>
+					<Order>2</Order>
+					<VisualizationOrder>2</VisualizationOrder>
+					<Url>http://www.hotelbeds.com/giata/small/036157/036157_hb_r_002.jpg</Url>
+				</Image>
+			</ImageList>
+			<Category type="SIMPLE" code="4EST" shortname="4*">4 STARS</Category>
+			<Destination type="SIMPLE" code="PMI">
+				<Name>Majorca</Name>
+				<ZoneList>
+					<Zone type="SIMPLE" code="25">Bendinat</Zone>
+				</ZoneList>
+			</Destination>
+			<Position latitude="39.53240000000000264890" longitude="2.58029999999999981597"/>
+		</HotelInfo>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="x/Sef0dn9jkzCPIf9cUSFg==" onRequest="N">
+				<Board type="SIMPLE" code="HDE10" shortname="BB">BED AND BREAKFAST</Board>
+				<RoomType type="SIMPLE" code="DBLE10" characteristic="ST">DOUBLE/ TWIN STANDARD</RoomType>
+				<Price>
+					<Amount>324.420</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="oHg5WNV+X9WNc7hVjb96FQ==" onRequest="N">
+				<Board type="SIMPLE" code="HDE10" shortname="BB">BED AND BREAKFAST</Board>
+				<RoomType type="SIMPLE" code="JSUE10" characteristic="ST">JUNIOR SUITE STANDARD</RoomType>
+				<Price>
+					<Amount>356.860</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="iWQ9UwBipkWWfT9mPwqROA==" onRequest="N">
+				<Board type="SIMPLE" code="HDE10" shortname="BB">BED AND BREAKFAST</Board>
+				<RoomType type="SIMPLE" code="BUNE10" characteristic="ST">BUNGALOW STANDARD</RoomType>
+				<Price>
+					<Amount>389.320</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="4TR92Wxq676Ou3ljVIrGXg==" onRequest="N">
+				<Board type="SIMPLE" code="MPE10" shortname="HB">HALF BOARD</Board>
+				<RoomType type="SIMPLE" code="DBLE10" characteristic="ST">DOUBLE/ TWIN STANDARD</RoomType>
+				<Price>
+					<Amount>470.420</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="YBqpzlwubLW+CTG9fdzIow==" onRequest="N">
+				<Board type="SIMPLE" code="MPE10" shortname="HB">HALF BOARD</Board>
+				<RoomType type="SIMPLE" code="JSUE10" characteristic="ST">JUNIOR SUITE STANDARD</RoomType>
+				<Price>
+					<Amount>502.860</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="LnBRpdPBffNgsuXZHZPcvw==" onRequest="N">
+				<Board type="SIMPLE" code="MPE10" shortname="HB">HALF BOARD</Board>
+				<RoomType type="SIMPLE" code="BUNE10" characteristic="ST">BUNGALOW STANDARD</RoomType>
+				<Price>
+					<Amount>535.320</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+	</ServiceHotel>
+	<ServiceHotel xsi:type="ServiceHotel" availToken="gSPgFZmXOz/wKAXjNFfUdQ==">
+		<ContractList>
+			<Contract>
+				<Name>CGMNACIO</Name>
+				<IncomingOffice code="1"/>
+				<Classification code="NOR">STANDARD PRICING</Classification>
+			</Contract>
+		</ContractList>
+		<DateFrom date="20071022"/>
+		<DateTo date="20071024"/>
+		<Currency code="EUR">Euro</Currency>
+		<HotelInfo xsi:type="ProductHotel">
+			<Code>77</Code>
+			<Name>Barcelo Albatros</Name>
+			<ImageList>
+				<Image>
+					<Type>jpg</Type>
+					<Order>1</Order>
+					<VisualizationOrder>1</VisualizationOrder>
+					<Url>http://www.hotelbeds.com/giata/small/003373/003373_hb_a_001.jpg</Url>
+				</Image>
+				<Image>
+					<Type>jpg</Type>
+					<Order>2</Order>
+					<VisualizationOrder>2</VisualizationOrder>
+					<Url>http://www.hotelbeds.com/giata/small/003373/003373_hb_a_003.jpg</Url>
+				</Image>
+			</ImageList>
+			<Category type="SIMPLE" code="4EST" shortname="4*">4 STARS</Category>
+			<Destination type="SIMPLE" code="PMI">
+				<Name>Majorca</Name>
+				<ZoneList>
+					<Zone type="SIMPLE" code="89">Illetas</Zone>
+				</ZoneList>
+			</Destination>
+			<Position latitude="39.54310000000000258069" longitude="2.59410000000000007248"/>
+		</HotelInfo>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="O4i+abUaQM+ohkvxTXOihQ==" onRequest="N">
+				<Board type="SIMPLE" code="MPE10" shortname="HB">HALF BOARD</Board>
+				<RoomType type="SIMPLE" code="DBLE10" characteristic="ST">DOUBLE/ TWIN STANDARD</RoomType>
+				<Price>
+					<Amount>213.560</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="O4i+abUaQM+ohkvxTXOihQ==" onRequest="N">
+				<Board type="SIMPLE" code="MPE10" shortname="HB">HALF BOARD</Board>
+				<RoomType type="SIMPLE" code="DBLE10" characteristic="SU">DOUBLE/ TWIN SUPERIOR</RoomType>
+				<Price>
+					<Amount>332.520</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+	</ServiceHotel>
+	<ServiceHotel xsi:type="ServiceHotel" availToken="gSPgFZmXOz/wKAXjNFfUdQ==">
+		<ContractList>
+			<Contract>
+				<Name>CGM VARIOS</Name>
+				<IncomingOffice code="1"/>
+				<Classification code="NOR">STANDARD PRICING</Classification>
+			</Contract>
+		</ContractList>
+		<DateFrom date="20071022"/>
+		<DateTo date="20071024"/>
+		<Currency code="EUR">Euro</Currency>
+		<HotelInfo xsi:type="ProductHotel">
+			<Code>168</Code>
+			<Name>Husa Zenith</Name>
+			<ImageList>
+				<Image>
+					<Type>jpg</Type>
+					<Order>1</Order>
+					<VisualizationOrder>1</VisualizationOrder>
+					<Url>http://www.hotelbeds.com/giata/small/003267/003267_hb_a_003.jpg</Url>
+				</Image>
+				<Image>
+					<Type>jpg</Type>
+					<Order>2</Order>
+					<VisualizationOrder>2</VisualizationOrder>
+					<Url>http://www.hotelbeds.com/giata/small/003267/003267_hb_l_002.jpg</Url>
+				</Image>
+			</ImageList>
+			<Category type="SIMPLE" code="3EST" shortname="3*">3 STARS</Category>
+			<Destination type="SIMPLE" code="PMI">
+				<Name>Majorca</Name>
+				<ZoneList>
+					<Zone type="SIMPLE" code="86">Cala Mayor</Zone>
+				</ZoneList>
+			</Destination>
+			<Position latitude="39.55239999999999866986" longitude="2.61100000000000020961"/>
+		</HotelInfo>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="8HLM3FmI4lUhjltcJKMMrA==" onRequest="N">
+				<Board type="SIMPLE" code="HDE10" shortname="BB">BED AND BREAKFAST</Board>
+				<RoomType type="SIMPLE" code="DBLE10" characteristic="ST">DOUBLE/ TWIN STANDARD</RoomType>
+				<Price>
+					<Amount>102.740</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+	</ServiceHotel>
+	<ServiceHotel xsi:type="ServiceHotel" availToken="gSPgFZmXOz/wKAXjNFfUdQ==">
+		<ContractList>
+			<Contract>
+				<Name>CGMVARIOS</Name>
+				<IncomingOffice code="1"/>
+				<Classification code="NOR">STANDARD PRICING</Classification>
+			</Contract>
+		</ContractList>
+		<DateFrom date="20071022"/>
+		<DateTo date="20071024"/>
+		<Currency code="EUR">Euro</Currency>
+		<HotelInfo xsi:type="ProductHotel">
+			<Code>218</Code>
+			<Name>Playa Esperanza</Name>
+			<ImageList>
+				<Image>
+					<Type>jpg</Type>
+					<Order>1</Order>
+					<VisualizationOrder>1</VisualizationOrder>
+					<Url>http://www.hotelbeds.com/giata/small/000218/000218a_hb_a_003.jpg</Url>
+				</Image>
+				<Image>
+					<Type>jpg</Type>
+					<Order>2</Order>
+					<VisualizationOrder>2</VisualizationOrder>
+					<Url>http://www.hotelbeds.com/giata/small/000218/000218a_hb_s_005.jpg</Url>
+				</Image>
+			</ImageList>
+			<Category type="SIMPLE" code="4EST" shortname="4*">4 STARS</Category>
+			<Destination type="SIMPLE" code="PMI">
+				<Name>Majorca</Name>
+				<ZoneList>
+					<Zone type="SIMPLE" code="76">Playa de Muro</Zone>
+				</ZoneList>
+			</Destination>
+			<Position latitude="39.81110000000000326281" longitude="3.11549999999999993605"/>
+		</HotelInfo>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="kzP8et74XLgOjrGmS/K4lA==" onRequest="N">
+				<Board type="SIMPLE" code="MPE10" shortname="HB">HALF BOARD</Board>
+				<RoomType type="SIMPLE" code="DBLE10" characteristic="ST">DOUBLE/ TWIN STANDARD</RoomType>
+				<Price>
+					<Amount>199.000</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+	</ServiceHotel>
+	<ServiceHotel xsi:type="ServiceHotel" availToken="gSPgFZmXOz/wKAXjNFfUdQ==">
+		<ContractList>
+			<Contract>
+				<Name>CGMVARIOS</Name>
+				<IncomingOffice code="1"/>
+				<Classification code="NOR">STANDARD PRICING</Classification>
+			</Contract>
+		</ContractList>
+		<DateFrom date="20071022"/>
+		<DateTo date="20071024"/>
+		<Currency code="EUR">Euro</Currency>
+		<HotelInfo xsi:type="ProductHotel">
+			<Code>260</Code>
+			<Name>Orleans / Orleans Garden</Name>
+			<ImageList>
+				<Image>
+					<Type>JPG</Type>
+					<Order>1</Order>
+					<VisualizationOrder>1</VisualizationOrder>
+					<Url>http://www.hotelbeds.com/giata/small/old/MALLORCA/ORLEANS/ORLEANSHOT.JPG</Url>
+				</Image>
+				<Image>
+					<Type>JPG</Type>
+					<Order>2</Order>
+					<VisualizationOrder>2</VisualizationOrder>
+					<Url>http://www.hotelbeds.com/giata/small/old/MALLORCA/ORLEANS/ORLEANSPISCINA.JPG</Url>
+				</Image>
+			</ImageList>
+			<Category type="SIMPLE" code="3EST" shortname="3*">3 STARS</Category>
+			<Destination type="SIMPLE" code="PMI">
+				<Name>Majorca</Name>
+				<ZoneList>
+					<Zone type="SIMPLE" code="74">Ca'n Pastilla</Zone>
+				</ZoneList>
+			</Destination>
+			<Position latitude="39.53560000000000229647" longitude="2.71130000000000004334"/>
+		</HotelInfo>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="NTLH4AXYX7WCN3Bm0hiPtw==" onRequest="N">
+				<Board type="SIMPLE" code="HDE10" shortname="BB">BED AND BREAKFAST</Board>
+				<RoomType type="SIMPLE" code="DBLE10" characteristic="ST">DOUBLE/ TWIN STANDARD</RoomType>
+				<Price>
+					<Amount>84.920</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="2dPc3OZ86Y/4w22DTa5uIQ==" onRequest="N">
+				<Board type="SIMPLE" code="MPE10" shortname="HB">HALF BOARD</Board>
+				<RoomType type="SIMPLE" code="DBLE10" characteristic="ST">DOUBLE/ TWIN STANDARD</RoomType>
+				<Price>
+					<Amount>95.720</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="L3bWCBu40oOZlRp9/fz5Ng==" onRequest="N">
+				<Board type="SIMPLE" code="PCE10" shortname="FB">FULL BOARD</Board>
+				<RoomType type="SIMPLE" code="DBLE10" characteristic="ST">DOUBLE/ TWIN STANDARD</RoomType>
+				<Price>
+					<Amount>115.200</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+	</ServiceHotel>
+	<ServiceHotel xsi:type="ServiceHotel" availToken="gSPgFZmXOz/wKAXjNFfUdQ==">
+		<ContractList>
+			<Contract>
+				<Name>CGMVARIOS</Name>
+				<IncomingOffice code="1"/>
+				<Classification code="NOR">STANDARD PRICING</Classification>
+			</Contract>
+		</ContractList>
+		<DateFrom date="20071022"/>
+		<DateTo date="20071024"/>
+		<Currency code="EUR">Euro</Currency>
+		<HotelInfo xsi:type="ProductHotel">
+			<Code>262</Code>
+			<Name>Mediodia</Name>
+			<ImageList>
+				<Image>
+					<Type>jpg</Type>
+					<Order>1</Order>
+					<VisualizationOrder>1</VisualizationOrder>
+					<Url>http://www.hotelbeds.com/giata/small/003338/003338_hb_a_004.jpg</Url>
+				</Image>
+				<Image>
+					<Type>jpg</Type>
+					<Order>2</Order>
+					<VisualizationOrder>2</VisualizationOrder>
+					<Url>http://www.hotelbeds.com/giata/small/003338/003338_hb_w_001.jpg</Url>
+				</Image>
+			</ImageList>
+			<Category type="SIMPLE" code="3EST" shortname="3*">3 STARS</Category>
+			<Destination type="SIMPLE" code="PMI">
+				<Name>Majorca</Name>
+				<ZoneList>
+					<Zone type="SIMPLE" code="75">El Arenal</Zone>
+				</ZoneList>
+			</Destination>
+			<Position latitude="39.50198999999999927013" longitude="2.75617000000000000881"/>
+		</HotelInfo>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="W/ONtSIZg0KzL6n+iCMs/g==" onRequest="N">
+				<Board type="SIMPLE" code="MPE10" shortname="HB">HALF BOARD</Board>
+				<RoomType type="SIMPLE" code="DBLE10" characteristic="VT">DOUBLE/ TWIN WITH WINDOW</RoomType>
+				<Price>
+					<Amount>67.600</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="W/ONtSIZg0KzL6n+iCMs/g==" onRequest="N">
+				<Board type="SIMPLE" code="MPE10" shortname="HB">HALF BOARD</Board>
+				<RoomType type="SIMPLE" code="DBLE10" characteristic="ST">DOUBLE/ TWIN STANDARD</RoomType>
+				<Price>
+					<Amount>73.000</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+	</ServiceHotel>
+	<ServiceHotel xsi:type="ServiceHotel" availToken="gSPgFZmXOz/wKAXjNFfUdQ==">
+		<ContractList>
+			<Contract>
+				<Name>CGMVARIOS</Name>
+				<IncomingOffice code="1"/>
+				<Classification code="NOR">STANDARD PRICING</Classification>
+			</Contract>
+		</ContractList>
+		<DateFrom date="20071022"/>
+		<DateTo date="20071024"/>
+		<Currency code="EUR">Euro</Currency>
+		<HotelInfo xsi:type="ProductHotel">
+			<Code>263</Code>
+			<Name>Cala Viñas</Name>
+			<ImageList>
+				<Image>
+					<Type>JPG</Type>
+					<Order>1</Order>
+					<VisualizationOrder>1</VisualizationOrder>
+					<Url>http://www.hotelbeds.com/giata/small/old/MALLORCA/CALAVINAS/CALAVINAS.JPG</Url>
+				</Image>
+				<Image>
+					<Type>jpg</Type>
+					<Order>2</Order>
+					<VisualizationOrder>2</VisualizationOrder>
+					<Url>http://www.hotelbeds.com/giata/small/003237/003237_hb_s_003.jpg</Url>
+				</Image>
+			</ImageList>
+			<Category type="SIMPLE" code="4EST" shortname="4*">4 STARS</Category>
+			<Destination type="SIMPLE" code="PMI">
+				<Name>Majorca</Name>
+				<ZoneList>
+					<Zone type="SIMPLE" code="33">Cala Viñas</Zone>
+				</ZoneList>
+			</Destination>
+			<Position latitude="39.49159999999999826059" longitude="2.53540000000000009805"/>
+		</HotelInfo>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="mLbWhbZSecfx9Az5JpdoJw==" onRequest="N">
+				<Board type="SIMPLE" code="MPE10" shortname="HB">HALF BOARD</Board>
+				<RoomType type="SIMPLE" code="DBLE10" characteristic="ST">DOUBLE/ TWIN STANDARD</RoomType>
+				<Price>
+					<Amount>178.640</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="nXHEx124LWnF0FdSZDiBHg==" onRequest="N">
+				<Board type="SIMPLE" code="TIE10" shortname="AI">ALL INCLUSIVE</Board>
+				<RoomType type="SIMPLE" code="DBLE10" characteristic="ST">DOUBLE/ TWIN STANDARD</RoomType>
+				<Price>
+					<Amount>243.520</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+	</ServiceHotel>
+	<ServiceHotel xsi:type="ServiceHotel" availToken="gSPgFZmXOz/wKAXjNFfUdQ==">
+		<ContractList>
+			<Contract>
+				<Name>CGMVARIOS</Name>
+				<IncomingOffice code="1"/>
+				<Classification code="NOR">STANDARD PRICING</Classification>
+			</Contract>
+		</ContractList>
+		<DateFrom date="20071022"/>
+		<DateTo date="20071024"/>
+		<Currency code="EUR">Euro</Currency>
+		<HotelInfo xsi:type="ProductHotel">
+			<Code>265</Code>
+			<Name>Hm Jaime III</Name>
+			<ImageList>
+				<Image>
+					<Type>jpg</Type>
+					<Order>1</Order>
+					<VisualizationOrder>1</VisualizationOrder>
+					<Url>http://www.hotelbeds.com/giata/small/000265/000265a_hb_a_001.jpg</Url>
+				</Image>
+				<Image>
+					<Type>jpg</Type>
+					<Order>2</Order>
+					<VisualizationOrder>2</VisualizationOrder>
+					<Url>http://www.hotelbeds.com/giata/small/000265/000265a_hb_w_002.jpg</Url>
+				</Image>
+			</ImageList>
+			<Category type="SIMPLE" code="4EST" shortname="4*">4 STARS</Category>
+			<Destination type="SIMPLE" code="PMI">
+				<Name>Majorca</Name>
+				<ZoneList>
+					<Zone type="SIMPLE" code="10">Palma</Zone>
+				</ZoneList>
+			</Destination>
+			<Position latitude="39.57350000000000278533" longitude="2.64320000000000021600"/>
+		</HotelInfo>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="6txB5JEy4VMijyEhxB8K2w==" onRequest="N">
+				<Board type="SIMPLE" code="SHE10" shortname="RO">ROOM ONLY</Board>
+				<RoomType type="SIMPLE" code="DBLE10" characteristic="ST">DOUBLE/ TWIN STANDARD</RoomType>
+				<Price>
+					<Amount>297.380</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="Ou0oos8YOyjNyhzSYMRk2Q==" onRequest="N">
+				<Board type="SIMPLE" code="HDE10" shortname="BB">BED AND BREAKFAST</Board>
+				<RoomType type="SIMPLE" code="DBLE10" characteristic="ST">DOUBLE/ TWIN STANDARD</RoomType>
+				<Price>
+					<Amount>346.060</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+	</ServiceHotel>
+	<ServiceHotel xsi:type="ServiceHotel" availToken="gSPgFZmXOz/wKAXjNFfUdQ==">
+		<ContractList>
+			<Contract>
+				<Name>CGMNACIO</Name>
+				<IncomingOffice code="1"/>
+				<Classification code="NOR">STANDARD PRICING</Classification>
+			</Contract>
+		</ContractList>
+		<DateFrom date="20071022"/>
+		<DateTo date="20071024"/>
+		<Currency code="EUR">Euro</Currency>
+		<HotelInfo xsi:type="ProductHotel">
+			<Code>299</Code>
+			<Name>Barcelo Flamingo</Name>
+			<ImageList>
+				<Image>
+					<Type>jpg</Type>
+					<Order>1</Order>
+					<VisualizationOrder>1</VisualizationOrder>
+					<Url>http://www.hotelbeds.com/giata/small/003465/003465_hb_lu_001.jpg</Url>
+				</Image>
+				<Image>
+					<Type>jpg</Type>
+					<Order>2</Order>
+					<VisualizationOrder>2</VisualizationOrder>
+					<Url>http://www.hotelbeds.com/giata/small/003465/003465_hb_p_003.jpg</Url>
+				</Image>
+			</ImageList>
+			<Category type="SIMPLE" code="4EST" shortname="4*">4 STARS</Category>
+			<Destination type="SIMPLE" code="PMI">
+				<Name>Majorca</Name>
+				<ZoneList>
+					<Zone type="SIMPLE" code="20">Playa de Palma</Zone>
+				</ZoneList>
+			</Destination>
+			<Position latitude="39.51619999999999777174" longitude="2.74759999999999982023"/>
+		</HotelInfo>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="6HMXGhWcdkYUm0V4CQ2uQw==" onRequest="N">
+				<Board type="SIMPLE" code="MPE10" shortname="HB">HALF BOARD</Board>
+				<RoomType type="SIMPLE" code="DBLE10" characteristic="ST">DOUBLE/ TWIN STANDARD</RoomType>
+				<Price>
+					<Amount>200.080</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+	</ServiceHotel>
+	<ServiceHotel xsi:type="ServiceHotel" availToken="gSPgFZmXOz/wKAXjNFfUdQ==">
+		<ContractList>
+			<Contract>
+				<Name>CGMVARIOS</Name>
+				<IncomingOffice code="1"/>
+				<Classification code="NOR">STANDARD PRICING</Classification>
+			</Contract>
+		</ContractList>
+		<DateFrom date="20071022"/>
+		<DateTo date="20071024"/>
+		<Currency code="EUR">Euro</Currency>
+		<HotelInfo xsi:type="ProductHotel">
+			<Code>300</Code>
+			<Name>Jardin del Mar</Name>
+			<ImageList>
+				<Image>
+					<Type>jpg</Type>
+					<Order>1</Order>
+					<VisualizationOrder>1</VisualizationOrder>
+					<Url>http://www.hotelbeds.com/giata/small/003543/003543_hb_lu_002.jpg</Url>
+				</Image>
+				<Image>
+					<Type>jpg</Type>
+					<Order>2</Order>
+					<VisualizationOrder>2</VisualizationOrder>
+					<Url>http://www.hotelbeds.com/giata/small/003543/003543_hb_p_004.jpg</Url>
+				</Image>
+			</ImageList>
+			<Category type="SIMPLE" code="3EST" shortname="3*">3 STARS</Category>
+			<Destination type="SIMPLE" code="PMI">
+				<Name>Majorca</Name>
+				<ZoneList>
+					<Zone type="SIMPLE" code="31">Santa Ponsa</Zone>
+				</ZoneList>
+			</Destination>
+			<Position latitude="39.52219999999999799911" longitude="2.46980000000000021743"/>
+		</HotelInfo>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="PXvgG/METQyPrI+5NcGksA==" onRequest="N">
+				<Board type="SIMPLE" code="SAE10" shortname="SC">SELF CATERING</Board>
+				<RoomType type="SIMPLE" code="A1DE10" characteristic="LAVM">APARTMENT (1 BEDROOM) WITH SIDE SEA VIEW</RoomType>
+				<Price>
+					<Amount>106.820</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="PXvgG/METQyPrI+5NcGksA==" onRequest="N">
+				<Board type="SIMPLE" code="SAE10" shortname="SC">SELF CATERING</Board>
+				<RoomType type="SIMPLE" code="A1DE10" characteristic="FRVM">APARTMENT (1 BEDROOM) FRONTAL VIEWWITH SEA VIEW</RoomType>
+				<Price>
+					<Amount>122.080</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="ETgKqi0bvGGW7rgHHx3Pqw==" onRequest="N">
+				<Board type="SIMPLE" code="HDE10" shortname="BB">BED AND BREAKFAST</Board>
+				<RoomType type="SIMPLE" code="A1DE10" characteristic="LAVM">APARTMENT (1 BEDROOM) WITH SIDE SEA VIEW</RoomType>
+				<Price>
+					<Amount>137.340</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="ETgKqi0bvGGW7rgHHx3Pqw==" onRequest="N">
+				<Board type="SIMPLE" code="HDE10" shortname="BB">BED AND BREAKFAST</Board>
+				<RoomType type="SIMPLE" code="A1DE10" characteristic="FRVM">APARTMENT (1 BEDROOM) FRONTAL VIEWWITH SEA VIEW</RoomType>
+				<Price>
+					<Amount>152.600</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="lzrdMdF8LAiPekdNBw6hhg==" onRequest="N">
+				<Board type="SIMPLE" code="MPE10" shortname="HB">HALF BOARD</Board>
+				<RoomType type="SIMPLE" code="A1DE10" characteristic="LAVM">APARTMENT (1 BEDROOM) WITH SIDE SEA VIEW</RoomType>
+				<Price>
+					<Amount>167.860</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="lzrdMdF8LAiPekdNBw6hhg==" onRequest="N">
+				<Board type="SIMPLE" code="MPE10" shortname="HB">HALF BOARD</Board>
+				<RoomType type="SIMPLE" code="A1DE10" characteristic="FRVM">APARTMENT (1 BEDROOM) FRONTAL VIEWWITH SEA VIEW</RoomType>
+				<Price>
+					<Amount>183.120</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="u0CQISQ/aVZXMHdSAbTq7w==" onRequest="N">
+				<Board type="SIMPLE" code="PCE10" shortname="FB">FULL BOARD</Board>
+				<RoomType type="SIMPLE" code="A1DE10" characteristic="LAVM">APARTMENT (1 BEDROOM) WITH SIDE SEA VIEW</RoomType>
+				<Price>
+					<Amount>184.500</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="u0CQISQ/aVZXMHdSAbTq7w==" onRequest="N">
+				<Board type="SIMPLE" code="PCE10" shortname="FB">FULL BOARD</Board>
+				<RoomType type="SIMPLE" code="A1DE10" characteristic="FRVM">APARTMENT (1 BEDROOM) FRONTAL VIEWWITH SEA VIEW</RoomType>
+				<Price>
+					<Amount>199.760</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+	</ServiceHotel>
+	<ServiceHotel xsi:type="ServiceHotel" availToken="gSPgFZmXOz/wKAXjNFfUdQ==">
+		<ContractList>
+			<Contract>
+				<Name>CGMVARIOS</Name>
+				<IncomingOffice code="1"/>
+				<Classification code="NOR">STANDARD PRICING</Classification>
+			</Contract>
+		</ContractList>
+		<DateFrom date="20071022"/>
+		<DateTo date="20071024"/>
+		<Currency code="EUR">Euro</Currency>
+		<HotelInfo xsi:type="ProductHotel">
+			<Code>303</Code>
+			<Name>Honolulu</Name>
+			<ImageList>
+				<Image>
+					<Type>jpg</Type>
+					<Order>1</Order>
+					<VisualizationOrder>1</VisualizationOrder>
+					<Url>http://www.hotelbeds.com/giata/small/014366/014366_hb_p_002.jpg</Url>
+				</Image>
+				<Image>
+					<Type>jpg</Type>
+					<Order>2</Order>
+					<VisualizationOrder>2</VisualizationOrder>
+					<Url>http://www.hotelbeds.com/giata/small/014366/014366_hb_w_001.jpg</Url>
+				</Image>
+			</ImageList>
+			<Category type="SIMPLE" code="3EST" shortname="3*">3 STARS</Category>
+			<Destination type="SIMPLE" code="PMI">
+				<Name>Majorca</Name>
+				<ZoneList>
+					<Zone type="SIMPLE" code="30">Magaluf</Zone>
+				</ZoneList>
+			</Destination>
+			<Position latitude="39.52579999999999671445" longitude="2.54009999999999980247"/>
+		</HotelInfo>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="GFIOoPCE5F74Pbf5QVCQ3w==" onRequest="N">
+				<Board type="SIMPLE" code="TIE10" shortname="AI">ALL INCLUSIVE</Board>
+				<RoomType type="SIMPLE" code="DBLE10" characteristic="ST">DOUBLE/ TWIN STANDARD</RoomType>
+				<Price>
+					<Amount>190.320</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+	</ServiceHotel>
+	<ServiceHotel xsi:type="ServiceHotel" availToken="gSPgFZmXOz/wKAXjNFfUdQ==">
+		<ContractList>
+			<Contract>
+				<Name>CGMVARIOS</Name>
+				<IncomingOffice code="1"/>
+				<Classification code="NOR">STANDARD PRICING</Classification>
+			</Contract>
+		</ContractList>
+		<DateFrom date="20071022"/>
+		<DateTo date="20071024"/>
+		<Currency code="EUR">Euro</Currency>
+		<HotelInfo xsi:type="ProductHotel">
+			<Code>307</Code>
+			<Name>Blau Punta Reina Club</Name>
+			<ImageList>
+				<Image>
+					<Type>jpg</Type>
+					<Order>1</Order>
+					<VisualizationOrder>1</VisualizationOrder>
+					<Url>http://www.hotelbeds.com/giata/small/000307/000307a_hb_ls_001.jpg</Url>
+				</Image>
+				<Image>
+					<Type>jpg</Type>
+					<Order>2</Order>
+					<VisualizationOrder>2</VisualizationOrder>
+					<Url>http://www.hotelbeds.com/giata/small/000307/000307a_hb_w_002.jpg</Url>
+				</Image>
+			</ImageList>
+			<Category type="SIMPLE" code="3EST" shortname="3*">3 STARS</Category>
+			<Destination type="SIMPLE" code="PMI">
+				<Name>Majorca</Name>
+				<ZoneList>
+					<Zone type="SIMPLE" code="71">Cala Mandia</Zone>
+				</ZoneList>
+			</Destination>
+			<Position latitude="0.00000000000000000000" longitude="0.00000000000000000000"/>
+		</HotelInfo>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="CJketdFBgSx41xMQ+FbrVw==" onRequest="N">
+				<Board type="SIMPLE" code="SAE10" shortname="SC">SELF CATERING</Board>
+				<RoomType type="SIMPLE" code="A1DE10" characteristic="ST">APARTMENT (1 BEDROOM) STANDARD</RoomType>
+				<Price>
+					<Amount>120.700</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="NSnvtvkvfWSywnm0EYV1oQ==" onRequest="N">
+				<Board type="SIMPLE" code="MPE10" shortname="HB">HALF BOARD</Board>
+				<RoomType type="SIMPLE" code="A1DE10" characteristic="ST">APARTMENT (1 BEDROOM) STANDARD</RoomType>
+				<Price>
+					<Amount>220.580</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="CrUmNgWp3YvbPr7d9tBdwQ==" onRequest="N">
+				<Board type="SIMPLE" code="PCE10" shortname="FB">FULL BOARD</Board>
+				<RoomType type="SIMPLE" code="A1DE10" characteristic="ST">APARTMENT (1 BEDROOM) STANDARD</RoomType>
+				<Price>
+					<Amount>256.660</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="Sw+FvZkAvgyr7srrWz52NQ==" onRequest="N">
+				<Board type="SIMPLE" code="TIE10" shortname="AI">ALL INCLUSIVE</Board>
+				<RoomType type="SIMPLE" code="A1DE10" characteristic="ST">APARTMENT (1 BEDROOM) STANDARD</RoomType>
+				<Price>
+					<Amount>298.260</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+	</ServiceHotel>
+	<ServiceHotel xsi:type="ServiceHotel" availToken="gSPgFZmXOz/wKAXjNFfUdQ==">
+		<ContractList>
+			<Contract>
+				<Name>CGMVARIOS1</Name>
+				<IncomingOffice code="1"/>
+				<Classification code="NOR">STANDARD PRICING</Classification>
+			</Contract>
+		</ContractList>
+		<DateFrom date="20071022"/>
+		<DateTo date="20071024"/>
+		<Currency code="EUR">Euro</Currency>
+		<HotelInfo xsi:type="ProductHotel">
+			<Code>307</Code>
+			<Name>Blau Punta Reina Club</Name>
+			<ImageList>
+				<Image>
+					<Type>jpg</Type>
+					<Order>1</Order>
+					<VisualizationOrder>1</VisualizationOrder>
+					<Url>http://www.hotelbeds.com/giata/small/000307/000307a_hb_ls_001.jpg</Url>
+				</Image>
+				<Image>
+					<Type>jpg</Type>
+					<Order>2</Order>
+					<VisualizationOrder>2</VisualizationOrder>
+					<Url>http://www.hotelbeds.com/giata/small/000307/000307a_hb_w_002.jpg</Url>
+				</Image>
+			</ImageList>
+			<Category type="SIMPLE" code="3EST" shortname="3*">3 STARS</Category>
+			<Destination type="SIMPLE" code="PMI">
+				<Name>Majorca</Name>
+				<ZoneList>
+					<Zone type="SIMPLE" code="71">Cala Mandia</Zone>
+				</ZoneList>
+			</Destination>
+			<Position latitude="0.00000000000000000000" longitude="0.00000000000000000000"/>
+		</HotelInfo>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="ExFc+VzSr+eE4zjhMOnrqA==" onRequest="N">
+				<Board type="SIMPLE" code="MPE10" shortname="HB">HALF BOARD</Board>
+				<RoomType type="SIMPLE" code="DBLE10" characteristic="ST">DOUBLE/ TWIN STANDARD</RoomType>
+				<Price>
+					<Amount>148.700</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="AFA9YGFi07/5ENdsouf5GQ==" onRequest="N">
+				<Board type="SIMPLE" code="PCE10" shortname="FB">FULL BOARD</Board>
+				<RoomType type="SIMPLE" code="DBLE10" characteristic="ST">DOUBLE/ TWIN STANDARD</RoomType>
+				<Price>
+					<Amount>183.860</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="6+VJxcQX71E4Vz1/lO/zCw==" onRequest="N">
+				<Board type="SIMPLE" code="TIE10" shortname="AI">ALL INCLUSIVE</Board>
+				<RoomType type="SIMPLE" code="DBLE10" characteristic="ST">DOUBLE/ TWIN STANDARD</RoomType>
+				<Price>
+					<Amount>224.380</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+	</ServiceHotel>
+	<ServiceHotel xsi:type="ServiceHotel" availToken="gSPgFZmXOz/wKAXjNFfUdQ==">
+		<ContractList>
+			<Contract>
+				<Name>CGMINGLES</Name>
+				<IncomingOffice code="1"/>
+				<Classification code="NOR">STANDARD PRICING</Classification>
+			</Contract>
+		</ContractList>
+		<DateFrom date="20071022"/>
+		<DateTo date="20071024"/>
+		<Currency code="EUR">Euro</Currency>
+		<HotelInfo xsi:type="ProductHotel">
+			<Code>308</Code>
+			<Name>Pionero/Santa Ponsa Park</Name>
+			<ImageList>
+				<Image>
+					<Type>jpg</Type>
+					<Order>1</Order>
+					<VisualizationOrder>1</VisualizationOrder>
+					<Url>http://www.hotelbeds.com/giata/small/000308/000308a_hb_a_001.jpg</Url>
+				</Image>
+				<Image>
+					<Type>jpg</Type>
+					<Order>2</Order>
+					<VisualizationOrder>2</VisualizationOrder>
+					<Url>http://www.hotelbeds.com/giata/small/000308/000308a_hb_w_002.jpg</Url>
+				</Image>
+			</ImageList>
+			<Category type="SIMPLE" code="3EST" shortname="3*">3 STARS</Category>
+			<Destination type="SIMPLE" code="PMI">
+				<Name>Majorca</Name>
+				<ZoneList>
+					<Zone type="SIMPLE" code="31">Santa Ponsa</Zone>
+				</ZoneList>
+			</Destination>
+			<Position latitude="39.51740000000000208047" longitude="2.48459999999999991971"/>
+		</HotelInfo>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="HZ0teJEKsC+LXNYLdL0sMw==" onRequest="N">
+				<Board type="SIMPLE" code="HDE10" shortname="BB">BED AND BREAKFAST</Board>
+				<RoomType type="SIMPLE" code="DBLE10" characteristic="ST">DOUBLE/ TWIN STANDARD</RoomType>
+				<Price>
+					<Amount>139.400</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="kc/BtnChefpwUXTy9ZhNpA==" onRequest="N">
+				<Board type="SIMPLE" code="MPE10" shortname="HB">HALF BOARD</Board>
+				<RoomType type="SIMPLE" code="DBLE10" characteristic="ST">DOUBLE/ TWIN STANDARD</RoomType>
+				<Price>
+					<Amount>168.040</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="2CAyH6U97V3tuiszqBa4qQ==" onRequest="N">
+				<Board type="SIMPLE" code="TIE10" shortname="AI">ALL INCLUSIVE</Board>
+				<RoomType type="SIMPLE" code="DBLE10" characteristic="ST">DOUBLE/ TWIN STANDARD</RoomType>
+				<Price>
+					<Amount>249.160</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+	</ServiceHotel>
+	<ServiceHotel xsi:type="ServiceHotel" availToken="gSPgFZmXOz/wKAXjNFfUdQ==">
+		<ContractList>
+			<Contract>
+				<Name>OFEVARIOS</Name>
+				<IncomingOffice code="1"/>
+				<Classification code="SPE">SPECIAL OFFER</Classification>
+			</Contract>
+		</ContractList>
+		<DateFrom date="20071022"/>
+		<DateTo date="20071024"/>
+		<Currency code="EUR">Euro</Currency>
+		<HotelInfo xsi:type="ProductHotel">
+			<Code>310</Code>
+			<Name>Don Bigote</Name>
+			<ImageList>
+				<Image>
+					<Type>JPG</Type>
+					<Order>1</Order>
+					<VisualizationOrder>1</VisualizationOrder>
+					<Url>http://www.hotelbeds.com/giata/small/old/MALLORCA/DON_BIGOTE/DONBIGOTEHOTEL.JPG</Url>
+				</Image>
+				<Image>
+					<Type>JPG</Type>
+					<Order>2</Order>
+					<VisualizationOrder>2</VisualizationOrder>
+					<Url>http://www.hotelbeds.com/giata/small/old/MALLORCA/DON_BIGOTE/DONBIGOTEHAB.JPG</Url>
+				</Image>
+			</ImageList>
+			<Category type="SIMPLE" code="2EST" shortname="2*">2 STARS</Category>
+			<Destination type="SIMPLE" code="PMI">
+				<Name>Majorca</Name>
+				<ZoneList>
+					<Zone type="SIMPLE" code="29">Palmanova</Zone>
+				</ZoneList>
+			</Destination>
+			<Position latitude="39.51950000000000073896" longitude="2.53270000000000017337"/>
+		</HotelInfo>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="oUE6PeDpV4aS+HURMdwS+A==" onRequest="N">
+				<Board type="SIMPLE" code="MPE10" shortname="HB">HALF BOARD</Board>
+				<RoomType type="SIMPLE" code="DBLE10" characteristic="ST">DOUBLE/ TWIN STANDARD</RoomType>
+				<Price>
+					<Amount>67.600</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+	</ServiceHotel>
+	<ServiceHotel xsi:type="ServiceHotel" availToken="gSPgFZmXOz/wKAXjNFfUdQ==">
+		<ContractList>
+			<Contract>
+				<Name>CGMVARIOS</Name>
+				<IncomingOffice code="1"/>
+				<Classification code="NOR">STANDARD PRICING</Classification>
+			</Contract>
+		</ContractList>
+		<DateFrom date="20071022"/>
+		<DateTo date="20071024"/>
+		<Currency code="EUR">Euro</Currency>
+		<HotelInfo xsi:type="ProductHotel">
+			<Code>310</Code>
+			<Name>Don Bigote</Name>
+			<ImageList>
+				<Image>
+					<Type>JPG</Type>
+					<Order>1</Order>
+					<VisualizationOrder>1</VisualizationOrder>
+					<Url>http://www.hotelbeds.com/giata/small/old/MALLORCA/DON_BIGOTE/DONBIGOTEHOTEL.JPG</Url>
+				</Image>
+				<Image>
+					<Type>JPG</Type>
+					<Order>2</Order>
+					<VisualizationOrder>2</VisualizationOrder>
+					<Url>http://www.hotelbeds.com/giata/small/old/MALLORCA/DON_BIGOTE/DONBIGOTEHAB.JPG</Url>
+				</Image>
+			</ImageList>
+			<Category type="SIMPLE" code="2EST" shortname="2*">2 STARS</Category>
+			<Destination type="SIMPLE" code="PMI">
+				<Name>Majorca</Name>
+				<ZoneList>
+					<Zone type="SIMPLE" code="29">Palmanova</Zone>
+				</ZoneList>
+			</Destination>
+			<Position latitude="39.51950000000000073896" longitude="2.53270000000000017337"/>
+		</HotelInfo>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="oUE6PeDpV4aS+HURMdwS+A==" onRequest="N">
+				<Board type="SIMPLE" code="MPE10" shortname="HB">HALF BOARD</Board>
+				<RoomType type="SIMPLE" code="DBLE10" characteristic="ST">DOUBLE/ TWIN STANDARD</RoomType>
+				<Price>
+					<Amount>98.580</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+	</ServiceHotel>
+	<ServiceHotel xsi:type="ServiceHotel" availToken="gSPgFZmXOz/wKAXjNFfUdQ==">
+		<ContractList>
+			<Contract>
+				<Name>CGMVARIOS</Name>
+				<IncomingOffice code="1"/>
+				<Classification code="NOR">STANDARD PRICING</Classification>
+			</Contract>
+		</ContractList>
+		<DateFrom date="20071022"/>
+		<DateTo date="20071024"/>
+		<Currency code="EUR">Euro</Currency>
+		<HotelInfo xsi:type="ProductHotel">
+			<Code>311</Code>
+			<Name>Luna Park</Name>
+			<ImageList>
+				<Image>
+					<Type>jpg</Type>
+					<Order>1</Order>
+					<VisualizationOrder>1</VisualizationOrder>
+					<Url>http://www.hotelbeds.com/giata/small/003334/003334_hb_p_002.jpg</Url>
+				</Image>
+				<Image>
+					<Type>jpg</Type>
+					<Order>2</Order>
+					<VisualizationOrder>2</VisualizationOrder>
+					<Url>http://www.hotelbeds.com/giata/small/003334/003334_hb_w_001.jpg</Url>
+				</Image>
+			</ImageList>
+			<Category type="SIMPLE" code="3EST" shortname="3*">3 STARS</Category>
+			<Destination type="SIMPLE" code="PMI">
+				<Name>Majorca</Name>
+				<ZoneList>
+					<Zone type="SIMPLE" code="75">El Arenal</Zone>
+				</ZoneList>
+			</Destination>
+			<Position latitude="0.00000000000000000000" longitude="0.00000000000000000000"/>
+		</HotelInfo>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="KoWNq7aA/XhwCF+/gNcMyg==" onRequest="N">
+				<Board type="SIMPLE" code="TIE10" shortname="AI">ALL INCLUSIVE</Board>
+				<RoomType type="SIMPLE" code="DBLE10" characteristic="AC">DOUBLE/ TWIN WITH AIR CONDITIONING</RoomType>
+				<Price>
+					<Amount>116.240</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+	</ServiceHotel>
+	<ServiceHotel xsi:type="ServiceHotel" availToken="gSPgFZmXOz/wKAXjNFfUdQ==">
+		<ContractList>
+			<Contract>
+				<Name>CGMVARIOS1</Name>
+				<IncomingOffice code="1"/>
+				<Classification code="NOR">STANDARD PRICING</Classification>
+			</Contract>
+		</ContractList>
+		<DateFrom date="20071022"/>
+		<DateTo date="20071024"/>
+		<Currency code="EUR">Euro</Currency>
+		<HotelInfo xsi:type="ProductHotel">
+			<Code>314</Code>
+			<Name>El Encinar</Name>
+			<ImageList>
+				<Image>
+					<Type>jpg</Type>
+					<Order>1</Order>
+					<VisualizationOrder>1</VisualizationOrder>
+					<Url>http://www.hotelbeds.com/giata/small/000314/000314a_hb_a_001.jpg</Url>
+				</Image>
+				<Image>
+					<Type>jpg</Type>
+					<Order>2</Order>
+					<VisualizationOrder>2</VisualizationOrder>
+					<Url>http://www.hotelbeds.com/giata/small/000314/000314a_hb_w_002.jpg</Url>
+				</Image>
+			</ImageList>
+			<Category type="SIMPLE" code="3EST" shortname="3*">3 STARS</Category>
+			<Destination type="SIMPLE" code="PMI">
+				<Name>Majorca</Name>
+				<ZoneList>
+					<Zone type="SIMPLE" code="34">Valldemosa</Zone>
+				</ZoneList>
+			</Destination>
+			<Position latitude="0.00000000000000000000" longitude="0.00000000000000000000"/>
+		</HotelInfo>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="O3/ZHFGY8U+SfdHSQYnqYg==" onRequest="N">
+				<Board type="SIMPLE" code="SHE10" shortname="RO">ROOM ONLY</Board>
+				<RoomType type="SIMPLE" code="DBLE10" characteristic="ST">DOUBLE/ TWIN STANDARD</RoomType>
+				<Price>
+					<Amount>150.040</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="Y3n/R6aym4ifpYZL0pm8Ww==" onRequest="N">
+				<Board type="SIMPLE" code="HDE10" shortname="BB">BED AND BREAKFAST</Board>
+				<RoomType type="SIMPLE" code="DBLE10" characteristic="ST">DOUBLE/ TWIN STANDARD</RoomType>
+				<Price>
+					<Amount>182.480</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="PxjNioFbjS9E+7K1yeITnw==" onRequest="N">
+				<Board type="SIMPLE" code="CEE10" shortname="DI">DINNER</Board>
+				<RoomType type="SIMPLE" code="DBLE10" characteristic="ST">DOUBLE/ TWIN STANDARD</RoomType>
+				<Price>
+					<Amount>214.920</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="56RlO3qMHt9cRqrRZtQwlg==" onRequest="N">
+				<Board type="SIMPLE" code="MPE10" shortname="HB">HALF BOARD</Board>
+				<RoomType type="SIMPLE" code="DBLE10" characteristic="ST">DOUBLE/ TWIN STANDARD</RoomType>
+				<Price>
+					<Amount>247.360</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+	</ServiceHotel>
+	<ServiceHotel xsi:type="ServiceHotel" availToken="gSPgFZmXOz/wKAXjNFfUdQ==">
+		<ContractList>
+			<Contract>
+				<Name>CGMVARIOS</Name>
+				<IncomingOffice code="1"/>
+				<Classification code="NOR">STANDARD PRICING</Classification>
+			</Contract>
+		</ContractList>
+		<DateFrom date="20071022"/>
+		<DateTo date="20071024"/>
+		<Currency code="EUR">Euro</Currency>
+		<HotelInfo xsi:type="ProductHotel">
+			<Code>314</Code>
+			<Name>El Encinar</Name>
+			<ImageList>
+				<Image>
+					<Type>jpg</Type>
+					<Order>1</Order>
+					<VisualizationOrder>1</VisualizationOrder>
+					<Url>http://www.hotelbeds.com/giata/small/000314/000314a_hb_a_001.jpg</Url>
+				</Image>
+				<Image>
+					<Type>jpg</Type>
+					<Order>2</Order>
+					<VisualizationOrder>2</VisualizationOrder>
+					<Url>http://www.hotelbeds.com/giata/small/000314/000314a_hb_w_002.jpg</Url>
+				</Image>
+			</ImageList>
+			<Category type="SIMPLE" code="3EST" shortname="3*">3 STARS</Category>
+			<Destination type="SIMPLE" code="PMI">
+				<Name>Majorca</Name>
+				<ZoneList>
+					<Zone type="SIMPLE" code="34">Valldemosa</Zone>
+				</ZoneList>
+			</Destination>
+			<Position latitude="0.00000000000000000000" longitude="0.00000000000000000000"/>
+		</HotelInfo>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="FIXNI8owSoQ5LWX/jjTMwA==" onRequest="N">
+				<Board type="SIMPLE" code="SAE10" shortname="SC">SELF CATERING</Board>
+				<RoomType type="SIMPLE" code="A1DE10" characteristic="ST">APARTMENT (1 BEDROOM) STANDARD</RoomType>
+				<Price>
+					<Amount>174.800</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="gvSPv8Dy4pVQYphu6iW0og==" onRequest="N">
+				<Board type="SIMPLE" code="HDE10" shortname="BB">BED AND BREAKFAST</Board>
+				<RoomType type="SIMPLE" code="A1DE10" characteristic="ST">APARTMENT (1 BEDROOM) STANDARD</RoomType>
+				<Price>
+					<Amount>208.080</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="2dzcFKdRBYksPCEJe65Lww==" onRequest="N">
+				<Board type="SIMPLE" code="CEE10" shortname="DI">DINNER</Board>
+				<RoomType type="SIMPLE" code="A1DE10" characteristic="ST">APARTMENT (1 BEDROOM) STANDARD</RoomType>
+				<Price>
+					<Amount>241.400</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="iSwpbO0YhHYw/mZwmc0M3g==" onRequest="N">
+				<Board type="SIMPLE" code="MPE10" shortname="HB">HALF BOARD</Board>
+				<RoomType type="SIMPLE" code="A1DE10" characteristic="ST">APARTMENT (1 BEDROOM) STANDARD</RoomType>
+				<Price>
+					<Amount>274.680</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+	</ServiceHotel>
+	<ServiceHotel xsi:type="ServiceHotel" availToken="gSPgFZmXOz/wKAXjNFfUdQ==">
+		<ContractList>
+			<Contract>
+				<Name>CGMVARIO</Name>
+				<IncomingOffice code="1"/>
+				<Classification code="NOR">STANDARD PRICING</Classification>
+			</Contract>
+		</ContractList>
+		<DateFrom date="20071022"/>
+		<DateTo date="20071024"/>
+		<Currency code="EUR">Euro</Currency>
+		<HotelInfo xsi:type="ProductHotel">
+			<Code>316</Code>
+			<Name>San Diego</Name>
+			<ImageList>
+				<Image>
+					<Type>jpg</Type>
+					<Order>1</Order>
+					<VisualizationOrder>1</VisualizationOrder>
+					<Url>http://www.hotelbeds.com/giata/small/003354/003354_hb_a_004.jpg</Url>
+				</Image>
+				<Image>
+					<Type>jpg</Type>
+					<Order>2</Order>
+					<VisualizationOrder>2</VisualizationOrder>
+					<Url>http://www.hotelbeds.com/giata/small/003354/003354_hb_w_002.jpg</Url>
+				</Image>
+			</ImageList>
+			<Category type="SIMPLE" code="3EST" shortname="3*">3 STARS</Category>
+			<Destination type="SIMPLE" code="PMI">
+				<Name>Majorca</Name>
+				<ZoneList>
+					<Zone type="SIMPLE" code="75">El Arenal</Zone>
+				</ZoneList>
+			</Destination>
+			<Position latitude="0.00000000000000000000" longitude="0.00000000000000000000"/>
+		</HotelInfo>
+		<AvailableRoom>
+			<HotelOccupancy>
+				<RoomCount>1</RoomCount>
+				<Occupancy>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+				</Occupancy>
+			</HotelOccupancy>
+			<HotelRoom SHRUI="wTxTpxiuIFdmyaeWKCcaVw==" onRequest="N">
+				<Board type="SIMPLE" code="MPE10" shortname="HB">HALF BOARD</Board>
+				<RoomType type="SIMPLE" code="DBLE10" characteristic="AC">DOUBLE/ TWIN WITH AIR CONDITIONING</RoomType>
+				<Price>
+					<Amount>110.840</Amount>
+				</Price>
+			</HotelRoom>
+		</AvailableRoom>
+	</ServiceHotel>
+</HotelValuedAvailRS>

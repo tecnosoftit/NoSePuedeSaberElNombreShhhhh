@@ -1,0 +1,93 @@
+<TicketValuationRS xmlns="http://www.hotelbeds.com/schemas/2005/06/messages" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.hotelbeds.com/schemas/2005/06/messages TicketValuationRS.xsd" echoToken="String">
+	<AuditData>
+		<ProcessTime>142</ProcessTime>
+		<Timestamp>2007-03-09 10:02:55.463</Timestamp>
+		<RequestHost>172.22.136.5</RequestHost>
+		<ServerName>LIVE</ServerName>
+		<ServerId>12</ServerId>
+		<SchemaRelease>2005/06</SchemaRelease>
+		<HydraCoreRelease>2.0.200701021600</HydraCoreRelease>
+		<HydraEnumerationsRelease>1.0.200701021600</HydraEnumerationsRelease>
+		<MerlinRelease>N/A</MerlinRelease>
+	</AuditData>
+	<ServiceTicket xsi:type="ServiceTicket" SPUI="1#O#1">
+		<Status>NEW</Status>
+		<ContractList>
+			<Contract>
+				<Name>CITYSIGHT 07-2</Name>
+				<IncomingOffice code="1"/>
+			</Contract>
+		</ContractList>
+		<Supplier name="UNKNOWN" vatNumber="UNKNOWN"/>
+		<CommentList>
+			<Comment type="CONTRACT">El cliente puede canjear el bono a la subida en el Bus Tur&#237;stico Palma Citysightseeing.
+El tour se inicia en la parada de La Almudaina, pero el cliente puede iniciar la vuelta desde cualquiera de las 16 paradas, la frecuencia aproximada es de 20 minutos, seg&#250;n el siguiente horario: Invierno de 10:00 a 18:00, Primavera y Oto&#241;o de 10:00 a 20:00 y Verano de 09:30 a 22:00.
+La &#250;ltima salida desde La Almudaina y que realiza las paradas del Pueblo Espa&#241;ol  el Castillo de Bellver son las siguientes: Oto&#241;o e Invierno: 16:40, Primavera: 17:40 y Verano: 19:00.</Comment>
+		</CommentList>
+		<DateFrom date="20070309"/>
+		<DateTo date="20070309"/>
+		<Currency code="EUR">Euro</Currency>
+		<TotalAmount>26.000</TotalAmount>
+		<AdditionalCostList>
+			<AdditionalCost type="AG_COMMISSION">
+				<Price>
+					<Amount>3.638</Amount>
+				</Price>
+			</AdditionalCost>
+			<AdditionalCost type="COMMISSION_VAT">
+				<Price>
+					<Amount>0.582</Amount>
+				</Price>
+			</AdditionalCost>
+		</AdditionalCostList>
+		<TicketInfo xsi:type="ProductTicket">
+			<Code>CITYSIGHTS</Code>
+			<Name>Bus Tur&#237;stico</Name>
+			<Destination type="SIMPLE" code="PMI"/>
+			<TicketZone xsi:type="ProductZone"/>
+		</TicketInfo>
+		<AvailableModality code="GENERAL">
+			<Name>Billete General</Name>
+			<Contract>
+				<Name>CITYSIGHT 07-2</Name>
+				<IncomingOffice code="1"/>
+			</Contract>
+			<PriceList>
+				<Price>
+					<Amount>26.000</Amount>
+					<Description>Adults Price</Description>
+				</Price>
+				<Price>
+					<Amount>0.000</Amount>
+					<Description>Babies Price</Description>
+				</Price>
+				<Price>
+					<Amount>0.000</Amount>
+					<Description>Children Price</Description>
+				</Price>
+				<Price>
+					<Amount>26.000</Amount>
+					<Description>Total Price</Description>
+				</Price>
+			</PriceList>
+		</AvailableModality>
+		<Paxes>
+			<AdultCount>2</AdultCount>
+			<ChildCount>0</ChildCount>
+			<GuestList>
+				<Customer type="AD">
+					<Age>40</Age>
+					<Name>Jose</Name>
+					<LastName>Enrique</LastName>
+					<CountryCode>ES</CountryCode>
+				</Customer>
+				<Customer type="AD">
+					<Age>40</Age>
+					<Name>Jose</Name>
+					<LastName>Enrique</LastName>
+					<CountryCode>ES</CountryCode>
+				</Customer>
+			</GuestList>
+		</Paxes>
+	</ServiceTicket>
+</TicketValuationRS>

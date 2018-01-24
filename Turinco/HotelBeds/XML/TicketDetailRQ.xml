@@ -1,0 +1,12 @@
+<TicketDetailRQ availToken="baJNknypviUi+psO68/NDw==" xmlns="http://www.hotelbeds.com/schemas/2005/06/messages" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.hotelbeds.com/schemas/2005/06/messages TicketDetailRQ.xsd">
+	<Language>ENG</Language>
+	<Credentials>
+		<User>TEST</User>
+		<Password>TEST</Password>
+	</Credentials>
+	<TicketCode>CITYSIGHTS</TicketCode>
+	<Contract>
+		<Name>CITYSIGHT 07-2</Name>
+		<IncomingOffice code="1"/>
+	</Contract>
+</TicketDetailRQ>

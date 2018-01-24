@@ -1,0 +1,563 @@
+<HotelDetailRS xmlns="http://www.hotelbeds.com/schemas/2005/06/messages" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.hotelbeds.com/schemas/2005/06/messages HotelDetailRS.xsd" echoToken="DummyEchoToken">
+	<AuditData>
+		<ProcessTime>703</ProcessTime>
+		<Timestamp>2007-01-09 16:01:06.491</Timestamp>
+		<RequestHost>10.0.0.182</RequestHost>
+		<ServerName>ITINTERNET08</ServerName>
+		<ServerId>LO</ServerId>
+		<SchemaRelease>2005/06</SchemaRelease>
+		<HydraCoreRelease>2.0.200701021600</HydraCoreRelease>
+		<HydraEnumerationsRelease>1.0.200701021600</HydraEnumerationsRelease>
+		<MerlinRelease>N/A</MerlinRelease>
+	</AuditData>
+	<Hotel xsi:type="ProductHotel">
+		<Code>52319</Code>
+		<Name>Waikiki Apts.</Name>
+		<DescriptionList>
+			<Description type="HotelDescription" languageCode="ENG" languageName="Ingles">Completely renovated in 2003, this apartment complex consists of 69 apartments. Facilities include foyer with a 24-hour reception desk, a safe, lifts as well as a currency exchange desk, a cosy bar and a cloakroom. Additionally, guests may also use the Internet access for an additional fee as well as a laundry service and medical assistance. Room service is also available and younger guests may participate in the kids&apos; club activities as well as let some steam off in the children&apos;s playground.</Description>
+			<Description type="LocationDescription" languageCode="ENG" languageName="Ingles">This apartment complex lies around 150 m from the sea, with various restaurants, bars, nightclubs as well as shopping opportunities within 200 m. The immediate vicinity also offers convenient links to the public transport network.</Description>
+			<Description type="RoomDescription" languageCode="ENG" languageName="Ingles">The tastefully designed apartments include a combined living room/ bedroom, a bathroom and a separate bedroom. Furthermore, the elegant apartments include satellite/cable TV, a kitchenette with a fridge, heating, a hire safe and a balcony or terrace.</Description>
+			<Description type="SportDescription" languageCode="ENG" languageName="Ingles">There is a swimming pool with a children&apos;s pool in the neighbouring hotel Hawaii Mallorca as well as sun loungers and parasols. There is also a billiard table within the hotel and an entertainment programme is organised for both children and adults. The nearest golf course is 6 km away.</Description>
+		</DescriptionList>
+		<ImageList>
+			<Image>
+				<Type>GEN</Type>
+				<Order>1</Order>
+				<VisualizationOrder>1</VisualizationOrder>
+				<Description>General</Description>
+				<Url>http://www.hotelbeds.com/giata/052319/052319a_hb_a_001.jpg</Url>
+			</Image>
+			<Image>
+				<Type>HAB</Type>
+				<Order>2</Order>
+				<VisualizationOrder>2</VisualizationOrder>
+				<Description>Room</Description>
+				<Url>http://www.hotelbeds.com/giata/052319/052319a_hb_w_002.jpg</Url>
+			</Image>
+			<Image>
+				<Type>PIS</Type>
+				<Order>3</Order>
+				<VisualizationOrder>3</VisualizationOrder>
+				<Description>Pool</Description>
+				<Url>http://www.hotelbeds.com/giata/052319/052319a_hb_p_003.jpg</Url>
+			</Image>
+			<Image>
+				<Type>TER</Type>
+				<Order>4</Order>
+				<VisualizationOrder>4</VisualizationOrder>
+				<Description>Terrace</Description>
+				<Url>http://www.hotelbeds.com/giata/052319/052319a_hb_t_004.jpg</Url>
+			</Image>
+		</ImageList>
+		<Contact>
+			<Address>
+				<StreetTypeId>.</StreetTypeId>
+				<StreetTypeName> </StreetTypeName>
+				<StreetName>Ra. Calle San Miguel De Liria</StreetName>
+				<Number>10</Number>
+				<PostalCode>07181</PostalCode>
+				<City>PALMANOVA</City>
+				<CountryCode>ES</CountryCode>
+			</Address>
+			<EmailList>
+				<Email>hotels@intertur.es</Email>
+			</EmailList>
+			<PhoneList>
+				<ContactNumber type="phoneHotel">971682760</ContactNumber>
+				<ContactNumber type="phoneBooking">971460113</ContactNumber>
+				<ContactNumber type="phoneMang">971460113</ContactNumber>
+			</PhoneList>
+			<FaxList>
+				<ContactNumber>971469018</ContactNumber>
+			</FaxList>
+			<WebList>
+				<Web>www.intertur.es</Web>
+			</WebList>
+		</Contact>
+		<Category type="SIMPLE" code="3LL" shortname="3K">3 KEYS</Category>
+		<Destination type="SIMPLE" code="PMI">
+			<Name>Mallorca</Name>
+			<ZoneList>
+				<Zone type="SIMPLE" code="29">Palmanova</Zone>
+			</ZoneList>
+		</Destination>
+		<FacilityList>
+			<Feature xsi:type="ProductFeatureSport" group="60">
+				<Code>10</Code>
+				<Name>roomFacility</Name>
+				<Description>Bathroom</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureSport" group="60">
+				<Code>20</Code>
+				<Name>roomFacility</Name>
+				<Description>Shower</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureSport" group="60">
+				<Code>30</Code>
+				<Name>roomFacility</Name>
+				<Description>Bath</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureSport" fee="N" group="60">
+				<Code>55</Code>
+				<Name>roomFacility</Name>
+				<Description>TV</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureSport" fee="N" group="60">
+				<Code>60</Code>
+				<Name>roomFacility</Name>
+				<Description>Satellite / Cable TV</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureSport" group="60">
+				<Code>110</Code>
+				<Name>roomFacility</Name>
+				<Description>Kitchenette</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureSport" fee="N" group="60">
+				<Code>130</Code>
+				<Name>roomFacility</Name>
+				<Description>Fridge</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureSport" fee="N" group="60">
+				<Code>143</Code>
+				<Name>roomFacility</Name>
+				<Description>Tea / Coffee facilities</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureSport" fee="N" group="60">
+				<Code>170</Code>
+				<Name>roomFacility</Name>
+				<Description>Central Air-conditioned</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureSport" fee="N" group="60">
+				<Code>180</Code>
+				<Name>roomFacility</Name>
+				<Description>Individual Air-conditioned</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureSport" group="60">
+				<Code>190</Code>
+				<Name>roomFacility</Name>
+				<Description>Central Heating</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureSport" group="60">
+				<Code>195</Code>
+				<Name>roomFacility</Name>
+				<Description>Individual Heating</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureSport" fee="Y" group="60">
+				<Code>200</Code>
+				<Name>roomFacility</Name>
+				<Description>Safe</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureSport" group="60">
+				<Code>220</Code>
+				<Name>roomFacility</Name>
+				<Description>Lounge</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureSport" group="60">
+				<Code>230</Code>
+				<Name>roomFacility</Name>
+				<Description>Balcony</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureService" group="70">
+				<Code>10</Code>
+				<Name>servicesFacility</Name>
+				<Description>Air-conditioned in common areas</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureService" group="70">
+				<Code>20</Code>
+				<Name>servicesFacility</Name>
+				<Description>Reception Area</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureService" group="70">
+				<Code>30</Code>
+				<Name>servicesFacility</Name>
+				<Description>24h. Reception</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureService" fee="N" group="70">
+				<Code>40</Code>
+				<Name>servicesFacility</Name>
+				<Description>Safe</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureService" group="70">
+				<Code>50</Code>
+				<Name>servicesFacility</Name>
+				<Description>Money Exchange</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureService" group="70">
+				<Code>60</Code>
+				<Name>servicesFacility</Name>
+				<Description>Cloakroom</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureService" group="70">
+				<Code>70</Code>
+				<Name>servicesFacility</Name>
+				<Description>Lift-s</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureService" group="70">
+				<Code>130</Code>
+				<Name>servicesFacility</Name>
+				<Description>Bar-s</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureService" group="70">
+				<Code>193</Code>
+				<Name>servicesFacility</Name>
+				<Description>TV room</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureService" fee="N" group="70">
+				<Code>240</Code>
+				<Name>servicesFacility</Name>
+				<Description>Mobile phone network</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureService" fee="Y" group="70">
+				<Code>250</Code>
+				<Name>servicesFacility</Name>
+				<Description>Public internet</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureService" fee="Y" group="70">
+				<Code>280</Code>
+				<Name>servicesFacility</Name>
+				<Description>Laundry Service</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureService" fee="Y" group="70">
+				<Code>290</Code>
+				<Name>servicesFacility</Name>
+				<Description>Medical Service</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureService" fee="N" ageFrom="12" group="70">
+				<Code>340</Code>
+				<Name>servicesFacility</Name>
+				<Description>Mini Club</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureService" fee="N" group="70">
+				<Code>350</Code>
+				<Name>servicesFacility</Name>
+				<Description>Playground</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureService" group="70">
+				<Code>355</Code>
+				<Name>servicesFacility</Name>
+				<Description>Number of pools</Description>
+				<Value>1</Value>
+			</Feature>
+			<Feature xsi:type="ProductFeatureService" fee="N" group="70">
+				<Code>365</Code>
+				<Name>servicesFacility</Name>
+				<Description>Outdoor Pool</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureService" fee="N" group="70">
+				<Code>370</Code>
+				<Name>servicesFacility</Name>
+				<Description>Fresh Water Pool</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureService" fee="N" group="70">
+				<Code>385</Code>
+				<Name>servicesFacility</Name>
+				<Description>Children&apos;s Pool</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureService" fee="N" group="70">
+				<Code>395</Code>
+				<Name>servicesFacility</Name>
+				<Description>Sun loungers</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureService" fee="N" group="70">
+				<Code>400</Code>
+				<Name>servicesFacility</Name>
+				<Description>Parasols</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureSport" group="10">
+				<Code>20</Code>
+				<Name>buildingFacility</Name>
+				<Description>Year of Construction</Description>
+				<Value>1985</Value>
+			</Feature>
+			<Feature xsi:type="ProductFeatureSport" group="10">
+				<Code>30</Code>
+				<Name>buildingFacility</Name>
+				<Description>Last renovated</Description>
+				<Value>2003</Value>
+			</Feature>
+			<Feature xsi:type="ProductFeatureSport" group="10">
+				<Code>50</Code>
+				<Name>buildingFacility</Name>
+				<Description>Number of floors- main building</Description>
+				<Value>4</Value>
+			</Feature>
+			<Feature xsi:type="ProductFeatureSport" group="10">
+				<Code>70</Code>
+				<Name>buildingFacility</Name>
+				<Description>Number of rooms - total</Description>
+				<Value>69</Value>
+			</Feature>
+			<Feature xsi:type="ProductFeatureSport" group="10">
+				<Code>110</Code>
+				<Name>buildingFacility</Name>
+				<Description>Appartments</Description>
+				<Value>69</Value>
+			</Feature>
+			<Feature xsi:type="ProductFeatureSport" group="10">
+				<Code>130</Code>
+				<Name>buildingFacility</Name>
+				<Description>Terrace</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureService" group="20">
+				<Code>20</Code>
+				<Name>hotelTypeFacility</Name>
+				<Description>Beach Hotel</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureService" group="20">
+				<Code>30</Code>
+				<Name>hotelTypeFacility</Name>
+				<Description>Apartment complex</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureService" group="20">
+				<Code>75</Code>
+				<Name>hotelTypeFacility</Name>
+				<Description>Holiday Village</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureService" group="20">
+				<Code>190</Code>
+				<Name>hotelTypeFacility</Name>
+				<Description>Family-Friendly hotel</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureData" group="30">
+				<Code>50</Code>
+				<Name>credCardsFacility</Name>
+				<Description>Mastercard</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureData" group="30">
+				<Code>60</Code>
+				<Name>credCardsFacility</Name>
+				<Description>Visa</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureSport" group="50">
+				<Code>10</Code>
+				<Name>envFacility</Name>
+				<Description>Sandy</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureSport" fee="Y" group="50">
+				<Code>40</Code>
+				<Name>envFacility</Name>
+				<Description>Sun loungers</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureSport" fee="Y" group="50">
+				<Code>50</Code>
+				<Name>envFacility</Name>
+				<Description>Parasols</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureSport" fee="N" group="90">
+				<Code>350</Code>
+				<Name>sportFacility</Name>
+				<Description>Billiards / Snooker</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureSport" fee="N" group="90">
+				<Code>400</Code>
+				<Name>sportFacility</Name>
+				<Description>Entertainment Activities (adults)</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureSport" fee="N" group="90">
+				<Code>405</Code>
+				<Name>sportFacility</Name>
+				<Description>Kids Entertainment</Description>
+			</Feature>
+			<Feature xsi:type="ProductFeatureDistance" group="40">
+				<Code>10</Code>
+				<Name>distancesFacility</Name>
+				<Description>Town centre</Description>
+				<DistanceList>
+					<Distance unit="mts">500</Distance>
+				</DistanceList>
+				<RequiredTimeList>
+					<RequiredTime mean="distanceWalking" unit="min">5</RequiredTime>
+				</RequiredTimeList>
+			</Feature>
+			<Feature xsi:type="ProductFeatureDistance" group="40">
+				<Code>20</Code>
+				<Name>distancesFacility</Name>
+				<Description>Next Big City</Description>
+				<DistanceList>
+					<Distance unit="mts">12000</Distance>
+				</DistanceList>
+				<RequiredTimeList>
+					<RequiredTime mean="distanceTransp" unit="min">20</RequiredTime>
+					<RequiredTime mean="distanceCar" unit="min">20</RequiredTime>
+				</RequiredTimeList>
+			</Feature>
+			<Feature xsi:type="ProductFeatureDistance" group="40">
+				<Code>30</Code>
+				<Name>distancesFacility</Name>
+				<Description>Tourist centre</Description>
+				<DistanceList>
+					<Distance unit="mts">500</Distance>
+				</DistanceList>
+				<RequiredTimeList>
+					<RequiredTime mean="distanceWalking" unit="min">5</RequiredTime>
+				</RequiredTimeList>
+			</Feature>
+			<Feature xsi:type="ProductFeatureDistance" group="40">
+				<Code>40</Code>
+				<Name>distancesFacility</Name>
+				<Description>Beach</Description>
+				<DistanceList>
+					<Distance unit="mts">200</Distance>
+				</DistanceList>
+				<RequiredTimeList>
+					<RequiredTime mean="distanceWalking" unit="min">5</RequiredTime>
+				</RequiredTimeList>
+			</Feature>
+			<Feature xsi:type="ProductFeatureDistance" group="40">
+				<Code>55</Code>
+				<Name>distancesFacility</Name>
+				<Description>Sea</Description>
+				<DistanceList>
+					<Distance unit="mts">150</Distance>
+				</DistanceList>
+				<RequiredTimeList>
+					<RequiredTime mean="distanceWalking" unit="min">5</RequiredTime>
+				</RequiredTimeList>
+			</Feature>
+			<Feature xsi:type="ProductFeatureDistance" group="40">
+				<Code>90</Code>
+				<Name>distancesFacility</Name>
+				<Description>Shopping Facilities</Description>
+				<DistanceList>
+					<Distance unit="mts">200</Distance>
+				</DistanceList>
+				<RequiredTimeList>
+					<RequiredTime mean="distanceWalking" unit="min">5</RequiredTime>
+				</RequiredTimeList>
+			</Feature>
+			<Feature xsi:type="ProductFeatureDistance" group="40">
+				<Code>100</Code>
+				<Name>distancesFacility</Name>
+				<Description>Restaurants</Description>
+				<DistanceList>
+					<Distance unit="mts">200</Distance>
+				</DistanceList>
+				<RequiredTimeList>
+					<RequiredTime mean="distanceWalking" unit="min">5</RequiredTime>
+				</RequiredTimeList>
+			</Feature>
+			<Feature xsi:type="ProductFeatureDistance" group="40">
+				<Code>110</Code>
+				<Name>distancesFacility</Name>
+				<Description>Bars / Pubs</Description>
+				<DistanceList>
+					<Distance unit="mts">200</Distance>
+				</DistanceList>
+				<RequiredTimeList>
+					<RequiredTime mean="distanceWalking" unit="min">5</RequiredTime>
+				</RequiredTimeList>
+			</Feature>
+			<Feature xsi:type="ProductFeatureDistance" group="40">
+				<Code>120</Code>
+				<Name>distancesFacility</Name>
+				<Description>Disco / Clubs</Description>
+				<DistanceList>
+					<Distance unit="mts">200</Distance>
+				</DistanceList>
+				<RequiredTimeList>
+					<RequiredTime mean="distanceWalking" unit="min">5</RequiredTime>
+				</RequiredTimeList>
+			</Feature>
+			<Feature xsi:type="ProductFeatureDistance" group="40">
+				<Code>130</Code>
+				<Name>distancesFacility</Name>
+				<Description>Golf Course</Description>
+				<DistanceList>
+					<Distance unit="mts">6000</Distance>
+				</DistanceList>
+				<RequiredTimeList>
+					<RequiredTime mean="distanceCar" unit="min">15</RequiredTime>
+				</RequiredTimeList>
+			</Feature>
+			<Feature xsi:type="ProductFeatureDistance" group="40">
+				<Code>140</Code>
+				<Name>distancesFacility</Name>
+				<Description>Public Transport</Description>
+				<DistanceList>
+					<Distance unit="mts">200</Distance>
+				</DistanceList>
+				<RequiredTimeList>
+					<RequiredTime mean="distanceWalking" unit="min">5</RequiredTime>
+				</RequiredTimeList>
+			</Feature>
+			<Feature xsi:type="ProductFeatureDistance" group="100">
+				<Code>10</Code>
+				<Name>highLightFacility</Name>
+				<Description>1</Description>
+				<DistanceList>
+					<Distance unit="mts">6000</Distance>
+				</DistanceList>
+				<RequiredTimeList>
+					<RequiredTime mean="distanceCar" unit="min">10</RequiredTime>
+				</RequiredTimeList>
+			</Feature>
+			<Feature xsi:type="ProductFeatureDistance" group="100">
+				<Code>20</Code>
+				<Name>highLightFacility</Name>
+				<Description>2</Description>
+				<DistanceList>
+					<Distance unit="mts">2000</Distance>
+				</DistanceList>
+				<RequiredTimeList>
+					<RequiredTime mean="distanceWalking" unit="min">20</RequiredTime>
+					<RequiredTime mean="distanceCar" unit="min">5</RequiredTime>
+				</RequiredTimeList>
+			</Feature>
+			<Feature xsi:type="ProductFeatureDistance" group="100">
+				<Code>30</Code>
+				<Name>highLightFacility</Name>
+				<Description>3</Description>
+				<DistanceList>
+					<Distance unit="mts">2000</Distance>
+				</DistanceList>
+				<RequiredTimeList>
+					<RequiredTime mean="distanceWalking" unit="min">20</RequiredTime>
+					<RequiredTime mean="distanceCar" unit="min">5</RequiredTime>
+				</RequiredTimeList>
+			</Feature>
+			<Feature xsi:type="ProductFeatureDistance" group="100">
+				<Code>40</Code>
+				<Name>highLightFacility</Name>
+				<Description>4</Description>
+				<DistanceList>
+					<Distance unit="mts">2000</Distance>
+				</DistanceList>
+				<RequiredTimeList>
+					<RequiredTime mean="distanceWalking" unit="min">20</RequiredTime>
+					<RequiredTime mean="distanceCar" unit="min">5</RequiredTime>
+				</RequiredTimeList>
+			</Feature>
+			<Feature xsi:type="ProductFeatureDistance" group="100">
+				<Code>50</Code>
+				<Name>highLightFacility</Name>
+				<Description>5</Description>
+				<DistanceList>
+					<Distance unit="mts">1000</Distance>
+				</DistanceList>
+				<RequiredTimeList>
+					<RequiredTime mean="distanceCar" unit="min">10</RequiredTime>
+				</RequiredTimeList>
+			</Feature>
+			<Feature xsi:type="ProductFeatureDistance" group="40">
+				<Code>PPMI</Code>
+				<Name>airPortDistanceFacility</Name>
+				<Description>PUERTO DE PALMA DE MCA</Description>
+				<DistanceList>
+					<Distance unit="km">7</Distance>
+					<Distance unit="miles">10</Distance>
+				</DistanceList>
+			</Feature>
+			<Feature xsi:type="ProductFeatureDistance" group="40">
+				<Code>PMI</Code>
+				<Name>airPortDistanceFacility</Name>
+				<Description>SON SANT JOAN -  PALMA DE MALLORCA</Description>
+				<DistanceList>
+					<Distance unit="km">22</Distance>
+					<Distance unit="miles">30</Distance>
+				</DistanceList>
+			</Feature>
+		</FacilityList>
+		<Chain code="INTER">INTERTUR</Chain>
+		<LicenseNumber>apm-1456</LicenseNumber>
+	</Hotel>
+</HotelDetailRS>

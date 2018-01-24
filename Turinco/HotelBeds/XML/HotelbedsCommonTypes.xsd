@@ -1,0 +1,3652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified" version="1.0.0">
+	<xs:include schemaLocation="HotelbedsSimpleTypes.xsd"/>
+	<xs:attributeGroup name="AgeRange">
+		<xs:annotation>
+			<xs:documentation>Attribute group to define an age range.</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="ageFrom" use="optional">
+			<xs:annotation>
+				<xs:documentation>Range age from.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:int">
+					<xs:minInclusive value="0"/>
+					<xs:maxInclusive value="999"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="ageTo" use="optional">
+			<xs:annotation>
+				<xs:documentation>Range age to.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:int">
+					<xs:minInclusive value="0"/>
+					<xs:maxInclusive value="999"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:attributeGroup>
+	<xs:complexType name="AdditionalCost">
+		<xs:annotation>
+			<xs:documentation>Service additional cost.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Price" type="Price" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Additional cost price list.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="type">
+			<xs:annotation>
+				<xs:documentation>Type of the additional cost.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:minLength value="1"/>
+					<xs:maxLength value="15"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="AdditionalCostList">
+		<xs:annotation>
+			<xs:documentation>List of additional costs.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="AdditionalCost" type="AdditionalCost" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Additional cost.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Address">
+		<xs:annotation>
+			<xs:documentation>Address data.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="StreetTypeId" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Street type identifier.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="2"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="StreetTypeName" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Street type name.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="40"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="StreetName" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Street name.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="50"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Number" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Number for this address.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="10"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="PostalCode" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Postal code.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="10"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="City" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>City name.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="50"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="State" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>State or province name.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="40"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="CountryCode" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Country code.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="3"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="AgencyIdentification">
+		<xs:annotation>
+			<xs:documentation>Data to identify an agency.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Code">
+				<xs:annotation>
+					<xs:documentation>Agency code.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:int">
+						<xs:minInclusive value="0"/>
+						<xs:maxInclusive value="99999999"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Branch">
+				<xs:annotation>
+					<xs:documentation>Agency branch.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:int">
+						<xs:minInclusive value="0"/>
+						<xs:maxInclusive value="99999999"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="AuditData">
+		<xs:annotation>
+			<xs:documentation>Audit data returned in all responses.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="ProcessTime" type="xs:long">
+				<xs:annotation>
+					<xs:documentation>System processing time in miliseconds.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Timestamp">
+				<xs:annotation>
+					<xs:documentation>Response timestamp.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="23"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="RequestHost">
+				<xs:annotation>
+					<xs:documentation>Requesting host system ip.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="200"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="ServerName">
+				<xs:annotation>
+					<xs:documentation>Server name that processed the request.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="50"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="ServerId">
+				<xs:annotation>
+					<xs:documentation>Server id that processed the request.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="2"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="SchemaRelease">
+				<xs:annotation>
+					<xs:documentation>XML schema release used to process the request in the system.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="10"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="HydraCoreRelease">
+				<xs:annotation>
+					<xs:documentation>Internal component release information.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="25"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="HydraEnumerationsRelease">
+				<xs:annotation>
+					<xs:documentation>Internal component release information.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="25"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="MerlinRelease">
+				<xs:annotation>
+					<xs:documentation>Internal component release information.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="25"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="CancellationProtection">
+		<xs:annotation>
+			<xs:documentation>Data to represent a cancel proctection element.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Status" type="HotelbedsServiceStatus">
+				<xs:annotation>
+					<xs:documentation>Indicates whether the cancellation protection is new in the purchase 'NEW', has been confirmed 'CONFIRMED', or has been cancelled 'CANCELLED'.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Price" type="Price" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The price of the cancel protection.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ModificationPolicyList" type="ServiceModificationPolicyList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The mdification policy for the cancel protection.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CancellationPolicy" type="PriceList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Cancellation protection cancel policy.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CommentList" type="CommentList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Comment list for the cancellation protection.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="AdditionalCostList" type="AdditionalCostList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Additional costs list for the cancellation protection.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ErrorList" type="HotelbedsErrorList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>List of errors for the cancellation protection.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Classification">
+		<xs:annotation>
+			<xs:documentation>Generic classification data.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleContent>
+			<xs:extension base="StringLength0to50">
+				<xs:attribute name="code" use="required">
+					<xs:annotation>
+						<xs:documentation>Classification code.</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:minLength value="1"/>
+							<xs:maxLength value="5"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="Comment">
+		<xs:annotation>
+			<xs:documentation>Comment data.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleContent>
+			<xs:extension base="StringLength1to2000">
+				<xs:attribute name="type" type="CommentType">
+					<xs:annotation>
+						<xs:documentation>Type of the comment.</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="CommentList">
+		<xs:annotation>
+			<xs:documentation>Comment list.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Comment" type="Comment" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ConfirmationPurchaseData">
+		<xs:annotation>
+			<xs:documentation>Needed data to confirm a Purchase.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Holder" type="Customer" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Holder data for the purchase. Mandatory if the Purchase to confirm has the SHOPPING_CART status.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="AgencyReference" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Agency reference code to identify the purchase in the remote system. Mandatory if the Purchase to confirm has the SHOPPING_CART status.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="20"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="ConfirmationServiceDataList" type="ConfirmationServiceDataList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Additional data to confirm a Service.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CommentList" type="CommentList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Comment list.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="purchaseToken" use="required">
+			<xs:annotation>
+				<xs:documentation>Internal token needed to confirm the purchase.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:minLength value="1"/>
+					<xs:maxLength value="11"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="ConfirmationServiceData" abstract="true">
+		<xs:annotation>
+			<xs:documentation>Needed data to confirm a Service.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="CustomerList" type="CustomerList">
+				<xs:annotation>
+					<xs:documentation>Customer list for this service.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CommentList" type="CommentList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Comment list for the service.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="SPUI" use="required">
+			<xs:annotation>
+				<xs:documentation>(Service Purchase Unique Identifier). Unique identifier of the service.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:minLength value="1"/>
+					<xs:maxLength value="30"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="ConfirmationServiceDataCar">
+		<xs:annotation>
+			<xs:documentation>Needed data to confirm a Car service.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="ConfirmationServiceData"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ConfirmationServiceDataHotel">
+		<xs:annotation>
+			<xs:documentation>Needed data to confirm a Hotel service.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="ConfirmationServiceData"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ConfirmationServiceDataInsurance">
+		<xs:annotation>
+			<xs:documentation>Needed data to confirm an Insurance service.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="ConfirmationServiceData"/>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ConfirmationServiceDataList">
+		<xs:annotation>
+			<xs:documentation>Confirmation service data list.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="ServiceData" type="ConfirmationServiceData" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ConfirmationServiceDataTicket">
+		<xs:annotation>
+			<xs:documentation>Needed data to confirm a Ticket service.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="ConfirmationServiceData">
+				<xs:sequence>
+					<xs:element name="ServiceDetailList" type="ServiceDetailList" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Details about ticket service.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ConfirmationServiceDataTransfer">
+		<xs:annotation>
+			<xs:documentation>Needed data to confirm a Transfer service.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="ConfirmationServiceData">
+				<xs:sequence>
+					<xs:element name="TravelInfo" type="ServiceTransferTravelInfo" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Travel info for the transfer.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="HotelName" type="StringLength1to50" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Hotel Name.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="HotelAddress" type="StringLength1to50" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Hotel Address.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="HotelPostalCode" type="StringLength1to10" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Hotel Postal Code.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ContactInfo">
+		<xs:annotation>
+			<xs:documentation>Contact information.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Address" type="Address" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Address information.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="EmailList" type="ProductEmailList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Email list.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PhoneList" type="ProductContactNumberList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Phone list.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="FaxList" type="ProductContactNumberList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Fax list.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="WebList" type="ProductWebList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Web list.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Contract">
+		<xs:annotation>
+			<xs:documentation>Contract information.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Name">
+				<xs:annotation>
+					<xs:documentation>Contract name.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="20"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="IncomingOffice" type="IncomingOffice">
+				<xs:annotation>
+					<xs:documentation>Contract incoming office.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Sequence" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Contract sequence.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="200"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Classification" type="ContractClassification" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Contract classification.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CommentList" type="CommentList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Contract comments.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ContractClassification">
+		<xs:annotation>
+			<xs:documentation>Contract classification information.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleContent>
+			<xs:extension base="StringLength0to50">
+				<xs:attribute name="code" use="required">
+					<xs:annotation>
+						<xs:documentation>Contract classification code.</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:minLength value="1"/>
+							<xs:maxLength value="5"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="ContractClassificationList">
+		<xs:annotation>
+			<xs:documentation>Contract classification list.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="ContractClassification" type="ContractClassification" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ContractList">
+		<xs:annotation>
+			<xs:documentation>Contract list.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Contract" type="Contract" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="CoreRequest" abstract="true">
+		<xs:annotation>
+			<xs:documentation>Common request data.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Language" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Desired response language.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="3"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Credentials" type="Credentials">
+				<xs:annotation>
+					<xs:documentation>Credentials to access the system.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ExtraParamList" type="ExtendedDataList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>List of extra parameters for the request.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="echoToken" use="optional">
+			<xs:annotation>
+				<xs:documentation>Data for additional message identification, assigned by the requesting host system. When a request message includes an echo token the corresponding response message MUST include an echo token with an identical value.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:minLength value="1"/>
+					<xs:maxLength value="50"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="CoreResponse" abstract="true">
+		<xs:annotation>
+			<xs:documentation>Common response data.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="AuditData" type="AuditData">
+				<xs:annotation>
+					<xs:documentation>System audit data.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ExtraInfoList" type="ExtendedDataList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Extra information for the response.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ErrorList" type="HotelbedsErrorList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>List of errors if any.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="echoToken" use="optional">
+			<xs:annotation>
+				<xs:documentation>A sequence number for additional message identification, assigned by the requesting host system. When a request message includes an echo token the corresponding response message MUST include an echo token with an identical value.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:minLength value="1"/>
+					<xs:maxLength value="50"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="Country">
+		<xs:annotation>
+			<xs:documentation>Country information.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Name" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Country name.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="50"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="DestinationList" type="DestinationList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Destination list for this country.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="code" use="required">
+			<xs:annotation>
+				<xs:documentation>Country code.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:minLength value="1"/>
+					<xs:maxLength value="3"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="Credentials">
+		<xs:annotation>
+			<xs:documentation>Credentials to access the system.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="User">
+				<xs:annotation>
+					<xs:documentation>System user name.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="30"/>
+						<xs:minLength value="1"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Password">
+				<xs:annotation>
+					<xs:documentation>System password.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:maxLength value="30"/>
+						<xs:minLength value="1"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Currency">
+		<xs:annotation>
+			<xs:documentation>Currency information. Free text for currency name is optional.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleContent>
+			<xs:extension base="StringLength0to255">
+				<xs:attribute name="code" use="required">
+					<xs:annotation>
+						<xs:documentation>Currency code.</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:minLength value="1"/>
+							<xs:maxLength value="3"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="Customer">
+		<xs:annotation>
+			<xs:documentation>Customer information.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="CustomerId" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Customer identifier inside the hotelbeds system.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="5"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Age" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Customer age. Manadatory if the Type is child (CH).</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:int">
+						<xs:minInclusive value="0"/>
+						<xs:maxInclusive value="99"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Name" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Customer name.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="20"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="LastName" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Customer last name.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="20"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="AdditionalInfo" type="ExtendedDataList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Customer additional information.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Document" type="Document" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Customer identification document.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="BirthDate" type="DateTime" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Customer birth date.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CountryCode" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Customer country code.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="3"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="type" type="HotelbedsCustomerType" use="required">
+			<xs:annotation>
+				<xs:documentation>Type of customer. 'AD' for adult, 'CH' for child.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="CustomerList">
+		<xs:annotation>
+			<xs:documentation>Customer list.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Customer" type="Customer" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="DateTime">
+		<xs:annotation>
+			<xs:documentation>Date and time information.</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="date" type="YYYYMMDDDate" use="required">
+			<xs:annotation>
+				<xs:documentation>Date in YYYYMMDD format.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="time" type="HHMMTime">
+			<xs:annotation>
+				<xs:documentation>Time in HHMM format.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="Destination">
+		<xs:annotation>
+			<xs:documentation>Destination information.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Name" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Destination name.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="50"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="ZoneList" type="ZoneList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Zone list assigned to this destination.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="type" type="SimpleGroup" use="required">
+			<xs:annotation>
+				<xs:documentation>'SIMPLE' to indicate simple destination or 'GROUP' to indicate a destination group.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="code" use="required">
+			<xs:annotation>
+				<xs:documentation>If type attribute is 'SIMPLE' this is the destination code. If the type attribute is 'GROUP' this is the destination group code.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:minLength value="1"/>
+					<xs:maxLength value="10"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="DestinationGroup">
+		<xs:annotation>
+			<xs:documentation>Contains simple destination list for a destination group.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="GroupDestination" type="Destination">
+				<xs:annotation>
+					<xs:documentation>This destination contains all the simple destinations included in the SimpleDestinationList. Attribute type for this element has always the 'GROUP' value.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="SimpleDestinationList" type="DestinationList">
+				<xs:annotation>
+					<xs:documentation>List of simple destinations. Attribute type for all the elements in this list has always the 'SIMPLE' value.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="DestinationList">
+		<xs:annotation>
+			<xs:documentation>List of Destination.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Destination" type="Destination" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Destination data.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Document">
+		<xs:annotation>
+			<xs:documentation>Provides information on specific documents</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="DocHolderName" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Holder name.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DocLimitations" type="xs:string" minOccurs="0" maxOccurs="9">
+				<xs:annotation>
+					<xs:documentation>Used to indicate any limitations on the document (e.g. as a person may only be allowed to spend a max of 30 days in country on a visitor's visa).</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="docIssueAuthority" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Indicates the group or association that granted the document</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="docIssueLocation" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Indicates the location where the document was issued.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="docID" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Unique number assigned by authorities to document.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="docType" type="xs:string" use="optional">
+			<xs:annotation>
+				<xs:documentation>Indicates the type of document e.g. Passport, Military ID, Drivers License, national ID, Vaccination Certificate</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="effectiveDate" type="YYYYMMDDDate" use="optional">
+			<xs:annotation>
+				<xs:documentation>Indicates the starting date.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="expireDate" type="YYYYMMDDDate" use="optional">
+			<xs:annotation>
+				<xs:documentation>Indicates the ending date.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="ExtendedData">
+		<xs:annotation>
+			<xs:documentation>Generic data container.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Name">
+				<xs:annotation>
+					<xs:documentation>Name of the occurence of this type.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="200"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Value">
+				<xs:annotation>
+					<xs:documentation>Value of the occurence of this type.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="2000"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="type">
+			<xs:annotation>
+				<xs:documentation>Type for the extended data.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:minLength value="1"/>
+					<xs:maxLength value="50"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="ExtendedDataList">
+		<xs:annotation>
+			<xs:documentation>List of extended data.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="ExtendedData" type="ExtendedData" minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="HotelbedsError">
+		<xs:annotation>
+			<xs:documentation>Data to represent an error.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Code">
+				<xs:annotation>
+					<xs:documentation>Type code for the error.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:length value="13"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Timestamp" type="xs:long">
+				<xs:annotation>
+					<xs:documentation>Timestamp for the error.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Message" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Message for the error.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="2000"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="DetailedMessage" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Detailed message for the error describing a possible solution.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="2000"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="HotelbedsErrorList">
+		<xs:annotation>
+			<xs:documentation>List of errors.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Error" type="HotelbedsError" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="IncomingOffice">
+		<xs:annotation>
+			<xs:documentation>Data to represent an incoming office.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Description" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Description of the incoming office.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="100"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="ContactInfo" type="ContactInfo" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Incoming office contact information.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="FiscalNumber" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Incoming office fiscal number.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="20"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="code" use="required">
+			<xs:annotation>
+				<xs:documentation>Incoming office code.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:int">
+					<xs:minInclusive value="0"/>
+					<xs:maxInclusive value="99999999"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="OperationDate">
+		<xs:annotation>
+			<xs:documentation>Data to represent a service operation date.</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="date" type="YYYYMMDDDate" use="required">
+			<xs:annotation>
+				<xs:documentation>Date.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="minimumDuration" use="required">
+			<xs:annotation>
+				<xs:documentation>Minimum duration. Expressed in days.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:int">
+					<xs:minInclusive value="1"/>
+					<xs:maxInclusive value="999"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="maximumDuration" use="required">
+			<xs:annotation>
+				<xs:documentation>Maximum duration. Expressed in days.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:int">
+					<xs:minInclusive value="1"/>
+					<xs:maxInclusive value="999"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="OperationDateList">
+		<xs:annotation>
+			<xs:documentation>List of operation days.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="OperationDate" type="OperationDate" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="PaginationRequestData">
+		<xs:annotation>
+			<xs:documentation>Generic pagination data for requests.</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="pageNumber" use="required">
+			<xs:annotation>
+				<xs:documentation>Number of the requested page.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:int">
+					<xs:minInclusive value="0"/>
+					<xs:maxInclusive value="9999"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="itemsPerPage">
+			<xs:annotation>
+				<xs:documentation>Number of desired items displayed per page. If this value is 0 or is not provided, you will obtain all the results distributed in pages with 20 results as maximum.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:int">
+					<xs:minInclusive value="0"/>
+					<xs:maxInclusive value="9999"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="PaginationResponseData">
+		<xs:annotation>
+			<xs:documentation>Generic pagination data for responses.</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="currentPage" type="xs:int" use="required">
+			<xs:annotation>
+				<xs:documentation>Number of the returned page.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="totalPages" type="xs:int" use="required">
+			<xs:annotation>
+				<xs:documentation>Number of total pages containing items.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="PaymentData">
+		<xs:annotation>
+			<xs:documentation>Payment data.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="PaymentType" type="PaymentType">
+				<xs:annotation>
+					<xs:documentation>Payment type.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Description">
+				<xs:annotation>
+					<xs:documentation>Payment data description.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="2000"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="PaymentType">
+		<xs:annotation>
+			<xs:documentation>Type of payment for a purchase.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleContent>
+			<xs:extension base="StringLength0to50">
+				<xs:attribute name="code" use="required">
+					<xs:annotation>
+						<xs:documentation>Payment type code.</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:minLength value="1"/>
+							<xs:maxLength value="2"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="Position">
+		<xs:annotation>
+			<xs:documentation>Position data.</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="latitude" use="required">
+			<xs:annotation>
+				<xs:documentation>Latitude.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:decimal">
+					<xs:fractionDigits value="20"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="longitude" use="required">
+			<xs:annotation>
+				<xs:documentation>Longitude.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:decimal">
+					<xs:fractionDigits value="20"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="altitude" type="xs:decimal">
+			<xs:annotation>
+				<xs:documentation>Altitude.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="Price">
+		<xs:annotation>
+			<xs:documentation>Represents a valid price for a concrete period including a description, and unit count. </xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Amount">
+				<xs:annotation>
+					<xs:documentation>Amount.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:decimal">
+						<xs:fractionDigits value="3"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="DateTimeFrom" type="DateTime" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Start date containing time whether needed.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DateTimeTo" type="DateTime" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>End date containing time whether needed.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Description" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Description of the price.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="200"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="unitCount" type="xs:int" use="optional">
+			<xs:annotation>
+				<xs:documentation>Number of units affected by this price.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="paxCount" type="xs:int">
+			<xs:annotation>
+				<xs:documentation>Number of paxes affected by this price.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="PriceList">
+		<xs:annotation>
+			<xs:documentation>List of prices.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Price" type="Price" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Product" abstract="true">
+		<xs:annotation>
+			<xs:documentation>Minimum sale element.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Code" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Product code. Some products are just identified by contract.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="15"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Name" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Product name.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="200"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="DescriptionList" type="ProductDescriptionList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>List of description data for this product.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ImageList" type="ProductImageList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>List of images available for this product.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Contact" type="ContactInfo" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Contact information for the product.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ProductCar">
+		<xs:annotation>
+			<xs:documentation>Car information.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="Product">
+				<xs:sequence>
+					<xs:element name="TransmissionType" type="VehicleTransmissionSimpleType" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Car transmission type.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="AirConditioning" type="YesNo" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Indicates if the car has air conditioning 'Y' or not 'N'.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="Vendor" type="ProductVendor" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Vendor that provides this car.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="DoorCount" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Car door count.</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:int">
+								<xs:minInclusive value="1"/>
+								<xs:maxInclusive value="99"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="ABS" type="YesNo" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Indicates if the car has ABS 'Y' or not 'N'.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="Airbag" type="YesNo" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Indicates if the car has airbag 'Y' or not 'N'.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="PowerSteering" type="YesNo" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Indicates if the car has power steering 'Y' or not 'N'.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="SeatCount" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Car seat count.</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:int">
+								<xs:minInclusive value="1"/>
+								<xs:maxInclusive value="99"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ProductCarGroup">
+		<xs:annotation>
+			<xs:documentation>Define vehicle category. i.e: Group A, Group C, Compact, Luxury,...</xs:documentation>
+		</xs:annotation>
+		<xs:simpleContent>
+			<xs:extension base="StringLength0to50">
+				<xs:attribute name="code" use="required">
+					<xs:annotation>
+						<xs:documentation>Car group code.</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:float">
+							<xs:minInclusive value="0"/>
+							<xs:maxInclusive value="9999999999999999999999999"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="ProductCarGroupList">
+		<xs:annotation>
+			<xs:documentation>List of car groups.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="CarGroup" type="ProductCarGroup" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ProductCarOffice">
+		<xs:annotation>
+			<xs:documentation>Office where you can rent a car.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="Product">
+				<xs:sequence minOccurs="0">
+					<xs:element name="Destination" type="Destination" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Destination of the office.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="Vendor" type="ProductVendor" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Car office vendor.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="TermsAndCond" type="ProductWeb" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Terms and conditions that applies for this office.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ProductCarOfficeList">
+		<xs:annotation>
+			<xs:documentation>List of product car office.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="CarOffice" type="ProductCarOffice" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ProductCodeList">
+		<xs:annotation>
+			<xs:documentation>List of product codes.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="ProductCode" maxOccurs="unbounded">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="10"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="withinResults" type="YesNo" use="required">
+			<xs:annotation>
+				<xs:documentation>Indicates whether the result contains the hotel code list provided as a filter. Allowed values 'Y' or 'N' .</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="ProductContactNumber">
+		<xs:annotation>
+			<xs:documentation>Contact number data for a product (fax and phone).</xs:documentation>
+		</xs:annotation>
+		<xs:simpleContent>
+			<xs:extension base="StringLength1to50">
+				<xs:attribute name="type">
+					<xs:annotation>
+						<xs:documentation>Indicates type number, for instance booking fax, management fax, inquires fax, booking phone, management phone, inquires phone, ...</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:minLength value="1"/>
+							<xs:maxLength value="30"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="ProductContactNumberList">
+		<xs:annotation>
+			<xs:documentation>List of contact numbers.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="ContactNumber" type="ProductContactNumber" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ProductDescription">
+		<xs:annotation>
+			<xs:documentation>Contains data description for a product.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleContent>
+			<xs:extension base="StringLength1to4000">
+				<xs:attribute name="type" use="required">
+					<xs:annotation>
+						<xs:documentation>Product description type. For instance: Hotel, Sport, Location, Room,...</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:minLength value="1"/>
+							<xs:maxLength value="25"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+				<xs:attribute name="languageCode" use="required">
+					<xs:annotation>
+						<xs:documentation>Language code of the description.</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:minLength value="1"/>
+							<xs:maxLength value="3"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+				<xs:attribute name="languageName">
+					<xs:annotation>
+						<xs:documentation>Language name of the description.</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:minLength value="1"/>
+							<xs:maxLength value="25"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="ProductDescriptionList">
+		<xs:annotation>
+			<xs:documentation>List of product descriptions.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Description" type="ProductDescription" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ProductEmail">
+		<xs:annotation>
+			<xs:documentation>Email data for a product.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleContent>
+			<xs:extension base="EmailType">
+				<xs:attribute name="type">
+					<xs:annotation>
+						<xs:documentation>Indicates type email, for instance booking, management, inquires, ...</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:minLength value="1"/>
+							<xs:maxLength value="30"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="ProductEmailList">
+		<xs:annotation>
+			<xs:documentation>List of contact emails.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Email" type="ProductEmail" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ProductFeature" abstract="true">
+		<xs:annotation>
+			<xs:documentation>Common product feature data.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Code">
+				<xs:annotation>
+					<xs:documentation>Facility code.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="5"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Name" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Feature name.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="2000"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Description" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Feature description.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="2000"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Remark" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Feature remark.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="100"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="group">
+			<xs:annotation>
+				<xs:documentation>Feature group code.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:int">
+					<xs:minInclusive value="0"/>
+					<xs:maxInclusive value="999"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="ProductFeatureData">
+		<xs:annotation>
+			<xs:documentation>Product feature data.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="ProductFeature">
+				<xs:sequence>
+					<xs:element name="Order" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>If the product feature belongs to a list, this element  sets the order in the list.</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:int">
+								<xs:minInclusive value="0"/>
+								<xs:maxInclusive value="999"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ProductFeatureDistance">
+		<xs:annotation>
+			<xs:documentation>Product feature distance data.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="ProductFeature">
+				<xs:sequence>
+					<xs:element name="AccessType" type="HotelbedsFacilityAccessType" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Used to indicate direct access to the facility 'DIRECT' or separated access to the facility 'SEPARATED', for instance crossing a road.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="DistanceList" type="ProductFeatureDistanceItemList" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Distance to the facility.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="RequiredTimeList" type="ProductFeatureDistanceRequiredTimeList" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>List of required times to cover this distance using different means of transport expressed in the specified units.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ProductFeatureDistanceItem">
+		<xs:annotation>
+			<xs:documentation>Product feature distance containing the distance and the units.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleContent>
+			<xs:extension base="Number1To99999">
+				<xs:attribute name="unit" type="xs:string">
+					<xs:annotation>
+						<xs:documentation>Units used to measure this distance.</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="ProductFeatureDistanceItemList">
+		<xs:annotation>
+			<xs:documentation>List of product feature distance item.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Distance" type="ProductFeatureDistanceItem" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ProductFeatureDistanceRequiredTime">
+		<xs:annotation>
+			<xs:documentation>Time to cover the distance using the specified mean of transport.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleContent>
+			<xs:extension base="Number1To999999999">
+				<xs:attribute name="mean" use="required">
+					<xs:annotation>
+						<xs:documentation>Used to indicate the mean of transportation, walking, car, public transport...</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:minLength value="1"/>
+							<xs:maxLength value="50"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+				<xs:attribute name="unit" default="minutes">
+					<xs:annotation>
+						<xs:documentation>Time unit used.</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:minLength value="1"/>
+							<xs:maxLength value="25"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="ProductFeatureDistanceRequiredTimeList">
+		<xs:annotation>
+			<xs:documentation>List of product feature distance required time.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="RequiredTime" type="ProductFeatureDistanceRequiredTime" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ProductFeatureGroup">
+		<xs:annotation>
+			<xs:documentation>Product feature group.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="ProductFeature">
+				<xs:sequence>
+					<xs:element name="FeatureList" type="ProductFeatureList">
+						<xs:annotation>
+							<xs:documentation>List of features for this group.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ProductFeatureList">
+		<xs:annotation>
+			<xs:documentation>List of product features.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Feature" type="ProductFeature" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ProductFeatureService">
+		<xs:annotation>
+			<xs:documentation>Product feature service data.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="ProductFeature">
+				<xs:sequence>
+					<xs:element name="Value" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Facility service value.</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:minLength value="1"/>
+								<xs:maxLength value="100"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+				</xs:sequence>
+				<xs:attribute name="fee" type="YesNo">
+					<xs:annotation>
+						<xs:documentation>Indicates whether this facility service has a fee.</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+				<xs:attributeGroup ref="AgeRange"/>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ProductFeatureSport">
+		<xs:annotation>
+			<xs:documentation>Product feature sport data.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="ProductFeature">
+				<xs:sequence>
+					<xs:element name="Value" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Facility sport value.</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:minLength value="1"/>
+								<xs:maxLength value="100"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+				</xs:sequence>
+				<xs:attribute name="fee" type="YesNo">
+					<xs:annotation>
+						<xs:documentation>Indicates whether this sport facility has a fee.</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ProductHotel">
+		<xs:annotation>
+			<xs:documentation>Contrete hotel product.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="Product">
+				<xs:sequence>
+					<xs:element name="Category" type="ProductHotelCategory" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Product category.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="Destination" type="Destination" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Product destination.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="ChildAge" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Child age range for the hotel.</xs:documentation>
+						</xs:annotation>
+						<xs:complexType>
+							<xs:attributeGroup ref="AgeRange"/>
+						</xs:complexType>
+					</xs:element>
+					<xs:element name="FacilityList" type="ProductFeatureList" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>List of facilities available in the hotel.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="Chain" type="ProductVendor" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Chain information for the hotel.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="LicenseNumber" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Hotel license number.</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:minLength value="1"/>
+								<xs:maxLength value="15"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:element>
+					<xs:element name="Position" type="Position" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Position data of the hotel.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="IssuesList" type="ProductHotelIssueList" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Temporal issues produced in this product hotel.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ProductHotelBoard">
+		<xs:annotation>
+			<xs:documentation>Data to represent a hotel board.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleContent>
+			<xs:extension base="StringLength0to50">
+				<xs:attribute name="type" type="SimpleGroup" use="required">
+					<xs:annotation>
+						<xs:documentation>'SIMPLE' to indicate simple hotel board or 'GROUP' to indicate a hotel board group.</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+				<xs:attribute name="code" use="required">
+					<xs:annotation>
+						<xs:documentation>Hotel board code.</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:minLength value="1"/>
+							<xs:maxLength value="6"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+				<xs:attribute name="shortname" use="optional">
+					<xs:annotation>
+						<xs:documentation>Hotel board short name.</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:minLength value="1"/>
+							<xs:maxLength value="5"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="ProductHotelBoardGroup">
+		<xs:annotation>
+			<xs:documentation>Contains simple hotel board list for a hotel board group.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="GroupHotelBoard" type="ProductHotelBoard">
+				<xs:annotation>
+					<xs:documentation>This hotel board contains all the simple hotel boards included in the SimpleHotelBoardList. Attribute type for this element has always the 'GROUP' value.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="SimpleHotelBoardList" type="ProductHotelBoardList">
+				<xs:annotation>
+					<xs:documentation>List of simple hotel categories. Attribute type for all the elements in this list has always the 'SIMPLE' value.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ProductHotelBoardGroupList">
+		<xs:annotation>
+			<xs:documentation>List of hotel board groups.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="HotelBoardGroup" type="ProductHotelBoardGroup" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ProductHotelBoardList">
+		<xs:annotation>
+			<xs:documentation>List of hotel boards.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="HotelBoard" type="ProductHotelBoard" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ProductHotelCategory">
+		<xs:annotation>
+			<xs:documentation>Data to represent a hotel category.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleContent>
+			<xs:extension base="StringLength0to2000">
+				<xs:attribute name="type" type="SimpleGroup" use="required">
+					<xs:annotation>
+						<xs:documentation>'SIMPLE' to indicate simple hotel category or 'GROUP' to indicate a hotel category group.</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+				<xs:attribute name="code">
+					<xs:annotation>
+						<xs:documentation>Hotel category code.</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:minLength value="1"/>
+							<xs:maxLength value="10"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+				<xs:attribute name="shortname" use="optional">
+					<xs:annotation>
+						<xs:documentation>Hotel category short name.</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:minLength value="1"/>
+							<xs:maxLength value="50"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="ProductHotelCategoryGroup">
+		<xs:annotation>
+			<xs:documentation>Contains simple hotel category list for a hotel category group.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="GroupHotelCategory" type="ProductHotelCategory">
+				<xs:annotation>
+					<xs:documentation>This hotel category contains all the simple hotel categories included in the SimpleHotelCategoryList. Attribute type for this element has always the 'GROUP' value.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="SimpleHotelCategoryList" type="ProductHotelCategoryList">
+				<xs:annotation>
+					<xs:documentation>List of simple hotel categories. Attribute type for all the elements in this list has always the 'SIMPLE' value.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ProductHotelCategoryGroupList">
+		<xs:annotation>
+			<xs:documentation>List of hotel category groups.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="HotelCategoryGroup" type="ProductHotelCategoryGroup" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ProductHotelCategoryList">
+		<xs:annotation>
+			<xs:documentation>List of hotel categories.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="HotelCategory" type="ProductHotelCategory" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ProductHotelIssue">
+		<xs:annotation>
+			<xs:documentation>Data to represent temporal issue produced in a product hotel.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Description">
+				<xs:annotation>
+					<xs:documentation>Issue description.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="1000"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Order">
+				<xs:annotation>
+					<xs:documentation>Issue order.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:int">
+						<xs:totalDigits value="8"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="DateTimeFrom" type="DateTime" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Start date for the issue.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DateTimeTo" type="DateTime" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>End date for the issue.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ProductHotelIssueList">
+		<xs:annotation>
+			<xs:documentation>List of hotel issues.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="HotelIssue" type="ProductHotelIssue" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ProductImage">
+		<xs:annotation>
+			<xs:documentation>Product image data.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Type">
+				<xs:annotation>
+					<xs:documentation>Image type.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="4"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Order" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Image order.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:int">
+						<xs:maxInclusive value="99999"/>
+						<xs:minInclusive value="0"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="VisualizationOrder" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Image visualization order.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:int">
+						<xs:minInclusive value="0"/>
+						<xs:maxInclusive value="99999"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Description" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Image description.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="50"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Url">
+				<xs:annotation>
+					<xs:documentation>Image url.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="4000"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ProductImageList">
+		<xs:annotation>
+			<xs:documentation>List of product images.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Image" type="ProductImage" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ProductInsurance">
+		<xs:annotation>
+			<xs:documentation>Insurance information.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="Product">
+				<xs:sequence>
+					<xs:element name="Destination" type="Destination" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Insurance destination.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="InsuranceZone" type="ProductZone" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Insurance zone.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="Classification" type="Classification" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Insurance classification.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ProductTicket">
+		<xs:annotation>
+			<xs:documentation>Concrete ticket product.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="Product">
+				<xs:sequence>
+					<xs:element name="Destination" type="Destination" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Ticket destination.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="TicketZone" type="ProductZone" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Ticket Zone</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="Classification" type="Classification" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Ticket classification.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="TicketFeature" type="ProductFeatureGroup" minOccurs="0" maxOccurs="unbounded">
+						<xs:annotation>
+							<xs:documentation>Ticket features.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ProductTransfer">
+		<xs:annotation>
+			<xs:documentation>Contrete transfer product.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="Product">
+				<xs:sequence>
+					<xs:element name="Type" type="ProductTransferType">
+						<xs:annotation>
+							<xs:documentation>Transfer type.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="VehicleType" type="ProductTransferVehicleType">
+						<xs:annotation>
+							<xs:documentation>Transfer vehicle type.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ProductTransferHotel">
+		<xs:annotation>
+			<xs:documentation>Concrete product transfer hotel.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="Product">
+				<xs:sequence>
+					<xs:element name="TransferZone" type="ProductZone">
+						<xs:annotation>
+							<xs:documentation>Transfer zone assigned to this hotel.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ProductTransferTerminal">
+		<xs:annotation>
+			<xs:documentation>Concrete product transfer teminal. (Airport, port, railway station,...)</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="Product">
+				<xs:sequence>
+					<xs:element name="TransferZone" type="ProductZone" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Destination assigned to this terminal.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="DateTime" type="DateTime" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Date time for this product.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="Country" type="Country" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Country assigned to this terminal.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ProductTransferType">
+		<xs:annotation>
+			<xs:documentation>Transfer type data. (Private, shared, ...)</xs:documentation>
+		</xs:annotation>
+		<xs:simpleContent>
+			<xs:extension base="StringLength0to1024">
+				<xs:attribute name="code" use="required">
+					<xs:annotation>
+						<xs:documentation>Transfer type code.</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:minLength value="1"/>
+							<xs:maxLength value="2"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="ProductTransferVehicleType">
+		<xs:annotation>
+			<xs:documentation>Vehicle type that makes a transfer. (Coach, taxi, ...)</xs:documentation>
+		</xs:annotation>
+		<xs:simpleContent>
+			<xs:extension base="StringLength0to1024">
+				<xs:attribute name="code" use="required">
+					<xs:annotation>
+						<xs:documentation>Transfer vehicle type code.</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="ProductVendor">
+		<xs:annotation>
+			<xs:documentation>Data to represent a product vendor.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleContent>
+			<xs:extension base="StringLength0to255">
+				<xs:attribute name="code" use="required">
+					<xs:annotation>
+						<xs:documentation>Product vendor code.</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:minLength value="1"/>
+							<xs:maxLength value="5"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="ProductVendorList">
+		<xs:annotation>
+			<xs:documentation>Product vendor list.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="ProductVendor" type="ProductVendor" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ProductWeb">
+		<xs:annotation>
+			<xs:documentation>Web link for product data.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleContent>
+			<xs:extension base="StringLength1to255">
+				<xs:attribute name="type">
+					<xs:annotation>
+						<xs:documentation>Indicates type of linked web. i.e.  booking web, information web, terms and conditions...</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:minLength value="1"/>
+							<xs:maxLength value="30"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="ProductWebList">
+		<xs:annotation>
+			<xs:documentation>List of web adresses.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Web" type="ProductWeb" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ProductZone">
+		<xs:annotation>
+			<xs:documentation>Concrete product transfer zone.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="Product">
+				<xs:sequence>
+					<xs:element name="HotelName" type="StringLength1to50" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Hotel Name.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="HotelAddress" type="StringLength1to50" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Hotel Address.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="HotelPostalCode" type="StringLength1to10" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Hotel Postal Code.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="Purchase">
+		<xs:annotation>
+			<xs:documentation>Purchase data.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Reference" type="Reference" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>A purchase reference has a code and an incoming office data when the status is 'BOOKING'. It identifies the purchase inside the hotelbeds system.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Status" type="HotelbedsPurchaseStatus" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Indicates whether the purchase has been booked 'BOOKING', still is a shopping cart 'SHOPPING_CART' is a modified booking 'MODIFIED' or the purchase has been cancelled 'CANCELLED'.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Agency" type="AgencyIdentification" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Agency identification for  this purchase.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Language" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Purchase language.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="3"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="CreationDate" type="DateTime" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Purchase creation date.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CreationUser" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Purchase creation user.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="50"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Holder" type="Customer" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Customer that holds this purchase.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="AgencyReference" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Agency reference code to identify this purchase.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="20"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="ServiceList" type="ServiceList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>List of services contained in this purchase if any.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="SupplementList" type="PriceList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Supplements included in this purchase.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DiscountList" type="PriceList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Discounts included in this purchase.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="AdditionalCostList" type="PriceList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Additional costs included in this purchase like agency fees,...</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CancelProtection" type="CancellationProtection" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Cancel protection to avoid pay cancellation fees.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Currency" type="Currency" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Purchase total price currency.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PaymentData" type="PaymentData" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Payment data for this purchase.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PurchaseExtraInfoList" type="ExtendedDataList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Extra info about the purchase.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="TotalPrice" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Total final price for this purchase.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:decimal">
+						<xs:fractionDigits value="3"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="CommentList" type="CommentList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Comment list.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="purchaseToken">
+			<xs:annotation>
+				<xs:documentation>Internal token needed to work with a purchase.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:minLength value="1"/>
+					<xs:maxLength value="11"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="timeToExpiration" type="xs:long">
+			<xs:annotation>
+				<xs:documentation>Time to invalidate this purchase from the system memory in milliseconds.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="Reference">
+		<xs:annotation>
+			<xs:documentation>Data to represent a reference for a purchase and/or a service.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="FileNumber">
+				<xs:annotation>
+					<xs:documentation>Code of the reference.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="267"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="IncomingOffice" type="IncomingOffice" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Incomming office data.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Service" abstract="true">
+		<xs:annotation>
+			<xs:documentation>Generic, non instanciable service data.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Reference" type="Reference" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Service reference.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Status" type="HotelbedsServiceStatus" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Indicates whether the service is new in the purchase 'NEW', has been confirmed 'CONFIRMED', has been modified 'MODIFIED', or has been cancelled 'CANCELLED'.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ContractList" type="ContractList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Contract data.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Supplier" type="ServiceSupplier" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Service supplier info.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CommentList" type="CommentList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>List of comment for the service.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DateFrom" type="DateTime">
+				<xs:annotation>
+					<xs:documentation>Date from when the service is valid.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DateTo" type="DateTime" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Date to when the service is valid.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Currency" type="Currency" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Currency used in the service.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="TotalAmount" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Final price of the service. </xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:decimal">
+						<xs:fractionDigits value="3"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="ValuationFileNumber" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>System provisional file number needed to confirm the booking of the service.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:int">
+						<xs:minInclusive value="0"/>
+						<xs:maxInclusive value="999999"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="SupplementList" type="PriceList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Supplement list for the service.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DiscountList" type="PriceList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Discount list for the service.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="AdditionalCostList" type="AdditionalCostList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Additional costs list for the service.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ServiceExtraInfoList" type="ExtendedDataList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Extra info about the service.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ErrorList" type="HotelbedsErrorList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>List of errors for this service.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ModificationPolicyList" type="ServiceModificationPolicyList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Modification policy info.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="SPUI">
+			<xs:annotation>
+				<xs:documentation>(Service Purchase Unique Identifier). Unique identifier of the service when it belongs to a purchase.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:minLength value="1"/>
+					<xs:maxLength value="30"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="availToken">
+			<xs:annotation>
+				<xs:documentation>Token provided in availability response.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:minLength value="1"/>
+					<xs:maxLength value="24"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="ServiceCar">
+		<xs:annotation>
+			<xs:documentation>Concrete car service.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="Service">
+				<xs:sequence>
+					<xs:element name="CarInfo" type="ProductCar">
+						<xs:annotation>
+							<xs:documentation>Features of the selected car included in this service.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="CarGroup" type="ProductCarGroup">
+						<xs:annotation>
+							<xs:documentation>Car group where this car services is included in.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="Driver" type="Customer" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Driver information.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="RentalOffice" type="ProductCarOffice" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Information of pickup location.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="ReturnOffice" type="ProductCarOffice" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Information about return location.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="SpecialEquipmentList" type="ServiceCarSpecialEquipList" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Special equipment available for this car service.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ServiceCarPreference">
+		<xs:annotation>
+			<xs:documentation>Car feature preference.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="CarGroup" type="ProductCarGroup">
+				<xs:annotation>
+					<xs:documentation>Car group preference. Tag content will not be considered.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="preference" type="PreferLevelType" use="required">
+			<xs:annotation>
+				<xs:documentation>Indicates the preference level.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="ServiceCarPreferenceList">
+		<xs:annotation>
+			<xs:documentation>List of car feature preference.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="CarPreference" type="ServiceCarPreference" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ServiceCarSpecialEquip">
+		<xs:annotation>
+			<xs:documentation>Special equipment desired for a car service.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence minOccurs="0">
+			<xs:element name="Name">
+				<xs:annotation>
+					<xs:documentation>Name of the special equipment.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="50"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Description">
+				<xs:annotation>
+					<xs:documentation>Description of the special equipment.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="2000"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="code" use="required">
+			<xs:annotation>
+				<xs:documentation>Code of desired equipment.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:minLength value="1"/>
+					<xs:maxLength value="10"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="unitCount" use="required">
+			<xs:annotation>
+				<xs:documentation>Number of units being requested.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:int">
+					<xs:minInclusive value="1"/>
+					<xs:maxInclusive value="99"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="preference" type="PreferLevelType">
+			<xs:annotation>
+				<xs:documentation>Preference level of this desired equipment.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="ServiceCarSpecialEquipList">
+		<xs:annotation>
+			<xs:documentation>List of special equipment.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="ServiceCarSpecialEquip" type="ServiceCarSpecialEquip" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ServiceDetail">
+		<xs:annotation>
+			<xs:documentation>Detail of service.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Name">
+				<xs:annotation>
+					<xs:documentation>Detail</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="200"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Description" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Detail description</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="0"/>
+						<xs:maxLength value="2000"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="code" use="required">
+			<xs:annotation>
+				<xs:documentation>Code of detail.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:minLength value="1"/>
+					<xs:maxLength value="20"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="ServiceDetailList">
+		<xs:annotation>
+			<xs:documentation>ServiceDetail list.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="ServiceDetail" type="ServiceDetail" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ServiceHotel">
+		<xs:annotation>
+			<xs:documentation>Concrete hotel service.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="Service">
+				<xs:sequence>
+					<xs:element name="HotelInfo" type="ProductHotel">
+						<xs:annotation>
+							<xs:documentation>Hotel information.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="AvailableRoom" type="ServiceHotelRoomList" maxOccurs="unbounded">
+						<xs:annotation>
+							<xs:documentation>List of available rooms in the hotel.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ServiceHotelOccupancy">
+		<xs:annotation>
+			<xs:documentation>Data to represent the occupation in a hotel room. At least one tag of AdultCount or ChildrenCount MUST be provided. GuestList is mandatory for non adult guests.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="RoomCount">
+				<xs:annotation>
+					<xs:documentation>Number of rooms.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:int">
+						<xs:minInclusive value="1"/>
+						<xs:maxInclusive value="999"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Occupancy" type="ServiceOccupancy">
+				<xs:annotation>
+					<xs:documentation>Occupancy for this hotel service.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ServiceHotelOccupancyList">
+		<xs:annotation>
+			<xs:documentation>List of occupancies for a hotel.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="HotelOccupancy" type="ServiceHotelOccupancy" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>At least one of AdultCount or ChildCount MUST be provided. GuestList is mandatory for non adult guests.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ServiceHotelRoom">
+		<xs:annotation>
+			<xs:documentation>Data to represent a service hotel room including price.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Board" type="ProductHotelBoard">
+				<xs:annotation>
+					<xs:documentation>Board for this room.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="RoomType" type="ServiceHotelRoomType">
+				<xs:annotation>
+					<xs:documentation>Room type.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Price" type="ServicePrice" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>List of prices depending on the board.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CancellationPolicy" type="PriceList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Cancellation policy for this room.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="HotelRoomExtraInfo" type="ExtendedDataList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Contains additional info for the service hotel room.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="SHRUI">
+			<xs:annotation>
+				<xs:documentation>Service Hotel Room Unique Identifier.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:minLength value="1"/>
+					<xs:maxLength value="24"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="availCount">
+			<xs:annotation>
+				<xs:documentation>Number of units available.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:int">
+					<xs:minInclusive value="1"/>
+					<xs:maxInclusive value="999"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="onRequest" type="YesNo">
+			<xs:annotation>
+				<xs:documentation>Wheter this service should be booked on request or not.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="status" type="HotelbedsServiceStatus">
+			<xs:annotation>
+				<xs:documentation>In case of cancellation of confirmed service hotel room set the status to CANCELLED. On response messages this attribute indicates if the service hotel room status.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+		<xs:attribute name="modifiesSHRUI">
+			<xs:annotation>
+				<xs:documentation>Use in case of modification of confirmed service hotel room. This attribute indicates the SHRUI to modify.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:minLength value="1"/>
+					<xs:maxLength value="24"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="ServiceHotelRoomList">
+		<xs:annotation>
+			<xs:documentation>List of hotel rooms.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="HotelOccupancy" type="ServiceHotelOccupancy" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Occupancy data.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="HotelRoom" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>List of hotel rooms available for the provided occupancy.</xs:documentation>
+				</xs:annotation>
+				<xs:complexType>
+					<xs:complexContent>
+						<xs:extension base="ServiceHotelRoom"/>
+					</xs:complexContent>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ServiceHotelRoomType">
+		<xs:annotation>
+			<xs:documentation>Data to represent hotel room type.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleContent>
+			<xs:extension base="StringLength0to255">
+				<xs:attribute name="type" type="SimpleGroup" use="required">
+					<xs:annotation>
+						<xs:documentation>'SIMPLE' to indicate simple zone or 'GROUP' to indicate a zone group.</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+				<xs:attribute name="code" use="required">
+					<xs:annotation>
+						<xs:documentation>Room type code.</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:minLength value="1"/>
+							<xs:maxLength value="7"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+				<xs:attribute name="characteristic">
+					<xs:annotation>
+						<xs:documentation>Room type characteristic.</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:minLength value="1"/>
+							<xs:maxLength value="15"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="ServiceHotelRoomTypeGroup">
+		<xs:annotation>
+			<xs:documentation>Contains simple hotel room type list for a hotel room type group.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="GroupHotelRoomType" type="ServiceHotelRoomType">
+				<xs:annotation>
+					<xs:documentation>This hotel room type contains all the simple hotel room types included in the SimpleHotelRoomTypeList. Attribute type for this element has always the 'GROUP' value.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="SimpleHotelRoomTypeList" type="ServiceHotelRoomTypeList">
+				<xs:annotation>
+					<xs:documentation>List of simple hotel room types. Attribute type for all the elements in this list has always the 'SIMPLE' value.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ServiceHotelRoomTypeList">
+		<xs:annotation>
+			<xs:documentation>Service hotel room type list.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="RoomType" type="ServiceHotelRoomType" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ServiceHotelRoomTypeGroupList">
+		<xs:annotation>
+			<xs:documentation>Service hotel room type group list.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="RoomTypeGroup" type="ServiceHotelRoomTypeGroup" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ServiceList">
+		<xs:annotation>
+			<xs:documentation>List of services.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Service" type="Service" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ServiceModificationPolicy">
+		<xs:annotation>
+			<xs:documentation>Modification policy string.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleContent>
+			<xs:extension base="StringLength1to1024"/>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="ServiceModificationPolicyList">
+		<xs:annotation>
+			<xs:documentation>List of modification policies.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="ModificationPolicy" type="ServiceModificationPolicy" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Modification policy.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ServiceOccupancy">
+		<xs:annotation>
+			<xs:documentation>Data to represent occupantion for any service.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="AdultCount" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Number of adult in the room.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:int">
+						<xs:minInclusive value="0"/>
+						<xs:maxInclusive value="999"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="ChildCount" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Number of children in the room.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:int">
+						<xs:minInclusive value="0"/>
+						<xs:maxInclusive value="999"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="GuestList" type="CustomerList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>List of the guests in the room.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ServiceInsurance">
+		<xs:annotation>
+			<xs:documentation>Concrete insurance service.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="Service">
+				<xs:sequence>
+					<xs:element name="InsuranceInfo" type="ProductInsurance">
+						<xs:annotation>
+							<xs:documentation>Insurance information.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="AvailableModality" type="ServiceInsuranceModality" maxOccurs="unbounded">
+						<xs:annotation>
+							<xs:documentation>List of available modalities for the insurance service.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="AvailableCoverage" type="ServiceInsuranceCoverage" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Geographical coverage for the insurance service.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="Paxes" type="ServiceOccupancy" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Insurance service customer list.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="Country" type="Country" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Residence country.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ServiceInsuranceCoverage">
+		<xs:annotation>
+			<xs:documentation>Travel insurance coverage.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleContent>
+			<xs:extension base="StringLength0to255">
+				<xs:attribute name="type" type="HotelbedsInsuranceCoverageType" use="required">
+					<xs:annotation>
+						<xs:documentation>Coverage type.</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="ServiceInsuranceModality">
+		<xs:annotation>
+			<xs:documentation>Modality for the insurance service.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Name">
+				<xs:annotation>
+					<xs:documentation>Modality name.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="200"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Contract" type="Contract">
+				<xs:annotation>
+					<xs:documentation>Modality contract.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PriceList" type="PriceList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>List of differents prices available for this modality.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="code" use="required">
+			<xs:annotation>
+				<xs:documentation>Modality code.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:minLength value="1"/>
+					<xs:maxLength value="13"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="ServicePrice">
+		<xs:annotation>
+			<xs:documentation>Data to represent a room price depending on the board.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Amount">
+				<xs:annotation>
+					<xs:documentation>Sum of all amounts in the price list (whether present).</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:decimal">
+						<xs:fractionDigits value="3"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="PriceList" type="PriceList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Detailed price list for this service.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PriceExtraInfoList" type="ExtendedDataList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Extra info for the room price.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ServicePriceList">
+		<xs:annotation>
+			<xs:documentation>List of prices.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="HotelRoomPrice" type="ServicePrice"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ServiceSupplier">
+		<xs:annotation>
+			<xs:documentation>Service supplier data.</xs:documentation>
+		</xs:annotation>
+		<xs:attribute name="name" use="required">
+			<xs:annotation>
+				<xs:documentation>Supplier name.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:minLength value="1"/>
+					<xs:maxLength value="100"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="vatNumber" use="required">
+			<xs:annotation>
+				<xs:documentation>Supplier VAT number.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:minLength value="1"/>
+					<xs:maxLength value="50"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+		<xs:attribute name="reference">
+			<xs:annotation>
+				<xs:documentation>Supplier booking reference.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:minLength value="1"/>
+					<xs:maxLength value="50"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="ServiceTicket">
+		<xs:annotation>
+			<xs:documentation>Concrete ticket service.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="Service">
+				<xs:sequence>
+					<xs:element name="TicketInfo" type="ProductTicket">
+						<xs:annotation>
+							<xs:documentation>Ticket information.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="AvailableModality" type="ServiceTicketModality" maxOccurs="unbounded">
+						<xs:annotation>
+							<xs:documentation>List of available modalities for the ticket service.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="Paxes" type="ServiceOccupancy">
+						<xs:annotation>
+							<xs:documentation>Service customer list.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="CancellationPolicyList" type="PriceList" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Ticket service cancellation policies.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="ServiceDetailList" type="ServiceDetailList" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Questions about service.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ServiceTicketModality">
+		<xs:annotation>
+			<xs:documentation>Modality for the ticket service.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Name">
+				<xs:annotation>
+					<xs:documentation>Modality name.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="200"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="Contract" type="Contract">
+				<xs:annotation>
+					<xs:documentation>Modality contract.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PriceList" type="PriceList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>List of differents prices available for this modality.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Type" type="ServiceTicketModalityType" minOccurs="0"/>
+			<xs:element name="Mode" type="ServiceTicketModalityMode" minOccurs="0"/>
+			<xs:element name="OperationDateList" type="OperationDateList" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Dates the service is valid for this modality, containing maximum and minimum days.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ChildAge" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Child age range for the ticket modality.</xs:documentation>
+				</xs:annotation>
+				<xs:complexType>
+					<xs:attributeGroup ref="AgeRange"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="code" use="required">
+			<xs:annotation>
+				<xs:documentation>Modality code.</xs:documentation>
+			</xs:annotation>
+			<xs:simpleType>
+				<xs:restriction base="xs:string">
+					<xs:minLength value="1"/>
+					<xs:maxLength value="13"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="ServiceTicketModalityType">
+		<xs:annotation>
+			<xs:documentation>Modality type. Indicates if the modality is per nigth, day, ... It is used to calculate the final price of the modality.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleContent>
+			<xs:extension base="StringLength0to50">
+				<xs:attribute name="code" use="required">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:length value="1"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="ServiceTicketModalityMode">
+		<xs:annotation>
+			<xs:documentation>Modality mode. Indicates if the modality price is per pax or per service.  It is used to calculate the final price of the modality.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleContent>
+			<xs:extension base="StringLength0to50">
+				<xs:attribute name="code" use="required">
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:length value="1"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="ServiceTransfer">
+		<xs:annotation>
+			<xs:documentation>Concrete transfer service.</xs:documentation>
+		</xs:annotation>
+		<xs:complexContent>
+			<xs:extension base="Service">
+				<xs:sequence>
+					<xs:element name="TransferInfo" type="ProductTransfer">
+						<xs:annotation>
+							<xs:documentation>Product transfer info.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="Paxes" type="ServiceOccupancy" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Distribution of passengers for this transfer.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="PickupLocation" type="Product">
+						<xs:annotation>
+							<xs:documentation>Location where passengers will be picked up. ProductTransferTerminal, ProductTransferZone or ProductTransferHotel.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="DestinationLocation" type="Product">
+						<xs:annotation>
+							<xs:documentation>Location where passengers will be dropped down. ProductTransferTerminal, ProductTransferZone or ProductTransferHotel.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+					<xs:element name="TravelInfo" type="ServiceTransferTravelInfo" minOccurs="0">
+						<xs:annotation>
+							<xs:documentation>Travel info for the transfer.</xs:documentation>
+						</xs:annotation>
+					</xs:element>
+				</xs:sequence>
+				<xs:attribute name="transferType" type="HotelbedsTransferType">
+					<xs:annotation>
+						<xs:documentation>Transfer type.</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="ServiceTransferAvailData">
+		<xs:annotation>
+			<xs:documentation>Transfer data needed to do an availability.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="ServiceDate" type="DateTime">
+				<xs:annotation>
+					<xs:documentation>Date when transfer will happen.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Occupancy" type="ServiceOccupancy">
+				<xs:annotation>
+					<xs:documentation>Distribution of passengers for this transfer.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="PickupLocation" type="Product">
+				<xs:annotation>
+					<xs:documentation>Location where passengers will be picked up. ProductTransferTerminal, ProductZone or ProductTransferHotel.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="DestinationLocation" type="Product">
+				<xs:annotation>
+					<xs:documentation>Location where passengers will be dropped down. ProductTransferTerminal, ProductZone or ProductTransferHotel.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="type" type="HotelbedsTransferType" use="required">
+			<xs:annotation>
+				<xs:documentation>Transfer type.</xs:documentation>
+			</xs:annotation>
+		</xs:attribute>
+	</xs:complexType>
+	<xs:complexType name="ServiceTransferTravelInfo">
+		<xs:annotation>
+			<xs:documentation>Travel information for a transfer service.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="DepartInfo" type="ProductTransferTerminal" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Info about the departure.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ArrivalInfo" type="ProductTransferTerminal" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Info about the arrival.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="TravelNumber" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Id number for the travel ticket (flight number, train number, ...)</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="25"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Zone">
+		<xs:annotation>
+			<xs:documentation>Data to represent a zone.</xs:documentation>
+		</xs:annotation>
+		<xs:simpleContent>
+			<xs:extension base="StringLength0to255">
+				<xs:attribute name="type" type="SimpleGroup" use="required">
+					<xs:annotation>
+						<xs:documentation>'SIMPLE' to indicate simple zone or 'GROUP' to indicate a zone group.</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+				<xs:attribute name="code" use="required">
+					<xs:annotation>
+						<xs:documentation>If type attribute is 'SIMPLE' this is the zone code. If the type attribute is 'GROUP' this is the zone group code.</xs:documentation>
+					</xs:annotation>
+					<xs:simpleType>
+						<xs:restriction base="xs:string">
+							<xs:minLength value="1"/>
+							<xs:maxLength value="15"/>
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:attribute>
+				<xs:attribute name="serviceType" type="HotelbedsZoneServiceType">
+					<xs:annotation>
+						<xs:documentation>Service type that applies to this zone.</xs:documentation>
+					</xs:annotation>
+				</xs:attribute>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="ZoneGroup">
+		<xs:annotation>
+			<xs:documentation>Contains simple zone list for a zone group.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="GroupZone" type="Zone">
+				<xs:annotation>
+					<xs:documentation>This zone contains all the simple zones included in the SimpleZoneList. Attribute type for this element has always the 'GROUP' value.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="SimpleZoneList" type="ZoneList">
+				<xs:annotation>
+					<xs:documentation>List of simple zones. Attribute type for all the elements in this list has always the 'SIMPLE' value.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ZoneGroupList">
+		<xs:annotation>
+			<xs:documentation>List of zone groups.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="ZoneGroup" type="ZoneGroup" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ZoneList">
+		<xs:annotation>
+			<xs:documentation>List of zones.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Zone" type="Zone" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

@@ -1,0 +1,20 @@
+<TicketClassificationListRS xmlns="http://www.hotelbeds.com/schemas/2005/06/messages" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.hotelbeds.com/schemas/2005/06/messages TicketClassificationListRS.xsd" totalItems="7" echoToken="DummyEchoToken">
+	<AuditData>
+		<ProcessTime>125</ProcessTime>
+		<Timestamp>2007-01-09 16:13:02.999</Timestamp>
+		<RequestHost>10.0.0.182</RequestHost>
+		<ServerName>ITINTERNET08</ServerName>
+		<ServerId>LO</ServerId>
+		<SchemaRelease>2005/06</SchemaRelease>
+		<HydraCoreRelease>2.0.200701021600</HydraCoreRelease>
+		<HydraEnumerationsRelease>1.0.200701021600</HydraEnumerationsRelease>
+		<MerlinRelease>N/A</MerlinRelease>
+	</AuditData>
+	<Classification code="AVENN">Adventure</Classification>
+	<Classification code="CULTU">Cultural</Classification>
+	<Classification code="DISCO">Night clubs</Classification>
+	<Classification code="OUTAC">Outdoor activities</Classification>
+	<Classification code="PANOR">Scenic tours</Classification>
+	<Classification code="PARAQ">Aquatic Parks</Classification>
+	<Classification code="SHDIN">Dinner shows</Classification>
+</TicketClassificationListRS>

@@ -1,0 +1,1951 @@
+Fecha:           2014/05/15 03:19
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 03:19
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAA89JB
+Info:        Response: 89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+Source:      Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3663567623267225547!288668!0
+Complmeneto: SabreCommand
+Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 03:19
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3663567623267225547!288668!0
+Source:      Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+StackTrace:  Respuesta89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+TargetSite:  Comando: AAA89JB
+Complmeneto: Credenciales: 
+User: 5555
+Password: WS061127
+Ipcc: A1IC
+Pcc: 89JB
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 03:19
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3663567623267225547!288668!0
+Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 03:19
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 03:34
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 03:34
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAA89JB
+Info:        Response: 89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+Source:      Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3663563756736292441!355908!0
+Complmeneto: SabreCommand
+Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 03:34
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3663563756736292441!355908!0
+Source:      Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+StackTrace:  Respuesta89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+TargetSite:  Comando: AAA89JB
+Complmeneto: Credenciales: 
+User: 5555
+Password: WS061127
+Ipcc: A1IC
+Pcc: 89JB
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 03:34
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3663563756736292441!355908!0
+Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 03:34
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 03:34
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 03:34
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAA89JB
+Info:        Response: 89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+Source:      Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESD!ICESMSLB\/RES.LB!-3663563720539987663!867795!0
+Complmeneto: SabreCommand
+Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 03:34
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESD!ICESMSLB\/RES.LB!-3663563720539987663!867795!0
+Source:      Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+StackTrace:  Respuesta89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+TargetSite:  Comando: AAA89JB
+Complmeneto: Credenciales: 
+User: 5555
+Password: WS061127
+Ipcc: A1IC
+Pcc: 89JB
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 03:34
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESD!ICESMSLB\/RES.LB!-3663563720539987663!867795!0
+Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 03:34
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 03:39
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 03:39
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAA89JB
+Info:        Response: 89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+Source:      Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESA!ICESMSLB\/RES.LB!-3663562585380011738!1989024!0
+Complmeneto: SabreCommand
+Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 03:39
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESA!ICESMSLB\/RES.LB!-3663562585380011738!1989024!0
+Source:      Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+StackTrace:  Respuesta89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+TargetSite:  Comando: AAA89JB
+Complmeneto: Credenciales: 
+User: 5555
+Password: WS061127
+Ipcc: A1IC
+Pcc: 89JB
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 03:39
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESA!ICESMSLB\/RES.LB!-3663562585380011738!1989024!0
+Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 03:39
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 03:42
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 03:42
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAA89JB
+Info:        Response: 89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+Source:      Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESD!ICESMSLB\/RES.LB!-3663561784068268110!901115!0
+Complmeneto: SabreCommand
+Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 03:42
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESD!ICESMSLB\/RES.LB!-3663561784068268110!901115!0
+Source:      Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+StackTrace:  Respuesta89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+TargetSite:  Comando: AAA89JB
+Complmeneto: Credenciales: 
+User: 5555
+Password: WS061127
+Ipcc: A1IC
+Pcc: 89JB
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 03:42
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESD!ICESMSLB\/RES.LB!-3663561784068268110!901115!0
+Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 03:42
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 635357631798977235emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:02
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 635357665010326815emjsx40mhwrragudlsw05rx5
+Sesion Local: 635357665010326815emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:02
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAA89JB
+Info:        Response: 89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+Source:      Sesion Local: 635357665010326815emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESB!ICESMSLB\/RES.LB!-3663557004512925518!1019793!0
+Complmeneto: SabreCommand
+Sesion Local: 635357665010326815emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:02
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESB!ICESMSLB\/RES.LB!-3663557004512925518!1019793!0
+Source:      Sesion Local: 635357665010326815emjsx40mhwrragudlsw05rx5
+StackTrace:  Respuesta89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+TargetSite:  Comando: AAA89JB
+Complmeneto: Credenciales: 
+User: 5555
+Password: WS061127
+Ipcc: A1IC
+Pcc: 89JB
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 635357665010326815emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:02
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635357665010326815emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESB!ICESMSLB\/RES.LB!-3663557004512925518!1019793!0
+Sesion Local: 635357665010326815emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:02
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 635357665010326815emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:09
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 635357669304472426emjsx40mhwrragudlsw05rx5
+Sesion Local: 635357669304472426emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:09
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAA89JB
+Info:        Response: 89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+Source:      Sesion Local: 635357669304472426emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESG!ICESMSLB\/RES.LB!-3663555250204180047!1632150!0
+Complmeneto: SabreCommand
+Sesion Local: 635357669304472426emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:09
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESG!ICESMSLB\/RES.LB!-3663555250204180047!1632150!0
+Source:      Sesion Local: 635357669304472426emjsx40mhwrragudlsw05rx5
+StackTrace:  Respuesta89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+TargetSite:  Comando: AAA89JB
+Complmeneto: Credenciales: 
+User: 5555
+Password: WS061127
+Ipcc: A1IC
+Pcc: 89JB
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 635357669304472426emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:09
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635357669304472426emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESG!ICESMSLB\/RES.LB!-3663555250204180047!1632150!0
+Sesion Local: 635357669304472426emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:09
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 635357669304472426emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:12
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 635357669304472426emjsx40mhwrragudlsw05rx5
+Sesion Local: 635357669304472426emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:12
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAA89JB
+Info:        Response: 89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+Source:      Sesion Local: 635357669304472426emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESA!ICESMSLB\/RES.LB!-3663554378121953742!141328!0
+Complmeneto: SabreCommand
+Sesion Local: 635357669304472426emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:12
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESA!ICESMSLB\/RES.LB!-3663554378121953742!141328!0
+Source:      Sesion Local: 635357669304472426emjsx40mhwrragudlsw05rx5
+StackTrace:  Respuesta89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+TargetSite:  Comando: AAA89JB
+Complmeneto: Credenciales: 
+User: 5555
+Password: WS061127
+Ipcc: A1IC
+Pcc: 89JB
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 635357669304472426emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:15
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 635357669304472426emjsx40mhwrragudlsw05rx5
+Sesion Local: 635357669304472426emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:15
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAA89JB
+Info:        Response: 89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+Source:      Sesion Local: 635357669304472426emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESA!ICESMSLB\/RES.LB!-3663553653186926030!152712!0
+Complmeneto: SabreCommand
+Sesion Local: 635357669304472426emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:15
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESA!ICESMSLB\/RES.LB!-3663553653186926030!152712!0
+Source:      Sesion Local: 635357669304472426emjsx40mhwrragudlsw05rx5
+StackTrace:  Respuesta89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+TargetSite:  Comando: AAA89JB
+Complmeneto: Credenciales: 
+User: 5555
+Password: WS061127
+Ipcc: A1IC
+Pcc: 89JB
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 635357669304472426emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:15
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635357669304472426emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESA!ICESMSLB\/RES.LB!-3663553653186926030!152712!0
+Sesion Local: 635357669304472426emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:15
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 635357669304472426emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:18
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 635357669304472426emjsx40mhwrragudlsw05rx5
+Sesion Local: 635357669304472426emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:18
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAA89JB
+Info:        Response: 89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+Source:      Sesion Local: 635357669304472426emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESA!ICESMSLB\/RES.LB!-3663553136525438555!167080!0
+Complmeneto: SabreCommand
+Sesion Local: 635357669304472426emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:18
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESA!ICESMSLB\/RES.LB!-3663553136525438555!167080!0
+Source:      Sesion Local: 635357669304472426emjsx40mhwrragudlsw05rx5
+StackTrace:  Respuesta89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+TargetSite:  Comando: AAA89JB
+Complmeneto: Credenciales: 
+User: 5555
+Password: WS061127
+Ipcc: A1IC
+Pcc: 89JB
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 635357669304472426emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:18
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635357669304472426emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESA!ICESMSLB\/RES.LB!-3663553136525438555!167080!0
+Sesion Local: 635357669304472426emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:18
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 635357669304472426emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:25
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:25
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAA89JB
+Info:        Response: 89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+Source:      Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESD!ICESMSLB\/RES.LB!-3663551366070507738!1091635!0
+Complmeneto: SabreCommand
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:25
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESD!ICESMSLB\/RES.LB!-3663551366070507738!1091635!0
+Source:      Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+StackTrace:  Respuesta89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+TargetSite:  Comando: AAA89JB
+Complmeneto: Credenciales: 
+User: 5555
+Password: WS061127
+Ipcc: A1IC
+Pcc: 89JB
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:25
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESD!ICESMSLB\/RES.LB!-3663551366070507738!1091635!0
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:25
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:27
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:27
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAA89JB
+Info:        Response: 89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+Source:      Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESA!ICESMSLB\/RES.LB!-3663550923199729626!200552!0
+Complmeneto: SabreCommand
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:27
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESA!ICESMSLB\/RES.LB!-3663550923199729626!200552!0
+Source:      Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+StackTrace:  Respuesta89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+TargetSite:  Comando: AAA89JB
+Complmeneto: Credenciales: 
+User: 5555
+Password: WS061127
+Ipcc: A1IC
+Pcc: 89JB
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:27
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESA!ICESMSLB\/RES.LB!-3663550923199729626!200552!0
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:27
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:41
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:41
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAA89JB
+Info:        Response: 89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+Source:      Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESH!ICESMSLB\/RES.LB!-3663547276575679834!1814007!0
+Complmeneto: SabreCommand
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:41
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESH!ICESMSLB\/RES.LB!-3663547276575679834!1814007!0
+Source:      Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+StackTrace:  Respuesta89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+TargetSite:  Comando: AAA89JB
+Complmeneto: Credenciales: 
+User: 5555
+Password: WS061127
+Ipcc: A1IC
+Pcc: 89JB
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:41
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESH!ICESMSLB\/RES.LB!-3663547276575679834!1814007!0
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:41
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:42
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:42
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAA89JB
+Info:        Response: 89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+Source:      Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESB!ICESMSLB\/RES.LB!-3663547059972739150!1187633!0
+Complmeneto: SabreCommand
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:42
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESB!ICESMSLB\/RES.LB!-3663547059972739150!1187633!0
+Source:      Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+StackTrace:  Respuesta89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+TargetSite:  Comando: AAA89JB
+Complmeneto: Credenciales: 
+User: 5555
+Password: WS061127
+Ipcc: A1IC
+Pcc: 89JB
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:42
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESB!ICESMSLB\/RES.LB!-3663547059972739150!1187633!0
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:42
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:44
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:44
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAA89JB
+Info:        Response: 89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+Source:      Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESA!ICESMSLB\/RES.LB!-3663546735589426122!270992!0
+Complmeneto: SabreCommand
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:44
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESA!ICESMSLB\/RES.LB!-3663546735589426122!270992!0
+Source:      Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+StackTrace:  Respuesta89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+TargetSite:  Comando: AAA89JB
+Complmeneto: Credenciales: 
+User: 5555
+Password: WS061127
+Ipcc: A1IC
+Pcc: 89JB
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:44
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESA!ICESMSLB\/RES.LB!-3663546735589426122!270992!0
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:44
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:46
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:46
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAA89JB
+Info:        Response: 89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+Source:      Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESB!ICESMSLB\/RES.LB!-3663546173932290140!1206481!0
+Complmeneto: SabreCommand
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:46
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESB!ICESMSLB\/RES.LB!-3663546173932290140!1206481!0
+Source:      Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+StackTrace:  Respuesta89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+TargetSite:  Comando: AAA89JB
+Complmeneto: Credenciales: 
+User: 5555
+Password: WS061127
+Ipcc: A1IC
+Pcc: 89JB
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:46
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESB!ICESMSLB\/RES.LB!-3663546173932290140!1206481!0
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:46
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:47
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:47
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAA89JB
+Info:        Response: 89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+Source:      Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3663545811823709391!669604!0
+Complmeneto: SabreCommand
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:47
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3663545811823709391!669604!0
+Source:      Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+StackTrace:  Respuesta89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+TargetSite:  Comando: AAA89JB
+Complmeneto: Credenciales: 
+User: 5555
+Password: WS061127
+Ipcc: A1IC
+Pcc: 89JB
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:47
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3663545811823709391!669604!0
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:47
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:48
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:48
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAA89JB
+Info:        Response: 89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+Source:      Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3663545537858833998!671036!0
+Complmeneto: SabreCommand
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:48
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3663545537858833998!671036!0
+Source:      Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+StackTrace:  Respuesta89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+TargetSite:  Comando: AAA89JB
+Complmeneto: Credenciales: 
+User: 5555
+Password: WS061127
+Ipcc: A1IC
+Pcc: 89JB
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:48
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3663545537858833998!671036!0
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:48
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:51
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:51
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAA89JB
+Info:        Response: 89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+Source:      Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESA!ICESMSLB\/RES.LB!-3663545008510556747!293232!0
+Complmeneto: SabreCommand
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:51
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESA!ICESMSLB\/RES.LB!-3663545008510556747!293232!0
+Source:      Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+StackTrace:  Respuesta89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+TargetSite:  Comando: AAA89JB
+Complmeneto: Credenciales: 
+User: 5555
+Password: WS061127
+Ipcc: A1IC
+Pcc: 89JB
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:51
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESA!ICESMSLB\/RES.LB!-3663545008510556747!293232!0
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:51
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:52
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:52
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAA89JB
+Info:        Response: 89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+Source:      Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESC!ICESMSLB\/RES.LB!-3663544574167105232!1646138!0
+Complmeneto: SabreCommand
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:52
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESC!ICESMSLB\/RES.LB!-3663544574167105232!1646138!0
+Source:      Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+StackTrace:  Respuesta89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+TargetSite:  Comando: AAA89JB
+Complmeneto: Credenciales: 
+User: 5555
+Password: WS061127
+Ipcc: A1IC
+Pcc: 89JB
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:52
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESC!ICESMSLB\/RES.LB!-3663544574167105232!1646138!0
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 04:52
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 635357678126897040emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 05:05
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 635357701759168729emjsx40mhwrragudlsw05rx5
+Sesion Local: 635357701759168729emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 05:05
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAA89JB
+Info:        Response: 89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+Source:      Sesion Local: 635357701759168729emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESG!ICESMSLB\/RES.LB!-3663541421186644187!1867422!0
+Complmeneto: SabreCommand
+Sesion Local: 635357701759168729emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 05:05
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESG!ICESMSLB\/RES.LB!-3663541421186644187!1867422!0
+Source:      Sesion Local: 635357701759168729emjsx40mhwrragudlsw05rx5
+StackTrace:  Respuesta89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+TargetSite:  Comando: AAA89JB
+Complmeneto: Credenciales: 
+User: 5555
+Password: WS061127
+Ipcc: A1IC
+Pcc: 89JB
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 635357701759168729emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 05:05
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635357701759168729emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESG!ICESMSLB\/RES.LB!-3663541421186644187!1867422!0
+Sesion Local: 635357701759168729emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 05:05
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 635357701759168729emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 05:44
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 635357726131222731emjsx40mhwrragudlsw05rx5
+Sesion Local: 635357726131222731emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 05:44
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAA89JB
+Info:        Response: 89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+Source:      Sesion Local: 635357726131222731emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESD!ICESMSLB\/RES.LB!-3663532000525998666!1379875!0
+Complmeneto: SabreCommand
+Sesion Local: 635357726131222731emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 05:44
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESD!ICESMSLB\/RES.LB!-3663532000525998666!1379875!0
+Source:      Sesion Local: 635357726131222731emjsx40mhwrragudlsw05rx5
+StackTrace:  Respuesta89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+TargetSite:  Comando: AAA89JB
+Complmeneto: Credenciales: 
+User: 5555
+Password: WS061127
+Ipcc: A1IC
+Pcc: 89JB
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 635357726131222731emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 05:44
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635357726131222731emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESD!ICESMSLB\/RES.LB!-3663532000525998666!1379875!0
+Sesion Local: 635357726131222731emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 05:44
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 635357726131222731emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 05:49
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635357726131222731emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESD!ICESMSLB\/RES.LB!-3663532000525998666!1379875!0
+Sesion Local: 635357726131222731emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 05:49
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     18JUL DEPARTURE DATE-----LAST DAY TO PURCHASE 18MAY/2359
+       BASE FARE      EQUIV AMT  TAXES/FEES/CHARGES    TOTAL
+ 1-    USD490.00      COP943500     335680XT      COP1279180ADT
+    XT     75480YS      69400CO      71000DG       5000AH 
+           67400US      10600YC      13500XY       9700XA 
+            4900AY       8700XF 
+          490.00         943500     335680           1279180TTL
+ADT-01  WNX28GFN
+ BOG CM X/PTY CM NYC Q BOGNYC85.00 160.00CM X/PTY CM BOG 
+ Q NYCBOG85.00 160.00NUC490.00END ROE1.00 XFEWR4.5
+NONREF/0VALUAFTDPT/CHGFEE
+VALIDATING CARRIER - CM
+BAG ALLOWANCE     -BOGEWR-02P/CM/EACH PIECE UP TO 50 POUNDS/23 
+KILOGRAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS
+BAG ALLOWANCE     -EWRBOG-02P/CM/EACH PIECE UP TO 50 POUNDS/23 
+KILOGRAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS
+CARRY ON ALLOWANCE
+BOGPTY PTYBOG-01P/CM
+PTYEWR EWRPTY-UA-CARRY ON ALLOWANCE UNKNOWN-CONTACT CARRIER
+CARRY ON CHARGES
+BOGPTY PTYBOG-CM-CARRY ON FEES UNKNOWN-CONTACT CARRIER
+PTYEWR EWRPTY-UA-CARRY ON FEES UNKNOWN-CONTACT CARRIER
+ADDITIONAL ALLOWANCES AND/OR DISCOUNTS MAY APPLY
+                                                               
+AIR EXTRAS AVAILABLE - SEE WP*AE.
+Info:        Comando Sabre: WP
+Complmeneto: Response: 18JUL DEPARTURE DATE-----LAST DAY TO PURCHASE 18MAY/2359
+       BASE FARE      EQUIV AMT  TAXES/FEES/CHARGES    TOTAL
+ 1-    USD490.00      COP943500     335680XT      COP1279180ADT
+    XT     75480YS      69400CO      71000DG       5000AH 
+           67400US      10600YC      13500XY       9700XA 
+            4900AY       8700XF 
+          490.00         943500     335680           1279180TTL
+ADT-01  WNX28GFN
+ BOG CM X/PTY CM NYC Q BOGNYC85.00 160.00CM X/PTY CM BOG 
+ Q NYCBOG85.00 160.00NUC490.00END ROE1.00 XFEWR4.5
+NONREF/0VALUAFTDPT/CHGFEE
+VALIDATING CARRIER - CM
+BAG ALLOWANCE     -BOGEWR-02P/CM/EACH PIECE UP TO 50 POUNDS/23 
+KILOGRAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS
+BAG ALLOWANCE     -EWRBOG-02P/CM/EACH PIECE UP TO 50 POUNDS/23 
+KILOGRAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS
+CARRY ON ALLOWANCE
+BOGPTY PTYBOG-01P/CM
+PTYEWR EWRPTY-UA-CARRY ON ALLOWANCE UNKNOWN-CONTACT CARRIER
+CARRY ON CHARGES
+BOGPTY PTYBOG-CM-CARRY ON FEES UNKNOWN-CONTACT CARRIER
+PTYEWR EWRPTY-UA-CARRY ON FEES UNKNOWN-CONTACT CARRIER
+ADDITIONAL ALLOWANCES AND/OR DISCOUNTS MAY APPLY
+                                                               
+AIR EXTRAS AVAILABLE - SEE WP*AE.
+Sesion Local: 635357726131222731emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 05:49
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635357726131222731emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESD!ICESMSLB\/RES.LB!-3663532000525998666!1379875!0
+Sesion Local: 635357726131222731emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 05:49
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     PRICE QUOTE RECORD RETAINED                                    
+                                                               
+FARE NOT GUARANTEED UNTIL TICKETED                             
+                                                               
+PQ 1                                                           
+                                                               
+       BASE FARE     EQUIV AMT   TAXES/FEES/CHARGES  TOTAL     
+      USD490.00       COP943500      335680XT     COP1279180ADT
+    XT      75480YS      69400CO      71000DG       5000AH     
+            67400US      10600YC      13500XY       9700XA     
+             4900AY       8700XF                               
+ADT-01  WNX28GFN                                               
+LAST DAY TO PURCHASE 18MAY/2359                                
+BOG CM X/PTY CM NYC Q BOGNYC85.00 160.00CM X/PTY CM BOG Q NY
+CBOG85.00 160.00NUC490.00END ROE1.00 XFEWR4.5
+VALIDATING CARRIER - CM                                        
+NONREF/0VALUAFTDPT/CHGFEE                                      
+01 O BOG CM 416W 18JUL  650A WNX28GFN        18JUL1418JUL14 02P
+02 X PTY CM1922W 18JUL 1005A WNX28GFN        18JUL1418JUL14 02P
+03 O EWR CM1921W 28JUL  505P WNX28GFN        28JUL1428JUL14 02P
+04 X PTY CM 535W 29JUL  750A WNX28GFN        29JUL1429JUL14 02P
+     BOG                                                       
+FARE SOURCE - ATPC                                             
+VALIDATING CARRIER-CM                                          
+                                                               
+BAG ALLOWANCE     -BOGEWR-02P/CM/EACH PIECE UP TO 50 POUNDS/23 
+KILOGRAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS    
+BAG ALLOWANCE     -EWRBOG-02P/CM/EACH PIECE UP TO 50 POUNDS/23 
+KILOGRAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS    
+CARRY ON ALLOWANCE                                             
+BOGPTY PTYBOG-01P/CM                                           
+PTYEWR EWRPTY-UA-CARRY ON ALLOWANCE UNKNOWN-CONTACT CARRIER    
+CARRY ON CHARGES                                               
+BOGPTY PTYBOG-CM-CARRY ON FEES UNKNOWN-CONTACT CARRIER         
+PTYEWR EWRPTY-UA-CARRY ON FEES UNKNOWN-CONTACT CARRIER         
+ADDITIONAL ALLOWANCES AND/OR DISCOUNTS MAY APPLY DEPENDING ON  
+FLYER-SPECIFIC FACTORS /E.G. FREQUENT FLYER STATUS/MILITARY/   
+CREDIT CARD FORM OF PAYMENT/EARLY PURCHASE OVER INTERNET,ETC./ 
+89JB A1IC *AA1 1749/15MAY14                           PRICE-SYS
+                                                               
+
+.
+Info:        Comando Sabre: PQ
+Complmeneto: Response: PRICE QUOTE RECORD RETAINED                                    
+                                                               
+FARE NOT GUARANTEED UNTIL TICKETED                             
+                                                               
+PQ 1                                                           
+                                                               
+       BASE FARE     EQUIV AMT   TAXES/FEES/CHARGES  TOTAL     
+      USD490.00       COP943500      335680XT     COP1279180ADT
+    XT      75480YS      69400CO      71000DG       5000AH     
+            67400US      10600YC      13500XY       9700XA     
+             4900AY       8700XF                               
+ADT-01  WNX28GFN                                               
+LAST DAY TO PURCHASE 18MAY/2359                                
+BOG CM X/PTY CM NYC Q BOGNYC85.00 160.00CM X/PTY CM BOG Q NY
+CBOG85.00 160.00NUC490.00END ROE1.00 XFEWR4.5
+VALIDATING CARRIER - CM                                        
+NONREF/0VALUAFTDPT/CHGFEE                                      
+01 O BOG CM 416W 18JUL  650A WNX28GFN        18JUL1418JUL14 02P
+02 X PTY CM1922W 18JUL 1005A WNX28GFN        18JUL1418JUL14 02P
+03 O EWR CM1921W 28JUL  505P WNX28GFN        28JUL1428JUL14 02P
+04 X PTY CM 535W 29JUL  750A WNX28GFN        29JUL1429JUL14 02P
+     BOG                                                       
+FARE SOURCE - ATPC                                             
+VALIDATING CARRIER-CM                                          
+                                                               
+BAG ALLOWANCE     -BOGEWR-02P/CM/EACH PIECE UP TO 50 POUNDS/23 
+KILOGRAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS    
+BAG ALLOWANCE     -EWRBOG-02P/CM/EACH PIECE UP TO 50 POUNDS/23 
+KILOGRAMS AND UP TO 62 LINEAR INCHES/158 LINEAR CENTIMETERS    
+CARRY ON ALLOWANCE                                             
+BOGPTY PTYBOG-01P/CM                                           
+PTYEWR EWRPTY-UA-CARRY ON ALLOWANCE UNKNOWN-CONTACT CARRIER    
+CARRY ON CHARGES                                               
+BOGPTY PTYBOG-CM-CARRY ON FEES UNKNOWN-CONTACT CARRIER         
+PTYEWR EWRPTY-UA-CARRY ON FEES UNKNOWN-CONTACT CARRIER         
+ADDITIONAL ALLOWANCES AND/OR DISCOUNTS MAY APPLY DEPENDING ON  
+FLYER-SPECIFIC FACTORS /E.G. FREQUENT FLYER STATUS/MILITARY/   
+CREDIT CARD FORM OF PAYMENT/EARLY PURCHASE OVER INTERNET,ETC./ 
+89JB A1IC *AA1 1749/15MAY14                           PRICE-SYS
+                                                               
+
+.
+Sesion Local: 635357726131222731emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 05:55
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 635357726131222731emjsx40mhwrragudlsw05rx5
+Sesion Local: 635357726131222731emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 05:55
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAA89JB
+Info:        Response: 89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+Source:      Sesion Local: 635357726131222731emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3663529296249865433!917916!0
+Complmeneto: SabreCommand
+Sesion Local: 635357726131222731emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 05:55
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3663529296249865433!917916!0
+Source:      Sesion Local: 635357726131222731emjsx40mhwrragudlsw05rx5
+StackTrace:  Respuesta89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+TargetSite:  Comando: AAA89JB
+Complmeneto: Credenciales: 
+User: 5555
+Password: WS061127
+Ipcc: A1IC
+Pcc: 89JB
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 635357726131222731emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 05:55
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635357726131222731emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3663529296249865433!917916!0
+Sesion Local: 635357726131222731emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 05:55
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 635357726131222731emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 06:12
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 635357726131222731emjsx40mhwrragudlsw05rx5
+Sesion Local: 635357726131222731emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 06:12
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAA89JB
+Info:        Response: 89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+Source:      Sesion Local: 635357726131222731emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESC!ICESMSLB\/RES.LB!-3663525087241396569!1929010!0
+Complmeneto: SabreCommand
+Sesion Local: 635357726131222731emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 06:12
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESC!ICESMSLB\/RES.LB!-3663525087241396569!1929010!0
+Source:      Sesion Local: 635357726131222731emjsx40mhwrragudlsw05rx5
+StackTrace:  Respuesta89JB.A1IC*AA1.A
+15MAY
+TANGO SEAT SELECTION NOW ENABLED ON INTERNATIONAL
+AIR CANADA SEGMENTS. SEE AC FLASH FOR DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+TargetSite:  Comando: AAA89JB
+Complmeneto: Credenciales: 
+User: 5555
+Password: WS061127
+Ipcc: A1IC
+Pcc: 89JB
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 635357726131222731emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 06:12
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635357726131222731emjsx40mhwrragudlsw05rx5
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESC!ICESMSLB\/RES.LB!-3663525087241396569!1929010!0
+Sesion Local: 635357726131222731emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+
+Fecha:           2014/05/15 06:12
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 635357726131222731emjsx40mhwrragudlsw05rx5
+Sesion WS: 
+

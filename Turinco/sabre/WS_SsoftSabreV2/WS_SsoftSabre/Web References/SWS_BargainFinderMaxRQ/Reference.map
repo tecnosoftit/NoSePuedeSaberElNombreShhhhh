@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://webservices.sabre.com/wsdl/sabreXML1.0.00/BFM/xlink.xsd" filename="xlink.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://webservices.sabre.com/wsdl/sabreXML1.0.00/BFM/xmldsig-core-schema.xsd" filename="xmldsig-core-schema.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://webservices.sabre.com/wsdl/sabreXML1.0.00/BFM/BargainFinderMaxRQRS_v1-4-5.xsd" filename="BargainFinderMaxRQRS_v1-4-5.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://webservices.sabre.com/wsdl/sabreXML1.0.00/BFM/wsse.xsd" filename="wsse.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="http://webservices.sabre.com/wsdl/sabreXML1.0.00/BFM/BargainFinderMaxRQ_v1-4-5.wsdl" filename="BargainFinderMaxRQ_v1-4-5.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://webservices.sabre.com/wsdl/sabreXML1.0.00/BFM/envelope.xsd" filename="envelope.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://webservices.sabre.com/wsdl/sabreXML1.0.00/BFM/msg-header-2_0.xsd" filename="msg-header-2_0.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="http://webservices.sabre.com/wsdl/sabreXML1.0.00/BFM/xml.xsd" filename="xml.xsd" />
+  </Results>
+</DiscoveryClientResultsFile>

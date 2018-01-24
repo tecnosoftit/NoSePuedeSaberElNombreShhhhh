@@ -1,0 +1,1323 @@
+Fecha:           2014/08/25 03:30
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:30
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAA89JB
+Info:        Response: 89JB.A1IC*AA1.A
+NO MESSAGE..25AUG
+Source:      Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3627467613837585755!1239020!0
+Complmeneto: SabreCommand
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:30
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3627467613837585755!1239020!0
+Source:      Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+StackTrace:  Respuesta89JB.A1IC*AA1.A
+NO MESSAGE..25AUG
+TargetSite:  Comando: AAA89JB
+Complmeneto: Credenciales: 
+User: 5555
+Password: WS061127
+Ipcc: A1IC
+Pcc: 89JB
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:30
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3627467613837585755!1239020!0
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:30
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     FORMAT, CHECK SEGMENT NUMBER-0003
+Info:        Comando Sabre: WP
+Complmeneto: Response: FORMAT, CHECK SEGMENT NUMBER-0003
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:30
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3627467613837585755!1239020!0
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:30
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     NEED WP BEFORE PQ
+Info:        Comando Sabre: PQ
+Complmeneto: Response: NEED WP BEFORE PQ
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:30
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3627467613837585755!1239020!0
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:30
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     FORMAT, CHECK SEGMENT NUMBER-0003
+Info:        Comando Sabre: WP
+Complmeneto: Response: FORMAT, CHECK SEGMENT NUMBER-0003
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:30
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3627467613837585755!1239020!0
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:30
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     NEED WP BEFORE PQ
+Info:        Comando Sabre: PQ
+Complmeneto: Response: NEED WP BEFORE PQ
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:48
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:48
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAA89JB
+Info:        Response: 89JB.A1IC*AA1.A
+NO MESSAGE..25AUG
+Source:      Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESF!ICESMSLB\/RES.LB!-3627463105204914267!1104797!0
+Complmeneto: SabreCommand
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:48
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESF!ICESMSLB\/RES.LB!-3627463105204914267!1104797!0
+Source:      Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+StackTrace:  Respuesta89JB.A1IC*AA1.A
+NO MESSAGE..25AUG
+TargetSite:  Comando: AAA89JB
+Complmeneto: Credenciales: 
+User: 5555
+Password: WS061127
+Ipcc: A1IC
+Pcc: 89JB
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:48
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESF!ICESMSLB\/RES.LB!-3627463105204914267!1104797!0
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:48
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:48
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESF!ICESMSLB\/RES.LB!-3627463105204914267!1104797!0
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:48
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     RATE BSR 1COP - 0.000519642485    USD
+COP        1924.4     TRUNCATED
+COP        2000       ROUNDED UP TO NEXT   100    - FARES
+COP        2000       ROUNDED UP TO NEXT   100    - TAXES
+Info:        Comando Sabre: DC¥USD1.00/COP
+Complmeneto: Response: RATE BSR 1COP - 0.000519642485    USD
+COP        1924.4     TRUNCATED
+COP        2000       ROUNDED UP TO NEXT   100    - FARES
+COP        2000       ROUNDED UP TO NEXT   100    - TAXES
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:50
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESF!ICESMSLB\/RES.LB!-3627463105204914267!1104797!0
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:50
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     10OCT DEPARTURE DATE-----LAST DAY TO PURCHASE 26AUG/1550
+       BASE FARE                 TAXES/FEES/CHARGES    TOTAL
+ 1-    COP194000                     43840XT       COP237840ADT
+    XT     31040YS      12800CO 
+          194000                     43840            237840TTL
+ADT-01  LES00RIQ
+ BOG AV MDE Q22000 172000COP194000END
+REFUND FEE70000COP/CHNG FEE50000COP/PLUS FARE DIFF/NON END
+VALIDATING CARRIER - AV
+                                                               
+AIR EXTRAS AVAILABLE - SEE WP*AE
+BAGGAGE INFO AVAILABLE - SEE WP*BAG
+.
+Info:        Comando Sabre: WP
+Complmeneto: Response: 10OCT DEPARTURE DATE-----LAST DAY TO PURCHASE 26AUG/1550
+       BASE FARE                 TAXES/FEES/CHARGES    TOTAL
+ 1-    COP194000                     43840XT       COP237840ADT
+    XT     31040YS      12800CO 
+          194000                     43840            237840TTL
+ADT-01  LES00RIQ
+ BOG AV MDE Q22000 172000COP194000END
+REFUND FEE70000COP/CHNG FEE50000COP/PLUS FARE DIFF/NON END
+VALIDATING CARRIER - AV
+                                                               
+AIR EXTRAS AVAILABLE - SEE WP*AE
+BAGGAGE INFO AVAILABLE - SEE WP*BAG
+.
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:50
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESF!ICESMSLB\/RES.LB!-3627463105204914267!1104797!0
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:50
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     PRICE QUOTE RECORD RETAINED                                    
+                                                               
+FARE NOT GUARANTEED UNTIL TICKETED                             
+                                                               
+PQ 1                                                           
+                                                               
+       BASE FARE              TAXES/FEES/CHARGES     TOTAL     
+      COP194000                       43840XT      COP237840ADT
+    XT      31040YS      12800CO                               
+ADT-01  LES00RIQ                                               
+LAST DAY TO PURCHASE 26AUG/1550                                
+BOG AV MDE Q22000 172000COP194000END
+VALIDATING CARRIER - AV                                        
+REFUND FEE70000COP/CHNG FEE50000COP/PLUS FARE DIFF/NON END     
+01 O BOG AV9310L 10OCT  905A LES00RIQ        10OCT1410OCT14 23K
+     MDE                                                       
+FARE SOURCE - ATPC                                             
+VALIDATING CARRIER-AV                                          
+89JB A1IC *AA1 1550/25AUG14                           PRICE-SYS
+                                                               
+
+.
+Info:        Comando Sabre: PQ
+Complmeneto: Response: PRICE QUOTE RECORD RETAINED                                    
+                                                               
+FARE NOT GUARANTEED UNTIL TICKETED                             
+                                                               
+PQ 1                                                           
+                                                               
+       BASE FARE              TAXES/FEES/CHARGES     TOTAL     
+      COP194000                       43840XT      COP237840ADT
+    XT      31040YS      12800CO                               
+ADT-01  LES00RIQ                                               
+LAST DAY TO PURCHASE 26AUG/1550                                
+BOG AV MDE Q22000 172000COP194000END
+VALIDATING CARRIER - AV                                        
+REFUND FEE70000COP/CHNG FEE50000COP/PLUS FARE DIFF/NON END     
+01 O BOG AV9310L 10OCT  905A LES00RIQ        10OCT1410OCT14 23K
+     MDE                                                       
+FARE SOURCE - ATPC                                             
+VALIDATING CARRIER-AV                                          
+89JB A1IC *AA1 1550/25AUG14                           PRICE-SYS
+                                                               
+
+.
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 04:49
+Codigo:      0
+Tipo:        Libreria
+Método:      _Sabre_EjecutarComando
+Severidad:   Alta
+Mensaje:     Invalid or Expired binary security token: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESF!ICESMSLB\/RES.LB!-3627463105204914267!1104797!0
+Source:      Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+StackTrace:     at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at WS_SsoftSabre.SabreCommandLLS.SabreCommandLLSService.SabreCommandLLSRQ(SabreCommandLLSRQ SabreCommandLLSRQ1) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\sabre\WS_SsoftSabreV2\WS_SsoftSabre\Web References\SabreCommandLLS\Reference.cs:line 108
+   at WS_SsoftSabre.Air.clsSabreCommandLLS._Sabre_EjecutarComando(String Comando_) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\sabre\WS_SsoftSabreV2\WS_SsoftSabre\Air\clsSabreCommandLLS.cs:line 203
+InnerEx:     HostCommand: WP
+TargetSite:  Response: 
+Complmeneto: Error al ejecutar Comando WP  Sabre
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 04:49
+Codigo:      0
+Tipo:        Libreria
+Método:      _Sabre_EjecutarComando
+Severidad:   Alta
+Mensaje:     Invalid or Expired binary security token: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESF!ICESMSLB\/RES.LB!-3627463105204914267!1104797!0
+Source:      Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+StackTrace:     at System.Web.Services.Protocols.SoapHttpClientProtocol.ReadResponse(SoapClientMessage message, WebResponse response, Stream responseStream, Boolean asyncCall)
+   at System.Web.Services.Protocols.SoapHttpClientProtocol.Invoke(String methodName, Object[] parameters)
+   at WS_SsoftSabre.SabreCommandLLS.SabreCommandLLSService.SabreCommandLLSRQ(SabreCommandLLSRQ SabreCommandLLSRQ1) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\sabre\WS_SsoftSabreV2\WS_SsoftSabre\Web References\SabreCommandLLS\Reference.cs:line 108
+   at WS_SsoftSabre.Air.clsSabreCommandLLS._Sabre_EjecutarComando(String Comando_) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\sabre\WS_SsoftSabreV2\WS_SsoftSabre\Air\clsSabreCommandLLS.cs:line 203
+InnerEx:     HostCommand: PQ
+TargetSite:  Response: 
+Complmeneto: Error al ejecutar Comando PQ  Sabre
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 04:49
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 04:49
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAA89JB
+Info:        Response: 89JB.A1IC*AA1.A
+NO MESSAGE..25AUG
+Source:      Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESH!ICESMSLB\/RES.LB!-3627448202221210700!96719!0
+Complmeneto: SabreCommand
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 04:49
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESH!ICESMSLB\/RES.LB!-3627448202221210700!96719!0
+Source:      Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+StackTrace:  Respuesta89JB.A1IC*AA1.A
+NO MESSAGE..25AUG
+TargetSite:  Comando: AAA89JB
+Complmeneto: Credenciales: 
+User: 5555
+Password: WS061127
+Ipcc: A1IC
+Pcc: 89JB
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 04:49
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESH!ICESMSLB\/RES.LB!-3627448202221210700!96719!0
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 04:49
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 04:51
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESH!ICESMSLB\/RES.LB!-3627448202221210700!96719!0
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 04:51
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     10OCT DEPARTURE DATE-----LAST DAY TO PURCHASE 26AUG/1651
+       BASE FARE                 TAXES/FEES/CHARGES    TOTAL
+ 1-    COP194000                     43840XT       COP237840ADT
+    XT     31040YS      12800CO 
+          194000                     43840            237840TTL
+ADT-01  LES00RIQ
+ BOG AV MDE Q22000 172000COP194000END
+REFUND FEE70000COP/CHNG FEE50000COP/PLUS FARE DIFF/NON END
+VALIDATING CARRIER - AV
+                                                               
+AIR EXTRAS AVAILABLE - SEE WP*AE
+BAGGAGE INFO AVAILABLE - SEE WP*BAG
+.
+Info:        Comando Sabre: WP
+Complmeneto: Response: 10OCT DEPARTURE DATE-----LAST DAY TO PURCHASE 26AUG/1651
+       BASE FARE                 TAXES/FEES/CHARGES    TOTAL
+ 1-    COP194000                     43840XT       COP237840ADT
+    XT     31040YS      12800CO 
+          194000                     43840            237840TTL
+ADT-01  LES00RIQ
+ BOG AV MDE Q22000 172000COP194000END
+REFUND FEE70000COP/CHNG FEE50000COP/PLUS FARE DIFF/NON END
+VALIDATING CARRIER - AV
+                                                               
+AIR EXTRAS AVAILABLE - SEE WP*AE
+BAGGAGE INFO AVAILABLE - SEE WP*BAG
+.
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 04:51
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESH!ICESMSLB\/RES.LB!-3627448202221210700!96719!0
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 04:51
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     PRICE QUOTE RECORD RETAINED                                    
+                                                               
+FARE NOT GUARANTEED UNTIL TICKETED                             
+                                                               
+PQ 1                                                           
+                                                               
+       BASE FARE              TAXES/FEES/CHARGES     TOTAL     
+      COP194000                       43840XT      COP237840ADT
+    XT      31040YS      12800CO                               
+ADT-01  LES00RIQ                                               
+LAST DAY TO PURCHASE 26AUG/1651                                
+BOG AV MDE Q22000 172000COP194000END
+VALIDATING CARRIER - AV                                        
+REFUND FEE70000COP/CHNG FEE50000COP/PLUS FARE DIFF/NON END     
+01 O BOG AV9322L 10OCT  550A LES00RIQ        10OCT1410OCT14 23K
+     MDE                                                       
+FARE SOURCE - ATPC                                             
+VALIDATING CARRIER-AV                                          
+89JB A1IC *AA1 1651/25AUG14                           PRICE-SYS
+                                                               
+
+.
+Info:        Comando Sabre: PQ
+Complmeneto: Response: PRICE QUOTE RECORD RETAINED                                    
+                                                               
+FARE NOT GUARANTEED UNTIL TICKETED                             
+                                                               
+PQ 1                                                           
+                                                               
+       BASE FARE              TAXES/FEES/CHARGES     TOTAL     
+      COP194000                       43840XT      COP237840ADT
+    XT      31040YS      12800CO                               
+ADT-01  LES00RIQ                                               
+LAST DAY TO PURCHASE 26AUG/1651                                
+BOG AV MDE Q22000 172000COP194000END
+VALIDATING CARRIER - AV                                        
+REFUND FEE70000COP/CHNG FEE50000COP/PLUS FARE DIFF/NON END     
+01 O BOG AV9322L 10OCT  550A LES00RIQ        10OCT1410OCT14 23K
+     MDE                                                       
+FARE SOURCE - ATPC                                             
+VALIDATING CARRIER-AV                                          
+89JB A1IC *AA1 1651/25AUG14                           PRICE-SYS
+                                                               
+
+.
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 05:34
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 05:34
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAA89JB
+Info:        Response: 89JB.A1IC*AA1.A
+NO MESSAGE..25AUG
+Source:      Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3627437238350800347!1836348!0
+Complmeneto: SabreCommand
+Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 05:34
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3627437238350800347!1836348!0
+Source:      Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+StackTrace:  Respuesta89JB.A1IC*AA1.A
+NO MESSAGE..25AUG
+TargetSite:  Comando: AAA89JB
+Complmeneto: Credenciales: 
+User: 5555
+Password: WS061127
+Ipcc: A1IC
+Pcc: 89JB
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 05:34
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3627437238350800347!1836348!0
+Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 05:34
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 05:34
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3627437238350800347!1836348!0
+Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 05:34
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     02OCT DEPARTURE DATE-----LAST DAY TO PURCHASE 25AUG/2359
+       BASE FARE                 TAXES/FEES/CHARGES    TOTAL
+ 1-     COP85000                     26400XT       COP111400ADT
+    XT     13600YS      12800CO 
+           85000                     26400            111400TTL
+ADT-01  NVUELA7
+ BOG CM MDE Q50000 35000COP85000END
+OPERADO POR AERO REPUBLICA
+VALIDATING CARRIER - CM
+                                                               
+AIR EXTRAS AVAILABLE - SEE WP*AE
+BAGGAGE INFO AVAILABLE - SEE WP*BAG
+.
+Info:        Comando Sabre: WP
+Complmeneto: Response: 02OCT DEPARTURE DATE-----LAST DAY TO PURCHASE 25AUG/2359
+       BASE FARE                 TAXES/FEES/CHARGES    TOTAL
+ 1-     COP85000                     26400XT       COP111400ADT
+    XT     13600YS      12800CO 
+           85000                     26400            111400TTL
+ADT-01  NVUELA7
+ BOG CM MDE Q50000 35000COP85000END
+OPERADO POR AERO REPUBLICA
+VALIDATING CARRIER - CM
+                                                               
+AIR EXTRAS AVAILABLE - SEE WP*AE
+BAGGAGE INFO AVAILABLE - SEE WP*BAG
+.
+Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 05:34
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3627437238350800347!1836348!0
+Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 05:34
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     PRICE QUOTE RECORD RETAINED                                    
+                                                               
+FARE NOT GUARANTEED UNTIL TICKETED                             
+                                                               
+PQ 1                                                           
+                                                               
+       BASE FARE              TAXES/FEES/CHARGES     TOTAL     
+       COP85000                       26400XT      COP111400ADT
+    XT      13600YS      12800CO                               
+ADT-01  NVUELA7                                                
+LAST DAY TO PURCHASE 25AUG/2359                                
+BOG CM MDE Q50000 35000COP85000END
+VALIDATING CARRIER - CM                                        
+OPERADO POR AERO REPUBLICA                                     
+01 O BOG CM7508N 02OCT  935P NVUELA7         02OCT1402OCT14 20K
+     MDE                                                       
+FARE SOURCE - ATPC                                             
+VALIDATING CARRIER-CM                                          
+89JB A1IC *AA1 1734/25AUG14                           PRICE-SYS
+                                                               
+
+.
+Info:        Comando Sabre: PQ
+Complmeneto: Response: PRICE QUOTE RECORD RETAINED                                    
+                                                               
+FARE NOT GUARANTEED UNTIL TICKETED                             
+                                                               
+PQ 1                                                           
+                                                               
+       BASE FARE              TAXES/FEES/CHARGES     TOTAL     
+       COP85000                       26400XT      COP111400ADT
+    XT      13600YS      12800CO                               
+ADT-01  NVUELA7                                                
+LAST DAY TO PURCHASE 25AUG/2359                                
+BOG CM MDE Q50000 35000COP85000END
+VALIDATING CARRIER - CM                                        
+OPERADO POR AERO REPUBLICA                                     
+01 O BOG CM7508N 02OCT  935P NVUELA7         02OCT1402OCT14 20K
+     MDE                                                       
+FARE SOURCE - ATPC                                             
+VALIDATING CARRIER-CM                                          
+89JB A1IC *AA1 1734/25AUG14                           PRICE-SYS
+                                                               
+
+.
+Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 05:35
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3627437238350800347!1836348!0
+Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 05:35
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     02OCT DEPARTURE DATE-----LAST DAY TO PURCHASE 25AUG/2359
+       BASE FARE                 TAXES/FEES/CHARGES    TOTAL
+ 1-     COP85000                     26400XT       COP111400ADT
+    XT     13600YS      12800CO 
+           85000                     26400            111400TTL
+ADT-01  NVUELA7
+ BOG CM MDE Q50000 35000COP85000END
+OPERADO POR AERO REPUBLICA
+VALIDATING CARRIER - CM
+                                                               
+AIR EXTRAS AVAILABLE - SEE WP*AE
+BAGGAGE INFO AVAILABLE - SEE WP*BAG
+.
+Info:        Comando Sabre: WP
+Complmeneto: Response: 02OCT DEPARTURE DATE-----LAST DAY TO PURCHASE 25AUG/2359
+       BASE FARE                 TAXES/FEES/CHARGES    TOTAL
+ 1-     COP85000                     26400XT       COP111400ADT
+    XT     13600YS      12800CO 
+           85000                     26400            111400TTL
+ADT-01  NVUELA7
+ BOG CM MDE Q50000 35000COP85000END
+OPERADO POR AERO REPUBLICA
+VALIDATING CARRIER - CM
+                                                               
+AIR EXTRAS AVAILABLE - SEE WP*AE
+BAGGAGE INFO AVAILABLE - SEE WP*BAG
+.
+Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 05:36
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3627437238350800347!1836348!0
+Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 05:36
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     PRICE QUOTE RECORD RETAINED                                    
+                                                               
+FARE NOT GUARANTEED UNTIL TICKETED                             
+                                                               
+PQ 1                                                           
+                                                               
+       BASE FARE              TAXES/FEES/CHARGES     TOTAL     
+       COP85000                       26400XT      COP111400ADT
+    XT      13600YS      12800CO                               
+ADT-01  NVUELA7                                                
+LAST DAY TO PURCHASE 25AUG/2359                                
+BOG CM MDE Q50000 35000COP85000END
+VALIDATING CARRIER - CM                                        
+OPERADO POR AERO REPUBLICA                                     
+01 O BOG CM7508N 02OCT  935P NVUELA7         02OCT1402OCT14 20K
+     MDE                                                       
+FARE SOURCE - ATPC                                             
+VALIDATING CARRIER-CM                                          
+89JB A1IC *AA1 1735/25AUG14                           PRICE-SYS
+                                                               
+
+.
+Info:        Comando Sabre: PQ
+Complmeneto: Response: PRICE QUOTE RECORD RETAINED                                    
+                                                               
+FARE NOT GUARANTEED UNTIL TICKETED                             
+                                                               
+PQ 1                                                           
+                                                               
+       BASE FARE              TAXES/FEES/CHARGES     TOTAL     
+       COP85000                       26400XT      COP111400ADT
+    XT      13600YS      12800CO                               
+ADT-01  NVUELA7                                                
+LAST DAY TO PURCHASE 25AUG/2359                                
+BOG CM MDE Q50000 35000COP85000END
+VALIDATING CARRIER - CM                                        
+OPERADO POR AERO REPUBLICA                                     
+01 O BOG CM7508N 02OCT  935P NVUELA7         02OCT1402OCT14 20K
+     MDE                                                       
+FARE SOURCE - ATPC                                             
+VALIDATING CARRIER-CM                                          
+89JB A1IC *AA1 1735/25AUG14                           PRICE-SYS
+                                                               
+
+.
+Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 05:41
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3627437238350800347!1836348!0
+Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 05:41
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     02OCT DEPARTURE DATE-----LAST DAY TO PURCHASE 25AUG/2359
+       BASE FARE                 TAXES/FEES/CHARGES    TOTAL
+ 1-     COP85000                     26400XT       COP111400ADT
+    XT     13600YS      12800CO 
+           85000                     26400            111400TTL
+ADT-01  NVUELA7
+ BOG CM MDE Q50000 35000COP85000END
+OPERADO POR AERO REPUBLICA
+VALIDATING CARRIER - CM
+                                                               
+AIR EXTRAS AVAILABLE - SEE WP*AE
+BAGGAGE INFO AVAILABLE - SEE WP*BAG
+.
+Info:        Comando Sabre: WP
+Complmeneto: Response: 02OCT DEPARTURE DATE-----LAST DAY TO PURCHASE 25AUG/2359
+       BASE FARE                 TAXES/FEES/CHARGES    TOTAL
+ 1-     COP85000                     26400XT       COP111400ADT
+    XT     13600YS      12800CO 
+           85000                     26400            111400TTL
+ADT-01  NVUELA7
+ BOG CM MDE Q50000 35000COP85000END
+OPERADO POR AERO REPUBLICA
+VALIDATING CARRIER - CM
+                                                               
+AIR EXTRAS AVAILABLE - SEE WP*AE
+BAGGAGE INFO AVAILABLE - SEE WP*BAG
+.
+Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 05:41
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3627437238350800347!1836348!0
+Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 05:41
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     PRICE QUOTE RECORD RETAINED                                    
+                                                               
+FARE NOT GUARANTEED UNTIL TICKETED                             
+                                                               
+PQ 1                                                           
+                                                               
+       BASE FARE              TAXES/FEES/CHARGES     TOTAL     
+       COP85000                       26400XT      COP111400ADT
+    XT      13600YS      12800CO                               
+ADT-01  NVUELA7                                                
+LAST DAY TO PURCHASE 25AUG/2359                                
+BOG CM MDE Q50000 35000COP85000END
+VALIDATING CARRIER - CM                                        
+OPERADO POR AERO REPUBLICA                                     
+01 O BOG CM7508N 02OCT  935P NVUELA7         02OCT1402OCT14 20K
+     MDE                                                       
+FARE SOURCE - ATPC                                             
+VALIDATING CARRIER-CM                                          
+89JB A1IC *AA1 1741/25AUG14                           PRICE-SYS
+                                                               
+
+.
+Info:        Comando Sabre: PQ
+Complmeneto: Response: PRICE QUOTE RECORD RETAINED                                    
+                                                               
+FARE NOT GUARANTEED UNTIL TICKETED                             
+                                                               
+PQ 1                                                           
+                                                               
+       BASE FARE              TAXES/FEES/CHARGES     TOTAL     
+       COP85000                       26400XT      COP111400ADT
+    XT      13600YS      12800CO                               
+ADT-01  NVUELA7                                                
+LAST DAY TO PURCHASE 25AUG/2359                                
+BOG CM MDE Q50000 35000COP85000END
+VALIDATING CARRIER - CM                                        
+OPERADO POR AERO REPUBLICA                                     
+01 O BOG CM7508N 02OCT  935P NVUELA7         02OCT1402OCT14 20K
+     MDE                                                       
+FARE SOURCE - ATPC                                             
+VALIDATING CARRIER-CM                                          
+89JB A1IC *AA1 1741/25AUG14                           PRICE-SYS
+                                                               
+
+.
+Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 05:43
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3627437238350800347!1836348!0
+Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 05:43
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     02OCT DEPARTURE DATE-----LAST DAY TO PURCHASE 25AUG/2359
+       BASE FARE                 TAXES/FEES/CHARGES    TOTAL
+ 1-     COP85000                     26400XT       COP111400ADT
+    XT     13600YS      12800CO 
+           85000                     26400            111400TTL
+ADT-01  NVUELA7
+ BOG CM MDE Q50000 35000COP85000END
+OPERADO POR AERO REPUBLICA
+VALIDATING CARRIER - CM
+                                                               
+AIR EXTRAS AVAILABLE - SEE WP*AE
+BAGGAGE INFO AVAILABLE - SEE WP*BAG
+.
+Info:        Comando Sabre: WP
+Complmeneto: Response: 02OCT DEPARTURE DATE-----LAST DAY TO PURCHASE 25AUG/2359
+       BASE FARE                 TAXES/FEES/CHARGES    TOTAL
+ 1-     COP85000                     26400XT       COP111400ADT
+    XT     13600YS      12800CO 
+           85000                     26400            111400TTL
+ADT-01  NVUELA7
+ BOG CM MDE Q50000 35000COP85000END
+OPERADO POR AERO REPUBLICA
+VALIDATING CARRIER - CM
+                                                               
+AIR EXTRAS AVAILABLE - SEE WP*AE
+BAGGAGE INFO AVAILABLE - SEE WP*BAG
+.
+Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 05:43
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3627437238350800347!1836348!0
+Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 05:43
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     PRICE QUOTE RECORD RETAINED                                    
+                                                               
+FARE NOT GUARANTEED UNTIL TICKETED                             
+                                                               
+PQ 1                                                           
+                                                               
+       BASE FARE              TAXES/FEES/CHARGES     TOTAL     
+       COP85000                       26400XT      COP111400ADT
+    XT      13600YS      12800CO                               
+ADT-01  NVUELA7                                                
+LAST DAY TO PURCHASE 25AUG/2359                                
+BOG CM MDE Q50000 35000COP85000END
+VALIDATING CARRIER - CM                                        
+OPERADO POR AERO REPUBLICA                                     
+01 O BOG CM7508N 02OCT  935P NVUELA7         02OCT1402OCT14 20K
+     MDE                                                       
+FARE SOURCE - ATPC                                             
+VALIDATING CARRIER-CM                                          
+89JB A1IC *AA1 1742/25AUG14                           PRICE-SYS
+                                                               
+
+.
+Info:        Comando Sabre: PQ
+Complmeneto: Response: PRICE QUOTE RECORD RETAINED                                    
+                                                               
+FARE NOT GUARANTEED UNTIL TICKETED                             
+                                                               
+PQ 1                                                           
+                                                               
+       BASE FARE              TAXES/FEES/CHARGES     TOTAL     
+       COP85000                       26400XT      COP111400ADT
+    XT      13600YS      12800CO                               
+ADT-01  NVUELA7                                                
+LAST DAY TO PURCHASE 25AUG/2359                                
+BOG CM MDE Q50000 35000COP85000END
+VALIDATING CARRIER - CM                                        
+OPERADO POR AERO REPUBLICA                                     
+01 O BOG CM7508N 02OCT  935P NVUELA7         02OCT1402OCT14 20K
+     MDE                                                       
+FARE SOURCE - ATPC                                             
+VALIDATING CARRIER-CM                                          
+89JB A1IC *AA1 1742/25AUG14                           PRICE-SYS
+                                                               
+
+.
+Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 05:46
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3627437238350800347!1836348!0
+Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 05:46
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     02OCT DEPARTURE DATE-----LAST DAY TO PURCHASE 25AUG/2359
+       BASE FARE                 TAXES/FEES/CHARGES    TOTAL
+ 1-     COP85000                     26400XT       COP111400ADT
+    XT     13600YS      12800CO 
+           85000                     26400            111400TTL
+ADT-01  NVUELA7
+ BOG CM MDE Q50000 35000COP85000END
+OPERADO POR AERO REPUBLICA
+VALIDATING CARRIER - CM
+                                                               
+AIR EXTRAS AVAILABLE - SEE WP*AE
+BAGGAGE INFO AVAILABLE - SEE WP*BAG
+.
+Info:        Comando Sabre: WP
+Complmeneto: Response: 02OCT DEPARTURE DATE-----LAST DAY TO PURCHASE 25AUG/2359
+       BASE FARE                 TAXES/FEES/CHARGES    TOTAL
+ 1-     COP85000                     26400XT       COP111400ADT
+    XT     13600YS      12800CO 
+           85000                     26400            111400TTL
+ADT-01  NVUELA7
+ BOG CM MDE Q50000 35000COP85000END
+OPERADO POR AERO REPUBLICA
+VALIDATING CARRIER - CM
+                                                               
+AIR EXTRAS AVAILABLE - SEE WP*AE
+BAGGAGE INFO AVAILABLE - SEE WP*BAG
+.
+Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 05:46
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3627437238350800347!1836348!0
+Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 05:46
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     PRICE QUOTE RECORD RETAINED                                    
+                                                               
+FARE NOT GUARANTEED UNTIL TICKETED                             
+                                                               
+PQ 1                                                           
+                                                               
+       BASE FARE              TAXES/FEES/CHARGES     TOTAL     
+       COP85000                       26400XT      COP111400ADT
+    XT      13600YS      12800CO                               
+ADT-01  NVUELA7                                                
+LAST DAY TO PURCHASE 25AUG/2359                                
+BOG CM MDE Q50000 35000COP85000END
+VALIDATING CARRIER - CM                                        
+OPERADO POR AERO REPUBLICA                                     
+01 O BOG CM7508N 02OCT  935P NVUELA7         02OCT1402OCT14 20K
+     MDE                                                       
+FARE SOURCE - ATPC                                             
+VALIDATING CARRIER-CM                                          
+89JB A1IC *AA1 1746/25AUG14                           PRICE-SYS
+                                                               
+
+.
+Info:        Comando Sabre: PQ
+Complmeneto: Response: PRICE QUOTE RECORD RETAINED                                    
+                                                               
+FARE NOT GUARANTEED UNTIL TICKETED                             
+                                                               
+PQ 1                                                           
+                                                               
+       BASE FARE              TAXES/FEES/CHARGES     TOTAL     
+       COP85000                       26400XT      COP111400ADT
+    XT      13600YS      12800CO                               
+ADT-01  NVUELA7                                                
+LAST DAY TO PURCHASE 25AUG/2359                                
+BOG CM MDE Q50000 35000COP85000END
+VALIDATING CARRIER - CM                                        
+OPERADO POR AERO REPUBLICA                                     
+01 O BOG CM7508N 02OCT  935P NVUELA7         02OCT1402OCT14 20K
+     MDE                                                       
+FARE SOURCE - ATPC                                             
+VALIDATING CARRIER-CM                                          
+89JB A1IC *AA1 1746/25AUG14                           PRICE-SYS
+                                                               
+
+.
+Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 06:01
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 6354458635339153302hhiqugdgecwzk1dcdt3mrih
+Sesion Local: 6354458635339153302hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 06:01
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAA89JB
+Info:        Response: 89JB.A1IC*AA1.A
+NO MESSAGE..25AUG
+Source:      Sesion Local: 6354458635339153302hhiqugdgecwzk1dcdt3mrih
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESF!ICESMSLB\/RES.LB!-3627430551288024666!1701517!0
+Complmeneto: SabreCommand
+Sesion Local: 6354458635339153302hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 06:01
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESF!ICESMSLB\/RES.LB!-3627430551288024666!1701517!0
+Source:      Sesion Local: 6354458635339153302hhiqugdgecwzk1dcdt3mrih
+StackTrace:  Respuesta89JB.A1IC*AA1.A
+NO MESSAGE..25AUG
+TargetSite:  Comando: AAA89JB
+Complmeneto: Credenciales: 
+User: 5555
+Password: WS061127
+Ipcc: A1IC
+Pcc: 89JB
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 6354458635339153302hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 06:01
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 6354458635339153302hhiqugdgecwzk1dcdt3mrih
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESF!ICESMSLB\/RES.LB!-3627430551288024666!1701517!0
+Sesion Local: 6354458635339153302hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 06:01
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 6354458635339153302hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 06:03
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 6354458635339153302hhiqugdgecwzk1dcdt3mrih
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESF!ICESMSLB\/RES.LB!-3627430551288024666!1701517!0
+Sesion Local: 6354458635339153302hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 06:03
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     09OCT DEPARTURE DATE-----LAST DAY TO PURCHASE 25AUG/2359
+       BASE FARE                 TAXES/FEES/CHARGES    TOTAL
+ 1-     COP74000                     24640XT        COP98640ADT
+    XT     11840YS      12800CO 
+           74000                     24640             98640TTL
+ADT-01  NVUELA7
+ BOG CM CLO Q30000 44000COP74000END
+OPERADO POR AERO REPUBLICA
+VALIDATING CARRIER - CM
+                                                               
+AIR EXTRAS AVAILABLE - SEE WP*AE
+BAGGAGE INFO AVAILABLE - SEE WP*BAG
+.
+Info:        Comando Sabre: WP
+Complmeneto: Response: 09OCT DEPARTURE DATE-----LAST DAY TO PURCHASE 25AUG/2359
+       BASE FARE                 TAXES/FEES/CHARGES    TOTAL
+ 1-     COP74000                     24640XT        COP98640ADT
+    XT     11840YS      12800CO 
+           74000                     24640             98640TTL
+ADT-01  NVUELA7
+ BOG CM CLO Q30000 44000COP74000END
+OPERADO POR AERO REPUBLICA
+VALIDATING CARRIER - CM
+                                                               
+AIR EXTRAS AVAILABLE - SEE WP*AE
+BAGGAGE INFO AVAILABLE - SEE WP*BAG
+.
+Sesion Local: 6354458635339153302hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 06:03
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 6354458635339153302hhiqugdgecwzk1dcdt3mrih
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESF!ICESMSLB\/RES.LB!-3627430551288024666!1701517!0
+Sesion Local: 6354458635339153302hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 06:03
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     PRICE QUOTE RECORD RETAINED                                    
+                                                               
+FARE NOT GUARANTEED UNTIL TICKETED                             
+                                                               
+PQ 1                                                           
+                                                               
+       BASE FARE              TAXES/FEES/CHARGES     TOTAL     
+       COP74000                       24640XT       COP98640ADT
+    XT      11840YS      12800CO                               
+ADT-01  NVUELA7                                                
+LAST DAY TO PURCHASE 25AUG/2359                                
+BOG CM CLO Q30000 44000COP74000END
+VALIDATING CARRIER - CM                                        
+OPERADO POR AERO REPUBLICA                                     
+01 O BOG CM7459N 09OCT  919P NVUELA7         09OCT1409OCT14 20K
+     CLO                                                       
+FARE SOURCE - ATPC                                             
+VALIDATING CARRIER-CM                                          
+89JB A1IC *AA1 1803/25AUG14                           PRICE-SYS
+                                                               
+
+.
+Info:        Comando Sabre: PQ
+Complmeneto: Response: PRICE QUOTE RECORD RETAINED                                    
+                                                               
+FARE NOT GUARANTEED UNTIL TICKETED                             
+                                                               
+PQ 1                                                           
+                                                               
+       BASE FARE              TAXES/FEES/CHARGES     TOTAL     
+       COP74000                       24640XT       COP98640ADT
+    XT      11840YS      12800CO                               
+ADT-01  NVUELA7                                                
+LAST DAY TO PURCHASE 25AUG/2359                                
+BOG CM CLO Q30000 44000COP74000END
+VALIDATING CARRIER - CM                                        
+OPERADO POR AERO REPUBLICA                                     
+01 O BOG CM7459N 09OCT  919P NVUELA7         09OCT1409OCT14 20K
+     CLO                                                       
+FARE SOURCE - ATPC                                             
+VALIDATING CARRIER-CM                                          
+89JB A1IC *AA1 1803/25AUG14                           PRICE-SYS
+                                                               
+
+.
+Sesion Local: 6354458635339153302hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+

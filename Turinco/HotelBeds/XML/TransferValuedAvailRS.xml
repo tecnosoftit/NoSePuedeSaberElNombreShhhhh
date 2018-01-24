@@ -1,0 +1,183 @@
+<TransferValuedAvailRS xmlns="http://www.hotelbeds.com/schemas/2005/06/messages" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.hotelbeds.com/schemas/2005/06/messages TransferValuedAvailRS.xsd" totalItems="4" echoToken="TransferValuedAvailRQ">
+	<AuditData>
+		<ProcessTime>230</ProcessTime>
+		<Timestamp>2007-03-09 10:05:22.156</Timestamp>
+		<RequestHost>172.22.136.5</RequestHost>
+		<ServerName>LIVE</ServerName>
+		<ServerId>12</ServerId>
+		<SchemaRelease>2005/06</SchemaRelease>
+		<HydraCoreRelease>2.0.200701021600</HydraCoreRelease>
+		<HydraEnumerationsRelease>1.0.200701021600</HydraEnumerationsRelease>
+		<MerlinRelease>N/A</MerlinRelease>
+	</AuditData>
+	<ServiceTransfer xsi:type="ServiceTransfer" transferType="IN" availToken="Ex2DymU7/FkFTK1OQM+rWA==">
+		<ContractList>
+			<Contract>
+				<Name>MIN PRIVADO</Name>
+				<IncomingOffice code="1"/>
+			</Contract>
+		</ContractList>
+		<DateFrom date="20070409" time="0900"/>
+		<Currency code="EUR"/>
+		<TotalAmount>31.990</TotalAmount>
+		<TransferInfo xsi:type="ProductTransfer">
+			<Code>0|0|0</Code>
+			<Type code="P">Privado</Type>
+			<VehicleType code="C">Coche privado</VehicleType>
+		</TransferInfo>
+		<Paxes>
+			<AdultCount>2</AdultCount>
+			<ChildCount>0</ChildCount>
+		</Paxes>
+		<PickupLocation xsi:type="ProductTransferTerminal">
+			<Code>PPMI</Code>
+		</PickupLocation>
+		<DestinationLocation xsi:type="ProductTransferHotel">
+			<Code>1523</Code>
+			<Name>UNKNOWN</Name>
+			<TransferZone xsi:type="ProductZone">
+				<Name>UNKNOWN</Name>
+			</TransferZone>
+		</DestinationLocation>
+		<TravelInfo>
+			<DepartInfo xsi:type="ProductTransferTerminal">
+				<Code>PPMI</Code>
+				<TransferZone xsi:type="ProductZone">
+					<Name>UNKNOWN</Name>
+				</TransferZone>
+				<DateTime date="20070409" time="0900"/>
+			</DepartInfo>
+			<ArrivalInfo xsi:type="ProductTransferTerminal">
+				<Code>PPMI</Code>
+				<TransferZone xsi:type="ProductZone">
+					<Name>UNKNOWN</Name>
+				</TransferZone>
+				<DateTime date="20070409" time="0900"/>
+			</ArrivalInfo>
+		</TravelInfo>
+	</ServiceTransfer>
+	<ServiceTransfer xsi:type="ServiceTransfer" transferType="IN" availToken="Ex2DymU7/FkFTK1OQM+rWA==">
+		<ContractList>
+			<Contract>
+				<Name>MINORISTA</Name>
+				<IncomingOffice code="1"/>
+			</Contract>
+		</ContractList>
+		<DateFrom date="20070409" time="0900"/>
+		<Currency code="EUR"/>
+		<TotalAmount>28.010</TotalAmount>
+		<TransferInfo xsi:type="ProductTransfer">
+			<Code>0|0|1</Code>
+			<Type code="B">Compartido</Type>
+			<VehicleType code="B">Bus</VehicleType>
+		</TransferInfo>
+		<Paxes>
+			<AdultCount>2</AdultCount>
+			<ChildCount>0</ChildCount>
+		</Paxes>
+		<PickupLocation xsi:type="ProductTransferTerminal">
+			<Code>PPMI</Code>
+		</PickupLocation>
+		<DestinationLocation xsi:type="ProductTransferHotel">
+			<Code>1523</Code>
+			<Name>UNKNOWN</Name>
+			<TransferZone xsi:type="ProductZone">
+				<Name>UNKNOWN</Name>
+			</TransferZone>
+		</DestinationLocation>
+		<TravelInfo>
+			<DepartInfo xsi:type="ProductTransferTerminal">
+				<Code>PPMI</Code>
+				<TransferZone xsi:type="ProductZone">
+					<Name>UNKNOWN</Name>
+				</TransferZone>
+				<DateTime date="20070409" time="0900"/>
+			</DepartInfo>
+			<ArrivalInfo xsi:type="ProductTransferTerminal">
+				<Code>PPMI</Code>
+				<TransferZone xsi:type="ProductZone">
+					<Name>UNKNOWN</Name>
+				</TransferZone>
+				<DateTime date="20070409" time="0900"/>
+			</ArrivalInfo>
+		</TravelInfo>
+	</ServiceTransfer>
+	<ServiceTransfer xsi:type="ServiceTransfer" transferType="OUT" availToken="Ex2DymU7/FkFTK1OQM+rWA==">
+		<ContractList>
+			<Contract>
+				<Name>MIN PRIVADO</Name>
+				<IncomingOffice code="1"/>
+			</Contract>
+		</ContractList>
+		<DateFrom date="20070412" time="1700"/>
+		<Currency code="EUR"/>
+		<TotalAmount>31.990</TotalAmount>
+		<TransferInfo xsi:type="ProductTransfer">
+			<Code>1|0|0</Code>
+			<Type code="P">Privado</Type>
+			<VehicleType code="C">Coche privado</VehicleType>
+		</TransferInfo>
+		<Paxes>
+			<AdultCount>2</AdultCount>
+			<ChildCount>0</ChildCount>
+		</Paxes>
+		<PickupLocation xsi:type="ProductTransferHotel">
+			<Code>1523</Code>
+			<Name>UNKNOWN</Name>
+			<TransferZone xsi:type="ProductZone">
+				<Name>UNKNOWN</Name>
+			</TransferZone>
+		</PickupLocation>
+		<DestinationLocation xsi:type="ProductTransferTerminal">
+			<Code>PPMI</Code>
+		</DestinationLocation>
+		<TravelInfo>
+			<DepartInfo xsi:type="ProductTransferTerminal">
+				<Code>PPMI</Code>
+				<TransferZone xsi:type="ProductZone">
+					<Name>UNKNOWN</Name>
+				</TransferZone>
+				<DateTime date="20070412" time="1700"/>
+			</DepartInfo>
+		</TravelInfo>
+	</ServiceTransfer>
+	<ServiceTransfer xsi:type="ServiceTransfer" transferType="OUT" availToken="Ex2DymU7/FkFTK1OQM+rWA==">
+		<ContractList>
+			<Contract>
+				<Name>MINORISTA</Name>
+				<IncomingOffice code="1"/>
+			</Contract>
+		</ContractList>
+		<DateFrom date="20070412" time="1700"/>
+		<Currency code="EUR"/>
+		<TotalAmount>28.010</TotalAmount>
+		<TransferInfo xsi:type="ProductTransfer">
+			<Code>1|0|1</Code>
+			<Type code="B">Compartido</Type>
+			<VehicleType code="B">Bus</VehicleType>
+		</TransferInfo>
+		<Paxes>
+			<AdultCount>2</AdultCount>
+			<ChildCount>0</ChildCount>
+		</Paxes>
+		<PickupLocation xsi:type="ProductTransferHotel">
+			<Code>1523</Code>
+			<Name>UNKNOWN</Name>
+			<TransferZone xsi:type="ProductZone">
+				<Name>UNKNOWN</Name>
+			</TransferZone>
+		</PickupLocation>
+		<DestinationLocation xsi:type="ProductTransferTerminal">
+			<Code>PPMI</Code>
+		</DestinationLocation>
+		<TravelInfo>
+			<DepartInfo xsi:type="ProductTransferTerminal">
+				<Code>PPMI</Code>
+				<TransferZone xsi:type="ProductZone">
+					<Name>UNKNOWN</Name>
+				</TransferZone>
+				<DateTime date="20070412" time="1700"/>
+			</DepartInfo>
+		</TravelInfo>
+	</ServiceTransfer>
+</TransferValuedAvailRS>

@@ -1,0 +1,8 @@
+Fecha:           2014/12/31 12:02
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Nactur/default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 
+Sesion WS: 
+

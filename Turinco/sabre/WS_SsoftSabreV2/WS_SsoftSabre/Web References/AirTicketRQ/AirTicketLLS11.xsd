@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://webservices.sabre.com/sabreXML/2003/07" elementFormDefault="qualified" targetNamespace="http://webservices.sabre.com/sabreXML/2003/07" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="AirTicketRQ">
+    <xs:annotation>
+      <xs:documentation>TicketingRQ tickets (W‡) or allows a user to store in a ticketing transaction for ticketing at a later time (FP) according to user-specified criteria.  Users have the ability to specify various ticketing qualifiers such as pricing, commission, segment select, tour codes, validating carriers, endorsements, etc.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="POS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Source">
+                <xs:complexType>
+                  <xs:attribute name="PseudoCityCode" use="optional">
+                    <xs:annotation>
+                      <xs:documentation xml:lang="en">An identification code assigned to an office/agency by a reservation system.																</xs:documentation>
+                    </xs:annotation>
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:minLength value="1" />
+                        <xs:maxLength value="16" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:attribute>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" name="TPA_Extensions">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="MessagingDetails">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="MDRSubset">
+                      <xs:complexType>
+                        <xs:attribute name="Code" type="xs:string" use="optional" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" name="NumResponses">
+          <xs:annotation>
+            <xs:documentation>"Count" is used to allow a customer to specify the number of lines being ticketed, so that the back-end can capture all of the mutliple responses.</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:attribute name="Count" type="xs:decimal" use="optional" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" name="FutureTicket">
+          <xs:annotation>
+            <xs:documentation>If FutureTicket="true" start format with "FP" instead of "W‡".</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" maxOccurs="unbounded" name="Line">
+                <xs:complexType>
+                  <xs:attribute name="Number" type="xs:integer" use="optional" />
+                  <xs:attribute name="EndNumber" type="xs:integer" use="optional" />
+                  <xs:attribute name="TravelerRefNumber" type="xs:decimal" use="optional" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="Ind" type="xs:boolean" use="optional" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" name="TicketingInfo">
+          <xs:annotation>
+            <xs:documentation>This element allows a user to issue a paper or electronic ticket.</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:attribute name="TicketType" use="optional">
+              <xs:annotation>
+                <xs:documentation xml:lang="en">The acceptable values for "TicketType" are "ETR", "XETR", "VCR".</xs:documentation>
+              </xs:annotation>
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:enumeration value="ETR" />
+                  <xs:enumeration value="XETR" />
+                  <xs:enumeration value="VCR" />
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" name="EndTransaction">
+          <xs:annotation>
+            <xs:documentation>"Ind" ends and tickets the reservation simultaneously.</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:attribute name="Ind" type="xs:boolean" use="optional" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" name="OptionalQualifiers">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="FOPQualifiers">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="SingleFOP">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element minOccurs="0" name="CCInfo">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element minOccurs="0" name="CreditCardVendor">
+                                  <xs:complexType>
+                                    <xs:attribute name="Code" use="optional">
+                                      <xs:simpleType>
+                                        <xs:restriction base="xs:string">
+                                          <xs:maxLength value="2" />
+                                        </xs:restriction>
+                                      </xs:simpleType>
+                                    </xs:attribute>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element minOccurs="0" name="CreditCardNumber">
+                                  <xs:complexType>
+                                    <xs:attribute name="Code" use="optional">
+                                      <xs:simpleType>
+                                        <xs:restriction base="xs:string">
+                                          <xs:maxLength value="16" />
+                                        </xs:restriction>
+                                      </xs:simpleType>
+                                    </xs:attribute>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element minOccurs="0" name="CreditCardExpiration">
+                                  <xs:complexType>
+                                    <xs:attribute name="ExpireDate" type="xs:string" use="optional" />
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element minOccurs="0" name="ExtendedPayment">
+                                  <xs:complexType>
+                                    <xs:attribute name="NumMonths" type="xs:integer" use="optional" />
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element minOccurs="0" name="SuppressCCInfo">
+                                  <xs:complexType>
+                                    <xs:attribute name="Ind" type="xs:boolean" use="optional" />
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element minOccurs="0" name="ManualApproval">
+                                  <xs:complexType>
+                                    <xs:attribute name="Code" type="xs:string" use="optional" />
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="Type" type="xs:string" use="optional" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="BSPMultipleFOP">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element minOccurs="0" name="FOPOne">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element minOccurs="0" name="CCInfo">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element minOccurs="0" name="CreditCardVendor">
+                                        <xs:complexType>
+                                          <xs:attribute name="Code" use="optional">
+                                            <xs:simpleType>
+                                              <xs:restriction base="xs:string">
+                                                <xs:maxLength value="2" />
+                                              </xs:restriction>
+                                            </xs:simpleType>
+                                          </xs:attribute>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element minOccurs="0" name="CreditCardNumber">
+                                        <xs:complexType>
+                                          <xs:attribute name="Code" use="optional">
+                                            <xs:simpleType>
+                                              <xs:restriction base="xs:string">
+                                                <xs:maxLength value="16" />
+                                              </xs:restriction>
+                                            </xs:simpleType>
+                                          </xs:attribute>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element minOccurs="0" name="CreditCardExpiration">
+                                        <xs:complexType>
+                                          <xs:attribute name="ExpireDate" type="xs:string" use="optional" />
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element minOccurs="0" name="SuppressCCInfo">
+                                        <xs:complexType>
+                                          <xs:attribute name="Ind" type="xs:boolean" use="optional" />
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element minOccurs="0" name="ManualApproval">
+                                        <xs:complexType>
+                                          <xs:attribute name="Code" type="xs:string" use="optional" />
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute name="Type" type="xs:string" use="optional" />
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element minOccurs="0" name="FOPTwo">
+                            <xs:complexType>
+                              <xs:attribute name="Type" type="xs:string" use="optional" />
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element minOccurs="0" name="BaseFare">
+                            <xs:complexType>
+                              <xs:attribute name="Amount" type="xs:decimal" use="optional" />
+                              <xs:attribute name="DecimalPlaces" type="xs:integer" use="optional" />
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element minOccurs="0" name="Taxes">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element minOccurs="0" maxOccurs="3" name="Tax">
+                                  <xs:complexType>
+                                    <xs:attribute name="Amount" type="xs:decimal" use="optional" />
+                                    <xs:attribute name="DecimalPlaces" type="xs:integer" use="optional" />
+                                    <xs:attribute name="TaxCode" type="xs:string" use="optional" />
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="BSPMultipleCCFOP">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element minOccurs="0" name="FOPOne">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element minOccurs="0" name="CCInfo">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element minOccurs="0" name="CreditCardVendor">
+                                        <xs:complexType>
+                                          <xs:attribute name="Code" use="optional">
+                                            <xs:simpleType>
+                                              <xs:restriction base="xs:string">
+                                                <xs:maxLength value="2" />
+                                              </xs:restriction>
+                                            </xs:simpleType>
+                                          </xs:attribute>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element minOccurs="0" name="CreditCardNumber">
+                                        <xs:complexType>
+                                          <xs:attribute name="Code" use="optional">
+                                            <xs:simpleType>
+                                              <xs:restriction base="xs:string">
+                                                <xs:maxLength value="16" />
+                                              </xs:restriction>
+                                            </xs:simpleType>
+                                          </xs:attribute>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element minOccurs="0" name="CreditCardExpiration">
+                                        <xs:complexType>
+                                          <xs:attribute name="ExpireDate" type="xs:string" use="optional" />
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element minOccurs="0" name="ExtendedPayment">
+                                        <xs:complexType>
+                                          <xs:attribute name="NumMonths" type="xs:integer" use="optional" />
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element minOccurs="0" name="SuppressCCInfo">
+                                        <xs:complexType>
+                                          <xs:attribute name="Ind" type="xs:boolean" use="optional" />
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element minOccurs="0" name="ManualApproval">
+                                        <xs:complexType>
+                                          <xs:attribute name="Code" type="xs:string" use="optional" />
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element minOccurs="0" name="BaseFare">
+                                  <xs:complexType>
+                                    <xs:attribute name="Amount" type="xs:decimal" use="optional" />
+                                    <xs:attribute name="DecimalPlaces" type="xs:integer" use="optional" />
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element minOccurs="0" name="FOPTwo">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element minOccurs="0" name="CCInfo">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element minOccurs="0" name="CreditCardVendor">
+                                        <xs:complexType>
+                                          <xs:attribute name="Code" use="optional">
+                                            <xs:simpleType>
+                                              <xs:restriction base="xs:string">
+                                                <xs:maxLength value="2" />
+                                              </xs:restriction>
+                                            </xs:simpleType>
+                                          </xs:attribute>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element minOccurs="0" name="CreditCardNumber">
+                                        <xs:complexType>
+                                          <xs:attribute name="Code" use="optional">
+                                            <xs:simpleType>
+                                              <xs:restriction base="xs:string">
+                                                <xs:maxLength value="16" />
+                                              </xs:restriction>
+                                            </xs:simpleType>
+                                          </xs:attribute>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element minOccurs="0" name="CreditCardExpiration">
+                                        <xs:complexType>
+                                          <xs:attribute name="ExpireDate" type="xs:string" use="optional" />
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element minOccurs="0" name="SuppressCCInfo">
+                                        <xs:complexType>
+                                          <xs:attribute name="Ind" type="xs:boolean" use="optional" />
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element minOccurs="0" name="ManualApproval">
+                                        <xs:complexType>
+                                          <xs:attribute name="Code" type="xs:string" use="optional" />
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element minOccurs="0" name="BaseFare">
+                                  <xs:complexType>
+                                    <xs:attribute name="Amount" type="xs:decimal" use="optional" />
+                                    <xs:attribute name="DecimalPlaces" type="xs:integer" use="optional" />
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute name="Type" type="xs:string" use="optional" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="BSPMiscFOP">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element minOccurs="0" name="FOPOne">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element minOccurs="0" name="CCInfo">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element minOccurs="0" name="CreditCardVendor">
+                                        <xs:complexType>
+                                          <xs:attribute name="Code" use="optional">
+                                            <xs:simpleType>
+                                              <xs:restriction base="xs:string">
+                                                <xs:maxLength value="2" />
+                                              </xs:restriction>
+                                            </xs:simpleType>
+                                          </xs:attribute>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element minOccurs="0" name="CreditCardNumber">
+                                        <xs:complexType>
+                                          <xs:attribute name="Code" use="optional">
+                                            <xs:simpleType>
+                                              <xs:restriction base="xs:string">
+                                                <xs:maxLength value="16" />
+                                              </xs:restriction>
+                                            </xs:simpleType>
+                                          </xs:attribute>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element minOccurs="0" name="CreditCardExpiration">
+                                        <xs:complexType>
+                                          <xs:attribute name="ExpireDate" type="xs:string" use="optional" />
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element minOccurs="0" name="ExtendedPayment">
+                                        <xs:complexType>
+                                          <xs:attribute name="NumMonths" type="xs:integer" use="optional" />
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element minOccurs="0" name="SuppressCCInfo">
+                                        <xs:complexType>
+                                          <xs:attribute name="Ind" type="xs:boolean" use="optional" />
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element minOccurs="0" name="ManualApproval">
+                                        <xs:complexType>
+                                          <xs:attribute name="Code" type="xs:string" use="optional" />
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute name="Type" type="xs:string" use="optional" />
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element minOccurs="0" name="FOPTwo">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element minOccurs="0" name="ExtendedPayment">
+                                  <xs:complexType>
+                                    <xs:attribute name="NumMonths" type="xs:integer" use="optional" />
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute name="Type" type="xs:string" use="optional" />
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element minOccurs="0" name="BaseFare">
+                            <xs:complexType>
+                              <xs:attribute name="Amount" type="xs:decimal" use="optional" />
+                              <xs:attribute name="DecimalPlaces" type="xs:integer" use="optional" />
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element minOccurs="0" name="Taxes">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element minOccurs="0" maxOccurs="3" name="Tax">
+                                  <xs:complexType>
+                                    <xs:attribute name="Amount" type="xs:decimal" use="optional" />
+                                    <xs:attribute name="DecimalPlaces" type="xs:integer" use="optional" />
+                                    <xs:attribute name="TaxCode" type="xs:string" use="optional" />
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="BSPInstallmentFOP">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element minOccurs="0" name="FOPOne">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element minOccurs="0" name="CCInfo">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element minOccurs="0" name="CreditCardVendor">
+                                        <xs:complexType>
+                                          <xs:attribute name="Code" use="optional">
+                                            <xs:simpleType>
+                                              <xs:restriction base="xs:string">
+                                                <xs:maxLength value="2" />
+                                              </xs:restriction>
+                                            </xs:simpleType>
+                                          </xs:attribute>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element minOccurs="0" name="CreditCardNumber">
+                                        <xs:complexType>
+                                          <xs:attribute name="Code" use="optional">
+                                            <xs:simpleType>
+                                              <xs:restriction base="xs:string">
+                                                <xs:maxLength value="16" />
+                                              </xs:restriction>
+                                            </xs:simpleType>
+                                          </xs:attribute>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element minOccurs="0" name="CreditCardExpiration">
+                                        <xs:complexType>
+                                          <xs:attribute name="ExpireDate" type="xs:string" use="optional" />
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element minOccurs="0" name="ExtendedPayment">
+                                        <xs:complexType>
+                                          <xs:attribute name="NumMonths" type="xs:integer" use="optional" />
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element minOccurs="0" name="SuppressCCInfo">
+                                        <xs:complexType>
+                                          <xs:attribute name="Ind" type="xs:boolean" use="optional" />
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element minOccurs="0" name="ManualApproval">
+                                        <xs:complexType>
+                                          <xs:attribute name="Code" type="xs:string" use="optional" />
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute name="Type" type="xs:string" use="optional" />
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element minOccurs="0" name="FOPTwo">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element minOccurs="0" name="NumInstallments">
+                                  <xs:complexType>
+                                    <xs:attribute name="Count" type="xs:integer" use="optional" />
+                                    <xs:attribute name="CarrierCode" type="xs:string" use="optional" />
+                                    <xs:attribute name="Amount" type="xs:decimal" use="optional" />
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute name="Type" type="xs:string" use="optional" />
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element minOccurs="0" name="TotalFare">
+                            <xs:complexType>
+                              <xs:attribute name="Amount" type="xs:decimal" use="optional" />
+                              <xs:attribute name="DecimalPlaces" type="xs:integer" use="optional" />
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element minOccurs="0" name="Taxes">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element minOccurs="0" maxOccurs="3" name="Tax">
+                                  <xs:complexType>
+                                    <xs:attribute name="Amount" type="xs:decimal" use="optional" />
+                                    <xs:attribute name="DecimalPlaces" type="xs:integer" use="optional" />
+                                    <xs:attribute name="TaxCode" type="xs:string" use="optional" />
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="0" name="MiscQualifiers">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="NameSelect">
+                      <xs:annotation>
+                        <xs:documentation>This element allows a user to ticket an itinerary for a particular name field.</xs:documentation>
+                      </xs:annotation>
+                      <xs:complexType>
+                        <xs:attribute name="TravelerRefNumber" type="xs:decimal" use="optional" />
+                        <xs:attribute name="EndTravelerRefNumber" type="xs:decimal" use="optional" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="SegmentSelect">
+                      <xs:annotation>
+                        <xs:documentation>This element tickets specified itinerary segments.</xs:documentation>
+                      </xs:annotation>
+                      <xs:complexType>
+                        <xs:attribute name="ItinSeqNumber" type="xs:integer" use="optional" />
+                        <xs:attribute name="EndItinSeqNumber" type="xs:integer" use="optional" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="Endorsement">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element minOccurs="0" name="Text" type="xs:string" />
+                        </xs:sequence>
+                        <xs:attribute name="Override" type="xs:boolean" use="optional" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="TourCode">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element minOccurs="0" name="SuppressIT">
+                            <xs:annotation>
+                              <xs:documentation>Cannot combine with BSPInclusiveTour.</xs:documentation>
+                            </xs:annotation>
+                            <xs:complexType>
+                              <xs:attribute name="Ind" type="xs:boolean" use="optional" />
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element minOccurs="0" name="InclusiveTour">
+                            <xs:annotation>
+                              <xs:documentation>Cannot combine with SuppressIT.</xs:documentation>
+                            </xs:annotation>
+                            <xs:complexType>
+                              <xs:attribute name="Ind" type="xs:boolean" use="optional" />
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element minOccurs="0" name="BulkTour">
+                            <xs:annotation>
+                              <xs:documentation>Cannot combine with SuppressIT.</xs:documentation>
+                            </xs:annotation>
+                            <xs:complexType>
+                              <xs:attribute name="Ind" type="xs:boolean" use="optional" />
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element minOccurs="0" name="BSPInclusiveTour">
+                            <xs:annotation>
+                              <xs:documentation>Cannot combine with SuppressIT.</xs:documentation>
+                            </xs:annotation>
+                            <xs:complexType>
+                              <xs:attribute name="Ind" type="xs:boolean" use="optional" />
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element minOccurs="0" name="Text" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="Commission">
+                      <xs:complexType>
+                        <xs:attribute name="Amount" type="xs:decimal" use="optional" />
+                        <xs:attribute name="Percentage" type="xs:decimal" use="optional" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="BaggageAllowance">
+                      <xs:complexType>
+                        <xs:attribute name="Number" type="xs:integer" use="optional" />
+                        <xs:attribute name="Weight" type="xs:integer" use="optional" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="VendorPref">
+                      <xs:complexType>
+                        <xs:attribute name="Code" type="xs:string" use="optional" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="ValidityDates">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element minOccurs="0" maxOccurs="unbounded" name="Segment">
+                            <xs:complexType>
+                              <xs:attribute name="ItinSeqNumber" type="xs:integer" use="optional" />
+                              <xs:attribute name="EndItinSeqNumber" type="xs:integer" use="optional" />
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element minOccurs="0" name="NotValidBefore" type="xs:string" />
+                          <xs:element minOccurs="0" name="NotValidAfter" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="Invoice">
+                      <xs:complexType>
+                        <xs:attribute name="Ind" type="xs:boolean" use="optional" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="0" name="PricingQualifiers">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="BasicPrice">
+                      <xs:complexType>
+                        <xs:attribute name="PQNumber" type="xs:integer" use="optional" />
+                        <xs:attribute name="EndPQNumber" type="xs:integer" use="optional" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="NetRemit">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element minOccurs="0" name="CAR">
+                            <xs:complexType>
+                              <xs:attribute name="Code" type="xs:string" use="optional" />
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element minOccurs="0" name="Cash">
+                            <xs:complexType>
+                              <xs:attribute name="CurrencyCode" use="optional">
+                                <xs:simpleType>
+                                  <xs:restriction base="xs:string">
+                                    <xs:pattern value="[a-zA-Z]{3}" />
+                                  </xs:restriction>
+                                </xs:simpleType>
+                              </xs:attribute>
+                              <xs:attribute name="Amount" type="xs:decimal" use="optional" />
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element minOccurs="0" name="SellingFare">
+                            <xs:complexType>
+                              <xs:attribute name="Amount" type="xs:decimal" use="optional" />
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element minOccurs="0" name="Credit">
+                            <xs:complexType>
+                              <xs:attribute name="Amount" type="xs:decimal" use="optional" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="Code" type="xs:string" use="optional" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" maxOccurs="7" name="PhaseIV">
+                      <xs:annotation>
+                        <xs:documentation>This element allows a user to ticket a particular name field and associate it to a particular phase IV.</xs:documentation>
+                      </xs:annotation>
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element minOccurs="0" maxOccurs="unbounded" name="NameSelect">
+                            <xs:annotation>
+                              <xs:documentation>This element allows a user to specify a particular name field.</xs:documentation>
+                            </xs:annotation>
+                            <xs:complexType>
+                              <xs:attribute name="TravelerRefNumber" type="xs:decimal" use="optional" />
+                              <xs:attribute name="EndTravelerRefNumber" type="xs:decimal" use="optional" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="Number" type="xs:integer" use="optional" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="Fare">
+                      <xs:complexType>
+                        <xs:attribute name="Type" type="xs:string" use="optional" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="EchoToken" use="optional">
+        <xs:annotation>
+          <xs:documentation>A sequence number for additional message identification, assigned by the requesting host system. When a request 										message includes an echo token the corresponding response message MUST include an echo token with an identical value.											</xs:documentation>
+        </xs:annotation>
+        <xs:simpleType>
+          <xs:annotation>
+            <xs:documentation xml:lang="en">Used for Character Strings, length 1 to 64</xs:documentation>
+          </xs:annotation>
+          <xs:restriction base="xs:string">
+            <xs:minLength value="1" />
+            <xs:maxLength value="64" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="TimeStamp" type="xs:string" use="optional">
+        <xs:annotation>
+          <xs:documentation>Indicates the creation date and time of the message in UTC using the following format specified by ISO 8601; YYYY-	MM-					DDThh:mm:ssZ with time values using the 24 hour clock (e.g. 20 November 2003, 1:59:38 pm UTC becomes 2003-11-	20T13:59:38Z).						</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+      <xs:attribute default="Production" name="Target" use="optional">
+        <xs:annotation>
+          <xs:documentation>Used to indicate whether the request is for the Test or Production system.</xs:documentation>
+        </xs:annotation>
+        <xs:simpleType>
+          <xs:restriction base="xs:NMTOKEN">
+            <xs:enumeration value="Test" />
+            <xs:enumeration value="Production" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="Version" type="xs:string" use="required">
+        <xs:annotation>
+          <xs:documentation>For all OTA versioned messages, the version of the message is indicated by a decimal value.</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+      <xs:attribute name="SequenceNmbr" type="xs:string" use="optional">
+        <xs:annotation>
+          <xs:documentation>Used to identify the sequence number of the transaction as assigned by the sending system; allows for an application 	to 					process messages in a certain order or to request a resynchronization of messages in the event that a system has been off-line and 	needs to 				retrieve messages that were missed. </xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+      <xs:attribute name="PrimaryLangID" type="xs:language" use="optional">
+        <xs:annotation>
+          <xs:documentation>Identifes the primary language preference for the form of travel represented in a collection.
+					 The human language is identified by ISO 639 codes.</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+      <xs:attribute name="AltLangID" type="xs:language" use="optional">
+        <xs:annotation>
+          <xs:documentation>Identifes the primary language preference for the form of travel represented in a collection.
+					 The human language is identified by ISO 639 codes.</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

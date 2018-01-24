@@ -1,0 +1,5321 @@
+﻿/* Import other css */
+@import url('reset.css');
+@import url('social-icons.css');
+@import url('comments.css');
+@import url('elements.css');
+
+
+/* GENERAL ------------------------------------------------------------*/
+
+
+.clearfix{ clear:both; }
+
+
+.wrapper,
+#main{
+	margin: 0 auto;
+	position: relative;
+}
+
+body{
+	/*background: #ececec url(../img/main-pattern.png)no-repeat center center fixed;*/
+	background: #ececec;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	color: #888;
+}
+
+body p{
+	margin-bottom: 21px;
+}
+
+body a{
+	text-decoration: none;
+	color: #444;
+
+	-webkit-transition: color 0.3s ease;
+	-moz-transition: color 0.3s ease;
+	-o-transition: color 0.3s ease;
+	transition: color 0.3s ease;
+}
+
+body a:hover{
+	color: #fe8300;
+}
+
+#logo{
+	display: block;
+	/*padding-top: 17px;*/
+	float: left;
+}
+
+#logo:hover{ opacity: 0.8;}
+
+.headline{
+	font-family: tahoma, helvetica, arial, sans-serif;
+	font-size: 23px;
+	line-height: 1em;
+	text-align: center;
+	padding: 6px 0px;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+	background: #28ABE3;
+	color: #FFF;
+	box-shadow: 3px 3px 5px #999999
+}
+
+
+#page-content{
+	float: left;
+	width: 528px;
+	margin-left: 24px;
+	margin-top: 24px;
+	padding-bottom: 60px;
+}
+
+#page-content-full{
+	margin-right: 24px;
+	margin-left: 24px;
+	margin-top: 24px;
+	/*padding-bottom: 60px;*/
+}
+
+.home-block-heading{
+	border-bottom: 1px solid #ccc;
+	color: #444;
+	padding-bottom: 20px;
+	margin-left: 24px;
+	margin-right: 24px;
+	margin-bottom: 32px;
+}
+
+.h-heading{
+	border-bottom: 1px solid #ccc;
+	color: #444;
+	padding-bottom: 20px;
+	margin-bottom: 32px;
+}
+
+.h-margin{
+	margin-bottom: 18px;
+}
+
+.block-divider{
+	margin-bottom: 120px;
+}
+
+.alignleft {
+  float: left;
+  margin: 5px 10px 5px 0;
+}
+
+.aligncenter {
+  text-align: center;
+}
+
+.bcolor0{background-color: #FFFFFF !important; border-radius: 0px 22px 22px;}/*Blanco*/
+.bcolor1{background-color: #8CD2F0 !important; border-radius: 0px 22px 22px;}/*azul*/
+.bcolor2{background-color: #FFD064 !important; border-radius: 0px 22px 22px;}/*naranja*/
+.bcolor3{background-color: #F9AADD !important; border-radius: 0px 22px 22px;}/*fuccia*/
+.bcolor4{background-color: #42A0FF !important; border-radius: 0px 22px 22px;}/*azul oscuro*/
+.bcolor5{background-color: #FFA6A6 !important; border-radius: 0px 22px 22px;}/*rojo*/
+.bcolor6{background-color: #9EEDB0 !important; border-radius: 0px 22px 22px;}/*verde*/
+
+.color1{color:#F8AE00}/*naranja*/
+.color2{color: #42A0FF }/*azul oscuro*/
+
+.top10{margin-top: 10px}
+.top20{margin-top: 20px}
+.top30{margin-top: 30px}
+.top40{margin-top: 40px}
+.top50{margin-top: 50px}
+.top120{margin-top: 120px}
+
+/* MASTHEAD ------------------------------------------------------------*/
+
+#masthead{
+	position: relative;
+	margin-top: 0px;
+	background: #35B0E5;
+
+	padding-left: 24px;
+
+	-webkit-box-shadow: 0px 0px 4px rgba(0,0,0,.5);
+	-moz-box-shadow: 0px 0px 4px rgba(0,0,0,.5);
+	box-shadow: 0px 0px 4px rgba(0,0,0,.5);
+
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 1);
+}
+
+#masthead span{
+	line-height: 69px;
+}
+
+#masthead .head{
+	font-family: tahoma, helvetica, arial, sans-serif;
+	font-size: 31px;
+	color: #FFF;
+}
+
+#masthead .subhead{
+	font-family: tahoma, helvetica, arial, sans-serif;
+	font-size: 13px;
+	color: #888;
+	margin-left: 21px;
+}
+
+#masthead .breadcrumbs{
+	position: absolute;
+	overflow: hidden;
+	top: 14px;
+	right: 24px;
+	height: auto;
+	font-size: 11px;
+	color: #444;
+}
+
+#masthead .breadcrumbs a{
+	text-decoration: none;
+	color: #888;
+
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+#masthead .breadcrumbs a:hover{
+	color: #fe8300;
+}
+
+#masthead .breadcrumbs li{
+	display: inline;
+}
+
+/* HEADINGS ------------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6{
+	font-family: tahoma, helvetica, arial, sans-serif;
+	color: #28ABE3;
+}
+
+h1{ font-size: 36px; }
+
+h2{ font-size: 24px; }
+
+h3{ font-size: 21px; }
+
+h4{ font-size: 18px; }
+
+h5{ font-size: 14px; }
+
+h6{ font-size: 12px; }
+
+
+h1.heading, h2.heading, h3.heading, h4.heading, h5.heading, h6.heading{
+	margin-bottom: 14px;
+}
+
+.phone{
+	float: left;
+	height: 19px;
+	margin-right: 5px
+}
+
+
+/* HEADER ------------------------------------------------------------*/
+
+header{
+	position: relative;
+	height: 155px;
+	background: url(../../Imagenes/imagesTurinco/header.png)  repeat-x center center;
+	display: block;
+}
+.pbx{
+	margin-top: 63px;
+	position: absolute;
+	right: 20px;
+}
+/* NAVIGATION ------------------------------------------------------------*/
+
+
+nav{
+
+	float: left;
+	line-height: 1.8em;
+}
+
+nav a{
+	text-decoration: none;
+	color: #acacac;
+}
+
+#nav{
+	/*margin-top: 100px;*/
+}
+
+#nav li{
+	display: inline;
+	font-size: 16px;
+	float: left;
+}
+
+#nav>li>a{
+	/*display: block;
+	overflow: hidden;
+	padding: 5px 10px 0px 10px;
+	color: #35B0E5;
+	background: rgba(0,0,0,.0);
+
+	text-shadow: 0 -1px rgba(0, 0, 0, 0.5);
+
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;*/
+}
+
+#nav>li>a:hover,
+#nav>li.current-menu-item>a,
+#nav>li.current_page_item>a{
+	/*background: #303232;
+	background: rgba(0,0,0,.2);
+	border-bottom: solid #1c1d1d 5px;*/
+}
+
+#nav>li.current-menu-item>a,
+#nav>li.current_page_item>a{
+	/*color: #fff;*/
+}
+
+#nav>li>a>.subheader{
+	color: #E51949;
+	display: block;
+	font-size: 11px;
+	margin-top: -8px;
+	font-weight: lighter;
+}
+
+#nav .sf-sub-indicator{
+	float: right;
+}
+
+#nav>li>a>.sf-sub-indicator{
+	display: none;
+}
+
+/* sub navigation -----------------------------------------------------*/
+
+#nav>li ul{
+	display: block;
+	margin-top: 4px;
+	background: #1c1d1d;
+}
+
+
+#nav>li ul li a{
+	display: block;
+	padding: 10px 15px;
+	display: block;
+	font-size: 11px;
+	color: #717171;
+	text-decoration: none;
+}
+
+#nav>li ul li a span{
+	display: block;
+}
+
+#nav>li ul li a:hover{
+	background: #717171;
+	color: #1c1d1d;
+}
+
+
+/* MOBILE NAVIGATION ------------------------------------------------*/
+
+#mobile-nav-holder{
+    z-index: 1000;
+    background: #28ABE3;
+    text-shadow: 0 -1px rgba(0, 0, 0, 0.9);
+    border-radius: 0px 0px 8px 8px;
+}
+
+#mobile-nav{
+	display: none;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-radius: 0px 0px 8px 8px;
+}
+
+#mobile-nav-holder a{
+	display: block;
+	padding: 7px 14px;
+	text-decoration: none;
+	color: #f5f5f5;
+	font-size: 13px;
+	font-weight: lighter;
+
+	-webkit-transition: all  0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+#mobile-nav-holder li a{
+	border-bottom: 1px solid #222;
+}
+
+#mobile-nav-holder li:last-child a,
+#mobile-nav-holder li > ul a{
+	border: none;
+}
+
+#mobile-nav-holder li > ul a{
+	color: #888888;
+	margin-left: 30px;
+}
+
+#mobile-nav-holder a:hover,
+#mobile-nav-holder a:focus {
+	background: #F8AE00;
+}
+
+#mobile-nav-holder a:hover{
+	padding-left: 20px;
+	border-radius: 0px 0px 8px 8px;
+}
+
+#mobile-nav-holder #nav-open{
+	background: #28ABE3;
+	position: absolute;
+	right: 0px;
+	border-radius: 0px 0px 8px 8px;
+	z-index: 2000;
+}
+
+#mobile-nav-holder #nav-open a{
+	display: block;
+	padding: 17px 14px;
+
+
+}
+
+#mobile-nav-holder #nav-open a:hover,
+#mobile-nav-holder #nav-open a:focus{
+	background: #28ABE3;
+	border-radius: 0px 0px 8px 8px;
+}
+
+#mobile-nav-holder #nav-open:hover a{
+	color: #cccccc;
+}
+
+#mobile-nav > .current-menu-item > a,
+#mobile-nav > .current_page_item > a{
+	color: #F8AE00;
+}
+
+/* COLUMNS LAYOUT----------------------------------------------------------*/
+
+.one-half,
+.one-third{
+	float:left;
+	margin-bottom: 40px;
+	margin-right: 4.54%;
+	position:relative;
+}
+
+.one-half{
+	width: 47.72%;
+}
+
+.one-third{
+	width: 30.30%;
+}
+
+.last {
+	clear:right;
+	margin-right:0 !important;
+}
+
+.unCu{
+	width: 37%;
+	margin-top: -30px
+}
+
+.asidedet{
+right: -40px;
+top: 77px;
+position: absolute;
+}
+
+.TresCu{
+	width: 62%;
+}
+
+.setp{
+	width: 70%;
+}
+.flexRigth{
+	width: 62%;
+	position: absolute;
+	float: right;
+	right: 0px;
+	top: 0;
+}
+
+/* MAIN ------------------------------------------------------------*/
+
+#main{
+
+}
+
+#main #content{
+	position: relative;
+	display: block;
+	width: 982px;
+	float: left;
+	background: #FFF;
+	-webkit-box-shadow: 0px 0px 7px rgba(0,0,0,.3);
+	-moz-box-shadow: 0px 0px 7px rgba(0,0,0,.3);
+	box-shadow: 0px 0px 7px rgba(0,0,0,.3);
+}
+
+.shadow-main{
+	width: 852px;
+	height: 11px;
+	margin-left: 68px;
+	/*background: url(../img/shadow-main.png) no-repeat top center;*/
+}
+
+/* SOCIAL --------------------------------------------------------*/
+
+#social-bar{
+	display: block;
+	float: right;
+	width: 68px;
+	/*background: url(../img/social-desktop.png) no-repeat bottom center;*/
+	padding: 10px 0px 20px 0px;
+	position: fixed;
+	right: 0px;
+	top:0;
+	z-index: 999
+}
+
+#social-bar ul{
+	display: block;
+	margin: 0 auto ;
+	width: 32px;
+}
+
+#social-bar li{
+	display: block;
+	padding: 0px;
+	margin: 3px 0px;
+}
+
+#social-bar a{ display: block; }
+
+/* FEATURED ------------------------------------------------------------*/
+
+.featured{
+	padding-bottom: 10px;
+	padding-left: 60px;
+}
+
+.featured figure{
+	/*position: relative;*/
+	float: left;
+	width: 252px;
+	margin-left: 24px;
+	margin-bottom: 21px;
+}
+
+.featured figure .thumb{
+	display: block;
+	background: url(../img/plus.png) no-repeat center center;
+	margin-bottom: 21px;
+
+	-webkit-box-shadow: 3px 3px 0px rgba(0,0,0,.2);
+	-moz-box-shadow: 3px 3px 0px rgba(0,0,0,.2);
+	box-shadow: 3px 3px 0px rgba(0,0,0,.2);
+}
+
+.featured figure .thumb:hover img{
+	opacity: 0.15;
+}
+
+.featured figure:hover .link{
+	display: block;
+}
+
+.featured figure img{
+	max-width: 100%;
+
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.featured figure .heading{
+	text-decoration: none;
+	font-style: normal;
+	font-weight: bold;
+	color: #444;
+	font-size: 16px;
+	display: block;
+	margin-bottom: 14px;
+
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.featured figure .heading:hover{
+	color: #fe8300;
+}
+
+.featured figure .link{
+	display: none;
+	position: absolute;
+	top: -2px;
+	right: 10px;
+	background: url(../img/ribbon-link.png) no-repeat top left;
+	width: 33px;
+	height: 61px;
+
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.featured figure .link:hover{
+	top: 0px;
+}
+
+/*form--------------------------------------------------*/
+
+input{
+outline: none;
+border: 1px solid #f1f1f1;
+color: #737272;
+background: #f0f3f5;
+padding: 5px 12px;
+width: 90%;
+font: 14px/20px tahoma, sans-serif;
+height: 20px;
+margin: 7px 0;
+}
+
+select{
+cursor: pointer;
+padding: 0;
+margin: 3px 10px 10px 10px;
+border: 1px #f1f1f1 solid;
+color: #737272;
+background: #f0f3f5;
+font: 14px/20px tahoma, sans-serif;
+width: 95px;
+height: 30px;
+/* float: right; */
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+.titcomp{
+	font-family: tahoma;
+	font-size: 13px;
+	color: #fff;
+}
+/*end form--------------------------------------------------*/
+
+
+/* ofertas ------------------------------------------------------------*/
+
+.featured.portfolio-list{
+	margin-top: 30px;
+}
+
+.project-heading{
+	margin:24px;
+}
+
+
+.project-heading h1{
+	float: left;
+	margin-right: 20px;
+}
+
+.project-heading .launch{
+	display: block;
+	float: left;
+	text-decoration: none;
+	color: #888;
+
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.project-heading .launch:hover{
+	color: #fe8300;
+}
+
+.project-description{
+	float: left;
+	margin-left: 24px;
+	width: 528px;
+	margin-bottom: 40px;
+}
+
+
+.project-info{
+	float: left;
+	margin-left: 24px;
+	width: 252px;
+	margin-bottom: 40px;
+}
+
+.project-info strong{
+	color: #444;
+}
+
+
+.project-pager{
+	overflow: hidden;
+	margin: 0px 24px 0px 24px;
+	padding-bottom: 50px;
+}
+
+.project-pager a{
+	text-decoration: none;
+	color: #444;
+
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.project-pager a:hover{
+	text-decoration: none;
+	color: #fe8300;
+}
+
+.project-pager .prev-project{
+	float: left;
+}
+
+.project-pager .next-project{
+	float: right;
+}
+
+/* RELATED PROJECTS ---------------------------------------------------*/
+
+.related-projects{
+	display: block;
+	background:#eaeaea;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 14px 0px 10px 50px;
+}
+
+.related-heading{
+	font-weight: bold;
+	color: #444;
+	margin: 0px 0px 24px 24px;
+}
+
+.related-projects .related-list{
+	display: block;
+}
+
+.related-projects  figure{
+	display: block;
+	float: left;
+	margin-left: 24px;
+	width: 252px;
+}
+
+.related-projects .thumb{
+	display: block;
+	background: url(../img/plus.png) no-repeat center center;
+	margin-bottom: 21px;
+
+	-webkit-box-shadow: 3px 3px 0px rgba(0,0,0,.2);
+	-moz-box-shadow: 3px 3px 0px rgba(0,0,0,.2);
+	box-shadow: 3px 3px 0px rgba(0,0,0,.2);
+}
+
+.related-projects .thumb:hover img{
+	opacity: 0.15;
+}
+
+.related-projects figure img{
+	max-width: 100%;
+
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.related-projects .heading{
+	text-decoration: none;
+	font-style: normal;
+	color: #444;
+	text-align: center;
+	display: block;
+	margin-bottom: 14px;
+
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.related-projects .heading:hover{
+	color: #fe8300;
+}
+
+/* RETRACTIL SIDEBAR ------------------------------------------------------------*/
+
+aside.retractil{
+	position: absolute;
+	top: 10px;
+	left: 150px;
+	background: #eaeaea;
+	width: 276px;
+	font-size: 17px;
+	-webkit-box-shadow: 0px 0px 2px rgba(0,0,0,.5);
+	-moz-box-shadow: 0px 0px 2px rgba(0,0,0,.5);
+	box-shadow: 0px 0px 2px rgba(0,0,0,.5);
+}
+
+aside.retractil #sidebar-opener{
+	cursor: pointer;
+	margin: 15px 24px;
+	color: #444;
+
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+aside.retractil #sidebar-opener:hover{
+	color: #fe8300;
+}
+
+aside.retractil #sidebar-closer{
+	display: none;
+	cursor: pointer;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+aside.retractil #sidebar-closer:hover{
+	opacity: 0.5;
+}
+
+aside.retractil #sidebar-content{
+	margin-left: 24px;
+	margin-right: 24px;
+	margin-bottom: 50px;
+	display: none;
+}
+
+
+aside.retractil #sidebar-content a{
+	text-decoration: none;
+	color: #888;
+
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+aside.retractil #sidebar-content a:hover{
+	color: #444;
+}
+
+/* HOME-GALLERY ------------------------------------------------------------*/
+
+
+.home-gallery{
+	display: block;
+	padding-bottom: 30px;
+	margin-left:60px;
+}
+
+.home-gallery li{
+	display: block;
+	float: left;
+	margin-left: 24px;
+	margin-bottom: 21px;
+	width: 252px;
+}
+
+.home-gallery .thumb{
+	line-height: 0em;
+	display: block;
+	background: url(../img/plus.png) no-repeat center center;
+	-webkit-box-shadow: 3px 3px 0px rgba(0,0,0,.2);
+	-moz-box-shadow: 3px 3px 0px rgba(0,0,0,.2);
+	box-shadow: 3px 3px 0px rgba(0,0,0,.2);
+}
+
+.home-gallery img{
+	max-width: 100%;
+
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.home-gallery .thumb:hover img{
+	opacity: 0.15;
+}
+
+/* TEXT POSTS ------------------------------------------------------------*/
+
+.text-posts{
+	overflow: hidden;
+	padding-bottom: 30px;
+	margin-left: 60px
+}
+
+.text-posts li{
+	display: block;
+	float: left;
+	margin-left: 24px;
+	margin-bottom: 21px;
+	width: 252px;
+}
+
+.text-posts .heading{
+	display: block;
+	font-weight: bold;
+	font-size: 13px;
+	color: #444;
+	text-decoration: none;
+
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.text-posts .heading:hover{
+	color: #fe8300;
+}
+
+/* BLOG ------------------------------------------------------------*/
+
+#posts-list,
+#post-content{
+	width: 528px;
+	float: left;
+	margin-top: 24px;
+	margin-bottom: 24px;
+	margin-left: 24px;
+}
+
+#post-content .content-area{
+	padding-bottom: 50px;
+}
+
+#posts-list article{
+	margin-bottom: 80px;
+}
+
+
+#posts-list .feature-image,
+#post-content .feature-image{
+	width: 100%;
+	margin-bottom: 21px;
+	background: url(../img/plus.png) center center no-repeat;
+	line-height: 0em;
+}
+
+#posts-list .feature-image img,
+#post-content .feature-image img{
+	max-width: 100%;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+#posts-list .feature-image:hover img,
+#posts-content .feature-image:hover img{
+	opacity: 0.2;
+}
+
+#posts-list .post-heading,
+#post-content .post-heading{
+	display: block;
+	text-decoration: none;
+	color: #444;
+	line-height: 1em;
+
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+#posts-list .post-heading:hover{
+	color: #fe8300;
+}
+
+#posts-list .meta,
+#post-content .meta{
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 11px;
+	padding-bottom: 11px;
+	font-style: italic;
+	font-size: 11px;
+}
+
+#posts-list .meta a,
+#post-content .meta a{
+	color: #444;
+	text-decoration: none;
+
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+#posts-list .meta a:hover,
+#post-content .meta a:hover{
+	color: #fe8300;
+}
+
+#posts-list .excerpt{
+	margin-bottom: 21px;
+}
+
+#posts-list .read-more{
+	background: #eaeaea;
+	padding: 5px 10px;
+	text-decoration: none;
+	color: #888;
+	border: 1px solid #ccc;
+	-webkit-box-shadow: 0px 0px 2px rgba(0,0,0,.3);
+	-moz-box-shadow: 0px 0px 2px rgba(0,0,0,.3);
+	box-shadow: 0px 0px 2px rgba(0,0,0,.3);
+
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+#posts-list .read-more:hover{
+	color: #fff;
+	background: #fe8300;
+}
+
+/* SIDEBAR ------------------------------------------------------------*/
+
+#sidebar{
+	width: 252px;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 24px;
+	margin-left: 24px;
+}
+
+#sidebar a{
+	color: #444;
+	text-decoration: none;
+
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+#sidebar a:hover{ color: #fe8300; }
+
+#sidebar h4{
+	margin-bottom: 10px;
+}
+
+#sidebar .block{
+	padding: 16px;
+	background: #eaeaea;
+	-webkit-box-shadow: 0px 0px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0px 0px 2px rgba(0,0,0,.2);
+	box-shadow: 0px 0px 2px rgba(0,0,0,.2);
+	margin-bottom: 24px;
+	margin-left: -100px;
+}
+
+
+
+
+/* PAGER ------------------------------------------------------------*/
+
+.pager{
+	overflow: hidden;
+	display: block;
+	font-size: 11px;
+	margin: 0px 24px 0px 24px;
+	padding-bottom: 50px;
+}
+
+.pager li{
+	display: block;
+	margin-right: 5px;
+	float: left;
+}
+
+.pager li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	text-decoration: none;
+	color: #484848;
+	width: 20px;
+	border: 1px solid #ccc;
+	line-height: 20px;
+
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.pager li.active a,
+.pager li:hover a{
+	color: #fff;
+	background: #fe8300;
+}
+
+.pager .paged{
+	float:right;
+	font-style:italic;
+}
+
+
+/* CONTACT ------------------------------------------------------------*/
+
+
+#map{
+	display: block;
+	height: 300px;
+	width: 100%;
+	margin-bottom: 24px;
+}
+
+.address-block li{
+	padding-left: 20px;
+}
+
+.address-block .address{ background: url(../img/icon-address.png) no-repeat top left  }
+
+.address-block .phone{ background: url(../img/icon-phone.png) no-repeat top left}
+
+.address-block .mobile{ background: url(../img/icon-mobile.png) no-repeat top left }
+
+.address-block .email{ background: url(../img/icon-email.png) no-repeat top left }
+
+
+/* FOOTER ------------------------------------------------------------*/
+
+footer{
+	/*background:
+		url(../img/footer-line.png) repeat-x top left,
+		url(../img/noise.png);*/
+	background-color: #FFF;
+	min-height: 100px;
+	text-shadow: 0 1px rgba(255, 255, 255, .9);
+}
+
+footer a{
+	color: #444;
+	text-decoration: none;
+
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+footer a:hover{
+	color: #fe8300;
+}
+
+footer .wrapper{
+	margin-top: -60px;
+	/*padding-bottom: 10px;*/
+}
+
+#footer-cols{
+	padding-top: 70px;
+	padding-left:60px;
+}
+
+#footer-cols>li{
+	display: block;
+	float: left;
+	/*margin-bottom: 20px;*/
+}
+
+#footer-cols>li{
+	display: block;
+	float: left;
+	width: 300px;
+}
+
+#footer-cols h4{
+	margin-bottom: 11px;
+}
+
+#footer-cols>li.first-col{
+
+}
+
+#footer-cols>li.second-col{
+
+}
+
+#footer-cols>li.third-col{ margin-right: 0px; }
+
+footer #to-top{
+	display: none;
+	width: 68px;
+	height: 68px;
+	margin: 0 auto;
+	background: url(../img/to-top.png) no-repeat;
+	cursor: pointer;
+}
+
+footer #to-top:hover{ opacity: 0.7 }
+
+.claus{
+	font-size: 9px;
+	line-height: 1.5
+}
+
+
+/* WIDGETS ------------------------------------------------------------*/
+
+
+.recent-post{
+	overflow: hidden;
+	margin-bottom: 4px;
+	padding-bottom: 4px;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.6);
+	width: 70px;
+float: left;
+}
+
+
+.recent-post .thumb{
+	display: block;
+	float: left;
+	line-height: 0em;
+	background: #fff;
+	padding: 3px;
+
+	/*-webkit-box-shadow: 0px 0px 4px rgba(0,0,0,.3);
+	-moz-box-shadow: 0px 0px 4px rgba(0,0,0,.3);
+	box-shadow: 0px 0px 4px rgba(0,0,0,.3);*/
+}
+
+.recent-post .post-head{
+	float: left;
+	width: 184px;
+	margin-left: 7px;
+	font-size: 13px;
+	line-height: 1.5em;
+}
+
+
+.recent-post .post-head span{
+	display: block;
+	font-size: 11px;
+	color: #888888;
+}
+
+.contenidoBuscador
+{
+    max-height: 379px;    
+}
+
+.tarifasDescuentos
+{
+    display:none;    
+}
+.ac_results {
+/*z-index: 2;*/
+background-color: #fff;
+padding: 0;
+overflow: hidden;
+max-width: 290px;
+    z-index: 1000000000000000000000000000000000001;
+}
+.ac_results ul {
+float: left;
+width: 100%;
+list-style-position: outside;
+list-style-image: url(../../Imagenes/airplane-icon.png);
+padding: 0;
+margin: 0;
+}
+.ac_results li:first-child {
+margin: 0px;
+cursor: pointer;
+display: block;
+font: menu;
+font-size: 12px;
+line-height: 16px;
+overflow: hidden;
+color: #333;
+font-weight: bold;
+/*background: url(../../Imagenes/home_icon.png) #999 no-repeat 8px;*/
+}
+.ac_results li {
+margin: 0px;
+/* padding: 2px 5px; */
+cursor: pointer;
+display: block;
+/* width: 100%; */
+font: menu;
+font-size: 12px;
+line-height: 16px;
+overflow: hidden;
+}
+.radioButtonList tbody tr td 
+{
+    padding: 0px 11px;    
+}
+.div100Buscador {
+width: 100%;
+display: inline-block;
+margin-bottom: 15px;
+height:54px;
+}
+.labelBuscar {
+width: 100%;
+display: inline-block;
+padding-left: 15px;
+margin-bottom: 5px;
+}
+.contenidoBuscador select {
+width: 90%;
+background: #fcfdef;
+border-radius: 6px;
+-moz-border-radius: 6px;
+webkit-border-radius: 6px;
+height: 27px;
+border: 1px solid #a3f6f9;
+line-height: 25px;
+padding: 0 5px;
+color: #6dcefb;
+font-weight: bold;
+}
+
+.cat-item 
+{
+    list-style:none;    
+}
+
+
+/* ESTILOS TABS PLANES */
+
+.ui-tabs .ui-tabs-panel ul 
+{
+    list-style:none;    
+}
+
+.ui-tabs .ui-tabs-panel ul li h3
+{
+    margin: 15px; 
+}
+
+.ui-tabs .ui-tabs-panel ul li span ul
+{
+    margin-left: 28px;
+}
+
+.ui-tabs .ui-tabs-panel h2 
+{
+    margin: 15px;    
+}
+
+
+/* COTIZADOR */
+
+#tabsPaquetes > .ui-tabs-panel {
+padding: 30px 20px;
+background: none;
+list-style:none;
+}
+
+#tabs-3 li span ul
+{
+        margin-left:56px;
+}
+.cotizadorPlan {
+position: relative;
+width: 100%;
+margin-top: 0px;
+text-align: center;
+}
+.borderRight {
+border-right: 1px solid #a0a0a0;
+}
+.ancho47 {
+display: inline-block;
+width: 39%;
+padding: 0 5%;
+vertical-align: top;
+}
+.ancho100 {
+width: 100%;
+float: left;
+padding: 10px 0;
+text-align: left;
+margin-top: -19px;
+}
+.labelCotizador {
+float: left;
+width: 40%;
+text-align: left;
+font-weight: bold;
+color: #6d6e70;
+font-size: 11px;
+}
+.datoCotizador {
+float: left;
+width: 40%;
+text-align: left;
+border: 1px solid #e3e2e2;
+height: 25px;
+font-size: 11px;
+color: #6d6e70;
+}
+
+
+.textLeft {
+text-align: left;
+}
+.contenedorCotizador {
+width: 100%;
+height: auto;
+float: left;
+margin-top: 20px;
+margin-bottom: 20px;
+font-size: 11px;
+}
+.filaCotizador {
+float: left;
+width: 100%;
+border-bottom: 1px solid #ccc;
+}
+
+.noneDisplay {
+display: none;
+}
+
+.celda9 {
+width: 100px;
+}
+
+.celda10 {
+width: 114px;
+}
+
+.celda15 {
+width: 107px;
+}
+
+.tituloCotizador {
+background: #f1f1f1;
+color: #434244;
+}
+
+.celdaBaseCotizador {
+float: left;
+border-top: 0;
+border-right: 0;
+height: 39px;
+line-height: 12px;
+text-align: center;
+}
+
+.filaCotizador .celda15:first-child a {
+text-decoration: underline;
+color: blue;
+font-weight: bold;
+display: inline-block;
+width: 100%;
+height: 26px;
+font-size: 9px;
+line-height: 12px;
+padding-top: 2px;
+}
+
+a.impuestos {
+position: relative;
+text-decoration: underline !important;
+color: #1D5B9E !important;
+font-weight: bold !important;
+}
+
+a.impuestos div {
+display: none;
+}
+
+.GloboImp {
+position: relative;
+width: 270px;
+background: #fff;
+border: 3px solid #8A8A8A;
+padding: 10px;
+font-size: 7pt;
+border-radius: 10px;
+}
+
+.panelResultados {
+position: relative;
+padding: 0;
+float: left;
+width: 100%;
+text-align: left;
+font-size: 12px;
+margin: 0 0 10px 0;
+}
+
+.botonAnterior {
+background: Transparent no-repeat center left;
+border: 0;
+font-size: 12px;
+font-weight: bold;
+color: #5a5a5a;
+padding: 3px 0 3px 20px;
+text-decoration: none;
+cursor: pointer;
+}
+
+.botonSiguiente {
+background: Transparent no-repeat center right;
+border: 0;
+font-size: 12px;
+font-weight: bold;
+color: #5a5a5a;
+padding: 3px 20px 3px 0;
+text-decoration: none;
+cursor: pointer;
+}
+.contenedorPopUpCondiciones {
+width: 500px;
+display: inline-block;
+padding: 20px;
+background: #fff;
+position: relative;
+color: #284c96;
+max-height: 500px;
+overflow-x: hidden;
+}
+.contenedorPopUpCondiciones .btnCerrar {
+position: absolute;
+top: 0px;
+right: -229px;
+border: 0;
+background: none;
+margin: 0;
+padding: 0;
+cursor: pointer;
+}
+.contenedorPopUpCondiciones .condiciones {
+display: inline-block;
+border: 1px solid #e5e5e5;
+width: 100%;
+overflow: auto;
+}
+
+
+.iblock {
+display: inline-block;
+}
+.buscadorInterno {
+width: 307px;
+margin-top: 25px;
+position: relative;
+    z-index: 100000000000001;
+}
+.contenedorVuelos
+{
+    margin-left: 0;
+}
+.contenedorPlanes
+{
+    margin-left: 339px; 
+    min-height: 495px; 
+}
+.resultadoVuelos {
+width: 900px;
+margin-left: 324px;
+margin-top: -78px;
+}
+
+.resultadoHoteles
+{
+    width: 658px;
+    margin-left: 161px;
+     margin-top: -372px;
+}
+
+.resultadoDetalleHoteles
+{
+width: 658px;
+    margin-left: 324px;
+    margin-top: -351px;
+    background-color: white;
+}
+.encabezadoResultadoVuelos {
+display: inline-block;
+width: 628px;
+color: #fff;
+max-width: 900px;
+font-size: 24px;
+background: #34b0e4;
+margin-left: 28px;
+margin-top: 25px;
+padding: 6px;
+}
+#ucResultadoVuelos_lblTResultados {
+margin-left: 25px;
+font-size: 20px;
+}
+.resultados {
+margin-left: 28px;
+border: 1px solid #ccc;
+width: 639px;
+}
+.resumenVuelos {
+/*width: 100%;
+border-left: 1px solid #e3e2e2;
+position: relative;
+background: #eeeeee;
+border-radius: 8px 8px;*/
+float: left;
+position: relative;
+width: 100%;
+font-size: 14px;
+color: #5a5a5a;
+padding: 10px 0px;
+border: 0;
+}
+#content-slider {
+width: 490px;
+height: 6px;
+margin: 5px;
+background: #BBBBBB;
+position: relative;
+display: none;
+}
+.tituloFiltros {
+/*float: left;
+position: relative;
+width: 150px;
+font-weight: bold;*/
+float: left;
+position: relative;
+width: 87px;
+font-weight: bold;
+font-size: 13px;
+}
+.tituloFiltros div.aerolinea {
+color: #000;
+font-weight: bold;
+}
+/*.tituloFiltros div.aerolinea, .tituloFiltros div.directo, .tituloFiltros div.parada1, .tituloFiltros div.parada2 {
+padding-left: 40px;
+width: 150px;
+color: #27437c;
+font-size: 14px;
+font-weight: normal;
+text-align: center;
+}*/
+element.style {
+}
+.tituloFiltros div.aerolinea {
+color: #000;
+font-weight: bold;
+}
+/*.tituloFiltros div.aerolinea, .tituloFiltros div.directo, .tituloFiltros div.parada1, .tituloFiltros div.parada2 {
+padding-left: 40px;
+width: 113px;
+color: #27437c;
+font-size: 14px;
+font-weight: normal;
+text-align: center;
+}*/
+div.aerolinea {
+padding: 15px 0;
+background: #fff;
+height: 60px;
+line-height: 30px;
+width: 100px;
+border-bottom: solid 1px #CCC;
+border-top: solid 1px #CCC;
+float: left;
+font-size: 14px;
+color: #27437c;
+font-weight: bold;
+margin-bottom: 25px;
+text-align: center;
+}
+#content-scroll {
+width: 73%;
+height: 223px;
+overflow-y: hidden;
+margin-bottom: 10px;
+}
+#content-holder {
+width: 1500px;
+height: 270px;
+}
+.contenidoFiltros {
+float: left;
+position: relative;
+width: 540px;
+height: 136px;
+overflow: auto;
+}
+.contenidoFiltros .columnaAerolinea {
+/*float: left;
+position: relative;
+width: 100px;
+min-height: 134px;
+text-align: center;*/
+float: left;
+position: relative;
+width: 87px;
+min-height: 134px;
+text-align: center;
+}
+div.aerolinea {
+padding: 15px 0;
+background: #fff;
+height: 60px;
+line-height: 30px;
+width: 100px;
+border-bottom: solid 1px #CCC;
+border-top: solid 1px #CCC;
+float: left;
+font-size: 14px;
+color: #27437c;
+font-weight: bold;
+margin-bottom: 25px;
+text-align: center;
+}
+div.directo {
+background: #f2f2f2;
+height: 30px;
+width: 100px;
+line-height: 30px;
+float: left;
+color: #27437c;
+}
+div.parada1 {
+background: #fff;
+height: 30px;
+line-height: 30px;
+width: 100px;
+float: left;
+color: #27437c;
+}
+div.parada2 {
+background: #f2f2f2;
+height: 30px;
+width: 100px;
+line-height: 30px;
+float: left;
+color: #27437c;
+}
+.tituloResultadoVuelos {
+    width: 628px;
+    padding: 7px 0px 5px 13px;
+    font-size: 22px;
+    border-right: 1px solid #e3e2e2;
+    background: #34b0e4;
+    color: #fff;
+    margin-left: 28px;
+    margin-top: 17px;
+    margin-left: 28px;
+}
+element.style {
+}
+.ordenarVuelos {
+width: 100%;
+padding: 15px 0 35px;
+text-align: center;
+border-right: 1px solid #e3e2e2;
+border-left: 1px solid #e3e2e2;
+display: none;
+}
+.vuelos {
+border-bottom: 1px solid #ccc;
+padding-top: 10px;
+}
+.tituloOpcion {
+display: inline-block;
+padding-left: 22px;
+background: #976eb5;
+width: 100%;
+height: 25px;
+line-height: 25px;
+font-size: 12px;
+color: #fff;
+display: none;
+}
+.detalleVuelo {
+width: 95%;
+display: inline-block;
+padding: 15px 30px 15px 22px;
+}
+.tarifasVuelo {
+width: 95%;
+height: 62px;
+display: inline-block;
+padding-left: 15px;
+margin-bottom: 10px;
+border-top: 1px solid #ccc;
+}
+.azulOscuro {
+color: #284c96;
+}
+.tablasTrayectosVuelos .tablaVuelos:first-child .filaFechasVuelo {
+display: table-row;
+font-weight: bold;
+}
+.tablasTrayectosVuelos .tablaVuelos .filaFechasVuelo {
+display: none;
+}
+.detalleVuelo .filaFechasVuelo .div30px, .detalleVuelo .filaFechasVuelo .div285px, .detalleVuelo .filaFechasVuelo .div220px, .detalleVuelo .filaFechasVuelo .div70px {
+margin-bottom: 10px;
+}
+.div30px {
+display: inline-block;
+width: 30px;
+overflow: hidden;
+}
+.div285px {
+display: inline-block;
+width: 285px;
+overflow: hidden;
+}
+.div220px {
+display: inline-block;
+width: 220px;
+overflow: hidden;
+}
+.div70 {
+display: inline-block;
+width: 70px;
+overflow: hidden;
+}
+.valorTotalVuelo {
+display: inline-block;
+width: 215px;
+text-align: center;
+}
+.valorTotalVuelo .tituloTotal {
+display: inline-block;
+font-size: 15px;
+font-weight: bold;
+color: #2f7e9c;
+margin-right: 30px;
+}
+.valor_todoImpuestos {
+margin-left: -36px;
+}
+.valorTotalVuelo .monedaTotal {
+display: inline-block;
+font-size: 17px;
+margin-top: 5px;
+color: #28ABE3;
+font-weight: bold;
+}
+.valorTotalVuelo .valorTotal {
+display: inline-block;
+font-size: 20px;
+color: #28ABE3;
+}
+.valorTotalVuelo .labelImpuestosIncluidos {
+display: inline-block;
+width: 100%;
+font-size: 12px;
+margin-left: -34px;
+color: #2f7e9c;
+}
+.detalleTarifa {
+display: inline-block;
+width: 225px;
+text-align: center;
+}
+.valorTotalVuelo {
+display: inline-block;
+width: 215px;
+text-align: center;
+padding-top:10px;
+}
+.seleccionarVuelos {
+width: 115px;
+display: inline-block;
+margin-left: 56px;
+padding-top: 9px;
+position: absolute;
+}
+.valorTotalVuelo .tituloTotal {
+display: inline-block;
+font-size: 15px;
+font-weight: bold;
+color: #28ABE3;
+margin-right: 30px;
+}
+.valorTotalVuelo .labelImpuestosIncluidos {
+display: inline-block;
+width: 100%;
+font-size: 12px;
+margin-left: -21px;
+color: #28ABE3;
+}
+.titulo_descripcion {
+margin-left: -46px;
+font-size: 12px;
+color: #2f7e9c;
+display: block;
+margin-top: 5px;
+}
+.Valor_Adulto {
+margin-top: 0px;
+margin-left: 39px;
+display: block;
+}
+.detalleTarifa .toggle_container {
+padding: 5px 0;
+border-bottom: 1px dashed #999;
+overflow: hidden;
+font-size: 11px;
+font-family: Trebuchet MS;
+width: 155px;
+color: #666;
+background: none;
+margin: 0;
+text-align: center;
+display: none;
+}
+ 
+a.impuestosVuelos:hover div
+{
+    display: block;
+    position: absolute;
+    bottom: 15px;
+    left: -75px;
+    color: white;
+    text-decoration: underline;
+    z-index: 999;
+    overflow: hidden;
+}
+a.impuestosVuelos {
+position: relative;
+color: #434244;
+font-weight: bold;
+text-decoration: none;
+font-size: 11px;
+display: inline;
+width: 100px;
+float: left;
+text-align: center;
+}
+.valorTarifa {
+color: #28ABE3;
+font-size: 16px;
+}
+a.impuestosVuelos div {
+display: none;
+}
+.GloboImp {
+position: relative;
+width: 270px;
+background: #fff;
+border: 3px solid #8A8A8A;
+padding: 10px;
+font-size: 7pt;
+border-radius: 10px;
+}
+.container {
+width: 100%;
+display: inline-block;
+box-shadow: 0px 0px 20px 5px #D3D3D3;
+}
+.btnAzul {
+height: 30px;
+line-height: 30px;
+background: -webkit-linear-gradient(bottom, #ed7300, #ffb000);
+background: -o-linear-gradient(bottom, #ed7300, #ffb000);
+background: -moz-linear-gradient(bottom, #ed7300, #ffb000);
+background: linear-gradient(to bottom, #ed7300, #ffb000);
+padding: 0 10px;
+color: #fff;
+display: inline-block;
+font-weight: bold;
+border: 0;
+cursor: pointer;
+}
+div.aerolinea input {
+max-height: 30px;
+max-width: 90px;
+display: inline-block;
+outline: none;
+border: 0;
+color: #000;
+background: #f2f2f2;
+padding: 0;
+width: 62%;
+font: 14px/20px tahoma, sans-serif;
+height: 34px;
+margin: 0;
+}
+.tituloTarifa
+{
+    margin-top: -33px;
+    margin-left: 32px;    
+}
+.labelDetalleImpuestos {
+float: left;
+width: 140px;
+text-align: left;
+color: #000;
+font-size: 9px;
+}
+.valorlDetalleImpuestos {
+float: left;
+width: 100px;
+text-align: left;
+color: #000;
+font-size: 9px;
+}
+
+/* FORMULARIO DE RESERVA */
+
+.encabezadoVuelosReserva {
+width: 984px;
+line-height: 33px;
+font-size: 19px;
+color: #28ABE3;
+margin-top: 10px;
+margin-left: 14px;
+}
+
+.full {
+width: 100%;
+}
+
+.reservaPaquetes .panelLeft {
+width: 63%;
+margin-left: 14px;
+}
+
+.reservaVuelos .panelRight {
+width: 28%;
+margin-left: 15px;
+border: 1px solid #ccc;
+}
+
+.reservaVuelos .tituloReserva {
+line-height: 33px;
+font-size: 18px;
+padding-left: 35px;
+margin-top: -1px;
+color: #161938;
+margin-left: -35px;
+}
+
+.datosViajero {
+padding: 6px 15px 10px 0px;
+background: #FFF;
+}
+
+.renglonDatosTipo {
+width: 10%;
+float: left;
+margin-top: 42px;
+}
+
+.tipoPasajero, .tipoPasajero input {
+font-size: 11px;
+color: #28ABE3;
+text-transform: uppercase;
+float: left;
+font-weight: bold;
+border: 0;
+background: none;
+}
+
+.celdaDatos {
+width: 25%;
+padding-right: 45px;
+}
+
+.celdaDatos .label {
+color: #6d6e70;
+font-size: 11px;
+margin-bottom: 8px;
+}
+
+.celdaDatos .campo {
+/*height: 26px;*/
+border: 1px solid #e6e6e6;
+}
+
+.datosViajeroContacto {
+padding-right: 14px;
+}
+
+.tablaContactoPasajeros .campo {
+height: 19px;
+border: 1px solid #e6e6e6;
+}
+
+.tipoPagoVuelosTarjeta {
+display: inline-block;
+width: 100%;
+}
+
+.reservaVuelos .panelRight {
+width: 27%;
+border: 1px solid #ccc;
+background:#fff;
+margin-top: 29px;
+float: right;
+position: inherit;
+margin-right: 25px;
+}
+
+.reservaVuelos .tituloReserva {
+line-height: 33px;
+font-size: 18px;
+padding-left: 35px;
+margin-top: -1px;
+color: #28ABE3;
+margin-left: -35px;
+}
+
+.detalleVueloReserva {
+border-top: 0;
+padding: 0px 0px 0px 19px;
+}
+
+.detallePlanReserva {
+border-top: 0;
+padding: 0px 0px 0px 19px;
+}
+
+.renglonDetalleVuelosReserva {
+margin-bottom: 10px;
+}
+
+.renglonDetalleVuelosReservaLinea1 {
+margin-top: 20px;
+}
+.RadioButton input
+{
+        width:12px;
+}
+.contenedorCondicionesReserva {
+padding: 30px 0 0 3px;
+}
+.contenedorCondicionesReserva img {
+width: 40px;
+float: left;
+}
+.labelAceptoVuelos {
+margin-left: 26px;
+float: left;
+max-width: 475px;
+margin-top: 10px;
+}
+.contenedorCondicionesReserva .contenedorCheck input {
+margin: 10px;
+float: left;
+width: 12px;
+}
+.botonesReserva {
+margin-top: 15px;
+margin-bottom: 10px;
+width: 87%;
+}
+.btnConfirmar {
+background: #-webkit-linear-gradient(top, #fe8300, #c46500);
+color: #fff;
+height: 28px;
+line-height: 28px;
+padding: 0 20px;
+font-weight: bold;
+font-size: 14px;
+float: right;
+border: 0;
+width:258px;
+}
+.btnCancelar {
+color: #5e8dbf;
+background: #d9d9db;
+height: 28px;
+line-height: 28px;
+padding: 0 20px;
+font-weight: bold;
+font-size: 14px;
+float: left;
+width:175px;
+}
+.tipoPagoVuelosTarjeta table tr td {
+float: left;
+width: 40%;
+font-size: 12px;
+}
+.tipoPagoVuelosTarjeta table tr td input {
+float: left;
+width:12px;
+}
+.tipoPagoVuelosTarjeta table tr td label {
+float: left;
+margin: 7px 0 0 20px;
+font-size: 15px;
+}
+.datosObligatorios {
+color: #284c96;
+font-size: 11px;
+float: right;
+margin-left: 517px;
+position: absolute;
+}
+
+.resultadoPaquetes {
+width: 665px;
+}
+
+/*RESULTADO HOTELES*/
+
+.textoContacto
+{
+    margin-top: 25px;
+    margin-left: -27px;
+    text-align: justify;
+    width: 78%;    
+}
+.textoFormulario
+{
+    margin-left: 0px;
+    margin-bottom: 25px;
+    margin-top: -17px;    
+}
+.formulario {
+    width: 343px;
+    height: 550px;
+    display: inline-block;
+    padding: 20px 25px 20px 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: 8px 11px 21px -11px rgba(204,204,204,1);
+    -moz-box-shadow: 8px 11px 21px -11px rgba(204,204,204,1);
+    box-shadow: 8px 11px 21px -11px rgba(204,204,204,1);
+}
+.formulario table {
+width: 319px;
+}
+
+.formulario span 
+{
+    display: inline-block;
+    width: 100%;
+    color: #6d6e70;
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+.formulario input[type="text"], .formulario select, .formulario textarea {
+display: inline-block;
+width: 155px;
+margin-bottom: 10px;
+height: 25px;
+border: 1px solid #e6e6e6;
+}
+
+#ucQuienesSomos_rptSeccion_ctl00_rptSeccion_ctl00_strDescripcion p 
+{
+    margin-left: 0px;    
+}
+.contenedorBotonEnviar td input
+{
+    height: 31px;
+    width: 76px;    
+}
+
+#ucContactenos_rptSeccion_ctl00_lblDescripcion h3 
+{
+    margin-left: 25px;    
+}
+
+.paginadorPaquetes {
+height: 54px;
+border: 1px solid #e3e2e2;
+padding: 24px 15px 12px;
+}
+.botonAdelante {
+margin: 0;
+padding: 0;
+background: none;
+border: 0;
+margin-left: 25px;
+cursor: pointer;
+}
+.botonAtras {
+margin: 0;
+padding: 0;
+background: none;
+border: 0;
+padding-right: 25px;
+border-right: 1px solid #878787;
+cursor: pointer;
+}
+.csPintar {
+/*border: 0;
+background: none;
+padding: 0 5px;
+border-right: 1px solid #878787;
+float: left;
+color: #7ec4dc;*/
+display: block;
+width: 100%;
+height: 100%;
+text-align: center;
+text-decoration: none;
+color: #484848;
+width: 20px;
+border: 1px solid #ccc;
+line-height: 20px;
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+transition: all 0.3s ease;
+color: #fff;
+background: #fe8300;
+}
+.csNoPintar {
+/*border: 0;
+background: none;
+padding: 0 5px;
+border-right: 1px solid #878787;
+float: left;
+color: #878787;*/
+display: block;
+width: 100%;
+height: 100%;
+text-align: center;
+text-decoration: none;
+color: #484848;
+width: 20px;
+border: 1px solid #ccc;
+line-height: 20px;
+-webkit-transition: all 0.3s ease;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+transition: all 0.3s ease;
+}
+
+.csNoPintar:hover 
+{
+     color: #fff;
+     background: #fe8300;   
+}
+
+.fRight {
+float: right;
+}
+.textRight {
+text-align: right;
+}
+
+.resultados-hoteles {
+width: 100%;
+display: inline-block;
+}
+
+div.resultados-hoteles > div.resultado {
+position: relative;
+float: left;
+width: 100%;
+padding: 20px 0 0 0;
+border: solid 1px #e3e2e2;
+border-top: 0;
+}
+
+div.resultados-hoteles > div.resultado h2 {
+margin: 0;
+float: left;
+display: block;
+color: #39a8e5;
+font-size: 18px;
+padding: 0 10px 5px 0;
+text-decoration: none;
+text-transform: uppercase;
+margin-left: 40px;
+font-weight: normal;
+}
+
+div.resultados-hoteles > div.resultado > span {
+float: left;
+width: 14px;
+height: 14px;
+margin: 3px 10px 0 0;
+background: url(../../Imagenes/imagesNactur/icn-estrella.png) no-repeat;
+}
+
+div.resultados-hoteles > div.resultado > span {
+float: left;
+width: 14px;
+height: 14px;
+margin: 3px 10px 0 0;
+background: url(../../Imagenes/imagesNactur/icn-estrella.png) no-repeat;
+}
+
+div.resultados-hoteles > div.resultado > p {
+float: left;
+clear: both;
+width: 50%;
+margin: 0 0 25px 0;
+line-height: 130%;
+color: #284c96;
+font-size: 12px;
+margin-left: 40px;
+}
+
+div.resultados-hoteles > div.resultado div.ver-detalle {
+float: left;
+width: 450px;
+margin-left: 40px;
+}
+
+div.resultados-hoteles > div.resultado > div.precio {
+float: right;
+width: 100%;
+text-align: center;
+background: #34b0e4;
+margin-top:13px;
+}
+
+div.resultados-hoteles > div > table {
+float: left;
+border-top: 1px solid #e3e2e2;
+font-size: 12px;
+margin: 50px 0 0px 0;
+color: #284c96;
+text-align: center;
+padding-left: 40px;
+padding-right: 10px;
+padding-bottom: 30px;
+}
+div.resultados-hoteles > div > table tr.titulos {
+font-weight: bolder;
+vertical-align: top;
+padding: 7px 0 0 0;
+text-transform: uppercase;
+font-size: 12px;
+line-height: 35px;
+}
+.botonSeleccionarHotel {
+float: left;
+border-top: 1px solid #e3e2e2;
+}
+.botonSeleccionarHotel.espacio {
+min-height: 31px;
+}
+div.resultados-hoteles > div.resultado div.ver-detalle img {
+float: left;
+width: 150px;
+height: 145px;
+margin: 0 25px 0 0;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+border: 1px solid #CCC;
+}
+.descripcionHotelResultado {
+float: left;
+width: 270px;
+}
+div.resultados-hoteles > div.resultado div.ver-detalle p {
+float: left;
+width: 270px;
+margin: 0 0 20px 0;
+text-align: justify;
+font-size: 12px;
+line-height: 140%;
+color: #727176;
+}
+div.resultados-hoteles > div.resultado div.ver-detalle a {
+float: left;
+color: #2e6bab;
+font-size: 13px;
+border: none;
+text-align: center;
+background: #0075aa;
+height: 30px;
+line-height: 30px;
+padding: 0 10px;
+cursor: pointer;
+background: url(../../Imagenes/imagesNactur/btnDetallesHotel.jpg) repeat-x;
+}
+div.resultados-hoteles > div.resultado > div.precio > h3 
+{
+    margin: 0;
+    float: left;
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 10px 5px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 40px;
+    font-weight: normal;    
+}
+
+.precio p 
+{
+    margin-top:4px;    
+}
+
+.precio p span 
+{
+    color:#fff;    
+}
+
+.RadioButtonHoteles input
+{
+    width:12px;
+}
+
+.encabezadoResultadoHoteles {
+width: 665px;
+margin-top: 30px;
+line-height: 32px;
+font-size: 22px;
+}
+
+div.resultados-hoteles > div.resultado {
+position: relative;
+float: left;
+width:609px;
+padding: 20px 0 0 0;
+border: solid 1px #e3e2e2;
+border-top: 0;
+margin-left:28px;
+}
+div.resultados-hoteles > div.resultado h2 {
+margin: 0;
+float: left;
+display: block;
+color: #39a8e5;
+font-size: 18px;
+padding: 0 10px 5px 0;
+text-decoration: none;
+text-transform: uppercase;
+margin-left: 40px;
+font-weight: normal;
+}
+div.resultados-hoteles > div.resultado div.galeria {
+float: left;
+width: 325px;
+margin: 0 0 0 30px;
+}
+div.resultados-hoteles > div.resultado div.galeria .imagen-grande {
+float: left;
+width: 325px;
+height: 215px;
+border: 1px solid #CCC;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+-webkit-box-shadow: 4px 4px 17px 0px rgba(50, 50, 50, 0.5);
+-moz-box-shadow: 4px 4px 17px 0px rgba(50, 50, 50, 0.5);
+box-shadow: 4px 4px 17px 0px rgba(50, 50, 50, 0.5);
+overflow: hidden;
+}
+div.resultados-hoteles > div.resultado div.galeria .imagen-grande img {
+width: 100%;
+height: 100%;
+}
+.contenidoDetalleHotel {
+float: left;
+width: 260px;
+margin-left: 25px;
+}
+div.resultados-hoteles > div.resultado .contenidoDetalleHotel h2 {
+margin: 0;
+float: left;
+display: inline-block;
+width: 100%;
+color: #39a8e5;
+font-size: 18px;
+padding: 0 10px 5px 0;
+text-decoration: none;
+text-transform: uppercase;
+font-weight: normal;
+margin-top:25px;
+}
+.contenidoDetalleHotel > span {
+float: left;
+width: 14px;
+height: 14px;
+margin: 3px 10px 0 0;
+background: url(../../Imagenes/imagesNactur/icn-estrella.png) no-repeat;
+}
+.contenidoDetalleHotel > p {
+float: left;
+clear: both;
+width: 100%;
+margin: 10px 0 25px 0;
+line-height: 130%;
+color: #284c96;
+font-size: 12px;
+}
+.contenidoDetalleHotel > div.precio {
+float: left;
+margin-left:-25px;
+width: 609px;
+text-align: center;
+background: #34b0e4;
+}
+
+.contenidoDetalleHotel > div.precio > h3 
+{
+    color:#fff;
+    margin-top:14px;    
+}
+
+div.resultados-hoteles > div.resultado div.descripcion {
+float: left;
+width: 92%;
+margin: 30px 0 20px 0;
+color: #59595b;
+font-size: 12px;
+line-height: 130%;
+text-align: justify;
+padding-left: 12px;;
+padding-bottom: 30px;
+padding-right: 50px;;
+}
+div.resultados-hoteles > div.resultado div.descripcion h3 {
+margin: 0;
+text-transform: uppercase;
+font-size: 14px;
+padding: 0 0 15px 0;
+color: #39a8e5;
+font-weight: normal;
+}
+div.resultados-hoteles > div.resultado div.descripcion p {
+color: #727176;
+font-size: 12px;
+line-height: 130%;
+text-align: justify;
+margin-bottom: 15px;
+}
+div.resultados-hoteles > div > table {
+float: left;
+border-top: 1px solid #e3e2e2;
+font-size: 12px;
+margin: 50px 0 0px 0;
+color: #284c96;
+text-align: center;
+padding-left: 40px;
+padding-right: 10px;
+padding-bottom: 30px;
+}
+div.resultados-hoteles > div > table tr.titulos {
+font-weight: bolder;
+vertical-align: top;
+padding: 7px 0 0 0;
+text-transform: uppercase;
+font-size: 12px;
+line-height: 35px;
+}
+div.resultados-hoteles > div > table td:first-child {
+text-align: left;
+}
+.botonSeleccionarHotel {
+float: left;
+border-top: 1px solid #e3e2e2;
+}
+div.resultados-hoteles > div.resultado div.servicios {
+float: left;
+width: 100%;
+border-top: 1px solid #e3e2e2;
+padding: 20px 0 0 0;
+padding-left: 40px;
+padding-right: 10px;
+padding-bottom: 30px;
+color: #727176;
+font-size: 11px;
+}
+div.resultados-hoteles > div.resultado div.servicios h3 {
+margin: 0;
+text-transform: uppercase;
+font-size: 14px;
+padding: 0 0 15px 0;
+color: #39a8e5;
+font-weight: normal;
+}
+div.resultados-hoteles > div.resultado div.servicios img {
+max-width: 95%;
+float: left;
+}
+.seleccionarHoteles
+{
+    width: 144px;
+    display: inline-block;    
+    margin-right: 60px;
+}
+.resultadosBorder
+{
+    border: solid 1px #cecece;
+    padding: 20px;
+    width: 598px;
+    height: 220px;
+    border-radius: 0 0 15px 15px;
+    -moz-border-radius: 0 0 15px 15px;
+    -webkit-border-radius: 0 0 15px 15px;    
+}
+.resumenVuelos .tituloFiltros .aerolinea
+{
+    background: #f2f2f2;
+    height: 46px;
+    padding: 2px;
+    width: 81px;
+    border: solid 1px #CCC;
+    float: left;
+}
+.resumenVuelos .tituloFiltros .directo
+{
+    background: #e9e9e9;
+    height: 22px;
+    width: 81px;
+    padding: 2px;
+    border: solid 1px #CCC;
+    float: left;
+}
+.resumenVuelos .tituloFiltros .parada1
+{
+    background: #fff;
+    height: 22px;
+    width: 81px;
+    padding: 2px;
+    border: solid 1px #CCC;
+    float: left;
+}
+.resumenVuelos .tituloFiltros .parada2
+{
+    background: #e9e9e9;
+    height: 22px;
+    width: 81px;
+    padding: 2px;
+    border: solid 1px #CCC;
+    float: left;
+}
+.contenidoFiltros .columnaAerolinea .aerolinea
+{
+    background: #f2f2f2;
+    height: 46px;
+    padding: 2px;
+    width: 81px;
+    border: solid 1px #CCC;
+    float: left;   
+}
+.contenidoFiltros .columnaAerolinea .directo
+{
+    background: #e9e9e9;
+    height: 22px;
+    width: 81px;
+    padding: 2px;
+    border: solid 1px #CCC;
+    float: left;   
+}
+
+.contenidoFiltros .columnaAerolinea .parada1
+{
+    background: #fff;
+    height: 22px;
+    width: 81px;
+    padding: 2px;
+    border: solid 1px #CCC;
+    float: left;    
+}
+.contenidoFiltros .columnaAerolinea .parada2
+{
+    background: #e9e9e9;
+    height: 22px;
+    width: 81px;
+    padding: 2px;
+    border: solid 1px #CCC;
+    float: left; 
+}
+.Separador_Resultados
+{
+    border-bottom: 1px solid #ccc;
+    padding-top: 7px;    
+}
+.Separador_Reserva
+{
+    border-bottom: 1px solid #ccc;   
+}
+.renglonValorPorPasajero
+{
+    width: 100%;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;    
+}
+
+/* MICUENTA */
+
+#tabs ul li 
+{
+    display: block;
+    float: left;
+    text-indent: 0;
+    padding: 0;
+    margin: 2px 2px 0px 0px !important;
+    list-style-image: none !important;
+    border-top: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-radius: 8px 8px 0 0;
+}
+
+#tabs ul li a 
+{
+    display: block;
+    font-size: 10px;
+    font-weight: bold;
+    height: 47px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    padding: 4px 2px 0px 2px;
+    position: relative;
+    top: 0px;
+    border-radius: 8px 8px 0 0;
+}
+
+#tabs ul li a span 
+{
+    display: none;
+    height: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #28ABE3;
+    margin-top: 7px;
+}
+
+.buscadorHome div #tabs ul li a span
+{
+	display:none;
+}
+
+.TresCuInscribase 
+{
+    width:92%;
+    display:inline-block;
+    margin-left:25px;    
+}
+.rotadorInscribase 
+{
+    display:inline-block;    
+}
+.contenedorRotadorInscribase 
+{
+    width:62%;
+    display:inline-block;    
+}
+.tituloIngresar 
+{
+    font-size: 17px;
+    color: #35B0E5;
+    font-weight: bold; 
+    text-align: center;   
+}
+
+.contenidoIngresar table tbody tr td input 
+{
+    height:12px;
+    background: #f1f1f1;
+    border-radius: 0px;    
+}
+
+#ucLogin_UcRegistroT1_upAcepto 
+{
+    margin-top:-25px;    
+}
+
+#ucLogin_UcRegistroT1_upAcepto span input 
+{
+    width:10%;    
+}
+
+.LabelVentanaError 
+{
+    width:50%;
+    background: #fff;
+    padding: 24px;
+    margin-left: 209px;
+    border-radius: 9px 0px 7px 9px;
+    position: relative;    
+}
+
+.LabelVentanaError span
+{
+    color:#000 !important;
+    font-size:15px;
+    font-weight:bold;
+}
+.ContenedorPlanes {
+width: 100%;
+}
+.formaBuscarPlanes
+{
+    width: 153px;
+    height: 20px;    
+}
+
+.contenedorNumerosPaginacion
+{
+    position: relative;
+    margin-right: 690px;
+    margin-bottom:25px;
+}
+.contenedorUtilitarios 
+{
+    width:20%;    
+}
+.tituloUtilitarios 
+{
+    width: 50%; 
+    display: inline-block;    
+}
+.tituloUtilitarios span
+{
+    margin-left: 24px;
+    position: absolute;
+    margin-top: -31px;
+    font-size: 30px;
+    color: #35B0E5;
+    font-weight: bold;   
+}
+.verMasUtilitarios 
+{
+    padding: 10px;
+    margin: 10px 10px;
+    color: white;
+    background: #EF294C;
+    display: inline-block;
+    height:39px;  
+    font-size:15px;
+    display:none;  
+}
+.ContenedorVerMas
+{
+    width:87px;    
+}
+.contenedorQuienes span p
+{
+    width: 92%;
+    text-align: justify;    
+}
+#ucQuienesSomos_rptSeccion_ctl04_strDescripcion table tbody tr td p
+{
+     width: 180px;
+}
+.ContendedorDescripcionPlan h4
+{
+    height: 36px;
+    overflow: hidden; 
+    font-size:15px;  
+}
+.ContentUtilitarios
+{
+  width: 100%;
+}
+.ContenedorUtilitarios
+{
+  width: 28%;
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 25px;
+  margin-top: 19px;
+  margin-bottom: 35px;
+}
+.ContenedorUtilitarios img
+{
+   width: 100%;
+}
+
+.ContenedorUtilitarios h4
+{
+    display: inline-block;
+    width: 100px;
+    position: absolute; 
+    margin-left:15px; 
+    margin-top: 7px;  
+}
+.ContenedorDescripcionUtilitarios 
+{
+    margin-left: 60px;
+    font-size: 15px;  
+    display:none;  
+}
+
+.VerMas
+{
+  color: #35B0E5;
+  text-decoration: underline;
+  float: right;    
+}
+
+.fotoDetalleUltima img
+{
+  width: 80%;
+  margin-left: 11%;
+}
+
+.Regresar
+{
+  margin-right: 90px;
+  margin-top: 17px;  
+  float:right;
+  color: #35B0E5;
+  text-decoration: underline;  
+}
+
+.descripcionDetalleUltimaHora p
+{
+  margin-left: 11%;
+  margin-top: 18px;
+  font-size: 16px;
+  font-weight: bold;    
+}
+
+.panelRight
+{
+    width: 27%;
+    border: 1px solid #ccc;
+    background: #fff;
+    margin-top: 29px;
+    float: right;
+    position: inherit;
+    margin-right: 25px;
+}
+
+.tituloReserva 
+{
+    line-height: 33px;
+    font-size: 18px;
+    padding-left: 35px;
+    margin-top: -1px;
+    color: #28ABE3;
+    margin-left: -35px;
+}
+
+.nombrePaquete 
+{
+    width: 81%;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    font-size: 15px;
+    color: #284c96;    
+}
+
+.descripcionPaquete span p
+{
+    margin-right: 32px;
+    margin-left: 0px;    
+}
+
+.preciosReserva 
+{
+    margin-left: 0px;
+    color: #35B0E5; 
+    border-top: 1px solid #ccc;   
+}
+
+.unCu .valorFinal 
+{
+   /* margin-left:31px;
+    margin-top: 173px;*/    
+}
+
+.ColorDetallePlan
+{
+    color:#f8ae00;
+    font-weight:bold;    
+}
+.ValorPlan 
+{
+    font-size:15px;    
+}
+.referencia p 
+{
+    margin-bottom: -13px;
+    margin-top: -19px;
+    margin-left: 0px; 
+    width: 75%;   
+}
+
+#ucDetallePlan_strDetalleDuracion 
+{
+    color:#33a1e1;
+    font-weight:bold;    
+}
+
+a.impuestos:hover div
+{
+    display: block;
+    position: absolute;
+    bottom: 15px;
+    left: -75px;
+    color: #000;
+    text-decoration: underline;
+    z-index: 999;
+    overflow: hidden;
+}
+
+.contenidoIngresar 
+{
+    padding: 30px;
+    margin-bottom: 39px;
+    margin-top: 0px;    
+}
+.contenedorBotonBuscarPlanes {
+width: 80px;
+}
+
+.tituloCotizador span 
+{
+    font-size: 12px;
+    color: #28ABE3;
+    font-weight: bold;    
+}
+.RadioPlanes input 
+{
+    width:12px;    
+}
+#ucDetallePlan_UcTarifasRotativos1_rptCabina_ctl00_rptHoteles_ctl00_Label6
+{
+    font-size:11px;    
+}
+
+#ucDetallePlan_UcTarifasRotativos1_rptCabina_ctl01_rptHoteles_ctl00_Label6
+{
+    font-size:11px;     
+}
+
+#ucDetallePlan_UcTarifasRotativos1_rptCabina_ctl02_rptHoteles_ctl00_Label6
+{
+    font-size:11px;     
+}
+
+#ucDetallePlan_UcTarifasRotativos1_rptCabina_ctl03_rptHoteles_ctl00_Label6
+{
+    font-size:11px;     
+}
+
+#ucDetallePlan_UcTarifasRotativosMulti1_rptCabina_ctl00_rptHoteles_ctl00_Label6
+{
+    font-size:11px;    
+}
+
+.vigencia span 
+{
+    color:#28ABE3;
+    margin-bottom: 24px;
+}
+.labelCotizadorHabitaciones 
+{
+    margin-left:39px;
+    font-weight:bold;   
+}
+.listaCotizador 
+{
+    width:13%;    
+}
+.bordeRightCotizador input 
+{
+    width:12px;    
+}
+
+.botonCerrarInscribase
+{
+    width: 71px !important;
+    float: right;
+    margin-right: 186px;
+    margin-top: -20px;
+    border-radius: 4px 4px 0px 0px;
+    border: none;
+    background: #35B0E5;
+    color: #000;
+    font-size: 17px;
+    line-height: 12px;  
+}
+.descripcionPaquete
+{
+    display:none;    
+}
+.Contenedor_DetallePlanFormulario
+{
+    color: #000;
+    text-align: justify;
+    width: 203px;
+    margin-bottom: 12px;    
+}
+.ContenedorLimitePago
+{
+    margin-left: 19px;
+    margin-bottom: 12px;
+    color: #35B0E5;
+    font-weight: bold;    
+}
+
+.Valorpaquete
+{
+    margin-top: 15px;
+    margin-left: 12px;    
+}
+.precioPlan
+{
+    position: absolute;
+    margin-left: 137px;
+    margin-top: -20px;
+    font-weight: bold;    
+}
+.contenedorbotonPlan
+{
+    width: 100px;
+    margin-left: 284px;    
+}
+.contenedorbotonPlan input 
+{
+    height: 30px;    
+}
+.LinkCancelar
+{
+    width: 152px;
+    height: 29px;
+    text-decoration: underline;
+    background: #fff;
+    border: 0;
+    font-size: 11px;
+    color: #35B0E5;    
+}
+
+.contenedorMicuenta
+{
+    width: 132%;    
+}
+
+.cajasMicuenta
+{
+    width: 180px;
+    height: 12px;    
+}
+
+.dataTables_length
+{
+    background: #fff;    
+}
+.dataTables_filter
+{
+    background: #fff;     
+}
+
+.dataTables_filter input
+{
+    border: 1px solid #ccc;
+    height: 9px; 
+    width:10%; 
+}
+
+.ContenedorBotonMicuenta input
+{
+        width: 77px;
+        height: 32px;
+}
+
+.panelCompletoDetalleMiCuenta .panelResultados .contenidoResultado
+{
+    width: 90%;
+    padding: 5%;    
+}
+
+.textoTerminos p
+{
+    width:91%;
+}
+
+.textoTerminos div table
+{
+    width:91%; 
+    margin-left: 29px;      
+}
+
+.textoTerminos div table tbody tr td
+{
+      padding-right: 5%;      
+}
+
+.textoTerminos ul 
+{
+    margin-left: 85px;    
+}
+.textoTerminos ol 
+{
+    margin-left: 85px;    
+}
+
+.buscadorInterno div div div iframe 
+{
+	width: 300px!important;
+}
+
+.CajasFormulario {
+height: 11px!important;
+}
+
+.TextoCondiciones
+{
+    margin-top: 25px;
+    margin-left: 12px;
+    font-size: 15px;
+    text-align: justify;
+    margin-right: 27px; 
+    margin-bottom: 70px;   
+}
+
+.btnCerrarCondiciones
+{
+    width: 77px;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 106px;
+}
+ /**** Detalle de Vuelo ****/
+ .popup {
+	z-index: 5;
+	display: block;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.popup ol, .popup ul {
+	list-style: none;
+}
+.popup-detail {
+	width:715px
+}
+.popup-detail .detail {
+	padding:10px
+}
+.popup-detail .segment {
+	padding:0 5px
+}
+.popup-detail .segment:before, .popup-detail .segment:after {
+	content:"";
+	display:table
+}
+.popup-detail .segment:after {
+	clear:both
+}
+.ie6 .popup-detail .segment, .ie7 .popup-detail .segment {
+	zoom:1
+}
+.popup-detail .segment .review-summary {
+	float:left;
+	margin:5px 0 0 15px
+}
+.popup-detail .segment .review-summary .review-description {
+	display:block
+}
+.popup-detail .segment .review-summary .review-description {
+	display:block;
+	text-align:right
+}
+.popup-detail .segment .detail-info {
+	float:left;
+	width:520px;
+	padding: 0;
+}
+.popup-detail .segment .detail-info:before, .popup-detail .segment .detail-info:after {
+	content:"";
+	display:table
+}
+.popup-detail .segment .detail-info:after {
+	clear:both
+}
+.ie6 .popup-detail .segment .detail-info, .ie7 .popup-detail .segment .detail-info {
+	zoom:1
+}
+.popup-detail .segment .detail-info li:before, .popup-detail .segment .detail-info li:after {
+	content:"";
+	display:table
+}
+.popup-detail .segment .detail-info li:after {
+	clear:both
+}
+.ie6 .popup-detail .segment .detail-info li, .ie7 .popup-detail .segment .detail-info li {
+	zoom:1
+}
+.popup-detail .segment .detail-info .data{
+	color: #999999;
+}
+.popup-detail .segment .detail-info .data span {
+	margin:0 4px 0 0;
+	float:left;
+	line-height:28px;
+}
+.popup-detail .segment .detail-info .data .airline {
+	float:right;
+	margin:0;
+	padding:0
+}
+.popup-detail .segment .detail-info .data .airline .logoPeque�o {
+	padding:0;
+	line-height:0
+}
+.popup-detail .segment .detail-info .itinerary {
+	line-height:14px
+}
+.popup-detail .segment .detail-info .itinerary .location {
+	float:left;
+	margin:0 15px 0 0;
+	width:400px
+}
+.popup-detail .segment .detail-info .itinerary .date {
+	float:right
+}
+.popup-detail .segment .detail-info .operated-by {
+	float:left
+}
+.popup-detail .segment .detail-info .operated-by li {
+	float:left;
+	margin:0 5px 0 0;
+	line-height:25px
+}
+.popup-detail .segment .detail-info .operated-by .logoPeque�o {
+	line-height:0
+}
+.popup-detail .segment .detail-info .stops {
+	float:right
+}
+.popup-detail .segment .detail-info .stops .title {
+	margin:0 0 0 -20px
+}
+.popup-detail .time {
+	display:block;
+	padding:8px 0;
+	text-align:center;
+	font-weight:bold;
+	margin:10px 0;
+	background:#eeeeee;
+
+}
+.popup-detail .detail-footer {
+	display:inline-block;
+	width:100%;
+	padding-top:3px
+}
+.popup-detail .detail-footer .bottom-box {
+	float:left;
+	width:50%
+}
+.popup-detail .detail-footer .bottom-box .detail-local-hour {
+	display:block;
+	padding-bottom:8px
+}
+.popup-detail .detail-footer .baggage {
+	margin-top:5px
+}
+.ie7 .popup-detail .detail-footer .baggage {
+	width:680px
+}
+.popup-detail .detail-footer .ecological-info {
+	float:right;
+	width:50%
+}
+.popup-detail .detail-footer .ecological-info .ecological-preservation-container {
+	width:100%
+}
+.popup-detail .detail-footer .ecological-info .ecological-preservation-container .ecological-preservation {
+	float:right;
+	padding-bottom:3px
+}
+.popup-detail .detail-footer .ecological-info .ecological-preservation-container .ecological-preservation .ecological-preservation-label {
+	padding-right:10px;
+	line-height:20px;
+	float:left
+}
+.popup-detail .detail-footer .ecological-info .ecological-preservation-container .ecological-preservation .ecological-flight {
+	float:left
+}
+.popup-detail .detail-footer .ecological-info .preservation-description {
+	float:right
+}
+.popup-detail .rules {
+	margin:10px 0 0;
+	/*display:none;*/
+	float:left;
+	width:100%
+}
+.popup-detail .rules .airline {
+	display:block
+}
+.popup-detail .rules .airline:before, .popup-detail .rules .airline:after {
+	content:"";
+	display:table
+}
+.popup-detail .rules .airline:after {
+	clear:both
+}
+.ie6 .popup-detail .rules .airline, .ie7 .popup-detail .rules .airline {
+	zoom:1
+}
+.popup-detail .rules .airline .logoPeque�o {
+	float:left
+}
+.popup-detail .rules .airline .logoPeque�o span {
+	float:left
+}
+.popup-detail .rules .airline .name {
+	float:left;
+	line-height:28px;
+	margin:0 0 0 5px
+}
+.popup-detail .rules .airline .icon-plus {
+	margin:10px 4px 0 4px
+}
+.popup-detail .rules p {
+	margin:10px 0 0
+}
+.flights-popup {
+	padding:10px;
+	position:relative;
+}
+.flights-popup:after, .ie7 .flights-popup .after {
+	content:"";
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:0
+}
+.flights-popup .popup-header h4 {
+	line-height:20px;
+	padding:10px
+}
+.flights-popup .popup-container {
+	z-index:1;
+	overflow-y: scroll;
+	height: 264px;
+    position: relative;
+}
+.flights-popup .popup-arrow {
+	position:absolute;
+	height:0;
+	width:0
+}
+.flights-popup .popup-arrow-bottom {
+	bottom:-10px;
+	left:10px
+}
+.flights-popup .popup-arrow-top {
+	top:-10px;
+	left:10px
+}
+.flights-popup .popup-arrow-left {
+	left:-10px;
+	top:10px
+}
+.flights-popup .popup-arrow-right {
+	right:-10px;
+	top:10px
+}
+.flights-popup .popup-close {
+	position:absolute;
+	z-index:10;
+	text-align:center;
+	line-height:20px;
+	height:20px;
+	width:20px;
+	top:-13px;
+	right:-13px;
+	-webkit-box-sizing:content-box;
+	-moz-box-sizing:content-box;
+	box-sizing:content-box
+}
+.flights-popup .popup-close input 
+{
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    color: white;
+    font-weight: bolder;
+    top: -2px;   
+}
+.ie7 .flights-popup {
+zoom:expression(this.runtimeStyle.zoom="1", this.appendChild( document.createElement("i") ).className="after" )
+}
+.ie7 .flights-popup .popup-close, .ie8 .flights-popup .popup-close {
+	line-height:26px;
+	height:26px;
+	width:26px;
+	top:-13px;
+	right:-13px
+}
+.flights-popup:after {
+	background:black;
+	background:#34b0e4;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	-ms-border-radius:3px;
+	-o-border-radius:3px;
+	border-radius:3px;
+	-webkit-box-shadow:rgba(0, 0, 0, 0.5) 0 0 10px;
+	-moz-box-shadow:rgba(0, 0, 0, 0.5) 0 0 10px;
+	box-shadow:rgba(0, 0, 0, 0.5) 0 0 10px
+}
+.flights-popup .popup-header {
+	background:none repeat scroll 0 0 #f7f7f7;
+	display:block
+}
+.flights-popup .popup-header h4 {
+	margin:0;
+	color:#003770;
+	font-family:sans-serif;
+	font-size:16px;
+	font-weight:normal
+}
+.flights-popup .popup-content {
+	background:white;
+	border:1px solid transparent
+}
+.flights-popup .popup-arrow-bottom {
+	border-left:10px solid transparent;
+	border-right:10px solid transparent;
+	border-top:10px solid rgba(0, 0, 0, 0.7)
+}
+.flights-popup .popup-arrow-top {
+	border-left:10px solid transparent;
+	border-right:10px solid transparent;
+}
+.flights-popup .popup-arrow-left {
+	border-top:10px solid transparent;
+	border-bottom:10px solid transparent;
+	border-right:10px solid rgba(0, 0, 0, 0.7)
+}
+.flights-popup .popup-arrow-right {
+	border-top:10px solid transparent;
+	border-bottom:10px solid transparent;
+	border-left:10px solid rgba(0, 0, 0, 0.7)
+}
+.flights-popup .popup-close {
+	cursor:pointer;
+	border:3px solid white;
+	color:white;
+	font-weight:bold;
+	font-family:arial, sans-serif;
+	font-size:20px;
+	background:#319fda;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	-ms-border-radius:20px;
+	-o-border-radius:20px;
+	border-radius:20px;
+	-webkit-box-shadow:rgba(0, 0, 0, 0.5) 0 0 10px;
+	-moz-box-shadow:rgba(0, 0, 0, 0.5) 0 0 10px;
+	box-shadow:rgba(0, 0, 0, 0.5) 0 0 10px
+}
+.ie7 .flights-popup .after {
+	background-color:black;
+	filter:alpha(opacity=70)
+}
+.ie8 .flights-popup:after {
+	background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAQAAADYv8WvAAAAEElEQVR4nGNi2MywmYkBCAAJ8gFrYOfxtwAAAABJRU5ErkJggg==')
+}
+.ie7 .flights-popup .popup-arrow, .ie8 .flights-popup .popup-arrow {
+	filter:alpha(opacity=70)
+}
+.ie7 .flights-popup .popup-arrow-bottom, .ie8 .flights-popup .popup-arrow-bottom {
+	border-top:10px solid black
+}
+.ie7 .flights-popup .popup-arrow-top, .ie8 .flights-popup .popup-arrow-top {
+	border-bottom:10px solid black
+}
+.ie7 .flights-popup .popup-arrow-left, .ie8 .flights-popup .popup-arrow-left {
+	border-right:10px solid black
+}
+.ie7 .flights-popup .popup-arrow-right, .ie8 .flights-popup .popup-arrow-right {
+	border-left:10px solid black
+}
+.ie7 .flights-popup .popup-close, .ie8 .flights-popup .popup-close {
+	border-width:0;
+	background-color:transparent;
+	background:url('../../despegar/core-flights/img/picasso/popup.png');
+	background-position:0 -1px
+}
+.flights-popup .popup-content {
+	color:black;
+	font-size:11px
+}
+.flights-tooltip {
+	display:block;
+	position:absolute;
+	padding:0.267em;
+	font-size:0.8em;
+	background-color:#3c3a12;
+	color:white;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	-ms-border-radius:2px;
+	-o-border-radius:2px;
+	border-radius:2px;
+	-webkit-box-shadow:#3c3a12 0 0 3px;
+	-moz-box-shadow:#3c3a12 0 0 3px;
+	box-shadow:#3c3a12 0 0 3px
+}
+.flights-tooltip.tooltip-left:after, .ie7 .flights-tooltip.tooltip-left span {
+	position:absolute;
+	top:0;
+	padding:0.267em 0;
+	left:-0.82em;
+	content:"\25C4"
+}
+.ie7 .flights-tooltip.tooltip-left {
+zoom:expression(this.runtimeStyle.zoom="1", this.insertBefore(document.createElement("span"), this.firstChild).innerHTML="&#9668;")
+}
+.flights-tooltip.tooltip-left:after, .ie7 .flights-tooltip span {
+	font-family:arial, sans-serif;
+	font-size:1em;
+	color:#3c3a12
+}
+.ie8 .flights-tooltip.tooltip-left:after {
+	font-size:0.8em
+}
+.contenedorPopUp
+{
+    float:left;
+    position:relative;
+    left:-300px;
+    
+    }
+    
+#divPopUp_DropShadow
+{
+    background:none!important;    
+}
+
+.btnCloseFirst_X
+{
+    width: 31px;
+    height: 27px;
+    float: right;
+    margin-top: 0px;
+    font-weight: bold;
+    color: #000;  
+}
+.parrafoVentana4
+{
+    width: 432px;
+    margin-left: 17px; 
+    background: #fff;
+    padding: 25px;
+    margin-top: -7px;   
+}
+.bold
+{
+    font-weight:bold;    
+}
+.TarifaHabitacion
+{
+    display:none;    
+}
+#ucDetallePlan_UcTarifasCircuitosMulti1_rptCabina_ctl00_rptHoteles_ctl00_Label6
+{
+    font-size:11px;    
+}
+
+.ac_odd {
+/*background: url(../../Imagenes/airplane-icon.png) #EEE no-repeat 8px;*/
+padding: 5px 0 5px 30px;
+}
+
+.ac_even {
+/*background: url(../../Imagenes/airplane-icon.png) #DDD no-repeat 8px;*/
+padding: 5px 0 5px 30px;
+}
+
+.olvido
+{
+    display:none;    
+}
+
+#ucLogin_UcIngreso1_lblError
+{
+    color: red !important;
+    float: right;
+    margin-right: 360px;
+    margin-top: 13px;    
+}
+
+.CotenedorClausulas ul
+{
+    margin-left: 27px;    
+}
+
+.Izquierdo
+{
+    float:left;    
+}
+.Derecho
+{
+    float:right;    
+}
+
+/* RESULTADOS HOTELES */
+
+.panelBannersSeccHoteles
+{
+    float:left;
+    width:100%;
+    text-align:center;
+}
+
+.panelBannersSeccHoteles .banners
+{
+    display:inline-block;
+}
+
+.panelBannersSeccHoteles .banners img
+{
+    width:300px;
+    height:200px;
+    display:inline-block;
+    margin: 10px;
+}
+
+.contenedorResultadosHoteles
+{
+    width: 645px;
+    float: right;
+}
+
+.t_left
+{
+    text-align: left;
+}
+
+.inner_box_side
+{
+    float: left;
+    position: relative;
+    width: 100%;
+    border: solid 2px #ccc;
+    margin: 10px -5px;
+    box-sizing: border-box;
+    padding: 10px;
+/*    background-color: #DADADA;*/
+}
+.resultado_h .inner_box_side:nth-child(2)
+{
+    margin: 78px -5px;
+}
+.inner_box_side .left
+{
+    width:165px;
+}
+
+.box_side .table_2
+{
+    float: left;
+    width: auto;
+}
+
+.resultado_h .inner_box_side > li
+{
+    width: 83px;
+    list-style: none;
+}
+
+.inner_box_side.clear.tit
+{
+    border: 0;
+    border-bottom: solid 2px #ccc;
+    border-top: solid 2px #ccc;
+}
+
+.inner_box_side.clear.tit h5
+{
+    margin:0;
+    font-size: 12px;
+}
+
+.inner_box_side.clear.no_pad_top
+{
+    margin: 0;
+    border: 0;
+    border-bottom: solid 1px #ccc;
+    margin-bottom: 5px;
+}
+
+.inner_box_side .botonBuscador {
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    margin-top: 20px;
+}
+        
+.contenedorResultadosHoteles .resultados
+{
+    float: left;
+    border: 2px solid #cccccc;
+    text-align: left;
+    font-size: 12px;
+    margin: 0;
+    box-sizing: border-box;
+    width: 633px;
+}
+
+.contenedorResultadosHoteles .resultados.paginador
+{
+    margin-bottom:10px;
+    border-top:0;
+}
+
+.contenedorResultadosHoteles .resultados.paginador .tituloResultados
+{
+    display:none;
+}
+
+.contenedorResultadosHoteles .resultados.paginador .contenidoResultado
+{
+    text-align:center;
+}
+
+.contenedorResultadosHoteles .resultados.paginador .botonBuscar
+{
+    border: 0;
+    font-size: 12px;
+    color: #4e4e4e;
+    /* width: 131px; */
+    /* height: 36px; */
+    text-align: left;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    padding: 0;
+    background: none;
+    display: inline-block;
+    float: none;
+    width: auto;
+    height: auto;
+        float: right;
+    margin: 0 10px;
+}
+
+.contenedorResultadosHoteles .resultados.paginador .csPintar
+{
+    font-size: 10px;
+    font-weight: bold;
+    color: #F90;
+    padding: 0;
+    text-decoration: none;
+    cursor: pointer;
+    border: 0px;
+    background-color: Transparent;
+    padding-right: 1px;
+}
+
+.contenedorResultadosHoteles .resultados.paginador .csNoPintar
+{
+    font-size: 10px;
+    font-weight: bold;
+    color: #186e9b;
+    padding: 0;
+    text-decoration: underline;
+    cursor: pointer;
+    border: 0px;
+    background-color: Transparent;
+    padding-right: 1px;
+}
+
+.contenedorResultadosHoteles .resultados .tituloResultados
+{
+    background: #007cc2;
+    height: 30px;
+    padding: 0 20px;
+    line-height: 30px;
+    color: #fff;
+    float: left;
+    font-size: 20px;
+    width:auto;
+}
+
+.contenedorResultadosHoteles .resultados .contenidoResultado
+{
+    padding: 20px;
+    border-radius: 0 0 5px 5px;
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+    color: #5C5C5C;
+    font-size: 12px;
+    background:none;
+}
+    
+.box_side.resultado_h .tituloResultados,
+#resultadoshotel_PanelBuscador
+{
+    display:none;
+}
+
+#ucReservaHotel_rblFormasPago tr
+{
+    float: left;
+    width: 180px;
+}
+
+.contenedorDetalleHotel .box_side .tituloSeccionNoticias
+{
+    position: relative;
+    float: left;
+    overflow: hidden;
+    font-family: verdana, Helvetica, sans-serif;
+    font-weight: bold;
+    background: #007cc2;
+    width: 305px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    padding: 0;
+    padding-left: 15px;
+    font-size: 18px;
+    text-align: left;
+    margin: 0;
+}
+
+.contenedorDetalleHotel .inner_box_side
+{
+    margin-top:0;
+}
+
+.tituloTablaHotel
+{
+    font-size:10px;
+    line-height:13px;
+    width:100%;
+    font-weight:bold;
+    float:left;
+    margin-bottom:10px;
+    color:#000;
+}
+
+.tituloTablaHotel .titulo1
+{
+        width: 67%;
+    float:left;
+    color:#000;
+    text-align:left;
+}
+
+.tituloTablaHotel .titulo2
+{
+    width:10%;
+    float:left;
+    text-align:center;
+    color:#000;
+}
+
+.lineaHotel
+{
+    font-size:10px;
+    line-height:13px;
+    width: 85%;
+    float:left;
+    line-height:30px;
+    border-bottom:1px dotted gray;
+}
+
+.lineaHotel .campo1
+{
+    float:left;
+        width: 70%;
+}
+
+.lineaHotel .campo2
+{
+    float:left;
+    width:10%;
+    text-align:center;
+}
+
+.contenedorDetalleHotel .botonBuscador
+{
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    margin: 0;
+    margin-top: 0;
+}
+
+.contenedorDetalleHotel .botonBuscador.back
+{
+    background: none;
+    color: #f25e26;
+    font-size: 13px;
+}
+
+.panelCompletoPlanes.contacto .tituloIngresar
+{
+    position: relative;
+    float: left;
+    overflow: hidden;
+    font-family: verdana, Helvetica, sans-serif;
+    font-weight: bold;
+    background: #007cc2;
+    width: 305px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    padding: 0;
+    padding-left: 15px;
+    font-size: 15px;
+    text-align: left;
+    margin: 0;
+    margin-top:10px;
+    margin-top: 20px;
+}
+
+.panelCompletoPlanes.contacto .panelRegistro .contenidoIngresar,
+.panelCompletoPlanes.contacto .panelIngresar .contenidoIngresar,
+.panelCompletoPlanes.contacto .panelIngresarTexto .contenidoIngresar
+{
+    float: left;
+    position: relative;
+    width: 100%;
+    border: solid 2px #ccc;
+    box-sizing: border-box;
+    background:none;
+}
+
+.panelCompletoPlanes.contacto .panelIngresarTexto .contenidoIngresar
+{
+    box-sizing: border-box;
+    min-height:124px;
+}
+
+.panelCompletoPlanes.contacto .botonBuscar
+{
+    width: 125px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: -webkit-linear-gradient(#fbae3a, #f25e26);
+    background: -o-linear-gradient(#fbae3a, #f25e26);
+    background: -moz-linear-gradient(#fbae3a, #f25e26);
+    background: linear-gradient(#fbae3a, #f25e26);
+    float: right;
+    margin-right: 16px;
+    font-size: 20px;   
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    margin: 0;
+    margin-top: 0;
+    color:#fff;
+}
+
+.condicionesRegistro
+{
+    background:none;
+    border:0;
+    margin-top:20px;
+}
+
+.contenedorDetalleHotel
+{
+    display:inline-block;
+    width:100%;
+}
+
+.contenedorDetalleHotel .side_right.auto
+{
+    display:inline-block;
+    width:100%;
+}
+
+.contenedorDetalleHotel .stars
+{
+    display:inline-block;
+}
+
+.stars
+{
+    float: left;
+    width: 14px;
+    height: 14px;
+    margin: 3px 10px 0 0;
+    background: url(../../Imagenes/starHotel.png) no-repeat;
+}
+
+.regresarHoteles
+{
+    background: none; 
+    color: #f25e26; 
+    font-size: 13px; 
+    border: none; 
+    height: 24px;  
+    float: right; 
+    width: 90px;
+}
+
+.inner_box_side li span input
+{
+    width: 12px;    
+}
+
+.right
+{
+    float: right;
+    clear: right;
+}
+
+.inner_box_side .left
+{
+    width:165px;
+}
+
+.descripcionHotelBtn
+{
+    position: absolute;
+    margin-left: -10px;    
+}
+.descripcionHotelBtn a
+{
+    text-decoration: underline;    
+}
+
+.campo2 input
+{
+    width:12px;    
+}
+
+.tituloSeccionNoticias {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  font-family: verdana, Helvetica, sans-serif;
+  font-weight: bold;
+  background: #007cc2;
+  width: 305px;
+  height: 30px;
+  line-height: 30px;
+  color: #fff;
+  padding: 0;
+  padding-left: 15px;
+  font-size: 18px;
+  text-align: left;
+  margin: 0;
+}
+
+/* FORMULARIO RESERVA HOTELES */
+
+.panelIzquierdoReservaVuelos
+{
+    float: left;
+    width: 660px;
+    margin-left: 0;
+    background-color: #fff;
+}
+
+.precioPlanes .botonBuscador
+{
+    float: none;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.panelCompleto
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    background: none;
+    border: 0;
+}
+
+.panelTabs
+{
+    float: left;
+    height: auto;
+    width: 100%;
+}
+
+.panelCompletoCorporativo
+{
+    float: left;
+    width: 100%;
+    position: relative;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    background: none;
+}
+
+.datosDePasajeros
+{
+    width:100%;
+    /*border: solid 1px #ccc;*/
+    margin-bottom: 15px;
+    display:inline-block;
+    box-sizing: border-box;
+}
+
+.datosDePasajeros .titulo
+{
+width: 100%;
+    box-sizing: border-box;
+    padding: 0 15px;
+    line-height: 30px;
+    color: #1995C9;
+    /* background: linear-gradient(to bottom, #FFE800, #F89700); */
+    text-align: center;
+    font-size: 17px;
+    text-align: left;
+}
+
+.renglonFormulario
+{
+    width: 100%;
+    padding: 0 0 0 15px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.celdaFormulario
+{
+    box-sizing: border-box;
+    float: left;
+    width: 33%;
+    padding-right: 15px;
+}
+
+.celdaFormulario input,
+.celdaFormulario select
+{
+    box-sizing: border-box;
+    margin: 3px 0;
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 10px;
+    display: inline-block;
+}
+
+.reservaRegistroVuelosTarjeta
+{
+       float: left;
+        width: 60%;
+    margin-left: 7px;
+    border-bottom: 1px solid #c3c3c3;
+}
+
+.datosDePasajeros .tablaPasajeros
+{
+    float:left;
+    width:100%;
+    color:#000;
+}
+
+.panelDerechoReservaVuelos
+{  
+    border: solid 1px #9c9c9c;
+    margin-bottom: 15px;
+    display: inline-block;
+    box-sizing: border-box;
+    /* float: right; */
+    width: 300px;
+    margin-left: 67%;
+    /* margin-top: -180%; */
+    position: absolute;
+    background-color: #fff;
+}
+
+.panelDerechoReservaVuelos .reservaTituloVuelosTarjeta
+{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 10px;
+    line-height: 30px;
+    color: #1995C9;
+    /* background: linear-gradient(to bottom, #FFE800, #F89700); */
+    text-align: center;
+    font-size: 15px;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    overflow: hidden;
+    border-bottom: 1px solid #c3c3c3;
+}
+.reservaResumen300 {
+    float: left;
+    width: 300px;
+    border-bottom: 1px solid #c3c3c3;
+}
+
+#ucReservaHotel_upFormasPago 
+{
+      padding: 20px;    
+}
+
+.botonHoteles
+{
+ width: 93px; 
+ margin-right: 24px;   
+}
+
+.PestanasMicuenta
+{
+    color:#000 !important;    
+}
+
+.dataTables_length
+{
+    background:#fff;    
+}
+.dataTables_filter
+{
+    background:#fff;    
+}
+
+/* DETALLE MI CUENTA */
+
+.botonRegresarMiCuenta
+{
+    float: left;
+    line-height: 36px;
+    padding-left: 15px;
+}
+
+.detalleMiCuenta .full
+{
+    margin-bottom: 10px;
+    float: left;
+}
+
+.detalleMiCuenta .full
+{
+    width: 100%;
+}
+
+.detalleMiCuenta .full .vino
+{
+    width: 30%;
+    float: left;
+}
+
+.detalleMiCuenta .vino
+{
+    color: #000;
+    font-weight:bold;
+}
+
+.detalleMiCuenta .full span
+{
+    float: left;
+    width: 65%; 
+}
+
+.detalleMiCuenta .panelResultados .contenidoResultado
+{
+    width:90%;
+    padding:5%;
+}
+
+.detalleMiCuenta .table_
+{
+    float: left;
+    width: 17%;
+}
+
+.detalleMiCuenta .table_ h5
+{
+    font-size: 10px;
+    height: 30px;
+}
+
+.detalleMiCuenta .table_ h5 span
+{
+    font-size: 12px;
+}
+
+.detalleMiCuenta  .table_ span
+{
+    font-size: 11px;
+    line-height: 13px;
+}
+ 
+.detalleMiCuenta .block
+{
+    display: block;
+}
+
+.detalleMiCuenta .table_ span
+{
+    font-size: 12px;
+    line-height: 13px;
+}
+
+.detalleMiCuenta .table_ .even
+{
+    border-bottom: 1px solid #333333;
+    height: 28px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.numerosPagos
+{
+      margin-left: 75px;
+      margin-bottom: 25px;    
+}
+
+.logosTarjetas
+{
+    width:100%;    
+}
+
+.superior
+{
+    margin-left: 415px; 
+    width: 56%;
+    margin-top:5px;
+}
+
+.loginPanel
+{
+      position: absolute;    
+}
+
+.superior li
+{
+    display:inline-block;
+    color: #000;
+    font-weight: bold;
+    margin-left: 18px;
+    text-decoration: underline;  
+}
+
+.btnCerrarCondiciones
+{
+    width:87px;
+}
+
+.btnCerrarCondiciones input
+{
+    height:25px !important;    
+}
+
+.tipoTarjeta table 
+{
+    width:100%;    
+}
+
+#ucReservaVuelos_txtNumTarjetaPOL
+{
+    width:150px;    
+}
+
+#ucReservaVuelos_txtTitularPOL
+{
+    width:191px;    
+}
+
+#ucReservaVuelos_txtTelefonoOficinaPOL
+{
+    width:191px;    
+}
+
+#ucDetallePlan_UcTarifasCircuitos1_btnCotizar
+{
+    width:70px;    
+}
+
+#ucLogin_UcIngreso1_lblTEmail
+{
+    margin-left: 26px;    
+}
+
+.DetallePlan 
+{
+  margin-bottom: 20px;
+  width: 232px;    
+}
+
+.preciosReserva span:first-child
+{
+      margin-left: 34px;   
+      margin-top: 5px;
+}
+
+.preciosReserva div
+{
+   margin-left: 123px; 
+}
+
+.LinkCancelar
+{
+  width: 152px;
+  height: 29px;
+  text-decoration: underline;
+  background: #fff;
+  border: 0;
+  font-size: 11px;
+  color: #35B0E5;
+}
+
+.linkCondiciones
+{
+  text-decoration: underline;
+  color: blue;
+  margin-left: 18px;    
+}
+.contenedorCheck label
+{
+  margin-left: 15px;
+  position: absolute;
+  margin-top: 10px;    
+}
+
+.ventanaHotel 
+{
+  width: 650px;
+  display: inline-block;
+  padding: 20px;
+  background: #fff;
+  position: relative;
+  color: #284c96;
+  max-height: 500px;
+  overflow-y: auto;
+  overflow-x: hidden;    
+}
+
+.botonCerrar
+{
+  position: absolute;
+  top: 0px;
+  right: -277px;
+  border: 0;
+  background: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;    
+}
+
+.listasTC
+{
+    width: 99px;
+    height: 25px;
+    float:none;    
+}
+
+.CajasTC
+{
+    padding:0px;
+    width:160px;
+    height:21px;
+    border: 1px solid #ccc;
+}
+
+.seleccionarVuelos span
+{
+    display:none;    
+}
+
+#btnDocumentacion:disabled
+{
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
+  -moz-filter: grayscale(1);
+  -o-filter: grayscale(1);
+  -ms-filter: grayscale(1);
+  cursor: not-allowed;
+}
+
+.galeriaHotel
+{
+    width:100%;    
+}
+
+.galeriaHotel div
+{
+    width:20%;
+    display:inline-block;
+    margin-right: 22px;   
+}
+
+.galeriaHotel img:hover
+{
+   -webkit-transform: scale(1.5);
+   -moz-transform: scale(1.5);
+   -o-transform: scale(1.5);
+   -ms-transform: scale(1.5);
+    transform: scale(1.5);
+    transition:1s;
+
+}
+
+.InstalacionesHoteles 
+{
+    width:47%;
+    display:inline-block;    
+}
+
+#ucLogin_UcIngreso1_lbOlvido
+{
+  float: right;
+  margin-right: 190px;
+  color: #35B0E5;
+  text-decoration: underline;
+}
+
+.ContenedorBotonLogin input 
+{
+    width:83px;
+    height:31px !important;    
+}
+
+.panelIngresarRecordar {
+  /*width: 50%;
+  margin-right: 238px;
+  float: right;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  padding: 20px;
+  -moz-box-shadow: inset 0 0 10px #000000;
+  -webkit-box-shadow: inset 0 0 10px #ccc;
+  box-shadow: inset 0 0 10px #ccc;*/
+}
+
+.RecomendacionesRecordar
+{
+      float :left;
+      background: #f1f1f1;
+      padding: 30px;
+      border-radius: 8px;
+      margin-top: -33px;
+      margin-bottom: 15px;    
+}
+
+.imagenOfertaPlan img 
+{
+  width: 85px !important;
+  height: 85px !important;
+  position: absolute; 
+  z-index:99; 
+}
+
+.filtrosPlanes 
+{
+  margin-top: 37px;
+  margin-left: -125px;    
+}
+
+.contenidoIngresar1
+{
+  float: left;
+  display: inline-block;
+  width: 50%;    
+}
+
+.buscadorInterno div div ul li a img
+{
+  width: 34px;    
+}
+
+.btnCerrarCondiciones input
+{
+    height:32px!important;
+    background-image: -webkit-linear-gradient(top, #fe8300, #c46500) !important;
+}
+
+.ContentFormulario
+{
+    width:54% !important;    
+}
+
+.ContentMapa
+{
+    width:50% !important;    
+}
+
+#ucReservaVuelos_btnContinuar
+{
+  padding: 5px;
+  margin: 20px;
+  width: 82px;
+  height: 31px;
+  margin-top: 31px;
+  border-radius: 2px;
+  display: inline-block;
+  background-color: #fe8300;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fe8300), to(#c46500));
+  background-image: -webkit-linear-gradient(top, #fe8300, #c46500);
+  background-image: -moz-linear-gradient(top, #fe8300, #c46500);
+  background-image: -ms-linear-gradient(top, #fe8300, #c46500);
+  background-image: -o-linear-gradient(top, #fe8300, #c46500);
+  background-image: linear-gradient(top, #fe8300, #c46500);
+  border: 1px solid #c46500;
+  border-bottom: 1px solid #fe8300;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 0 0 #fe8300;
+  -moz-box-shadow: inset 0 1px 0 0 #fe8300;
+  -ms-box-shadow: inset 0 1px 0 0 #fe8300;
+  -o-box-shadow: inset 0 1px 0 0 #fe8300;
+  box-shadow: inset 0 1px 0 0 #fe8300;
+  color: #FFF;
+  font-weight: bold;
+  line-height: 1;
+  padding: 8px 10px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);    
+}
+
+.panelCompletoMiCuenta .ui-tabs .ui-tabs-panel {
+  position: relative;
+  float: left;
+  padding: 20px;
+  text-align: left;
+  width: 878px;
+  font-size: 12px;
+  color: #000;
+  border: 1px solid;
+  background-color: #E7E7E7;
+  background: none;
+  margin: 0 10px;
+  border-radius: 0px 10px 10px;
+  border: solid 1px #9c9c9c;
+}
+
+.dataTables_wrapper {
+  position: relative;
+  min-height: 302px;
+  clear: both;
+}
+
+.dataTables_length {
+  width: 50%;
+  float: left;
+}
+
+.dataTables_filter {
+  width: 50%;
+  float: right;
+  text-align: right;
+}
+
+.tablasMiCuenta {
+  margin-bottom: 15px;
+}
+
+tr.odd {
+  background-color: #E2E4FF;
+}
+
+tr.even {
+  background-color: white;
+}
+
+.Tel_Agencias
+{
+  font-size: 11px;
+  text-decoration: underline;
+  color: #28ABE3;
+  cursor: pointer;
+  margin-left: 6px;    
+}
+
+.cssToolTip label.contenedorToolDescripcionBefore
+{
+    background: none;
+    display: none;
+    content: "";
+    position: absolute;
+    border-top: 12px solid #666;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    bottom: 15px;
+    left: 45px;
+    padding: 0;
+    border-radius: 0;
+    white-space: normal;
+}
+
+/* El tooltip */
+.cssToolTip label
+{
+    position: absolute;
+    margin-left: -324px;
+    margin-top: 26px;
+    font-weight: normal;
+    display: none;
+    z-index:1000000000;
+}
+ 
+/* El tooltip cuando se muestra */
+.cssToolTip:hover label
+{
+    display: inline; /* Para mostrarlo simplemente usamos display block por ejemplo */
+}
+
+.cssToolTip
+{
+    position:relative;
+}
+
+#ucDetallePlan_imgITinerario
+{
+    display:none;    
+}
+
+.ucDetallePlan_UcTarifasCircuitos1_rptCabina_ctl00_rptHoteles_ctl00_Label6
+{
+    font-size:11px;    
+}
+
+.popup {
+  background-color: #ffffff;
+  color: #888888;
+  height: auto;
+  padding: 10px;
+  position: fixed;
+  right: 19%;
+  top: 35%;
+  /* width: 550px; */
+  z-index: 101;
+  -moz-box-shadow: 0px 0px 10px 1px #888888;
+  -webkit-box-shadow: 0px 0px 10px 1px #888888;
+  box-shadow: 0px 0px 10px 1px #888888;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+
+.overlay {
+    background: #000000;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    opacity:0.5;
+}
+
+a.close {
+  background: url("../../Imagenes/cerrar.png") repeat scroll left top transparent;
+  cursor: pointer;
+  float: right;
+  height: 26px;
+  left: 0px;
+  position: relative;
+  top: -5px;
+  width: 26px;
+}
+
+.TelefonoPeque
+{
+  width: 7%;
+  margin-right: -25px;
+  margin-top: -11px;    
+}
+
+.ContentBuscadorCruceros iframe
+{
+    margin-left: 29%;
+}
+
+.ContentBuscadorCruceros{
+  margin-top: 1%;
+  width: 98%;
+  margin-left: 1%;
+  background: #ccddff;
+}
+
+.TituloPequeno
+{
+  position: relative;
+  margin-top: 11px;
+  height: 31px;
+  background: #35B0E5;
+  padding-left: 24px;
+  -webkit-box-shadow: 0px 0px 4px rgba(0,0,0,.5);
+  -moz-box-shadow: 0px 0px 4px rgba(0,0,0,.5);
+  box-shadow: 0px 0px 4px rgba(0,0,0,.5);
+  text-shadow: 0 -1px 1px rgba(0, 0, 0, 1);    
+}
+
+.TituloPequeno .head{
+  font-family: tahoma, helvetica, arial, sans-serif;
+  font-size: 24px;
+  color: #FFF;
+  line-height: 30px;
+}
+
+#ucBuscador_ucRotadorBannerBuscador_bannerInterno2 img
+{
+  width: 100%;
+  height: 220px;    
+}
+
+.ContentBloqueos
+{
+    width:100%;
+    display:inline-block;    
+}
+
+.ContentBloqueos .paginadorPaquetes1
+{
+    display:none;    
+}
+
+.tempImg
+{
+     width: 0px !important;  
+}
+
+#ucDetallePlan_strImagen1 {
+  width: 300px !important;
+  height: 148px !important;
+}
+
+.lblError
+{
+    color:Red !important;  
+}
+
+#ucDetallePlan_UcTarifasCircuitos1_rptCabina_ctl00_rptHoteles_ctl00_Label6
+{
+    font-size:10px;    
+}
+
+#ucContactenos_ucFormularioContacto_lbEnviar
+{
+    position:absolute;    
+}
+
+.ContentSuperior
+{
+    display: block;
+    min-height: 413px;    
+}
+
+.detalleAgradecimientos
+{
+    padding:27px;    
+}
+
+.detalleAgradecimientos span
+{
+    margin-left:22px;    
+}
+
+.mensajeTimeOut {
+    font-size: 16px;
+    height: 30px;
+    margin-bottom: 23px;
+    margin-top: 31px;
+    text-align: center;
+    width: 90%;
+}
+
+.botonAceptarTime {
+    margin-left: 191px;
+    text-align: center;
+}
+
+.botonAceptarTime input {
+    font-size: 15px;
+    font-weight: bold;
+    height: 35px;
+    width: 16%;
+}
+
+.ui-dialog-buttonpane {
+    display: none;
+}
+
+/* Nuevos Omitar */
+#btnRegresar {
+    float: right;
+    width: 20%;
+    line-height: 5px;
+    margin-right: 10px;
+}
+#ucDetalleHotel_bReservar {
+    float: right;
+    width: 20%;
+    line-height: 5px;
+}
+.NumeritosPags
+{
+    display: inline-block !important;
+    margin-left: 0px;
+}
+
+#ucReservaHotel_lblGarantia {
+    font-size: 13px;
+    display: block;
+    width: 90%;
+    text-align: justify;
+    margin: 0 auto;
+    padding: 12px;
+    border: 1px solid #c3c3c3;
+}
+#ucReservaHotel_btnFinalizar {
+    float: right;
+    width: 20%;
+    margin-right: 5px;
+    line-height: 5px;
+}
+.encabezadoReservaHoteles {
+    background-color: #34B0E4;
+    margin-top: 0px;
+    height: 16px;
+    color: white;
+    font-size: 25px;
+    padding: 25px;
+}
+.CondicionesHoteles
+{
+    background:white;
+    width:450px;
+    height:400px;
+    border:1px solid black;
+}
+.tarifasquemadas
+{
+        padding: 5px;
+    width: 95%;
+    text-align: justify;
+}
+.tarifasquemadas ul {
+    margin-left: 22px;
+    
+}
+.titulocondihotel {
+    width: 96.5%;
+    background-color: #34B0E4;
+    height: 31px;
+    padding: 8px;
+    color: white;
+    font-size: 20px;
+    line-height: 21px;
+}
+.tarifasdesdewebserv {
+    width: 97.8%;
+    background-color: #cdcdcd;
+    color: black;
+    padding: 5px;
+}
+.Lblcheckhotelescond
+{
+    width: 100%;
+}
+.Lblcheckhotelescond input {
+    width: 6%;
+}
+.nomostrarportextios
+{
+    display:none;
+}
+#ucReservaHotel_btnHide {
+    width: 31%;
+    line-height: 5px;
+    float: left;
+    margin-left: 32%;
+}
+.contenedorCondicionesVuelosTarjeta {
+    width: 87%;
+}
+.contenidoContactenos {
+    background-color: white;
+}
+.contenidoContactenos input {
+    width: 30%;
+    line-height: 5px;
+    margin-left: 30%;
+}
+.desayunoResGen {
+    /*left: 181px;
+    top: 28px;*/
+}
+.DesTabRes {
+    float: left;
+}
+.ArribarptHotRes {
+    width: 103.5%;
+    height: 10px;
+    background-color: #28ABE3;
+    float: left;
+    margin-left: -10px;
+    margin-top: -11px;
+}
+.ArribarptHotDet
+{
+    height: 10px;
+    width: 108.5%;
+    background-color: #28ABE3;
+    float: left;
+    margin-left: -25px;
+    margin-top: -25px;
+}
+.ArribarptHotDetP
+{
+    width: 108.5%;
+    height: 25px;
+    background-color: #28ABE3;
+    float: left;
+    margin-left: -25px;
+    margin-top: -25px;
+}
+.buscadorInterno #hoteles .hotel_f div:nth-child(3)
+{
+    width: 126px;
+}
+.PopUpHideInfo
+{
+    background: black;
+    color: white;
+    padding: 5px;
+        position: absolute;
+    display: none;
+        width: 126px;
+    text-align: center;
+        top: 66%;
+        right: 71px;
+}
+.PopUpShowInfo:hover .PopUpHideInfo
+{
+    display: block;
+}
+.PopUpShowInfo {
+    
+    top: 11px;
+}
+.StyleErrorDate
+{
+    float: left;
+}
+.nuevoHoteles
+{
+    width:100%;
+}
+.PrecioCotzd
+{
+    border-top: 1px dashed #c3c3c3;
+    border-bottom: 1px dashed #c3c3c3;
+    float: left;
+    width: 106%;
+    margin-left: -19px;    
+}
+.TituloPrice1
+{
+    color: #34B0E4;
+    margin: 0 auto;
+    float: left;
+    margin-left: 27%;
+    font-size: 19px;
+}
+.PriceDivgen
+{
+        margin-left: 83px;
+}
+.Price112
+{
+    color:#737272;
+    font-weight:bolder;
+    font-size:25px;
+}
+.TextoAdverHusos
+{
+    color:red;
+}
+.CounterHabs2
+{
+    background: #34B0E4;
+    color: White;
+    padding: 5px;
+    width: 100%;
+    font-weight: bold;
+    margin-top: -5px;
+    margin-left: -5px;
+}
+#ucReservaHotel_Div1
+{
+width:100%;
+}
+#ucReservaHotel_DivEfe
+{
+width:100% !important;
+}
+/*.ac_even {
+    display: none !important;
+}*/

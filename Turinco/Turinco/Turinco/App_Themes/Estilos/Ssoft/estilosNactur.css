@@ -1,0 +1,4020 @@
+﻿/**** Tipos de fuentes *****/
+
+.tahoma
+{
+	font-family: Tahoma;
+}
+
+.arial
+{
+	font-family: Arial;
+}
+
+.century
+{
+	font-family: century gothic;
+}
+
+.verdana
+{
+	font-family: verdana;
+}
+
+/***** Colores de Fuentes ****/
+.blanco
+{
+	color:#fff;
+}
+
+.negro
+{
+	color: #000;
+}
+
+.gris
+{
+	color:#878787;
+}
+
+.grisOscuro
+{
+	color:#434244;
+}
+
+.verdeOscuro
+{
+	color:#3c461b;
+}
+
+.azulClaro
+{
+	color:#39a8e5;
+}
+
+.azulOscuro
+{
+	color: #284c96;
+}
+
+/***** clases generales *****/
+*
+{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	vertical-align: top;
+}
+
+.bold
+{
+	font-weight: bold;
+}
+
+.block
+{
+    display:inline-block;
+    width:100%;
+    text-align:left;
+}
+
+.iblock
+{
+	display: inline-block;
+}
+
+.fLeft
+{
+	float:left;
+}
+
+.fRight
+{
+	float: right;
+}
+
+.full
+{
+	width: 100%;
+}
+
+.textCenter
+{
+	text-align: center;
+}
+
+.textLeft
+{
+	text-align: left;
+}
+
+.textRight
+{
+	text-align: right;
+}
+
+.textJustify
+{
+	text-align: justify;
+}
+
+a
+{
+    text-decoration:none;
+}
+
+p
+{
+    margin:0;
+}
+
+/***** clases especificas *****/
+body
+{
+	width: 100%;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+
+.container
+{
+	width: 1024px;
+	display:inline-block;
+	box-shadow: 0px 0px 20px 5px #D3D3D3;
+	padding: 0 20px;
+}	
+
+nav
+{
+    max-height: 65px;
+    overflow: hidden;
+    width: 100%;
+    background: -webkit-linear-gradient(bottom, #ed7300, #ffb000);
+    background: -o-linear-gradient(bottom, #ed7300, #ffb000);
+    background: -moz-linear-gradient(bottom, #ed7300, #ffb000);
+    background: linear-gradient(to bottom, #ed7300, #ffb000);
+    margin-top: 20px;
+}
+
+nav ul,
+footer ul
+{
+	max-height: 65px;
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+}
+
+nav li,
+footer li
+{
+	list-style: none;
+}
+
+nav li a,
+footer li a
+{
+	line-height: 65px;
+	color: inherit;
+	vertical-align: top;
+	max-height: 65px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+nav li a span
+{
+    display:inline-block;
+    line-height:65px;
+}
+
+nav li a:hover,
+footer li a:hover
+{
+	text-decoration: underline;
+	color:#fff;
+}
+
+nav li a:after,
+footer li a:after
+{
+	content: "";
+	display: inline-block;
+	width: 2px;
+	height:65px;
+	background: url(../../Imagenes/imagesNactur/separadorMenuPrincipal.png);
+	margin: 0 3px;
+}
+
+nav li:last-child a:after,
+footer li:last-child a:after
+{
+	display: none;
+}
+
+header
+{
+	margin-top: 17px;
+	position: relative;
+	padding:0 41px;
+}
+
+.contenidoHeader
+{
+    display:inline-block;
+    margin-top: 97px;
+    margin-left: 160px;
+}
+
+.selectSkin
+{
+	width: 100%;
+	height: 29px;
+	border: 2px solid #dadada;
+	border-radius: 4px;
+	background: url(../../Imagenes/imagesNactur/fondoSelectSkin.jpg) center right no-repeat;
+	overflow: hidden;
+}
+
+.selectSkin select
+{
+	height: 100%;
+	border: 0;
+	width: 120%;
+	background: none;
+}
+
+.iconomoneda 
+{
+    height: 31px;
+    border: 1px solid #C2C2C2;
+    border-right: 0;
+    border-radius: 5px 0 0 5px;
+    padding-left:5px;
+    background:#fff;  
+    margin-bottom: 10px;      
+}
+
+.selectMoneda
+{
+	width: 160px;
+}
+
+.selectMoneda a
+{
+    width: 100%;
+    color: #878787;
+    line-height: 29px;
+    border: 1px solid #C2C2C2;
+    display: inline-block;
+    padding: 0 8px;
+    border-radius: 0 5px 5px 0;
+    border-left: 0;
+    background: #fff;
+    height:31px;
+}
+
+.iconoClima 
+{
+    height: 31px;
+    border: 1px solid #C2C2C2;
+    border-right: 0;
+    border-radius: 5px 0 0 5px;
+    padding-left:5px;
+    background:#fff;
+}
+
+.selectClima
+{
+	width: 90px;
+}
+
+.selectClima a
+{
+    width:100%;
+    color: #878787;
+    line-height: 29px;
+    border: 1px solid #C2C2C2;
+    display: inline-block;
+    padding: 0 10px;
+    border-radius: 5px;
+    background:#fff;
+    border-radius: 0 5px 5px 0;
+    border-left: 0;
+    background: #fff;
+    height:31px;
+}
+
+.logoNationalTours
+{
+}
+
+.datosContactoHeader
+{
+	margin-left: 10px;
+}
+
+.datosContactoHeader .telefono
+{
+	font-size: 16px;
+	line-height: 12px;
+}
+
+.datosContactoHeader .correo
+{
+	font-size: 11px;
+	margin-left: 3px;
+}
+
+.iconoTel
+{
+	margin-top: -1px;
+	margin-left: 7px;
+	padding-right: 19px;
+	border-right: 1px solid #CFCFCF;
+}
+
+.iconoFb
+{
+	margin-left: 16px;
+}
+
+.iconoTw
+{
+	margin-left: 4px;
+}
+
+.iconoIn
+{
+	margin-left: 3px;
+}
+
+.logoInterno
+{
+	width: 245px;
+}
+
+.logoInterno img
+{
+	width: 100%;
+}
+
+.btnAzul
+{
+	height: 30px;
+	line-height:30px;
+	background: -webkit-linear-gradient(bottom, #ed7300, #ffb000);
+    background: -o-linear-gradient(bottom, #ed7300, #ffb000);
+    background: -moz-linear-gradient(bottom, #ed7300, #ffb000);
+    background: linear-gradient(to bottom, #ed7300, #ffb000);
+	padding: 0 10px;	
+	color: #fff;
+	display: inline-block;
+	font-weight: bold;
+	border: 0;
+	cursor:pointer;
+}
+
+.buscadorInterno
+{
+	margin-top: 150px;
+	width: 310px;
+}
+
+.buscadorInterno .buscador
+{
+    width:100%;
+}
+
+.buscadorInterno .buscador .ui-tabs .ui-tabs-nav li a span
+{
+    font-size: 13px;
+}
+
+.buscadorInterno .tablaPasajerosBuscador td.pasajeros select
+{
+    margin-top:0;
+}
+
+.buscadorInterno #vuelos .contenedorBotonBuscar
+{
+    width:100%;
+    text-align:right;
+    max-width:inherit;
+}
+
+footer
+{
+	background: -webkit-linear-gradient(bottom, #0996b0, #095eb0); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom, #0996b0, #095eb0); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom, #0996b0, #095eb0); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(to bottom, #0996b0, #095eb0); /* Standard syntax */ 
+ 	text-align: center;
+ 	padding-bottom: 25px;
+ 	display: inline-block;
+    width: 100%;
+    padding-top: 25px;
+}
+
+footer ul
+{
+	margin-top: 35px;
+	font-size: 11px;
+	margin-bottom: 25px;
+}
+
+footer li a
+{
+	line-height: inherit;
+}
+
+footer li a:after
+{
+	margin-top: -22px;
+	height: 48px;
+}
+
+.tarjetasFooter
+{
+	margin-left: 25px;
+}
+
+.textosFooter
+{
+	margin-left: 30px;
+    width: 20%;
+}
+
+.textoMoviles
+{
+	font-size: 14px;
+}
+
+.textoOptimizado
+{
+	font-size: 10px;
+	margin-top:2px;
+}
+
+.derechosReservados
+{
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+.aliadosFooter
+{
+	margin-right: 25px;
+}
+
+/****** Resultado Paquetes *******/
+.resultadoPaquetes
+{
+	width: 665px;
+}
+
+.encabezadoResultadoPaquetes
+{
+	width: 665px;
+	height: 205px;
+	background: url(../../Imagenes/imagesNactur/encabezadoPaquetes.png) no-repeat;
+	margin-top: 10px;
+	padding: 173px 330px 0 22px;
+	line-height: 32px;
+	font-size: 22px;
+}
+
+.paginadorPaquetes
+{
+	height: 54px;
+	border: 1px solid #e3e2e2;
+	padding: 24px 15px 12px;
+}
+
+.botonAdelante
+{
+	margin: 0;
+    padding: 0;
+    background: none;
+    border: 0;
+    margin-left: 25px;
+    cursor:pointer;
+}
+
+.numerosPaginacion
+{
+	padding: 0 10px;
+	border-right: 1px solid #878787;
+}
+
+.paginaActiva
+{
+	color:#7ec4dc;
+}
+
+.csNoPintar
+{
+    border: 0;
+    background: none;
+    padding: 0 5px;
+    border-right: 1px solid #878787;
+    float: left;
+    color: #878787;
+}   
+
+.csPintar
+{
+    border: 0;
+    background: none;
+    padding: 0 5px;
+    border-right: 1px solid #878787;
+    float: left;
+    color: #7ec4dc;
+}
+
+.botonAtras
+{
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: 0;
+	padding-right: 25px;
+	border-right: 1px solid #878787;
+	cursor:pointer;
+}
+
+.resultadoPaquete
+{
+	padding-top: 25px;
+	position: relative;
+	border-right: 1px solid #e3e2e2;
+	border-left: 1px solid #e3e2e2;
+	padding-bottom: 12px;
+}
+
+.resultadoPaquete:last-child
+{
+	padding-bottom: 0;
+}
+
+.resultadoPaquete .imagen
+{
+	width: 164px;
+	height: 164px;
+	position: absolute;
+	left: 10px;
+	top: 25px;
+	z-index: 1;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.resultadoPaquete .contenidoDescripcion
+{
+	margin-left: 193px;	
+	padding-right: 25px;
+}
+
+.resultadoPaquete .contenidoDescripcion .titulo a
+{
+	font-size: 17px;
+	line-height: 14px;
+	text-transform:uppercase;
+}
+
+.resultadoPaquete .contenidoDescripcion .detalle
+{
+	margin-top: 5px;
+}
+
+
+.resultadoPaquete .contenidoDescripcion .btnAzul
+{
+	margin-top: 2px;
+}
+
+.resultadoPaquete .precios,
+.detallePaquetes .precios
+{
+	height: 73px;
+	background: url(../../Imagenes/imagesNactur/bgPreciosPaquetes.jpg);
+	margin-top: 15px;
+	padding-left: 188px;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.resultadoPaquete .precios .labelValorFinal,
+.detallePaquetes .precios .labelValorFinal
+{
+	margin-top: 34px;
+}
+
+.resultadoPaquete .precios .valorFinal,
+.detallePaquetes .precios .valorFinal
+{
+	margin-top: 24px;
+	margin-left: 4px;
+	font-size: 20px;
+	font-weight: normal;
+	width:150px;
+}
+
+.resultadoPaquete .precios .difiera,
+.detallePaquetes .precios .difiera
+{
+	text-align: right;
+	width: 88px;
+	margin-top: 20px;
+}
+
+.resultadoPaquete .precios .cuotas,
+.detallePaquetes .precios .cuotas
+{
+	max-width: 145px;
+}
+
+.resultadoPaquete .precios .valorCuota,
+.detallePaquetes .precios .valorCuota
+{
+	font-size: 24px;
+	margin-top: 16px;
+	padding-left: 18px;
+	max-width: 150px;
+}
+
+.resultadoPaquete .precios .numeroCuotas,
+.detallePaquetes .precios .numeroCuotas
+{
+	padding-left: 15px;
+	max-width: 130px;
+}
+
+/****** Detalle Paquetes *******/
+.encabezadoDetallePaquetes
+{
+	width:920px;
+	height:205px;
+	padding:173px 0 0 35px; 
+	background: url(../../Imagenes/imagesNactur/encabezadoPaquetesDetalle.png) no-repeat;
+	line-height: 32px;
+	font-size: 22px;
+	margin-top: 10px;
+	margin-bottom: -1px;
+}
+
+.detallePaquetes
+{
+	border: 1px solid #e3e2e2;
+}
+
+.detallePaquetes .imagen
+{
+	width: 451px;
+	height: 318px;
+}
+
+.detallePaquetes .contenedorDatosPaquetes
+{
+	width: 531px;
+}
+
+.detallePaquetes .titulo
+{
+	line-height: 55px;
+	padding-left: 25px;
+	font-size: 18px;
+}
+
+.detallePaquetes .precios
+{
+	padding-left: 20px;
+	margin-top: 0;
+}
+
+.detallePaquetes .detalle
+{
+	padding: 50px 30px 0;
+	font-size: 14px;
+}
+
+.detallePaquetes .galeria
+{
+	padding: 20px 30px 0;
+}
+
+.detallePaquetes .galeria .imagen
+{
+	width: 24%;
+	margin-right: 1%; 
+	height: auto;
+}
+
+#tabsPaquetes
+{
+	margin-top: 20px;
+	border-top: 1px solid #e3e2e2;
+}
+
+#tabsPaquetes ul
+{
+	padding: 0;
+	margin: 0;
+}
+
+#tabsPaquetes > ul li
+{
+	display: inline-block;
+    background: none;
+    height: auto;
+    padding: 0;
+    float: none;
+    border: 0;
+}
+
+#tabsPaquetes > ul li a
+{
+	display:inline-block;
+	padding: 0 15px;
+	height: 31px;
+	background: url(../../Imagenes/imagesNactur/btnTabPaquetes.jpg);
+	line-height: 31px;
+	color: #929496;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14px;
+	margin-right: 10px;
+}
+
+#tabsPaquetes > ul .ui-state-active a
+{
+	color:#000;
+}
+
+#tabsPaquetes > ul li a.cotizar
+{
+	background: url(../../Imagenes/imagesNactur/btnTabPaquetesCotiza.png);
+	color:#fff;
+}
+
+#tabsPaquetes > .ui-tabs-panel
+{
+	color:#59595b;
+	padding: 30px 20px;
+	background: none;
+    border: 0;
+}
+
+#tabsPaquetes .ui-tabs-panel > h2
+{
+	font-size: 18px;
+	margin: 0;
+	padding-left: 17px;
+}
+
+#tabsPaquetes .ui-tabs-panel > ul li
+{
+	list-style: none;
+	font-size: 12px;
+}
+
+#tabsPaquetes .ui-tabs-panel > ul li h3
+{
+	background: url(../../Imagenes/imagesNactur/bullettabsPaquetes.png) no-repeat;
+	padding:0;
+	padding-left: 17px;
+	line-height: 9px;
+	margin: 0;
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+#tabsPaquetes .ui-tabs-panel p,
+#tabsPaquetes .ui-tabs-panel ul
+{
+    width:100%;
+	display: inline-block;
+	padding-left: 17px;
+	margin: 0;
+	margin-top: 20px;
+	text-align: justify;
+}
+
+
+/******* Cotizacion Paquetes *****/
+#tabsCotizacion
+{
+	margin-top: 20px;
+	border-top: 1px solid #e3e2e2;
+}
+
+#tabsCotizacion ul
+{
+	padding: 0;
+	margin: 0;
+}
+
+#tabsCotizacion > ul li
+{
+	display: inline-block;
+}
+
+#tabsCotizacion > ul li a
+{
+	display:inline-block;
+	padding: 0 15px;
+	height: 31px;
+	background: url(../../Imagenes/imagesNactur/btnTabPaquetesGris.jpg);
+	line-height: 31px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14px;
+	margin-right: 10px;
+}
+
+#tabsCotizacion > ul li a.cotizar
+{
+	background: url(../../Imagenes/imagesNactur/btnTabPaquetesCotiza.png);
+	color:#fff;
+}
+
+#tabsCotizacion > .ui-tabs-panel
+{
+	color:#59595b;
+	padding: 30px 20px;
+}
+
+/****** Quienes Somos ******/
+.bodyQuienesSomos .logoInterno
+{
+	top: 70px;
+	left: 80px;
+}
+
+.quienesSomos
+{
+	width: 900px;
+	margin-top: 20px;
+	margin-left:42px;
+}
+
+.quienesSomos img,
+.quienesSomos .img
+{
+    width:100%;
+    height:440px;
+}
+
+.tituloQuienes
+{
+	height: 32px;
+	line-height: 32px;
+	color: #fff;
+	background: url(../../Imagenes/imagesNactur/bgTituloQuienes.png);
+	font-size: 24px;
+	padding-left: 35px;
+}
+
+.detalleQuienes
+{
+	padding: 35px;
+	border: 1px solid #e3e2e2;
+}
+
+
+
+
+/******** Cotizador **********/
+
+.cotizadorPlan
+{
+    float: left;
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.ancho47
+{
+    display: inline-block;
+    width: 49%;
+    padding: 0 5%;
+    vertical-align: top;
+}
+
+.borderRight
+{
+    border-right: 1px solid #a0a0a0;
+}
+
+.ancho100
+{
+    width: 100%;
+    float: left;
+    padding: 10px 0;
+    text-align: left;
+}
+
+.labelCotizador
+{
+    float: left;
+    width: 60%;
+    text-align: left;
+    font-weight: bold;
+    color:#6d6e70;
+    font-size:11px;
+}
+
+.datoCotizador
+{
+    float: left;
+    width: 40%;
+    text-align: left;
+    border:1px solid #e3e2e2;
+    height:25px;
+    font-size:11px;
+    color:#6d6e70;
+}
+
+.borderCotizador
+{
+    width: 100%;
+    float: left;
+    padding-bottom: 10px;
+}
+
+.ancho50
+{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.contenedorCotizador
+{
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 11px;
+}
+
+.filaCotizador
+{
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+.celdaBaseCotizador
+{
+    float: left;
+    border-top: 0;
+    border-right: 0;
+    height: 26px;
+    line-height:26px;
+    text-align: center;
+}
+
+.tituloCotizador
+{
+    background: #e0e0e0;
+    color: #434244;
+}
+
+.bordeTopCotizador
+{
+}
+
+.bordeRightCotizador
+{
+}
+
+.botonCotizarPlan
+{
+    width: 102px;
+    height: 36px;
+    border: 0;
+    cursor: pointer;
+    background: url(../../Imagenes/botonCotizar.png);
+    float: right;
+}
+
+.left_normal
+{
+    float: left;
+}
+
+.noneDisplay
+{
+    display: none;
+}
+
+.celda9
+{
+    width: 100px;
+}
+
+.celda10
+{
+    width: 114px;
+}
+
+.celda15
+{
+    width: 135px;
+}
+
+.precioPlanes p
+{
+    margin:0;
+}
+
+.progressBarBuscador
+{
+    margin: 0 0 10px 0;
+    float: left;
+    position: relative;
+    width: 90%;
+    padding: 0 5%;
+    margin-top: 30px;
+    text-align: center;
+    background: none;
+    color:rgb(255, 255, 255);
+}
+
+/**** Globos ******/
+
+a.impuestos
+{
+	position: relative; /* es la posici�n normal */
+	text-decoration: underline !important; /* forzar sin subrayado */
+	color:#1D5B9E !important; /* forzar color del texto */
+	font-weight:bold !important; /* forzar negritas */
+}
+
+a.impuestos:hover
+{
+	z-index:999; /* va a estar por encima de todo */
+	background-color:Transparent; /* DEBE haber un color de fondo */
+}
+
+a.impuestos div
+{
+	display: none; /* el elemento va a estar oculto */
+}
+
+a.impuestos:hover div
+{
+	display: block; /* se fuerza a mostrar el bloque */
+	position: absolute; /* se fuerza a que se ubique en un lugar de la pantalla */
+	top:-130px; left:-100px; /* donde va a estar */
+	width:240px; /* el ancho por defecto que va a tener */
+	height:110px;
+	padding:10px; /* la separaci�n entre el contenido y los bordes */
+	background:Transparent url(../../Imagenes/impuesto.png) no-repeat center top; /* el color de fondo por defecto */
+	color: #FFF; /* el color de los textos por defecto */
+	text-decoration:none;
+	text-align:left;
+	font-weight:normal;
+	z-index:999;
+	overflow:auto;
+}
+
+.reservaPaquetes .panelLeft
+{
+    width:688px;
+}
+
+.reservaPaquetes .panelLeft .borde
+{
+    border-top:1px solid #d3d3d3;
+}
+        
+
+.datosViajero
+{
+    padding:25px 15px 10px 30px;
+    border:1px solid #d3d3d3;
+    border-top:0;
+}
+
+.renglonDatos
+{
+    margin-bottom:15px;
+}
+
+.celdaDatos
+{
+    width:32%;
+    padding-right:15px;
+}
+
+.celdaDatos .label
+{
+    color:#6d6e70;
+    font-size:11px;
+    margin-bottom:8px;
+}
+
+.celdaDatos .campo
+{
+    height:26px;
+    border:1px solid #e6e6e6;
+}
+
+.tipoPasajero,
+.tipoPasajero input
+{
+    font-size:11px;
+    color:#284c96;
+    text-transform:uppercase;
+    float:left;
+    font-weight:bold;
+    border:0;
+    background:none;
+}
+    
+.datosObligatorios
+{
+    color:#284c96;
+    font-size:11px;
+    float:right;
+}    
+
+.tablaContactoPasajeros .label
+{
+    color:#6d6e70;
+    font-size:11px;
+    margin-bottom:8px;
+}
+
+.tablaContactoPasajeros .campo
+{
+    height:26px;
+    border:1px solid #e6e6e6;
+}  
+
+.tituloReserva
+{
+    line-height: 33px;
+    font-size: 22px;
+    padding-left:35px;
+    background: url(../../Imagenes/imagesNactur/tituloReserva.png) no-repeat;
+    border-right: 1px solid #d3d3d3;
+}
+
+.datosViajeroContacto
+{
+    padding-right: 45px;
+}
+
+.tipoPagoVuelosTarjeta
+{
+    display:inline-block;
+    width:100%;
+}
+
+.tipoPagoVuelosTarjeta table tr td
+{
+    float:left;
+    width:30%;
+    font-size:12px;
+}
+
+.tipoPagoVuelosTarjeta table tr td input
+{
+    float:left;
+}    
+
+.tipoPagoVuelosTarjeta table tr td label
+{
+    float:left;
+    margin:2px 0 0 5px;
+}
+
+.contenedorCondicionesReserva
+{
+    padding: 30px 0 0 75px;
+}
+
+.contenedorCondicionesReserva img
+{
+    width: 40px;
+    float: left;
+}
+
+.contenedorCondicionesReserva .politicas
+{
+    float:left;
+    margin-left:20px;
+    color:#2e6bab;
+    font-size:12px;
+    text-decoration:underline;
+    max-width: 475px;
+    margin-top: 5px;
+}
+
+.contenedorCondicionesReserva .contenedorCheck input
+{
+    margin: 10px;
+    float: left;
+}
+
+.contenedorCondicionesReserva .contenedorCheck label
+{
+    margin: 10px;
+    float: left;
+    margin-left: 25px;
+    font-weight:bold;
+    font-size:12px;
+    color:#6d6e70;
+    max-width: 465px;
+}
+
+.botonesReserva
+{
+    margin-top:75px;
+    margin-bottom: 10px;
+}
+
+.btnCancelar
+{
+    color:#5e8dbf;
+    background:#d9d9db;
+    height:28px;
+    line-height:28px;
+    padding:0 20px;
+    font-weight:bold;
+    font-size:14px;
+    float:left;
+    border:0;
+}
+
+.btnConfirmar
+{
+    background:#0075aa;
+    color:#fff;
+    height:28px;
+    line-height:28px;
+    padding:0 20px;
+    font-weight:bold;
+    font-size:14px;
+    float:right;
+    border:0;
+}
+    
+.reservaPaquetes .panelRight
+{
+    width: 295px;
+    margin-left: -5px;
+}
+
+.tituloCorto
+{
+    padding-left:18px;
+    font-size: 18px;
+    background-position-x: -120px;
+    border-top:1px solid #d3d3d3;
+}   
+
+.detallePlanReserva
+{
+    padding:25px;
+    border-right:1px solid #d3d3d3;
+}
+
+.detallePlanReserva .nombrePaquete
+{
+    font-size:18px;
+    text-transform:uppercase;
+    font-weight:bold;
+}
+    
+.detallePlanReserva .descripcionPaquete
+{
+    margin-top:15px;
+    font-size:12px;
+}
+
+.preciosReserva
+{
+    height:112px;
+    background: url(../../Imagenes/imagesNactur/preciosReserva.jpg) repeat-x;
+    padding-top:25px;
+}
+
+.preciosReserva .label
+{
+    font-weight:bold;
+    font-size:10px;
+}
+
+.preciosReserva .precio
+{
+    font-size:24px;
+}
+    
+.botonImprimirPlan
+{
+    width:125px;
+    height:47px;
+    background: url(../../Imagenes/imagesNactur/btnImprimir.png) no-repeat;
+    border:0;
+    cursor:pointer;
+}
+
+.botonEnviarAmigo
+{
+    width:182px;
+    height:47px;
+    background: url(../../Imagenes/imagesNactur/btnEnviar.png) no-repeat;
+    border:0;
+    cursor:pointer;
+}            
+
+.vigencia
+{
+    padding-left: 50px;
+}
+    
+    
+/* HOME */
+.contenedorRotadorHome
+{
+    text-align: center;
+    width: 480px;
+    display: inline-block;
+    margin-top: 40px;
+    margin-right: 41px;
+    margin-left: 28px;
+}
+
+.rotadorHome
+{
+    display:inline-block;
+    min-width:480px;
+}
+
+
+/*
+.home .logoInterno
+{
+    width: 320px;
+    top: 45px;
+    left: 42px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 0 0 40px 0;
+}
+*/  
+      
+.buscadorHome
+{
+    display: inline-block;
+    margin-left: 41px;
+    margin-top: 40px;
+}
+        
+.buscador
+{
+    width:389px;
+    display: inline-block;
+    position: relative;
+}
+
+.bannersDerecha
+{
+    display: inline-block;
+    max-width: 477px;
+    margin-top: -100px;
+    position: relative;
+}
+
+.bannersDerecha img
+{
+    max-width:100%;
+}
+
+.ofertasHome
+{ 
+    margin-top:65px;
+    width:900px;
+    margin-left:41px;
+}
+
+.tituloOfertas
+{
+    display:inline-block;
+    width:100%;
+    height:47px;
+    position:relative;
+    padding-left:35px;
+    line-height:47px;
+    color:#fff;
+    background: url(../../Imagenes/imagesNactur/fondoBarraOfertas.jpg) repeat-x;
+    max-width:900px;
+    font-weight:bold;
+    font-size:24px;
+    text-align:left;
+    margin-bottom:40px;
+}
+
+.bordeOfertas
+{
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.ofertasHome .titulo
+{
+    padding-left:60px;
+    width:100%;
+    display:inline-block;
+    font-size:24px;
+    color:#f29320;
+    line-height:35px;
+    font-weight:bold;
+    margin-top:30px;
+    margin-bottom:20px;
+}
+
+.ofertasVuelos .titulo
+{
+    background: url(../../Imagenes/imagesNactur/iconoVuelosNaranja.png) no-repeat;
+}
+
+.ofertasHoteles .titulo
+{
+    background: url(../../Imagenes/imagesNactur/iconoHotelNaranja.png) no-repeat;
+}
+
+.ofertasHome .oferta
+{
+    border: 1px solid #ccc;
+    display:inline-block;
+    width:33%;
+    padding:15px;
+    margin-bottom:40px;
+}
+
+.ofertasHome .oferta .imagen,
+.ofertasHome .oferta .imagen a
+{
+    display:inline-block;
+    width:100%;
+    text-align:center;
+}
+
+.ofertasHome .oferta .imagen img
+{
+    display:inline-block;
+    width:100%;
+    height:224px;
+    -webkit-box-shadow: 9px 9px 18px -8px rgba(0,0,0,1);
+    -moz-box-shadow: 9px 9px 18px -8px rgba(0,0,0,1);
+    box-shadow: 9px 9px 18px -8px rgba(0,0,0,1);
+}   
+
+.ofertasHome .oferta .descripcion    
+{
+    display:inline-block;
+    width:100%;
+    margin-top:10px;
+}
+
+.ofertasHome .oferta .descripcion .tituloPlanesHome
+{
+    margin-bottom: 10px;
+}
+
+.ofertasHome .oferta .descripcion .tituloPlanesHome,
+.ofertasHome .oferta .descripcion .tituloPlanesHome a
+{
+    display:inline-block;
+    width:100%;
+    color:#fff;
+    font-size:15px;
+    font-weight:bold;
+    text-transform:capitalize;
+    line-height:28px;
+    height:56px;
+    overflow:hidden;
+    margin-left:7px;
+}
+
+.ofertasHome .oferta .precioPlanHome
+{
+    display:inline-block;
+    width:100%;
+    font-weight:bold;
+    font-size:15px;
+    margin-top:-20px;
+    margin-left:153px;
+}
+
+.ofertasHome .oferta .precioPlanHome .moneda
+{
+    color:#fff;
+}
+
+.ofertasHome .oferta .precioPlanHome .valor
+{
+    /*color:#db217f;*/
+    color:blue;
+}
+    
+
+.barraResponsive
+{
+    display:none;
+} 
+
+.utilidadesResponsive
+{
+    display: inline-block;
+    text-align: left;
+    float: left;
+    margin-left: 25px;
+    width: 200px;
+}
+
+.contenidoBuscador input[type="radio"]
+{
+    display: none;
+    display: inline-block\9;
+}
+
+.contenidoBuscador label
+{
+    padding-left: 30px;
+    background:none\9;
+    padding-left:0\9;
+    line-height:17px;
+    line-height: 17px;
+    display: inline-block;
+}
+
+.contenidoBuscador input[type="radio"] + label
+{
+    background: url(../../Imagenes/imagesNactur/radioButtonInactivo.png) no-repeat;
+}
+
+.contenidoBuscador input[type="radio"]:checked + label
+{
+    background: url(../../Imagenes/imagesNactur/radioButtonActivo.png) no-repeat;
+}    
+
+.contenidoBuscador input[type="text"],
+.contenidoBuscador select
+{
+    width:100%;
+    background:#fcfdef;
+    border-radius:6px;
+    -moz-border-radius:6px;
+    webkit-border-radius:6px;
+    height:27px;
+    border:1px solid #a3f6f9;
+    line-height:25px;
+    padding:0 5px;
+    color:#6dcefb;
+    font-weight:bold;
+}
+
+.contenidoBuscador input.calendario
+{
+    background:url(../../Imagenes/imagesNactur/calendario.jpg) #fff top right no-repeat;
+}
+
+.radioButtonList
+{
+    display:inline-block;
+    width:100%;
+    margin-bottom:20px;
+}
+
+.div50Buscador
+{
+    width: 44%;
+    margin-right: 5%;
+    display: inline-block;
+    margin-bottom:15px;
+}
+
+.div100Buscador
+{
+    width: 100%;
+    display: inline-block;
+    margin-bottom:15px;
+}
+
+.div100Buscador .div50Buscador
+{
+    margin-bottom:0;
+    width:50%;
+    margin-right:0;
+}
+
+.labelBuscar
+{
+    width:100%;
+    display:inline-block;
+    padding-left:15px;
+    margin-bottom:5px;
+}
+
+.contenidoBuscador a
+{
+    color:#fff;
+    font-weight:bold;
+    text-decoration:underline;
+}
+
+.contenedorTablaPasajerosBuscador
+{
+    width:70%;
+    display: inline-block;
+}
+
+.tablaPasajerosBuscador td.pasajeros
+{
+    width:33%;
+    text-align:center;
+}
+
+.tablaPasajerosBuscador td.pasajeros span
+{
+    width:100%;
+    text-align:center;
+    display:inline-block;
+}
+
+.tablaPasajerosBuscador td.pasajeros select
+{
+    width:100%;
+    height:30px;
+    width:50px;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    display:inline-block;
+    background: #eff0f1;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    border:0;
+    color:#000;
+}
+
+.contenedorBotonBuscar
+{
+    display:inline-block;
+    max-width:30%;    
+    vertical-align: bottom;
+    margin-bottom: 24px;
+}
+     
+
+.botonBuscador
+{
+    background:url(../../Imagenes/imagesNactur/botonBuscarNaranja.jpg);
+    display:inline-block;
+    width:93px;
+    height:30px;
+    border:0;
+    cursor:pointer;
+}
+
+
+.ac_results
+{
+    z-index:2;
+    background-color:#fff;
+    padding:0;
+    overflow:hidden;
+    max-width: 290px;    
+}
+
+.ac_results ul
+{
+    float: left;
+    width: 100%;
+    list-style-position: outside;
+    list-style-image: url(../../Imagenes/airplane-icon.png);
+    padding: 0;
+    margin: 0;
+}
+
+.ac_results li
+{
+    margin: 0px;
+    /* padding: 2px 5px; */
+    cursor: pointer;
+    display: block;
+    /* width: 100%; */
+    font: menu;
+    font-size: 12px;
+    line-height: 16px;
+    overflow: hidden;
+}
+
+.ac_results li:first-child
+{
+    margin: 0px;
+    cursor: pointer;
+    display: block;
+    font: menu;
+    font-size: 12px;
+    line-height: 16px;
+    overflow: hidden;
+    color: #333;
+    font-weight: bold;
+    background: url(../../Imagenes/home_icon.png) #999 no-repeat 8px;
+}
+
+.ac_loading
+{
+    background: url(../../Imagenes/ui-anim_basic_16x16.gif) #fff right center no-repeat;
+}
+
+.ac_odd:first-Child
+{
+    background:url(../../Imagenes/home_icon.png) #999 no-repeat 8px;
+    padding: 5px 0 5px 30px;
+}
+
+.ac_odd
+{
+	background:url(../../Imagenes/airplane-icon.png) #EEE no-repeat 8px;
+	padding: 5px 0 5px 30px;
+}
+
+.ac_even
+{
+    background: url(../../Imagenes/airplane-icon.png) #DDD no-repeat 8px;
+    padding: 5px 0 5px 30px;
+}
+
+.ac_odd
+{
+    background: url(../../Imagenes/airplane-icon.png) #EEE no-repeat 8px;
+    padding: 5px 0 5px 30px;
+}
+
+.ac_over
+{
+    background-color: #0095CD;
+    color: #FFF;
+}
+
+.ui-datepicker.ui-datepicker-multi
+{
+    width: auto;
+    background: #fff;
+    border: 5px solid #6dcefb;
+    border-radius: 10px;
+    color: #5100FD;
+    padding: 0;
+}
+
+.ui-datepicker-multi .ui-datepicker-group
+{
+    float: left;
+    border: 0;
+}
+
+.ui-datepicker .ui-datepicker-header
+{
+    position: relative;
+    padding: .2em 0;
+    background: #6dcefb;
+    border: 0;
+    color: #3400A3;
+    font-weight: bold;
+}
+
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year
+{
+    width: 40%;
+}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight
+{
+    border: 0;
+    background: #028fe1;
+    color: #FFF;
+}
+.ui-datepicker .ui-datepicker-title select
+{
+    border-radius:3px;
+    margin-right:10px;
+    
+}
+
+.huespedesColumna
+{
+    margin-top:15px;
+}
+
+.huespedesColumna td select
+{
+    border:0;
+    color:#000;
+    width:50px;
+    background: #eff0f1;
+}
+
+.textoEncabezadoContacto
+{
+    font-size:21px;
+    max-width:640px;
+    color:#434244;
+    display:inline-block;
+    margin-bottom:25px;
+}
+
+.formulario
+{
+    width:364px;
+    height:412px;
+    background:url(../../Imagenes/imagesNactur/fondoFormularioContacto.png);   
+    display: inline-block;
+    padding: 20px 25px 20px 20px; 
+    margin-left: -8px;
+}
+
+.formulario table
+{
+    width:319px;
+}
+
+.formulario span
+{
+    color:#6d6e70;
+    font-size:11px;
+    margin-bottom:5px;
+}
+
+.formulario input[type="text"],
+.formulario select,
+.formulario textarea
+{
+    display:inline-block;
+    width: 155px;
+    margin-bottom:10px;
+    height:25px;
+    border:1px solid #e6e6e6;
+}
+
+.formulario textarea
+{
+    margin-bottom:0px;
+}
+
+.formulario span
+{
+    display:inline-block;
+    width:100%;
+}
+
+.botonEnviar
+{
+    background:#0075aa;
+    height:28px;
+    padding:0 20px;
+    font-size:14px;
+    line-height:28px;
+    cursor:pointer;
+    color:#fff;
+    border:0;
+    float:right;
+}
+    
+.mapaContacto
+{
+    display:inline-block;
+}    
+    
+.textoContacto
+{
+    display: inline-block;
+    width: 180px;
+    margin-left: 5px;
+    vertical-align: bottom;
+    color:#0071a7;
+}
+
+.selectRecomendados
+{
+    width: 532px;
+    height: 43px;
+    display: inline-block;
+    background: url(../../Imagenes/imagesNactur/fondoSelectRecomendados.jpg);
+    padding: 8px 15px;
+    color: #fff;
+    float: right;
+    margin-bottom: -43px;
+    position: relative;
+    z-index: 1;
+}
+
+.selectRecomendados span
+{
+    font-size:12px;   
+    font-weight:bold;
+    line-height:27px;
+    text-transform:uppercase;
+    float:left;
+}
+
+.selectRecomendados select
+{
+    float:right;
+    height:27px;
+    border:0;
+    background:#fff;
+    width: 205px;
+}
+
+.datosDestinosRecomendados
+{
+    padding-top: 70px;
+}
+
+.datosDestinosRecomendados .detalle
+{
+    padding: 10px 30px 0;
+}
+
+#tabsPaquetes > .ui-tabs-panel.planesRecomendados
+{
+    padding-left:0;
+    padding-right:0;
+}
+
+.panelOfertas
+{
+    width:50%;
+    border-top:1px solid #e3e2e2;
+    height:280px;
+    padding-top:30px;
+    float:left;
+}
+
+.panelOfertas:first-child,
+.panelOfertas:nth-child(odd)
+{
+    border-right:1px solid #e3e2e2;
+}
+
+.panelOfertas .imagen
+{
+    width:165px;
+    margin-left:22px;
+    display:inline-block;
+    height:165px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.panelOfertas .descripcion
+{
+    width:275px;
+    margin-left:20px;
+    display: inline-block;
+    height:165px;
+    padding-bottom:30px;
+    position:relative;
+    margin-left: 10px;
+}
+
+.panelOfertas .descripcion .tituloPlanes
+{
+    font-size: 17px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #39a8e5;
+}
+
+.panelOfertas .descripcion .textoPlanes
+{
+    margin-top:5px;
+}
+
+.panelOfertas .descripcion .btnAzul
+{
+    position:absolute;
+    bottom:0;
+    left:0;
+    color:#fff;
+}
+    
+    
+#tabsPaquetes .panelOfertas .descripcion .textoPlanes p
+{
+    padding:0;
+    margin:0;
+}
+
+.panelOfertas .precioPlan
+{
+    height: 73px;
+    background: url(../../Imagenes/imagesNactur/bgPreciosPaquetes.jpg);
+    margin-top: 15px;
+    font-size: 10px;
+    font-weight: bold;
+    padding-left:45px;
+}
+
+.panelOfertas .labelValorFinal
+{
+    margin-top: 34px;
+}
+
+.panelOfertas .valorFinal
+{
+    margin-top: 24px;
+    margin-left: 4px;
+    font-size: 20px;
+    font-weight: normal;
+    width: 150px;
+}
+
+.panelOfertas .difiera
+{
+    text-align: right;
+    width: 88px;
+    margin-top: 20px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.panelOfertas .cuotas
+{
+    max-width: 145px;
+}
+
+.panelOfertas .valorCuota
+{
+    font-size: 24px;
+    margin-top: 16px;
+    padding-left: 18px;
+    max-width: 150px;
+}
+
+.panelOfertas .numeroCuotas
+ {
+    padding-left: 15px;
+    max-width: 130px;
+}
+
+.resultadoVuelos
+{
+    width: 665px;
+}
+
+.encabezadoResultadoVuelos
+{
+    width: 665px;
+    height: 200px;
+    background: url(../../Imagenes/imagesNactur/encabezadoVuelos.png) no-repeat;
+    margin-top: 10px;
+    padding: 172px 330px 0 22px;
+    line-height: 30px;
+    font-size: 22px;
+}
+
+.resumenVuelos
+{
+    width:100%;
+    border:1px solid #e3e2e2;
+    border-left: 1px solid #e3e2e2;
+    border-left:0;
+    padding-top:30px;
+    position:relative;
+}
+
+#content-slider
+{
+    width: 490px;
+    height: 6px;
+    margin: 5px;
+    background: #BBBBBB;
+    position: relative;
+    display:none;
+}
+
+.tituloFiltros
+{
+    float: left;
+    position: relative;
+    width: 150px;
+    font-weight: bold;
+}
+
+.tituloFiltros div.aerolinea,
+.tituloFiltros div.directo,
+.tituloFiltros div.parada1,
+.tituloFiltros div.parada2
+{
+    padding-left:40px;
+    width:150px;
+    color:#27437c;
+    font-size:14px;
+    font-weight:normal;
+    text-align:center;
+}
+
+.tituloFiltros div.aerolinea
+{
+    color:#000;
+    font-weight:bold;
+}
+
+div.aerolinea
+{
+    padding:15px 0;
+    background: #fff;
+    height: 60px;
+    line-height:30px;
+    width: 100px;
+    border-bottom: solid 1px #CCC;
+    border-top: solid 1px #CCC;
+    float: left;
+    font-size:14px;
+    color:#27437c;
+    font-weight:bold;
+    margin-bottom:25px;
+    text-align:center;
+}
+
+div.aerolinea input
+{
+    max-height:30px;
+    max-width:90px;
+    display:inline-block;
+}
+
+div.directo
+{
+    background: #f2f2f2;
+    height: 30px;
+    width: 100px;
+    line-height:30px;
+    float: left;
+    color:#27437c;
+}
+
+div.parada1
+{
+    background: #fff;
+    height: 30px;
+    line-height:30px;
+    width: 100px;
+    float: left;
+    color:#27437c;
+}
+
+div.parada2
+{
+    background: #f2f2f2;
+    height: 30px;
+    width: 100px;
+    line-height:30px;
+    float: left;
+    color:#27437c;
+}
+
+#content-scroll
+{
+    width: 514px;
+    height: 200px;
+    overflow-y: hidden;
+    margin-bottom: 10px;
+}
+
+.contenidoFiltros
+{
+    float: left;
+    position: relative;
+    width: 540px;
+    height: 136px;
+    overflow: auto;
+}
+
+#content-holder
+{
+    width: 1500px;
+    height: 270px;
+}
+
+.contenidoFiltros .columnaAerolinea
+{
+    float: left;
+    position: relative;
+    width: 100px;
+    min-height: 134px;
+    text-align: center;
+}
+
+.tituloResultadoVuelos
+{
+    width: 100%;
+    height: 60px;
+    background: url(../../Imagenes/imagesNactur/tituloResultadoVuelos.png) no-repeat;
+    padding: 27px 0 0 22px;
+    line-height: 33px;
+    font-size: 22px;
+    border-right: 1px solid #e3e2e2;
+}
+
+.ordenarVuelos
+{
+    width:100%;
+    padding:15px 0 35px;
+    text-align:center;
+    border-right: 1px solid #e3e2e2;
+    border-left: 1px solid #e3e2e2;
+}
+
+.ordenarVuelos span
+{
+    display:inline-block;
+    line-height:20px;
+    margin-right:15px;
+    color:#000;
+    font-size:14px;
+}
+
+.ordenarVuelos select
+{
+    display:inline-block;
+    height:20px;
+    border:1px solid #d8d8d8;
+    padding:0 15px;
+}
+    
+.tituloOpcion
+{
+    display:inline-block;
+    padding-left:22px;
+    background:#976eb5;
+    width:100%;
+    height:25px;
+    line-height:25px;    
+    font-size:12px;
+    color:#fff;
+}        
+
+.vuelos
+{
+    border-right: 1px solid #e3e2e2;
+    border-left: 1px solid #e3e2e2;
+}
+
+.detalleVuelo
+{
+    width:100%;
+    display:inline-block;
+    padding:15px 30px 15px 22px;
+}
+
+.div30px
+{
+    display:inline-block;
+    width:30px;
+    overflow:hidden;
+}
+
+.div285px
+{
+    display:inline-block;
+    width:285px;
+    overflow:hidden;
+}
+
+.div220px
+{
+    display:inline-block;
+    width:220px;
+    overflow:hidden;
+}
+
+.div70
+{
+    display:inline-block;
+    width:70px;
+    overflow:hidden;
+}
+
+.div70 img
+{
+    max-width:70px;
+    max-height:20px;
+}
+
+.tablasTrayectosVuelos .tablaVuelos .filaFechasVuelo
+{
+    display:none;
+}
+
+.tablasTrayectosVuelos .tablaVuelos:first-child .filaFechasVuelo
+{
+    display:table-row;
+}
+
+.detalleVuelo .filaFechasVuelo .div30px,
+.detalleVuelo .filaFechasVuelo .div285px,
+.detalleVuelo .filaFechasVuelo .div220px,
+.detalleVuelo .filaFechasVuelo .div70px
+{
+    margin-bottom:10px;
+}
+
+.cantidadParadas
+{
+    margin-right:10px;
+}
+
+.tarifasVuelo
+{
+    width:100%;
+    height:62px;
+    display:inline-block;
+    background: url(../../Imagenes/imagesNactur/bgTarifasVuelos.jpg) no-repeat;
+    padding-left: 15px;
+    margin-bottom:10px;
+}
+
+.detalleTarifa
+{
+    display: inline-block;
+    width: 225px;
+    text-align: center;
+}
+
+.valorTipoPasajero
+{
+    margin-top:5px;
+}
+
+.valorTotalVuelo
+{
+    display:inline-block;
+    width:215px;
+    text-align:center;
+}
+
+.valorTotalVuelo .tituloTotal
+{
+    display: inline-block;
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+.valorTotalVuelo .monedaTotal
+{
+    display: inline-block;
+    font-size: 15px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.valorTotalVuelo .valorTotal
+{
+    display:inline-block;
+    font-size: 20px;
+}
+
+.valorTotalVuelo .labelImpuestosIncluidos
+{
+    display:inline-block;
+    width:100%;
+    font-size:10px;
+}
+
+.seleccionarVuelos
+{
+    width:180px;
+    display:inline-block;
+    text-align:center;
+    padding-top: 18px;
+}
+
+.detalleTarifa .toggle_container
+{
+    padding: 5px 0;
+    border-bottom: 1px dashed #999;
+    overflow: hidden;
+    font-size: 11px;
+    font-family: Trebuchet MS;
+    width: 155px;
+    color: #666;
+    background: none;
+    margin: 0;
+    text-align: center;
+    display: none;
+}
+
+ .a impuestosVuelos:hover
+{
+    background-color:yellow;
+}
+ 
+a.impuestosVuelos:hover div
+{
+    display: block;
+    position: absolute;
+    bottom: 15px;
+    left: -75px;
+    color: white;
+    text-decoration: none;
+    z-index: 999;
+    overflow: hidden;
+}
+
+a.impuestosVuelos
+{
+    position: relative;
+    color: #434244;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 11px;
+    display: inline;
+    width:100px;
+    float:left;
+    text-align:center;
+}
+
+a.impuestosVuelos div
+{
+    display: none;
+}
+
+.GloboImp
+{
+    position: relative;
+    width: 270px;
+    background: #fff;
+    border: 3px solid #8A8A8A;
+    padding: 10px;
+    font-size: 7pt;
+    border-radius: 10px;
+ }
+ 
+ 
+ .labelDetalleImpuestos
+ {
+     float:left;
+     width:140px;
+     text-align:left;
+     color: #000;
+     font-size:9px;
+ }
+ 
+ .valorlDetalleImpuestos
+ {
+     float:left;
+     width:100px;
+     text-align:left;
+     color:#000;
+     font-size:9px;
+ }
+ 
+ /**** Detalle de Vuelo ****/
+ .popup {
+	z-index: 5;
+	display: block;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.popup ol, .popup ul {
+	list-style: none;
+}
+.popup-detail {
+	width:710px
+}
+.popup-detail .detail {
+	padding:10px
+}
+.popup-detail .segment {
+	padding:0 5px
+}
+.popup-detail .segment:before, .popup-detail .segment:after {
+	content:"";
+	display:table
+}
+.popup-detail .segment:after {
+	clear:both
+}
+.ie6 .popup-detail .segment, .ie7 .popup-detail .segment {
+	zoom:1
+}
+.popup-detail .segment .review-summary {
+	float:left;
+	margin:5px 0 0 15px
+}
+.popup-detail .segment .review-summary .review-description {
+	display:block
+}
+.popup-detail .segment .review-summary .review-description {
+	display:block;
+	text-align:right
+}
+.popup-detail .segment .detail-info {
+	float:left;
+	width:520px;
+	padding: 0;
+}
+.popup-detail .segment .detail-info:before, .popup-detail .segment .detail-info:after {
+	content:"";
+	display:table
+}
+.popup-detail .segment .detail-info:after {
+	clear:both
+}
+.ie6 .popup-detail .segment .detail-info, .ie7 .popup-detail .segment .detail-info {
+	zoom:1
+}
+.popup-detail .segment .detail-info li:before, .popup-detail .segment .detail-info li:after {
+	content:"";
+	display:table
+}
+.popup-detail .segment .detail-info li:after {
+	clear:both
+}
+.ie6 .popup-detail .segment .detail-info li, .ie7 .popup-detail .segment .detail-info li {
+	zoom:1
+}
+.popup-detail .segment .detail-info .data{
+	color: #999999;
+}
+.popup-detail .segment .detail-info .data span {
+	margin:0 4px 0 0;
+	float:left;
+	line-height:28px;
+}
+.popup-detail .segment .detail-info .data .airline {
+	float:right;
+	margin:0;
+	padding:0
+}
+.popup-detail .segment .detail-info .data .airline .logoPeque�o {
+	padding:0;
+	line-height:0
+}
+.popup-detail .segment .detail-info .itinerary {
+	line-height:14px
+}
+.popup-detail .segment .detail-info .itinerary .location {
+	float:left;
+	margin:0 15px 0 0;
+	width:400px
+}
+.popup-detail .segment .detail-info .itinerary .date {
+	float:right
+}
+.popup-detail .segment .detail-info .operated-by {
+	float:left
+}
+.popup-detail .segment .detail-info .operated-by li {
+	float:left;
+	margin:0 5px 0 0;
+	line-height:25px
+}
+.popup-detail .segment .detail-info .operated-by .logoPeque�o {
+	line-height:0
+}
+.popup-detail .segment .detail-info .stops {
+	float:right
+}
+.popup-detail .segment .detail-info .stops .title {
+	margin:0 0 0 -20px
+}
+.popup-detail .time {
+	display:block;
+	padding:8px 0;
+	text-align:center;
+	font-weight:bold;
+	margin:10px 0;
+	background:#eeeeee;
+
+}
+.popup-detail .detail-footer {
+	display:inline-block;
+	width:100%;
+	padding-top:3px
+}
+.popup-detail .detail-footer .bottom-box {
+	float:left;
+	width:50%
+}
+.popup-detail .detail-footer .bottom-box .detail-local-hour {
+	display:block;
+	padding-bottom:8px
+}
+.popup-detail .detail-footer .baggage {
+	margin-top:5px
+}
+.ie7 .popup-detail .detail-footer .baggage {
+	width:680px
+}
+.popup-detail .detail-footer .ecological-info {
+	float:right;
+	width:50%
+}
+.popup-detail .detail-footer .ecological-info .ecological-preservation-container {
+	width:100%
+}
+.popup-detail .detail-footer .ecological-info .ecological-preservation-container .ecological-preservation {
+	float:right;
+	padding-bottom:3px
+}
+.popup-detail .detail-footer .ecological-info .ecological-preservation-container .ecological-preservation .ecological-preservation-label {
+	padding-right:10px;
+	line-height:20px;
+	float:left
+}
+.popup-detail .detail-footer .ecological-info .ecological-preservation-container .ecological-preservation .ecological-flight {
+	float:left
+}
+.popup-detail .detail-footer .ecological-info .preservation-description {
+	float:right
+}
+.popup-detail .rules {
+	margin:10px 0 0;
+	/*display:none;*/
+	float:left;
+	width:100%
+}
+.popup-detail .rules .airline {
+	display:block
+}
+.popup-detail .rules .airline:before, .popup-detail .rules .airline:after {
+	content:"";
+	display:table
+}
+.popup-detail .rules .airline:after {
+	clear:both
+}
+.ie6 .popup-detail .rules .airline, .ie7 .popup-detail .rules .airline {
+	zoom:1
+}
+.popup-detail .rules .airline .logoPeque�o {
+	float:left
+}
+.popup-detail .rules .airline .logoPeque�o span {
+	float:left
+}
+.popup-detail .rules .airline .name {
+	float:left;
+	line-height:28px;
+	margin:0 0 0 5px
+}
+.popup-detail .rules .airline .icon-plus {
+	margin:10px 4px 0 4px
+}
+.popup-detail .rules p {
+	margin:10px 0 0
+}
+.flights-popup {
+	padding:10px;
+	position:relative;
+}
+.flights-popup:after, .ie7 .flights-popup .after {
+	content:"";
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:0
+}
+.flights-popup .popup-header h4 {
+	line-height:20px;
+	padding:10px
+}
+.flights-popup .popup-container {
+	z-index:1;
+	overflow-y: scroll;
+	height: 264px;
+    position: relative;
+}
+.flights-popup .popup-arrow {
+	position:absolute;
+	height:0;
+	width:0
+}
+.flights-popup .popup-arrow-bottom {
+	bottom:-10px;
+	left:10px
+}
+.flights-popup .popup-arrow-top {
+	top:-10px;
+	left:10px
+}
+.flights-popup .popup-arrow-left {
+	left:-10px;
+	top:10px
+}
+.flights-popup .popup-arrow-right {
+	right:-10px;
+	top:10px
+}
+.flights-popup .popup-close {
+	position:absolute;
+	z-index:10;
+	text-align:center;
+	line-height:20px;
+	height:20px;
+	width:20px;
+	top:-13px;
+	right:-13px;
+	-webkit-box-sizing:content-box;
+	-moz-box-sizing:content-box;
+	box-sizing:content-box
+}
+.flights-popup .popup-close input 
+{
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    color: white;
+    font-weight: bolder;
+    top: -2px;   
+}
+.ie7 .flights-popup {
+zoom:expression(this.runtimeStyle.zoom="1", this.appendChild( document.createElement("i") ).className="after" )
+}
+.ie7 .flights-popup .popup-close, .ie8 .flights-popup .popup-close {
+	line-height:26px;
+	height:26px;
+	width:26px;
+	top:-13px;
+	right:-13px
+}
+.flights-popup:after {
+	background:black;
+	background:rgba(0, 0, 0, 0.7);
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	-ms-border-radius:3px;
+	-o-border-radius:3px;
+	border-radius:3px;
+	-webkit-box-shadow:rgba(0, 0, 0, 0.5) 0 0 10px;
+	-moz-box-shadow:rgba(0, 0, 0, 0.5) 0 0 10px;
+	box-shadow:rgba(0, 0, 0, 0.5) 0 0 10px
+}
+.flights-popup .popup-header {
+	background:none repeat scroll 0 0 #f7f7f7;
+	display:block
+}
+.flights-popup .popup-header h4 {
+	margin:0;
+	color:#003770;
+	font-family:sans-serif;
+	font-size:16px;
+	font-weight:normal
+}
+.flights-popup .popup-content {
+	background:white;
+	border:1px solid transparent
+}
+.flights-popup .popup-arrow-bottom {
+	border-left:10px solid transparent;
+	border-right:10px solid transparent;
+	border-top:10px solid rgba(0, 0, 0, 0.7)
+}
+.flights-popup .popup-arrow-top {
+	border-left:10px solid transparent;
+	border-right:10px solid transparent;
+	border-bottom:10px solid rgba(0, 0, 0, 0.7)
+}
+.flights-popup .popup-arrow-left {
+	border-top:10px solid transparent;
+	border-bottom:10px solid transparent;
+	border-right:10px solid rgba(0, 0, 0, 0.7)
+}
+.flights-popup .popup-arrow-right {
+	border-top:10px solid transparent;
+	border-bottom:10px solid transparent;
+	border-left:10px solid rgba(0, 0, 0, 0.7)
+}
+.flights-popup .popup-close {
+	cursor:pointer;
+	border:3px solid white;
+	color:white;
+	font-weight:bold;
+	font-family:arial, sans-serif;
+	font-size:20px;
+	background:#319fda;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	-ms-border-radius:20px;
+	-o-border-radius:20px;
+	border-radius:20px;
+	-webkit-box-shadow:rgba(0, 0, 0, 0.5) 0 0 10px;
+	-moz-box-shadow:rgba(0, 0, 0, 0.5) 0 0 10px;
+	box-shadow:rgba(0, 0, 0, 0.5) 0 0 10px
+}
+.ie7 .flights-popup .after {
+	background-color:black;
+	filter:alpha(opacity=70)
+}
+.ie8 .flights-popup:after {
+	background:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAQAAADYv8WvAAAAEElEQVR4nGNi2MywmYkBCAAJ8gFrYOfxtwAAAABJRU5ErkJggg==')
+}
+.ie7 .flights-popup .popup-arrow, .ie8 .flights-popup .popup-arrow {
+	filter:alpha(opacity=70)
+}
+.ie7 .flights-popup .popup-arrow-bottom, .ie8 .flights-popup .popup-arrow-bottom {
+	border-top:10px solid black
+}
+.ie7 .flights-popup .popup-arrow-top, .ie8 .flights-popup .popup-arrow-top {
+	border-bottom:10px solid black
+}
+.ie7 .flights-popup .popup-arrow-left, .ie8 .flights-popup .popup-arrow-left {
+	border-right:10px solid black
+}
+.ie7 .flights-popup .popup-arrow-right, .ie8 .flights-popup .popup-arrow-right {
+	border-left:10px solid black
+}
+.ie7 .flights-popup .popup-close, .ie8 .flights-popup .popup-close {
+	border-width:0;
+	background-color:transparent;
+	background:url('../../despegar/core-flights/img/picasso/popup.png');
+	background-position:0 -1px
+}
+.flights-popup .popup-content {
+	color:black;
+	font-size:11px
+}
+.flights-tooltip {
+	display:block;
+	position:absolute;
+	padding:0.267em;
+	font-size:0.8em;
+	background-color:#3c3a12;
+	color:white;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	-ms-border-radius:2px;
+	-o-border-radius:2px;
+	border-radius:2px;
+	-webkit-box-shadow:#3c3a12 0 0 3px;
+	-moz-box-shadow:#3c3a12 0 0 3px;
+	box-shadow:#3c3a12 0 0 3px
+}
+.flights-tooltip.tooltip-left:after, .ie7 .flights-tooltip.tooltip-left span {
+	position:absolute;
+	top:0;
+	padding:0.267em 0;
+	left:-0.82em;
+	content:"\25C4"
+}
+.ie7 .flights-tooltip.tooltip-left {
+zoom:expression(this.runtimeStyle.zoom="1", this.insertBefore(document.createElement("span"), this.firstChild).innerHTML="&#9668;")
+}
+.flights-tooltip.tooltip-left:after, .ie7 .flights-tooltip span {
+	font-family:arial, sans-serif;
+	font-size:1em;
+	color:#3c3a12
+}
+.ie8 .flights-tooltip.tooltip-left:after {
+	font-size:0.8em
+}
+.contenedorPopUp
+{
+    float:left;
+    position:relative;
+    left:-300px;
+    
+    }
+    
+    
+.encabezadoVuelosReserva
+{
+    width: 984px;
+    height: 193px;
+    padding: 160px 0 0 35px;
+    background: url(../../Imagenes/imagesNactur/encabezadoVuelosReserva.png) no-repeat;
+    line-height: 33px;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: -1px;
+}
+
+
+.reservaVuelos .tituloReserva
+{
+    line-height: 33px;
+    font-size: 22px;
+    padding-left: 35px;
+    background: url(../../Imagenes/imagesNactur/tituloReservaVuelos.png) no-repeat;
+    border-right: 1px solid #d3d3d3;
+    margin-top:-1px;
+}
+
+.tablaPasajerosReservaVuelos td
+{
+    padding:0;
+}
+
+.labelAceptoVuelos
+{
+    margin-left: 26px;
+    float: left;
+    max-width: 475px;
+    margin-top: 10px;
+}
+
+.detalleVueloReserva
+{
+    border-right: 1px solid #d3d3d3;
+    border-top:0;
+    padding:25px 10px 25px 20px;
+}
+
+.renglonDetalleVuelosReserva
+{
+    margin-bottom:10px;
+}
+
+.renglonDetalleVuelosReservaLinea1
+{
+    margin-top:20px;
+}
+
+.reservaVuelos .panelRight
+{
+    width: 296px;
+    margin-left: -5px;
+}
+
+.reservaVuelos .tituloReserva.tituloCorto
+{
+    border:0;
+}
+
+.valorTotalVuelo.full
+{
+    width:100%;
+}
+
+.resultadoHoteles
+{
+    width: 665px;
+}
+
+.encabezadoResultadoHoteles
+{
+    width: 665px;
+    height: 192px;
+    background: url(../../Imagenes/imagesNactur/encabezadoResultadoHoteles.png) no-repeat;
+    margin-top: 30px;
+    padding: 160px 330px 0 22px;
+    line-height: 32px;
+    font-size: 22px;
+}
+
+.buscadorInternoFiltro
+{
+    border-top: 0;
+    background: -webkit-linear-gradient(top, #524ea4 , #7892ab);
+    background: -o-linear-gradient(bottom, #524ea4, #7892ab);
+    background: -moz-linear-gradient(bottom, #524ea4, #7892ab);
+    background: linear-gradient(to bottom, #524ea4 , #7892ab);
+    border-radius: 0 0 15px 15px;
+    -webkit-border-radius: 50px 50px 15px 15px;
+    padding-bottom: 20px;
+}
+
+.buscadorInternoFiltro .buscador .ui-tabs .ui-tabs-panel
+{
+    background:none;
+    border:0;
+    padding:30px 15px 0;
+}
+
+.buscadorInternoFiltro .buscador .ui-tabs .ui-tabs-nav li a
+{
+    border:0;
+}
+
+.buscadorInternoFiltro .buscador .ui-tabs .ui-tabs-nav .pestanaVuelos a,
+.buscadorInternoFiltro .buscador .ui-tabs .ui-tabs-nav li.pestanaAutos a
+{
+    border:0;
+}
+
+
+
+.buscadorInternoFiltro .contenedorBotonBuscar
+{
+    margin-bottom:0;
+}
+
+.buscadorInternoFiltro .filtro
+{    
+    padding: 5px 15px 15px;
+    background: #fff;
+    margin: 20px 15px 0;
+    border-radius: 10px;
+}
+
+.buscadorInternoFiltro .filtro input[type="text"]
+{
+    height:30px;
+}
+
+.resultados-hoteles
+{
+    width:100%;
+    display:inline-block;
+}    
+
+div.resultados-hoteles > div.resultado
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 20px 0 0 0;
+    border: solid 1px #e3e2e2;
+    border-top:0;
+}
+
+div.resultados-hoteles > div.resultado h2
+{
+    margin: 0;
+    float: left;
+    display: block;
+    color: #39a8e5;
+    font-size: 18px;
+    padding: 0 10px 5px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left:40px;
+    font-weight:normal;
+}
+
+div.resultados-hoteles > div.resultado > span
+{
+    float: left;
+    width: 14px;
+    height: 14px;
+    margin: 3px 10px 0 0;
+    background: url(../../Imagenes/imagesNactur/icn-estrella.png) no-repeat;
+}
+
+.descripcionHotelResultado
+{
+    float: left;
+    width: 270px;
+}
+
+div.resultados-hoteles > div.resultado > p
+{
+    float: left;
+    clear: both;
+    width: 50%;
+    margin: 0 0 25px 0;
+    line-height: 130%;
+    color:#284c96;
+    font-size:12px;
+    margin-left:40px;
+}
+
+div.resultados-hoteles > div.resultado div.ver-detalle
+{
+    float: left;
+    width: 450px;
+    margin-left:40px;
+}
+
+div.resultados-hoteles > div.resultado div.ver-detalle img
+{
+    float: left;
+    width: 150px;
+    height: 145px;
+    margin: 0 25px 0 0;    
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+}
+
+div.resultados-hoteles > div.resultado div.ver-detalle p
+{
+    float: left;
+    width: 270px;
+    margin: 0 0 20px 0;
+    text-align: justify;
+    font-size: 12px;
+    line-height: 140%;
+    color: #727176;
+}
+
+div.resultados-hoteles > div.resultado div.ver-detalle  a
+{
+    float: left;
+    color: #2e6bab;
+    font-size: 13px;
+    border: none;
+    text-align: center;
+    background: #0075aa;
+    height:30px;
+    line-height:30px;
+    padding: 0 10px;
+    cursor: pointer;
+    background: url(../../Imagenes/imagesNactur/btnDetallesHotel.jpg) repeat-x;
+}
+
+div.resultados-hoteles > div.resultado > div.precio
+{
+    float: right;
+    width: 170px;
+    height:112px;
+    text-align: center;
+    background: url(../../Imagenes/imagesNactur/bgPreciosHoteles.jpg) repeat-x;
+    
+}
+
+div.resultados-hoteles div.precio > h3
+{
+    margin: 18px 0 20px;
+    font-size: 10px;
+    font-weight: bold;
+    color:#434244;
+}
+
+div.resultados-hoteles div.precio p .txt10
+{
+    color:#434244;
+    font-size:10px;
+    text-transform:capitalize;
+}    
+
+div.resultados-hoteles div.precio p .txt20
+{
+    font-size: 20px;
+    color: #434244;
+    text-transform: lowercase;
+    margin-top: 4px;
+    display: inline-block;
+}
+
+div.resultados-hoteles div.precio p .txt24
+{
+    font-size:24px;
+    color:#434244;
+}    
+
+div.resultados-hoteles > div > table
+{
+    float: left;
+    border-top: 1px solid #e3e2e2;
+    font-size: 12px;
+    margin: 50px 0 0px 0;
+    color: #284c96;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+}
+
+div.resultados-hoteles > div > table tr.titulos
+{
+    font-weight: bolder;
+    vertical-align: top;
+    padding: 7px 0 0 0;
+    text-transform: uppercase;
+    font-size:12px;
+    line-height: 35px;
+}
+
+div.resultados-hoteles > div > table td:first-child
+{
+    text-align: left;
+}
+
+.HotelReferencia
+{
+    font-size: 12px;
+    font-weight:normal;
+}
+
+.botonSeleccionarHotel
+{
+    float: left;
+    border-top: 1px solid #e3e2e2;
+}
+
+.botonSeleccionarHotel.espacio
+{
+    min-height:31px;
+}
+
+div.resultados-hoteles > div.resultado div.galeria
+{
+    float: left;
+    width: 325px;
+    margin: 0 0 0 30px;
+}
+
+div.resultados-hoteles > div.resultado div.galeria .imagen-grande
+{
+    float: left;
+    width: 325px;
+    height: 215px;
+    border: 1px solid #CCC;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: 4px 4px 17px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow: 4px 4px 17px 0px rgba(50, 50, 50, 0.5);
+    box-shadow: 4px 4px 17px 0px rgba(50, 50, 50, 0.5);
+    overflow: hidden;
+}
+
+div.resultados-hoteles > div.resultado div.galeria .imagen-grande img
+{
+    width: 100%;
+    height: 100%;
+}
+
+div.resultados-hoteles > div.resultado div.descripcion
+{
+    float: left;
+    width: 100%;
+    margin: 30px 0 20px 0;
+    color: #59595b;
+    font-size: 12px;
+    line-height: 130%;
+    text-align: justify;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+}
+
+div.resultados-hoteles > div.resultado div.descripcion h3
+{
+    margin:0;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 0 0 15px 0;
+    color:#39a8e5;
+    font-weight: normal;
+}
+
+div.resultados-hoteles > div.resultado div.descripcion p
+{
+    color: #727176;
+    font-size: 12px;
+    line-height: 130%;
+    text-align: justify;
+    margin-bottom:15px;
+}
+
+div.resultados-hoteles > div.resultado div.servicios
+{
+    float: left;
+    width: 100%;
+    border-top: 1px solid #e3e2e2;
+    padding: 20px 0 0 0;
+    padding-left: 40px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    color:#727176;
+    font-size:11px;
+}
+
+div.resultados-hoteles > div.resultado div.servicios h3
+{
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 0 0 15px 0;
+    color: #39a8e5;
+    font-weight: normal;
+}
+
+div.resultados-hoteles > div.resultado div.servicios img
+{
+    max-width: 95%;
+    float:left;
+}
+
+div.resultados-hoteles > div.resultado div.servicios li
+{
+    list-style: none;
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 31%;
+    padding-right: 1%;
+}
+
+.contenidoDetalleHotel
+{
+    float: left;
+    width: 260px;
+    margin-left:25px;
+}
+
+div.resultados-hoteles > div.resultado .contenidoDetalleHotel h2
+{
+    margin: 0;
+    float: left;
+    display: inline-block;
+    width:100%;
+    color: #39a8e5;
+    font-size: 18px;
+    padding: 0 10px 5px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.contenidoDetalleHotel > span
+{
+    float: left;
+    width: 14px;
+    height: 14px;
+    margin: 3px 10px 0 0;
+    background: url(../../Imagenes/imagesNactur/icn-estrella.png) no-repeat;
+}
+
+.contenidoDetalleHotel > p
+{
+    float: left;
+    clear: both;
+    width: 100%;
+    margin: 10px 0 25px 0;
+    line-height: 130%;
+    color: #284c96;
+    font-size: 12px;
+}
+
+.contenidoDetalleHotel > div.precio
+{
+    float: left;
+    width: 170px;
+    height: 112px;
+    text-align: center;
+    background: url(../../Imagenes/imagesNactur/bgPreciosHoteles.jpg) repeat-x;
+}
+
+.reservaHoteles .panelLeft
+{
+    width: 688px;
+}
+
+.encabezadoReservaHoteles
+{
+    width: 984px;
+    height: 192px;
+    padding: 160px 0 0 35px;
+    background: url(../../Imagenes/imagesNactur/encabezadoHotelesReserva.png) no-repeat;
+    line-height: 32px;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: -1px;
+}
+
+.reservaHoteles .tituloReserva
+{
+    line-height: 33px;
+    font-size: 22px;
+    padding-left: 35px;
+    background: url(../../Imagenes/imagesNactur/tituloReservaHoteles.png) no-repeat;
+    border-right: 1px solid #d3d3d3;
+}
+
+.reservaHoteles .panelRight
+{
+    width: 295px;
+    margin-left: -5px;
+}
+
+.reservaHoteles .panelRight .tituloCorto
+{
+    padding-left:18px;
+    font-size: 18px;
+    background-position-x: -160px;
+    border-top:1px solid #d3d3d3;
+}
+
+.reservaHoteles .panelRight .detallePlanReserva .nombrePaquete
+{
+    font-weight:normal;
+}
+
+.imgReservaHotel
+{
+    display:inline-block;
+    margin-top:10px;
+}
+
+.imgReservaHotel img
+{
+    max-width:100%;
+}
+
+.reservaHoteles .panelRight .stars
+{
+    float: left;
+    width: 14px;
+    height: 14px;
+    margin: 3px 10px 0 0;
+    background: url(../../Imagenes/imagesNactur/icn-estrella.png) no-repeat;
+}
+
+.buscadorHome .ui-tabs
+{
+    border: 2px solid #fff;
+    border-top: 0;
+    background: -webkit-linear-gradient(top, #524ea4 , #7892ab);
+    background: -o-linear-gradient(bottom, #524ea4, #7892ab);
+    background: -moz-linear-gradient(bottom, #524ea4, #7892ab);
+    background: linear-gradient(to bottom, #524ea4 , #7892ab);
+    border-radius: 0 0 15px 15px;
+    -webkit-border-radius: 0 0 15px 15px;
+    -moz-border-radius: 0 0 15px 15px;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.buscadorHome .buscador .ui-tabs .ui-tabs-panel
+{
+    background: none;
+    border: 0;
+    padding-bottom: 0;
+    min-height: 290px;
+}
+
+.buscadorHome .buscador .ui-tabs .ui-tabs-nav .pestanaVuelos a
+{
+    background: #804ea5;
+    border-radius: 15px 0 0 0;
+    -webkit-border-radius: 15px 0 0 0;
+    -moz-border-radius: 15px 0 0 0;
+    border:0;
+    border-top: 2px solid #fff;
+}
+
+.buscadorHome .buscador .ui-tabs .ui-tabs-nav li.pestanaAutos a
+{
+    background: #ecb22c;
+    border-radius: 0 15px 0 0;
+    -webkit-border-radius: 0 15px 0 0;
+    -moz-border-radius: 0 15px 0 0;
+    border:0;
+    border-top: 2px solid #fff;
+}
+
+.buscadorHome .buscador .ui-tabs .ui-tabs-nav li.ui-tabs-selected a
+{
+    border:0;
+    border-radius: 15px 15px 0 0;
+}
+
+.tarifasDescuentos,
+.tarifasDescuentos a
+{
+    font-weight:bold;
+    font-size:11px;
+    display:inline-block;
+    width:100%;
+    text-align:center;
+    color:#fff;
+    padding-bottom:15px;
+    padding-top:10px;
+    margin-top:10px;
+    border-top:1px dashed #fff;
+}
+
+.tarifasDescuentos a
+{
+    text-decoration:underline;
+    border:0;
+    padding:0;
+    margin:0;
+}
+
+.encabezadoPromociones
+{
+    width: 954px;
+    height: 242px;
+    padding: 194px 0 0 80px;
+    background: url(../../Imagenes/imagesNactur/encabezadoPromociones.png) no-repeat;
+    line-height: 48px;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: -1px;
+    margin-left:15px;
+    font-weight:bold;
+}
+
+.contenedorPopUpCondiciones
+{
+    width:500px;
+    display:inline-block;
+    padding:20px;
+    background:#fff;
+    position:relative;
+    color: #284c96;
+}
+
+.contenedorPopUpCondiciones .btnCerrar
+{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    border: 0;
+    background: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.contenedorPopUpCondiciones .condiciones
+{
+    display: inline-block;
+    border: 1px solid #e5e5e5;
+    width: 100%;
+    padding: 15px;
+    overflow: auto;
+}
+
+.tituloCondiciones
+{
+    display:inline-block;
+    width:100%;
+    text-align:center;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+.nombreHotelCotizador
+{
+    text-decoration: underline;
+    color: blue;
+    font-weight: bold;
+    font-size: 11px;
+    text-transform: lowercase;
+    display: inline-block;
+    line-height: 26px;
+    height: 26px;
+    overflow: hidden;
+}
+.lblError
+{
+    border-color: red;
+    color: red !important;
+    background: rgb(255, 233, 233);
+}
+.tablaBuscadorVuelos .forma .formaBuscar.lblError
+{
+    border-color: red;
+    color: red;
+    background: rgb(255, 233, 233);
+}
+.tablaBuscadorAutos .forma .formaBuscar.lblError
+{
+    border-color: red;
+    color: red;
+    background: rgb(255, 233, 233);
+}
+
+.tabSeguros
+{
+    border: 2px solid #fff;
+    border-top: 0;
+    background: -webkit-linear-gradient(top, #524ea4 , #7892ab);
+    background: -o-linear-gradient(bottom, #524ea4, #7892ab);
+    background: -moz-linear-gradient(bottom, #524ea4, #7892ab);
+    background: linear-gradient(to bottom, #524ea4 , #7892ab);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    color: #fff;
+    padding: 30px 15px;
+}
+
+.labelSeguros
+{
+    font-size:18px;
+    color:#fff;
+    display:inline-block;
+    line-height: 60px;
+}
+
+.encabezadoSeguros
+{
+    width: 665px;
+    height: 215px;
+    background: url(../../Imagenes/imagesNactur/encabezadoSeguros.png) no-repeat;
+    margin-top: 10px;
+    padding: 182px 330px 0 22px;
+    line-height: 33px;
+    font-size: 22px;
+}
+
+.descripcionSeguros
+{
+    border-right: 1px solid #e3e2e2;
+    border-left: 1px solid #e3e2e2;
+    width:100%;
+    display:inline-block;
+    padding:25px;
+    font-size:12px;
+    color:#434244;
+}
+
+.descripcionSeguros p
+{
+    margin-bottom:15px;
+}
+
+.tituloSeguros
+{
+    height: 32px;
+    line-height: 32px;
+    color: #fff;
+    background: url(../../Imagenes/imagesNactur/bgTituloQuienes.png);
+    font-size: 22px;
+    padding-left: 22px;
+    width: 100%;
+    display: inline-block;
+    border-right: 1px solid #e3e2e2;
+}
+
+.descripcionSeguros:last-child
+{
+    border-bottom: 1px solid #e3e2e2;
+}
+
+.resumenSeguros
+{
+    width:26%;
+    float:left;
+    text-align:left;
+    color:#434244;
+    border-right:1px solid #e3e2e2;
+    padding: 0 10px; 
+    font-size:11px;
+    text-transform: capitalize;
+}
+
+.resumenSeguros:first-child
+{
+    width:18%;
+}
+
+.resumenSeguros:last-child
+{
+    border:0;
+    width:28%;
+} 
+    
+
+.resumenSeguros .tituloResumen
+{
+    display:inline-block;
+    width:100%;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+.descripcionResultadoSeguro
+{    
+    background: -webkit-linear-gradient(#cacbcd, #f2f2f2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#cacbcd, #f2f2f2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#cacbcd, #f2f2f2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#cacbcd, #f2f2f2); /* Standard syntax */
+    padding:25px;
+    float:left;
+}
+
+.descripcionResultadoSeguro .detalle
+{
+    color: #434244;
+    font-size: 13px;
+    width: 75%;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    padding-right:25px;
+    border-right:1px solid #434244;
+}
+
+.descripcionResultadoSeguro .precio
+{
+    float:left;
+    width:25%;
+    text-align:center;
+    font-weight: bold;
+    color: #434244;
+    font-size: 13px;
+}
+
+.descripcionResultadoSeguro .precio .labelValorFinal
+{
+    text-align:center;
+}
+
+.descripcionResultadoSeguro .precio .valorFinal
+{
+    text-align:center;
+    margin-top:15px;
+}
+
+.descripcionResultadoSeguro .precio .valorFinal .moneda
+{
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.descripcionResultadoSeguro .precio .valorFinal .precio
+{
+    font-size: 26px;
+    width: auto;
+    float: none;
+    font-weight:normal;
+}
+
+.verCobertura
+{
+    text-align:center;
+    margin-top:10px;
+}
+
+.verCobertura .boton
+{
+    display:inline-block;
+    text-decoration:underline;
+    color:#5674b3;
+    border:0;
+    background:none;
+    padding:0;
+    margin:0;
+    cursor:pointer;
+}
+
+.contenedorReservarSeguro
+{
+    float:right;
+    width:100%;
+    border-left: 1px solid #e3e2e2;
+}
+
+.contenedorReservarSeguro:last-child
+{
+    border-bottom: 1px solid #e3e2e2;
+}
+
+.contenedorReservarSeguro .boton
+{
+    background:#0075aa;
+    float:right;
+    border:0;
+    color:#fff;
+    width:179px;
+    height:30px;
+    line-height:30px;
+    font-weight:bold;
+    font-size:14px;
+    cursor:pointer;
+}
+
+.encabezadoSegurosReserva
+{
+    width: 984px;
+    height: 220px;
+    padding: 188px 0 0 35px;
+    background: url(../../Imagenes/imagesNactur/encabezadoSegurosReserva.png) no-repeat;
+    line-height: 32px;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: -1px;    
+}
+
+.reservaSeguros .panelLeft
+{
+    width: 688px;
+}
+
+.reservaSeguros .panelRight
+{
+    width: 296px;
+    margin-left: -5px;
+}
+
+.reservaSeguros .panelLeft .borde
+{
+    border-top: 1px solid #d3d3d3;
+}
+
+.reservaSeguros .tituloReserva
+{
+    line-height: 33px;
+    font-size: 22px;
+    padding-left: 35px;
+    background: url(../../Imagenes/imagesNactur/tituloReservaSeguros.png) no-repeat;
+    border-right: 1px solid #d3d3d3;
+    margin-top: -1px;
+}
+
+.reservaSeguros .tituloReserva.tituloCorto
+{
+    padding-left: 18px;
+    font-size: 16px;
+    background-position-x: -120px;
+    border-top: 1px solid #d3d3d3;
+}
+
+.ofertasAereas
+{
+    border: 1px solid #e3e2e2;
+    border-top: 0;
+    float: left;
+    width: 100%;
+}
+
+.listadoOfertasAereas
+{
+    float: left;
+    width: 345px;
+    padding-left: 0;
+    margin-top: 85px;
+}
+
+.listadoOfertasAereas li
+{
+    list-style:none;
+    display:inline-block;
+    width:100%;
+    padding-left:25px;
+    background: url(../../Imagenes/imagesNactur/vinetaVuelos.png) no-repeat;
+    border-bottom:1px dashed #284c96;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.listadoOfertasAereas li .ciudades
+{
+    float:left;
+    font-size:12px;
+    color:#284c96;
+    font-weight:bold;
+}
+
+.listadoOfertasAereas li .precio
+{
+    float:right;
+    color:#804ea5;
+    font-size:18px;
+}
+
+.listadoOfertasAereas li .precio .desde
+{
+    font-size: 12px;
+    margin-top: 5px;
+    float: left;
+    margin-right: 5px;
+}
+
+
+.filaCotizador .filaCotizador
+{
+    border:0;
+}
+
+.filaCotizador .celda15:first-child a
+{
+    text-decoration: underline;
+    color: blue;
+    font-weight: bold;
+    display: inline-block;
+    width: 100%;
+    height: 26px;
+    font-size: 9px;
+    line-height: 12px;
+    padding-top: 2px;
+}
+
+.filaCotizador a.impuestos:hover div
+{
+    display: block;
+    position: absolute;
+    bottom: 14px;
+    left: -135px;
+    top: initial;
+    width: 310px;
+    height: auto;
+    padding: 5px;
+    background: #fff;
+    border: 5px solid #39a8e5;
+    color: #6d6e70;
+    text-decoration: none;
+    text-align: left;
+    font-weight: normal;
+    z-index: 999;
+    overflow: auto;
+    font-size: 9px;
+    text-align: center;
+}
+
+.panelOfertas .cuotasDestinosRecomendados .valorCuota 
+{
+    margin-top:12px;
+}
+
+.cuotasDestinosRecomendados p
+{
+    margin:0 !important;
+}
+
+.sectionDocumentos
+{
+    margin-top:50px;
+}
+
+.sectionDocumentos .btnAzul
+{
+    margin-bottom:20px;
+}
+
+.div100.renglonEnvio
+{
+    display:inline-block;
+    width:100%;
+    margin-top:15px;
+}
+
+.div100.renglonEnvio span
+{
+    float:left;
+    width:190px;
+}
+
+.div100.renglonEnvio .error span
+{
+    width:100%;
+}
+
+.div100.renglonEnvio .btnAzul
+{
+    float: right;
+    margin-right: 65px;
+}
+
+.ventanaItinerario
+{
+    width: 500px;
+    display: inline-block;
+    padding: 20px;
+    background: #fff;
+    position: relative;
+    color: #284c96;
+}    
+
+.tituloItinerario
+{
+    display:none;
+}
+
+.contenidoItinerario
+{
+    display: inline-block;
+    border: 1px solid #e5e5e5;
+    width: 100%;
+    padding: 15px;
+    overflow: auto;
+}
+.Contenedor_Planes
+{
+    border: 1px solid #ccc;
+    margin-top: 12px;
+    background: -webkit-linear-gradient(bottom, #23A5BE, #4B9FF0); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom, #23A5BE, #4B9FF0); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom, #23A5BE, #4B9FF0); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(to bottom, #23A5BE, #4B9FF0); /* Standard syntax */     
+}
+.botonHome 
+{
+    text-align:center;
+    margin-left: -1px;
+    width:101%    
+}

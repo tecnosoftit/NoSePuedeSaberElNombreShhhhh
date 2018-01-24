@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://www.hotelbeds.com/schemas/2005/06/messages" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.hotelbeds.com/schemas/2005/06/messages" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:include schemaLocation="HotelbedsCommonTypes.xsd"/>
+	<xs:element name="TicketDetailRQ">
+		<xs:annotation>
+			<xs:documentation>Request data to obtain detailed information for the specified ticket product.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="CoreRequest">
+					<xs:sequence>
+						<xs:element name="TicketCode">
+							<xs:annotation>
+								<xs:documentation>Ticket code to obtain detailed inormation.</xs:documentation>
+							</xs:annotation>
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:minLength value="1"/>
+									<xs:maxLength value="10"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:element>
+						<xs:element name="Contract" type="Contract">
+							<xs:annotation>
+								<xs:documentation>Contract data to obtain detailed information.</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+						<xs:element name="ModalityCode" minOccurs="0">
+							<xs:annotation>
+								<xs:documentation>Modality code to obtain detailed information.</xs:documentation>
+							</xs:annotation>
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:minLength value="1"/>
+									<xs:maxLength value="10"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:element>
+					</xs:sequence>
+					<xs:attribute name="availToken" use="required">
+						<xs:annotation>
+							<xs:documentation>Token provided in availability response.</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:minLength value="1"/>
+								<xs:maxLength value="24"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:attribute>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

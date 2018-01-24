@@ -1,0 +1,2 @@
+G:\Ssoft\TurincoLastVersion\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\obj\Debug\Ssoft.csprojResolveAssemblyReference.cache
+G:\Ssoft\TurincoLastVersion\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\obj\Debug\Ssoft.csproj.ResolveComReference.cache

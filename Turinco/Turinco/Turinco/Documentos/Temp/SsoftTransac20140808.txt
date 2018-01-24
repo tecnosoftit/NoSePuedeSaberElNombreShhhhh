@@ -1,0 +1,402 @@
+Fecha:           2014/08/08 09:44
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+Sesion WS: 
+
+Fecha:           2014/08/08 09:44
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAA89JB
+Info:        Response: 89JB.A1IC*AA1.A
+NO MESSAGE..08AUG
+Source:      Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESG!ICESMSLB\/RES.LB!-3633568735643607388!475286!0
+Complmeneto: SabreCommand
+Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+Sesion WS: 
+
+Fecha:           2014/08/08 09:44
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESG!ICESMSLB\/RES.LB!-3633568735643607388!475286!0
+Source:      Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+StackTrace:  Respuesta89JB.A1IC*AA1.A
+NO MESSAGE..08AUG
+TargetSite:  Comando: AAA89JB
+Complmeneto: Credenciales: 
+User: 5555
+Password: WS061127
+Ipcc: A1IC
+Pcc: 89JB
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+Sesion WS: 
+
+Fecha:           2014/08/08 09:45
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESG!ICESMSLB\/RES.LB!-3633568735643607388!475286!0
+Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+Sesion WS: 
+
+Fecha:           2014/08/08 09:45
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+Sesion WS: 
+
+Fecha:           2014/08/08 10:17
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+Sesion WS: 
+
+Fecha:           2014/08/08 10:17
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAA89JB
+Info:        Response: 89JB.A1IC*AA1.A
+NO MESSAGE..08AUG
+Source:      Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESC!ICESMSLB\/RES.LB!-3633560795568307534!368570!0
+Complmeneto: SabreCommand
+Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+Sesion WS: 
+
+Fecha:           2014/08/08 10:17
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESC!ICESMSLB\/RES.LB!-3633560795568307534!368570!0
+Source:      Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+StackTrace:  Respuesta89JB.A1IC*AA1.A
+NO MESSAGE..08AUG
+TargetSite:  Comando: AAA89JB
+Complmeneto: Credenciales: 
+User: 5555
+Password: WS061127
+Ipcc: A1IC
+Pcc: 89JB
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+Sesion WS: 
+
+Fecha:           2014/08/08 10:17
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESC!ICESMSLB\/RES.LB!-3633560795568307534!368570!0
+Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+Sesion WS: 
+
+Fecha:           2014/08/08 10:17
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+Sesion WS: 
+
+Fecha:           2014/08/08 10:37
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+Sesion WS: 
+
+Fecha:           2014/08/08 10:37
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAA89JB
+Info:        Response: 89JB.A1IC*AA1.A
+NO MESSAGE..08AUG
+Source:      Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESD!ICESMSLB\/RES.LB!-3633555937704624971!284851!0
+Complmeneto: SabreCommand
+Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+Sesion WS: 
+
+Fecha:           2014/08/08 10:37
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESD!ICESMSLB\/RES.LB!-3633555937704624971!284851!0
+Source:      Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+StackTrace:  Respuesta89JB.A1IC*AA1.A
+NO MESSAGE..08AUG
+TargetSite:  Comando: AAA89JB
+Complmeneto: Credenciales: 
+User: 5555
+Password: WS061127
+Ipcc: A1IC
+Pcc: 89JB
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+Sesion WS: 
+
+Fecha:           2014/08/08 10:37
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESD!ICESMSLB\/RES.LB!-3633555937704624971!284851!0
+Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+Sesion WS: 
+
+Fecha:           2014/08/08 10:37
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+Sesion WS: 
+
+Fecha:           2014/08/08 10:39
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+Sesion WS: 
+
+Fecha:           2014/08/08 10:39
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAA89JB
+Info:        Response: 89JB.A1IC*AA1.A
+NO MESSAGE..08AUG
+Source:      Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESC!ICESMSLB\/RES.LB!-3633555344545812187!485802!0
+Complmeneto: SabreCommand
+Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+Sesion WS: 
+
+Fecha:           2014/08/08 10:39
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESC!ICESMSLB\/RES.LB!-3633555344545812187!485802!0
+Source:      Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+StackTrace:  Respuesta89JB.A1IC*AA1.A
+NO MESSAGE..08AUG
+TargetSite:  Comando: AAA89JB
+Complmeneto: Credenciales: 
+User: 5555
+Password: WS061127
+Ipcc: A1IC
+Pcc: 89JB
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+Sesion WS: 
+
+Fecha:           2014/08/08 10:39
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESC!ICESMSLB\/RES.LB!-3633555344545812187!485802!0
+Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+Sesion WS: 
+
+Fecha:           2014/08/08 10:39
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+Sesion WS: 
+
+Fecha:           2014/08/08 10:39
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+Sesion WS: 
+
+Fecha:           2014/08/08 10:39
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAA89JB
+Info:        Response: 89JB.A1IC*AA1.A
+NO MESSAGE..08AUG
+Source:      Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESD!ICESMSLB\/RES.LB!-3633555296592363472!297731!0
+Complmeneto: SabreCommand
+Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+Sesion WS: 
+
+Fecha:           2014/08/08 10:39
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESD!ICESMSLB\/RES.LB!-3633555296592363472!297731!0
+Source:      Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+StackTrace:  Respuesta89JB.A1IC*AA1.A
+NO MESSAGE..08AUG
+TargetSite:  Comando: AAA89JB
+Complmeneto: Credenciales: 
+User: 5555
+Password: WS061127
+Ipcc: A1IC
+Pcc: 89JB
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+Sesion WS: 
+
+Fecha:           2014/08/08 10:39
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESD!ICESMSLB\/RES.LB!-3633555296592363472!297731!0
+Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+Sesion WS: 
+
+Fecha:           2014/08/08 10:39
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 635430878619167485ssimpg1blestayxi2gvibktb
+Sesion WS: 
+
+Fecha:           2014/08/08 11:27
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 635430937763880370ssimpg1blestayxi2gvibktb
+Sesion Local: 635430937763880370ssimpg1blestayxi2gvibktb
+Sesion WS: 
+
+Fecha:           2014/08/08 11:27
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAA89JB
+Info:        Response: 89JB.A1IC*AA1.A
+NO MESSAGE..08AUG
+Source:      Sesion Local: 635430937763880370ssimpg1blestayxi2gvibktb
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESB!ICESMSLB\/RES.LB!-3633543521369539791!1369921!0
+Complmeneto: SabreCommand
+Sesion Local: 635430937763880370ssimpg1blestayxi2gvibktb
+Sesion WS: 
+
+Fecha:           2014/08/08 11:27
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESB!ICESMSLB\/RES.LB!-3633543521369539791!1369921!0
+Source:      Sesion Local: 635430937763880370ssimpg1blestayxi2gvibktb
+StackTrace:  Respuesta89JB.A1IC*AA1.A
+NO MESSAGE..08AUG
+TargetSite:  Comando: AAA89JB
+Complmeneto: Credenciales: 
+User: 5555
+Password: WS061127
+Ipcc: A1IC
+Pcc: 89JB
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 635430937763880370ssimpg1blestayxi2gvibktb
+Sesion WS: 
+
+Fecha:           2014/08/08 11:27
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635430937763880370ssimpg1blestayxi2gvibktb
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESB!ICESMSLB\/RES.LB!-3633543521369539791!1369921!0
+Sesion Local: 635430937763880370ssimpg1blestayxi2gvibktb
+Sesion WS: 
+
+Fecha:           2014/08/08 11:27
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 635430937763880370ssimpg1blestayxi2gvibktb
+Sesion WS: 
+

@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="ConsultarTiposMediosPago">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sUsuarioId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConsultarTiposMediosPagoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ConsultarTiposMediosPagoResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ConsultarMediosPago">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sUsuarioId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sTipoMedioPago" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConsultarMediosPagoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ConsultarMediosPagoResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SolicitarAutorizacionConDispersion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sUsuarioId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sRefVenta" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sDescripcion" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="dValor" type="s:decimal" />
+            <s:element minOccurs="1" maxOccurs="1" name="dIva" type="s:decimal" />
+            <s:element minOccurs="1" maxOccurs="1" name="dBaseDevolucion" type="s:decimal" />
+            <s:element minOccurs="1" maxOccurs="1" name="dValorAdicional" type="s:decimal" />
+            <s:element minOccurs="1" maxOccurs="1" name="dTA" type="s:decimal" />
+            <s:element minOccurs="1" maxOccurs="1" name="dIvaTA" type="s:decimal" />
+            <s:element minOccurs="1" maxOccurs="1" name="dBaseTA" type="s:decimal" />
+            <s:element minOccurs="0" maxOccurs="1" name="sMonedaIso" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="iCuotas" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="sNombreComprador" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sDocumentoComprador" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sEmailComprador" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sTelComprador" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sTelOficinaComprador" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sPaisCorrespondencia" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sCiudadCorrespondencia" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sDireccionCorrespondencia" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sPaisEnvio" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sCiudadEnvio" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sDireccionEnvio" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sIpComprador" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sMedioPago" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sAerolinea" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sExtra1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sExtra2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sNumTarjeta" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sNombreTarjetaHabiente" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sFechaExpiracion" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sCodSeguridad" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sCookie" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sUserAgent" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="bMAF" type="s:boolean" />
+            <s:element minOccurs="1" maxOccurs="1" name="bReportarPagConfirmacion" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SolicitarAutorizacionConDispersionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SolicitarAutorizacionConDispersionResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SolicitarTransaccionPSE">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sUsuarioId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sRefVenta" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sDescripcion" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="dValor" type="s:decimal" />
+            <s:element minOccurs="1" maxOccurs="1" name="dIva" type="s:decimal" />
+            <s:element minOccurs="0" maxOccurs="1" name="sNombreComprador" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sDocumentoComprador" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sEmailComprador" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sTelComprador" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sTelOficinaComprador" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sPaisCorrespondencia" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sCiudadCorrespondencia" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sDireccionCorrespondencia" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sIpComprador" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sExtra1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sExtra2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sCodBancoPse" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sTipoCliente" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sReferencia1" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sReferencia2" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sReferencia3" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sCookie" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sUserAgent" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SolicitarTransaccionPSEResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SolicitarTransaccionPSEResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConsultarAerolineas">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sUsuarioId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConsultarAerolineasResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ConsultarAerolineasResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ValidarAerolineas">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sUsuarioId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ValidarAerolineasResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="ConsultarBancosPSE">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sUsuarioId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConsultarBancosPSEResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ConsultarBancosPSEResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConsultarTransaccionesPendientesPSE">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sDocumentoComprador" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sUsuarioId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ConsultarTransaccionesPendientesPSEResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ConsultarTransaccionesPendientesPSEResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ConsultarTiposMediosPagoSoapIn">
+    <wsdl:part name="parameters" element="tns:ConsultarTiposMediosPago" />
+  </wsdl:message>
+  <wsdl:message name="ConsultarTiposMediosPagoSoapOut">
+    <wsdl:part name="parameters" element="tns:ConsultarTiposMediosPagoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ConsultarMediosPagoSoapIn">
+    <wsdl:part name="parameters" element="tns:ConsultarMediosPago" />
+  </wsdl:message>
+  <wsdl:message name="ConsultarMediosPagoSoapOut">
+    <wsdl:part name="parameters" element="tns:ConsultarMediosPagoResponse" />
+  </wsdl:message>
+  <wsdl:message name="SolicitarAutorizacionConDispersionSoapIn">
+    <wsdl:part name="parameters" element="tns:SolicitarAutorizacionConDispersion" />
+  </wsdl:message>
+  <wsdl:message name="SolicitarAutorizacionConDispersionSoapOut">
+    <wsdl:part name="parameters" element="tns:SolicitarAutorizacionConDispersionResponse" />
+  </wsdl:message>
+  <wsdl:message name="SolicitarTransaccionPSESoapIn">
+    <wsdl:part name="parameters" element="tns:SolicitarTransaccionPSE" />
+  </wsdl:message>
+  <wsdl:message name="SolicitarTransaccionPSESoapOut">
+    <wsdl:part name="parameters" element="tns:SolicitarTransaccionPSEResponse" />
+  </wsdl:message>
+  <wsdl:message name="ConsultarAerolineasSoapIn">
+    <wsdl:part name="parameters" element="tns:ConsultarAerolineas" />
+  </wsdl:message>
+  <wsdl:message name="ConsultarAerolineasSoapOut">
+    <wsdl:part name="parameters" element="tns:ConsultarAerolineasResponse" />
+  </wsdl:message>
+  <wsdl:message name="ValidarAerolineasSoapIn">
+    <wsdl:part name="parameters" element="tns:ValidarAerolineas" />
+  </wsdl:message>
+  <wsdl:message name="ValidarAerolineasSoapOut">
+    <wsdl:part name="parameters" element="tns:ValidarAerolineasResponse" />
+  </wsdl:message>
+  <wsdl:message name="ConsultarBancosPSESoapIn">
+    <wsdl:part name="parameters" element="tns:ConsultarBancosPSE" />
+  </wsdl:message>
+  <wsdl:message name="ConsultarBancosPSESoapOut">
+    <wsdl:part name="parameters" element="tns:ConsultarBancosPSEResponse" />
+  </wsdl:message>
+  <wsdl:message name="ConsultarTransaccionesPendientesPSESoapIn">
+    <wsdl:part name="parameters" element="tns:ConsultarTransaccionesPendientesPSE" />
+  </wsdl:message>
+  <wsdl:message name="ConsultarTransaccionesPendientesPSESoapOut">
+    <wsdl:part name="parameters" element="tns:ConsultarTransaccionesPendientesPSEResponse" />
+  </wsdl:message>
+  <wsdl:portType name="PagosOnLineWSSoap">
+    <wsdl:operation name="ConsultarTiposMediosPago">
+      <wsdl:input message="tns:ConsultarTiposMediosPagoSoapIn" />
+      <wsdl:output message="tns:ConsultarTiposMediosPagoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarMediosPago">
+      <wsdl:input message="tns:ConsultarMediosPagoSoapIn" />
+      <wsdl:output message="tns:ConsultarMediosPagoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SolicitarAutorizacionConDispersion">
+      <wsdl:input message="tns:SolicitarAutorizacionConDispersionSoapIn" />
+      <wsdl:output message="tns:SolicitarAutorizacionConDispersionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SolicitarTransaccionPSE">
+      <wsdl:input message="tns:SolicitarTransaccionPSESoapIn" />
+      <wsdl:output message="tns:SolicitarTransaccionPSESoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarAerolineas">
+      <wsdl:input message="tns:ConsultarAerolineasSoapIn" />
+      <wsdl:output message="tns:ConsultarAerolineasSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidarAerolineas">
+      <wsdl:input message="tns:ValidarAerolineasSoapIn" />
+      <wsdl:output message="tns:ValidarAerolineasSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarBancosPSE">
+      <wsdl:input message="tns:ConsultarBancosPSESoapIn" />
+      <wsdl:output message="tns:ConsultarBancosPSESoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarTransaccionesPendientesPSE">
+      <wsdl:input message="tns:ConsultarTransaccionesPendientesPSESoapIn" />
+      <wsdl:output message="tns:ConsultarTransaccionesPendientesPSESoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="PagosOnLineWSSoap" type="tns:PagosOnLineWSSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ConsultarTiposMediosPago">
+      <soap:operation soapAction="http://tempuri.org/ConsultarTiposMediosPago" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarMediosPago">
+      <soap:operation soapAction="http://tempuri.org/ConsultarMediosPago" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SolicitarAutorizacionConDispersion">
+      <soap:operation soapAction="http://tempuri.org/SolicitarAutorizacionConDispersion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SolicitarTransaccionPSE">
+      <soap:operation soapAction="http://tempuri.org/SolicitarTransaccionPSE" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarAerolineas">
+      <soap:operation soapAction="http://tempuri.org/ConsultarAerolineas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidarAerolineas">
+      <soap:operation soapAction="http://tempuri.org/ValidarAerolineas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarBancosPSE">
+      <soap:operation soapAction="http://tempuri.org/ConsultarBancosPSE" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarTransaccionesPendientesPSE">
+      <soap:operation soapAction="http://tempuri.org/ConsultarTransaccionesPendientesPSE" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="PagosOnLineWSSoap12" type="tns:PagosOnLineWSSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ConsultarTiposMediosPago">
+      <soap12:operation soapAction="http://tempuri.org/ConsultarTiposMediosPago" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarMediosPago">
+      <soap12:operation soapAction="http://tempuri.org/ConsultarMediosPago" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SolicitarAutorizacionConDispersion">
+      <soap12:operation soapAction="http://tempuri.org/SolicitarAutorizacionConDispersion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SolicitarTransaccionPSE">
+      <soap12:operation soapAction="http://tempuri.org/SolicitarTransaccionPSE" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarAerolineas">
+      <soap12:operation soapAction="http://tempuri.org/ConsultarAerolineas" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidarAerolineas">
+      <soap12:operation soapAction="http://tempuri.org/ValidarAerolineas" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarBancosPSE">
+      <soap12:operation soapAction="http://tempuri.org/ConsultarBancosPSE" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ConsultarTransaccionesPendientesPSE">
+      <soap12:operation soapAction="http://tempuri.org/ConsultarTransaccionesPendientesPSE" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="PagosOnLineWS">
+    <wsdl:port name="PagosOnLineWSSoap" binding="tns:PagosOnLineWSSoap">
+      <soap:address location="http://localhost:59935/WS/PagosOnLineWS.asmx" />
+    </wsdl:port>
+    <wsdl:port name="PagosOnLineWSSoap12" binding="tns:PagosOnLineWSSoap12">
+      <soap12:address location="http://localhost:59935/WS/PagosOnLineWS.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

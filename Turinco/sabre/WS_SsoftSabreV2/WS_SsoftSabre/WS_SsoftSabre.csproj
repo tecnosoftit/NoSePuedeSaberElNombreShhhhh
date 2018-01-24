@@ -1,0 +1,1187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{22F46C39-25B7-4AFF-B695-8781E3C2B47F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WS_SsoftSabre</RootNamespace>
+    <AssemblyName>WS_SsoftSabre</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ssoft, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Rules\Ssoft.Rules\bin\Debug\Ssoft.dll</HintPath>
+    </Reference>
+    <Reference Include="Ssoft.Rules, Version=4.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Rules\Ssoft.Rules\bin\Debug\Ssoft.Rules.dll</HintPath>
+    </Reference>
+    <Reference Include="SsoftQuery, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Rules\Ssoft.Rules\bin\Debug\SsoftQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Air\clsAirOTA_AirLowFareSearch.cs" />
+    <Compile Include="Air\ClsBargainFinderMaxRQ.cs" />
+    <Compile Include="Air\clsDesignatePrinter.cs" />
+    <Compile Include="Air\clsEndTransactionLLS.cs" />
+    <Compile Include="Air\clsOTA_AirAvail.cs" />
+    <Compile Include="Air\clsOTA_AirBook.cs" />
+    <Compile Include="Air\clsOTA_AirPrice.cs" />
+    <Compile Include="Air\clsOTA_AirRules.cs" />
+    <Compile Include="Air\clsOTA_TravelItineraryRead.cs" />
+    <Compile Include="Air\ClsSabreBase.cs" />
+    <Compile Include="Air\clsSabreCommandLLS.cs" />
+    <Compile Include="Air\clsShortSell.cs" />
+    <Compile Include="Air\clsTravelItineraryAddInfoLLSRQ.cs" />
+    <Compile Include="Air\Constant.cs" />
+    <Compile Include="Air\Enum_PreferLevelType.cs" />
+    <Compile Include="Air\IAddRemarkService.cs" />
+    <Compile Include="Air\ITravelItineraryAddInfoService.cs" />
+    <Compile Include="Air\Negocios_WebService_OTA_AirLowFareSearch.cs" />
+    <Compile Include="Air\Proxy_AddRemarkLLS.cs" />
+    <Compile Include="Air\Proxy_TravelItineraryAddInfoLLS.cs" />
+    <Compile Include="Air\VO_BargainFinderMax_ADRQ.cs" />
+    <Compile Include="Air\VO_CabinPref.cs" />
+    <Compile Include="Air\VO_MessageHeader.cs" />
+    <Compile Include="Air\VO_Priority.cs" />
+    <Compile Include="Air\VO_SabreBase.cs" />
+    <Compile Include="Air\VO_TravelerInfoSummary.cs" />
+    <Compile Include="Air\VO_VendorPref.cs" />
+    <Compile Include="General\Autenticacion\AutenticacionSabre.cs" />
+    <Compile Include="General\clsDisplayPriceQuote.cs" />
+    <Compile Include="General\clsRulesFromPrice.cs" />
+    <Compile Include="General\clsSabreBase.cs" />
+    <Compile Include="General\clsSessionClose.cs" />
+    <Compile Include="General\clsSessionCreateRQ.cs" />
+    <Compile Include="General\clsSessionValidate.cs" />
+    <Compile Include="General\Comando\Negocios_WebServiceSabreCommand.cs" />
+    <Compile Include="General\Comando\WebService_SabreCommand.cs" />
+    <Compile Include="General\Remark\Negocios_WebServiceRemark.cs" />
+    <Compile Include="General\Remark\WebService_Remark.cs" />
+    <Compile Include="General\Session\Negocios_WebServiceSession.cs" />
+    <Compile Include="General\Session\WebService_Session.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Utilidades\clsEsquema.cs" />
+    <Compile Include="Utilidades\clsValidacionesVuelos.cs" />
+    <Compile Include="Utilidades\clsPasajeros.cs" />
+    <Compile Include="Utilidades\SesionesWs.cs" />
+    <Compile Include="Web References\AirTicketRQ\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\BargainFinderPlus\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\DesignatePrinterRQ\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\DisplayPriceQuote\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\EndTransactionRQ\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\OTA_AirAvail\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\OTA_AirBook\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\OTA_AirLowFareSearch\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\OTA_AirPrice\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\OTA_AirRules\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\OTA_Cancel\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\OTA_TravelItineraryRead\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\RulesFromPrice\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\SabreCommandLLS\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\SessionClose\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\SessionCreateRQ\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\SessionValidate\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\ShortSell\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\SWS_BargainFinderMaxRQ\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://cert.webservices.sabre.com/wsdl/sabreXML1.0.00/tpf/RulesFromPriceLLSRQ.wsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\RulesFromPrice\</RelPath>
+      <UpdateFromURL>http://cert.webservices.sabre.com/wsdl/sabreXML1.0.00/tpf/RulesFromPriceLLSRQ.wsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>WS_SsoftSabre_RulesFromPriceRQ_RulesFromPriceService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://webservices.sabre.com/wsdl/sabreXML1.0.00/BFM/BargainFinderMaxRQ_v1-4-5.wsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\SWS_BargainFinderMaxRQ\</RelPath>
+      <UpdateFromURL>http://webservices.sabre.com/wsdl/sabreXML1.0.00/BFM/BargainFinderMaxRQ_v1-4-5.wsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>WS_SsoftSabre_SWS_BargainFinderMaxRQ_BargainFinderMaxService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://webservices.sabre.com/wsdl/sabreXML1.0.00/tpf/AirTicketLLS1.8.1RQ.wsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\AirTicketRQ\</RelPath>
+      <UpdateFromURL>http://webservices.sabre.com/wsdl/sabreXML1.0.00/tpf/AirTicketLLS1.8.1RQ.wsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>WS_SsoftSabre_AirTicketRQ_AirTicketService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://webservices.sabre.com/wsdl/sabreXML1.0.00/tpf/BargainFinderPlusLLS1.7.1RQ.wsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\BargainFinderPlus\</RelPath>
+      <UpdateFromURL>http://webservices.sabre.com/wsdl/sabreXML1.0.00/tpf/BargainFinderPlusLLS1.7.1RQ.wsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>WS_SsoftSabre_BargainFinderPlus_BargainFinderPlusService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://webservices.sabre.com/wsdl/sabreXML1.0.00/tpf/DesignatePrinterLLS1.1.1RQ.wsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\DesignatePrinterRQ\</RelPath>
+      <UpdateFromURL>http://webservices.sabre.com/wsdl/sabreXML1.0.00/tpf/DesignatePrinterLLS1.1.1RQ.wsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>WS_SsoftSabre_DesignatePrinterRQ_DesignatePrinterService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://webservices.sabre.com/wsdl/sabreXML1.0.00/tpf/DisplayPriceQuoteLLS1.5.1RQ.wsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\DisplayPriceQuote\</RelPath>
+      <UpdateFromURL>http://webservices.sabre.com/wsdl/sabreXML1.0.00/tpf/DisplayPriceQuoteLLS1.5.1RQ.wsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>WS_SsoftSabre_DisplayPriceQuote_DisplayPriceQuoteService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://webservices.sabre.com/wsdl/sabreXML1.0.00/tpf/EndTransactionLLS1.4.1RQ.wsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\EndTransactionRQ\</RelPath>
+      <UpdateFromURL>http://webservices.sabre.com/wsdl/sabreXML1.0.00/tpf/EndTransactionLLS1.4.1RQ.wsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>WS_SsoftSabre_EndTransactionRQ1_EndTransactionService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://webservices.sabre.com/wsdl/sabreXML1.0.00/tpf/OTA_AirAvailLLS1.9.1RQ.wsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\OTA_AirAvail\</RelPath>
+      <UpdateFromURL>http://webservices.sabre.com/wsdl/sabreXML1.0.00/tpf/OTA_AirAvailLLS1.9.1RQ.wsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>WS_SsoftSabre_OTA_AirAvail_OTA_AirAvailService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://webservices.sabre.com/wsdl/sabreXML1.0.00/tpf/OTA_AirBookLLS1.4.1RQ.wsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\OTA_AirBook\</RelPath>
+      <UpdateFromURL>http://webservices.sabre.com/wsdl/sabreXML1.0.00/tpf/OTA_AirBookLLS1.4.1RQ.wsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>WS_SsoftSabre_OTA_AirBook_OTA_AirBookService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://webservices.sabre.com/wsdl/sabreXML1.0.00/tpf/OTA_AirLowFareSearchLLS1.9.1RQ.wsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\OTA_AirLowFareSearch\</RelPath>
+      <UpdateFromURL>http://webservices.sabre.com/wsdl/sabreXML1.0.00/tpf/OTA_AirLowFareSearchLLS1.9.1RQ.wsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>WS_SsoftSabre_OTA_AirLowFareSearch_OTA_AirLowFareSearchService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://webservices.sabre.com/wsdl/sabreXML1.0.00/tpf/OTA_AirPriceLLS1.13.1RQ.wsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\OTA_AirPrice\</RelPath>
+      <UpdateFromURL>http://webservices.sabre.com/wsdl/sabreXML1.0.00/tpf/OTA_AirPriceLLS1.13.1RQ.wsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>WS_SsoftSabre_OTA_AirPrice_OTA_AirPriceService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://webservices.sabre.com/wsdl/sabreXML1.0.00/tpf/OTA_AirRulesLLS1.4.1RQ.wsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\OTA_AirRules\</RelPath>
+      <UpdateFromURL>http://webservices.sabre.com/wsdl/sabreXML1.0.00/tpf/OTA_AirRulesLLS1.4.1RQ.wsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>WS_SsoftSabre_OTA_AirRules_OTA_AirRulesService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://webservices.sabre.com/wsdl/sabreXML1.0.00/tpf/OTA_CancelLLSRQ.wsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\OTA_Cancel\</RelPath>
+      <UpdateFromURL>http://webservices.sabre.com/wsdl/sabreXML1.0.00/tpf/OTA_CancelLLSRQ.wsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>WS_SsoftSabre_OTA_Cancel_OTA_CancelService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://webservices.sabre.com/wsdl/sabreXML1.0.00/tpf/OTA_TravelItineraryReadLLS1.9.1RQ.wsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\OTA_TravelItineraryRead\</RelPath>
+      <UpdateFromURL>http://webservices.sabre.com/wsdl/sabreXML1.0.00/tpf/OTA_TravelItineraryReadLLS1.9.1RQ.wsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>WS_SsoftSabre_OTA_TravelItineraryRead_OTA_TravelItineraryService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://webservices.sabre.com/wsdl/sabreXML1.0.00/tpf/SabreCommandLLS1.6.1RQ.wsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\SabreCommandLLS\</RelPath>
+      <UpdateFromURL>http://webservices.sabre.com/wsdl/sabreXML1.0.00/tpf/SabreCommandLLS1.6.1RQ.wsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>WS_SsoftSabre_SabreCommandLLS_SabreCommandLLSService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://webservices.sabre.com/wsdl/sabreXML1.0.00/tpf/ShortSellLLSRQ.wsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\ShortSell\</RelPath>
+      <UpdateFromURL>http://webservices.sabre.com/wsdl/sabreXML1.0.00/tpf/ShortSellLLSRQ.wsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>WS_SsoftSabre_ShortSell_ShortSellService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://webservices.sabre.com/wsdl/sabreXML1.0.00/usg/SessionCloseRQ.wsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\SessionClose\</RelPath>
+      <UpdateFromURL>http://webservices.sabre.com/wsdl/sabreXML1.0.00/usg/SessionCloseRQ.wsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>WS_SsoftSabre_SessionClose_SessionCloseRQService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://webservices.sabre.com/wsdl/sabreXML1.0.00/usg/SessionCreateRQ.wsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\SessionCreateRQ\</RelPath>
+      <UpdateFromURL>http://webservices.sabre.com/wsdl/sabreXML1.0.00/usg/SessionCreateRQ.wsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>WS_SsoftSabre_SessionCreateRQ_SessionCreateRQService</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://webservices.sabre.com/wsdl/sabreXML1.0.00/usg/SessionValidateRQ.wsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\SessionValidate\</RelPath>
+      <UpdateFromURL>http://webservices.sabre.com/wsdl/sabreXML1.0.00/usg/SessionValidateRQ.wsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>WS_SsoftSabre_SessionValidate_SessionValidateRQService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\AirTicketRQ\AirTicketLLS1.wsdl" />
+    <None Include="Web References\AirTicketRQ\AirTicketLLS1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\AirTicketRQ\AirTicketLLS10.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\AirTicketRQ\AirTicketLLS11.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\AirTicketRQ\AirTicketRS.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\AirTicketRQ\env.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\AirTicketRQ\envelope.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\AirTicketRQ\msg-header-2_0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\AirTicketRQ\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\AirTicketRQ\wsse.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\AirTicketRQ\xlink.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\AirTicketRQ\xml.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\AirTicketRQ\xmldsig-core-schema.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\BargainFinderPlus\BargainFinderPlusLLS1.wsdl" />
+    <None Include="Web References\BargainFinderPlus\BargainFinderPlusLLS1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\BargainFinderPlus\BargainFinderPlusLLS10.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\BargainFinderPlus\BargainFinderPlusLLS11.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\BargainFinderPlus\BargainFinderPlusRS.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\BargainFinderPlus\env.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\BargainFinderPlus\envelope.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\BargainFinderPlus\msg-header-2_0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\BargainFinderPlus\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\BargainFinderPlus\wsse.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\BargainFinderPlus\xlink.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\BargainFinderPlus\xml.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\BargainFinderPlus\xmldsig-core-schema.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\DesignatePrinterRQ\DesignatePrinterLLS1.wsdl" />
+    <None Include="Web References\DesignatePrinterRQ\DesignatePrinterLLS1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\DesignatePrinterRQ\DesignatePrinterLLS10.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\DesignatePrinterRQ\DesignatePrinterLLS11.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\DesignatePrinterRQ\DesignatePrinterRS.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DesignatePrinterRQ\env.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\DesignatePrinterRQ\envelope.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\DesignatePrinterRQ\msg-header-2_0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\DesignatePrinterRQ\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\DesignatePrinterRQ\wsse.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\DesignatePrinterRQ\xlink.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\DesignatePrinterRQ\xml.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\DesignatePrinterRQ\xmldsig-core-schema.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\DisplayPriceQuote\DisplayPriceQuoteLLS1.wsdl" />
+    <None Include="Web References\DisplayPriceQuote\DisplayPriceQuoteLLS1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\DisplayPriceQuote\DisplayPriceQuoteLLS10.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\DisplayPriceQuote\DisplayPriceQuoteLLS11.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\DisplayPriceQuote\DisplayPriceQuoteRS.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\DisplayPriceQuote\env.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\DisplayPriceQuote\envelope.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\DisplayPriceQuote\msg-header-2_0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\DisplayPriceQuote\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\DisplayPriceQuote\wsse.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\DisplayPriceQuote\xlink.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\DisplayPriceQuote\xml.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\DisplayPriceQuote\xmldsig-core-schema.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\EndTransactionRQ\EndTransactionLLS1.wsdl" />
+    <None Include="Web References\EndTransactionRQ\EndTransactionLLS1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\EndTransactionRQ\EndTransactionLLS10.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\EndTransactionRQ\EndTransactionLLS11.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\EndTransactionRQ\EndTransactionLLS11.xsx">
+      <DependentUpon>EndTransactionLLS11.xsd</DependentUpon>
+    </None>
+    <None Include="Web References\EndTransactionRQ\EndTransactionRS1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\EndTransactionRQ\env.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\EndTransactionRQ\envelope.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\EndTransactionRQ\msg-header-2_0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\EndTransactionRQ\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\EndTransactionRQ\wsse.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\EndTransactionRQ\xlink.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\EndTransactionRQ\xml.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\EndTransactionRQ\xmldsig-core-schema.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirAvail\envelope.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirAvail\msg-header-2_0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirAvail\OTA_AirAvailLLS1.wsdl" />
+    <None Include="Web References\OTA_AirAvail\OTA_AirAvailLLS1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirAvail\OTA_AirAvailLLS10.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirAvail\OTA_AirAvailLLS11.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirAvail\OTA_AirAvailRS.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\OTA_AirAvail\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\OTA_AirAvail\wsse.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirAvail\xlink.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirAvail\xml.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirAvail\xmldsig-core-schema.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirBook\envelope.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirBook\msg-header-2_0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirBook\OTA_AirBookLLS1.wsdl" />
+    <None Include="Web References\OTA_AirBook\OTA_AirBookLLS1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirBook\OTA_AirBookLLS10.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirBook\OTA_AirBookLLS11.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirBook\OTA_AirBookRS.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\OTA_AirBook\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\OTA_AirBook\wsse.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirBook\xlink.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirBook\xml.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirBook\xmldsig-core-schema.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirLowFareSearch\env.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirLowFareSearch\envelope.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirLowFareSearch\msg-header-2_0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirLowFareSearch\OTA_AirLowFareSearchLLS1.wsdl" />
+    <None Include="Web References\OTA_AirLowFareSearch\OTA_AirLowFareSearchLLS1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirLowFareSearch\OTA_AirLowFareSearchLLS10.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirLowFareSearch\OTA_AirLowFareSearchLLS11.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirLowFareSearch\OTA_AirLowFareSearchLLS11.xsx">
+      <DependentUpon>OTA_AirLowFareSearchLLS11.xsd</DependentUpon>
+    </None>
+    <None Include="Web References\OTA_AirLowFareSearch\OTA_AirLowFareSearchRS.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\OTA_AirLowFareSearch\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\OTA_AirLowFareSearch\wsse.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirLowFareSearch\xlink.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirLowFareSearch\xml.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirLowFareSearch\xmldsig-core-schema.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirPrice\env.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirPrice\envelope.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirPrice\msg-header-2_0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirPrice\OTA_AirPriceLLS1.wsdl" />
+    <None Include="Web References\OTA_AirPrice\OTA_AirPriceLLS1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirPrice\OTA_AirPriceLLS10.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirPrice\OTA_AirPriceLLS11.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirPrice\OTA_AirPriceRS.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\OTA_AirPrice\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\OTA_AirPrice\wsse.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirPrice\xlink.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirPrice\xml.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirPrice\xmldsig-core-schema.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirRules\env.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirRules\envelope.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirRules\msg-header-2_0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirRules\OTA_AirRulesLLS1.wsdl" />
+    <None Include="Web References\OTA_AirRules\OTA_AirRulesLLS1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirRules\OTA_AirRulesLLS10.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirRules\OTA_AirRulesLLS11.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirRules\OTA_AirRulesRS.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\OTA_AirRules\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\OTA_AirRules\wsse.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirRules\xlink.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirRules\xml.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_AirRules\xmldsig-core-schema.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_Cancel\env.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_Cancel\envelope.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_Cancel\msg-header-2_0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_Cancel\OTA_CancelLLSRQ.wsdl" />
+    <None Include="Web References\OTA_Cancel\OTA_CancelLLSRQ.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_Cancel\OTA_CancelLLSRQRS.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_Cancel\OTA_CancelLLSRS.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_Cancel\OTA_CancelRS.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\OTA_Cancel\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\OTA_Cancel\wsse.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_Cancel\xlink.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_Cancel\xml.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_Cancel\xmldsig-core-schema.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_TravelItineraryRead\env.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_TravelItineraryRead\envelope.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_TravelItineraryRead\msg-header-2_0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_TravelItineraryRead\OTA_TravelItineraryReadLLS1.wsdl" />
+    <None Include="Web References\OTA_TravelItineraryRead\OTA_TravelItineraryReadLLS1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_TravelItineraryRead\OTA_TravelItineraryReadLLS10.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_TravelItineraryRead\OTA_TravelItineraryReadLLS11.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_TravelItineraryRead\OTA_TravelItineraryRS.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\OTA_TravelItineraryRead\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\OTA_TravelItineraryRead\wsse.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_TravelItineraryRead\xlink.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_TravelItineraryRead\xml.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\OTA_TravelItineraryRead\xmldsig-core-schema.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\RulesFromPrice\env.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\RulesFromPrice\envelope.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\RulesFromPrice\msg-header-2_0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\RulesFromPrice\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\RulesFromPrice\RulesFromPriceLLSRQ.wsdl" />
+    <None Include="Web References\RulesFromPrice\RulesFromPriceLLSRQ.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\RulesFromPrice\RulesFromPriceLLSRQRS.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\RulesFromPrice\RulesFromPriceLLSRS.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\RulesFromPrice\RulesFromPriceRS1.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\RulesFromPrice\wsse.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\RulesFromPrice\xlink.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\RulesFromPrice\xml.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\RulesFromPrice\xmldsig-core-schema.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SabreCommandLLS\env.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SabreCommandLLS\envelope.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SabreCommandLLS\msg-header-2_0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SabreCommandLLS\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\SabreCommandLLS\SabreCommandLLS1.wsdl" />
+    <None Include="Web References\SabreCommandLLS\SabreCommandLLS1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SabreCommandLLS\SabreCommandLLS10.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SabreCommandLLS\SabreCommandLLS11.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SabreCommandLLS\SabreCommandLLSRS.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\SabreCommandLLS\wsse.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SabreCommandLLS\xlink.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SabreCommandLLS\xml.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SabreCommandLLS\xmldsig-core-schema.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SessionClose\env.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SessionClose\envelope.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SessionClose\msg-header-2_0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SessionClose\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\SessionClose\SessionCloseRQ.wsdl" />
+    <None Include="Web References\SessionClose\SessionCloseRQ.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SessionClose\SessionCloseRQRS.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SessionClose\SessionCloseRS.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\SessionClose\SessionCloseRS.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SessionClose\wsse.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SessionClose\xlink.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SessionClose\xml.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SessionClose\xmldsig-core-schema.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SessionCreateRQ\env.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SessionCreateRQ\envelope.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SessionCreateRQ\msg-header-2_0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SessionCreateRQ\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\SessionCreateRQ\SessionCreateRQ.wsdl" />
+    <None Include="Web References\SessionCreateRQ\SessionCreateRQ.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SessionCreateRQ\SessionCreateRQRS.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SessionCreateRQ\SessionCreateRS.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\SessionCreateRQ\SessionCreateRS.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SessionCreateRQ\wsse.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SessionCreateRQ\xlink.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SessionCreateRQ\xml.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SessionCreateRQ\xmldsig-core-schema.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SessionValidate\env.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SessionValidate\envelope.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SessionValidate\msg-header-2_0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SessionValidate\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\SessionValidate\SessionValidateRQ.wsdl" />
+    <None Include="Web References\SessionValidate\SessionValidateRQ.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SessionValidate\SessionValidateRQRS.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SessionValidate\SessionValidateRS.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SessionValidate\wsse.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SessionValidate\xlink.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SessionValidate\xml.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SessionValidate\xmldsig-core-schema.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\ShortSell\env.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\ShortSell\envelope.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\ShortSell\msg-header-2_0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\ShortSell\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\ShortSell\ShortSellLLSRQ.wsdl" />
+    <None Include="Web References\ShortSell\ShortSellLLSRQ.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\ShortSell\ShortSellLLSRQRS.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\ShortSell\ShortSellLLSRS.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\ShortSell\ShortSellRS.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\ShortSell\wsse.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\ShortSell\xlink.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\ShortSell\xml.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\ShortSell\xmldsig-core-schema.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SWS_BargainFinderMaxRQ\BargainFinderMaxRQRS_v1-4-5.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SWS_BargainFinderMaxRQ\BargainFinderMaxRQ_v1-4-5.wsdl" />
+    <None Include="Web References\SWS_BargainFinderMaxRQ\envelope.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SWS_BargainFinderMaxRQ\msg-header-2_0.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SWS_BargainFinderMaxRQ\OTA_AirLowFareSearchRS.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\SWS_BargainFinderMaxRQ\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\SWS_BargainFinderMaxRQ\wsse.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SWS_BargainFinderMaxRQ\xlink.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SWS_BargainFinderMaxRQ\xml.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Web References\SWS_BargainFinderMaxRQ\xmldsig-core-schema.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://www.hotelbeds.com/schemas/2005/06/messages" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.hotelbeds.com/schemas/2005/06/messages" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:include schemaLocation="HotelbedsCommonTypes.xsd"/>
+	<xs:element name="TicketDetailRS">
+		<xs:annotation>
+			<xs:documentation>Response data containing the ticket detailed information.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="CoreResponse">
+					<xs:sequence minOccurs="0">
+						<xs:element name="Ticket" type="ProductTicket" maxOccurs="unbounded">
+							<xs:annotation>
+								<xs:documentation>Ticket detailed information. If more than one ticket product information is returned it means that this product is a product agrupation.</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

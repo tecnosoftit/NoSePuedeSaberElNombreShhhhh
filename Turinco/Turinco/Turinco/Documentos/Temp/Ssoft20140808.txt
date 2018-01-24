@@ -1,0 +1,8 @@
+Fecha:           2014/08/08 11:27
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/Presentacion/Index.aspx
+Complmeneto: ResultadoVuelos.aspx?COTAIR
+Sesion Local: 635430937763880370ssimpg1blestayxi2gvibktb
+Sesion WS: 
+

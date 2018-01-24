@@ -1,0 +1,111 @@
+<ServiceRemoveRS xmlns="http://www.hotelbeds.com/schemas/2005/06/messages" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.hotelbeds.com/schemas/2005/06/messages ServiceRemoveRS.xsd" echoToken="ServiceRemoveRS">
+	<AuditData>
+		<ProcessTime>94</ProcessTime>
+		<Timestamp>2007-03-19 12:54:36.965</Timestamp>
+		<RequestHost>172.22.136.4</RequestHost>
+		<ServerName>LIVE</ServerName>
+		<ServerId>11</ServerId>
+		<SchemaRelease>2005/06</SchemaRelease>
+		<HydraCoreRelease>2.0.200703060941</HydraCoreRelease>
+		<HydraEnumerationsRelease>1.0.200703060941</HydraEnumerationsRelease>
+		<MerlinRelease>N/A</MerlinRelease>
+	</AuditData>
+	<Purchase purchaseToken="11125326328" timeToExpiration="1729540">
+		<Status>SHOPPING_CART</Status>
+		<Agency>
+			<Code>30543</Code>
+			<Branch>1</Branch>
+		</Agency>
+		<Language>CAS</Language>
+		<ServiceList>
+			<Service xsi:type="ServiceTransfer" transferType="IN" SPUI="1#T#1">
+				<Status>NEW</Status>
+				<ContractList>
+					<Contract>
+						<Name>MIN-ESTE COMP</Name>
+						<IncomingOffice code="1"/>
+						<Sequence>29515</Sequence>
+					</Contract>
+				</ContractList>
+				<Supplier name="HOTELBEDS SPAIN S.L.U." vatNumber="B28916765"/>
+				<DateFrom date="20070419" time="1800"/>
+				<Currency code="EUR">Euro</Currency>
+				<TotalAmount>94.770</TotalAmount>
+				<AdditionalCostList>
+					<AdditionalCost type="AG_COMMISSION">
+						<Price>
+							<Amount>13.270</Amount>
+						</Price>
+					</AdditionalCost>
+					<AdditionalCost type="COMMISSION_VAT">
+						<Price>
+							<Amount>2.120</Amount>
+						</Price>
+					</AdditionalCost>
+				</AdditionalCostList>
+				<ModificationPolicyList>
+					<ModificationPolicy>Cancellation</ModificationPolicy>
+					<ModificationPolicy>Confirmation</ModificationPolicy>
+				</ModificationPolicyList>
+				<TransferInfo xsi:type="ProductTransfer">
+					<Code>1#T#1</Code>
+					<Type code="B">Compartido</Type>
+					<VehicleType code="B">Bus</VehicleType>
+				</TransferInfo>
+				<Paxes>
+					<AdultCount>2</AdultCount>
+					<ChildCount>0</ChildCount>
+					<GuestList>
+						<Customer type="AD">
+							<CustomerId>3</CustomerId>
+							<Age>30</Age>
+						</Customer>
+						<Customer type="AD">
+							<CustomerId>4</CustomerId>
+							<Age>30</Age>
+						</Customer>
+					</GuestList>
+				</Paxes>
+				<PickupLocation xsi:type="ProductTransferTerminal">
+					<Code>PMI</Code>
+					<Name>PALMA DE MALLORCA - SON SAN JOAN AIRPORT</Name>
+					<TransferZone xsi:type="ProductZone">
+						<Code>AEROPUERTO</Code>
+						<Name>Aeropuerto son sant joan</Name>
+					</TransferZone>
+					<Country code="ES">
+						<Name>ESPAÑA</Name>
+					</Country>
+				</PickupLocation>
+				<DestinationLocation xsi:type="ProductTransferHotel">
+					<Code>14947</Code>
+					<Name>Sur</Name>
+					<TransferZone xsi:type="ProductZone">
+						<Code>CBONA</Code>
+						<Name>CBONA</Name>
+					</TransferZone>
+				</DestinationLocation>
+				<TravelInfo>
+					<DepartInfo xsi:type="ProductTransferTerminal">
+						<Code>BCN</Code>
+						<Name>BARCELONA - EL PRAT AIRPORT</Name>
+						<DateTime date="20070419" time="1800"/>
+						<Country code="ES">
+							<Name>ESPAÑA</Name>
+						</Country>
+					</DepartInfo>
+					<ArrivalInfo xsi:type="ProductTransferTerminal">
+						<Code>PMI</Code>
+						<Name>PALMA DE MALLORCA - SON SAN JOAN AIRPORT</Name>
+						<Country code="ES">
+							<Name>ESPAÑA</Name>
+						</Country>
+					</ArrivalInfo>
+					<TravelNumber>1234</TravelNumber>
+				</TravelInfo>
+			</Service>
+		</ServiceList>
+		<Currency code="EUR"/>
+		<TotalPrice>94.770</TotalPrice>
+	</Purchase>
+</ServiceRemoveRS>

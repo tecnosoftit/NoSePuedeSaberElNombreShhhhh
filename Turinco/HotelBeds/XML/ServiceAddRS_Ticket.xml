@@ -1,0 +1,113 @@
+<ServiceAddRS xmlns="http://www.hotelbeds.com/schemas/2005/06/messages" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.hotelbeds.com/schemas/2005/06/messages ServiceAddRS.xsd" echoToken="DummyEchoToken">
+	<AuditData>
+		<ProcessTime>2224</ProcessTime>
+		<Timestamp>2007-10-15 11:55:39.362</Timestamp>
+		<RequestHost>10.0.43.88, 10.0.1.82</RequestHost>
+		<ServerName>SIS</ServerName>
+		<ServerId>00</ServerId>
+		<SchemaRelease>2005/06</SchemaRelease>
+		<HydraCoreRelease>2.0.200709181903</HydraCoreRelease>
+		<HydraEnumerationsRelease>1.0.200709181903</HydraEnumerationsRelease>
+		<MerlinRelease>N/A</MerlinRelease>
+	</AuditData>
+	<Purchase purchaseToken="00115538010" timeToExpiration="1799210">
+		<Status>SHOPPING_CART</Status>
+		<Agency>
+			<Code>30543</Code>
+			<Branch>1</Branch>
+		</Agency>
+		<Language>CAS</Language>
+		<CreationUser>16783</CreationUser>
+		<ServiceList>
+			<Service xsi:type="ServiceTicket" SPUI="1#O#1">
+				<Status>NEW</Status>
+				<ContractList>
+					<Contract>
+						<Name>PALMA AQUARIUM</Name>
+						<IncomingOffice code="1"/>
+					</Contract>
+				</ContractList>
+				<Supplier name="HOTELBEDS SPAIN S.L.U." vatNumber="B28916765"/>
+				<CommentList>
+					<Comment type="CONTRACT">El cliente puede cambiar el bono en la taquilla de Palma Aquarium. Horario: Mayo: Lunes a Viernes de 10.00 a 18.00 hrs. Sábado y Domingo de 10.00 a 19.00 hrs. Junio, Septiembre y Octubre:: Lunes a Viernes de 09.30 a 18.00 hrs. Sábado y Domingo de 10.00 a 19.00 hrs. Julio y Agosto: Lunes a Viernes de 09.00 a 19.00 hrs. Sábado y Domingo de 09.00 a 20.00 hrs. Noviembre y Diciembre: Lunes a Domingo de 10.00 a 17.00 hrs.</Comment>
+				</CommentList>
+				<DateFrom date="20071215"/>
+				<DateTo date="20071215"/>
+				<Currency code="EUR">Euro</Currency>
+				<TotalAmount>17.850</TotalAmount>
+				<AdditionalCostList>
+					<AdditionalCost type="AG_COMMISSION">
+						<Price>
+							<Amount>2.500</Amount>
+						</Price>
+					</AdditionalCost>
+					<AdditionalCost type="COMMISSION_VAT">
+						<Price>
+							<Amount>0.400</Amount>
+						</Price>
+					</AdditionalCost>
+				</AdditionalCostList>
+				<ModificationPolicyList>
+					<ModificationPolicy>Cancellation</ModificationPolicy>
+					<ModificationPolicy>Confirmation</ModificationPolicy>
+				</ModificationPolicyList>
+				<TicketInfo xsi:type="ProductTicket">
+					<Code>PALMAAQUAR</Code>
+					<Name>Palma Aquarium</Name>
+					<Destination type="SIMPLE" code="PMI">
+						<Name>Mallorca</Name>
+					</Destination>
+					<TicketZone xsi:type="ProductZone"/>
+				</TicketInfo>
+				<AvailableModality code="GENERAL">
+					<Name>Entrada General</Name>
+					<Contract>
+						<Name>PALMA AQUARIUM</Name>
+						<IncomingOffice code="1"/>
+					</Contract>
+					<PriceList>
+						<Price>
+							<Amount>17.851</Amount>
+							<Description>Adults Price</Description>
+						</Price>
+						<Price>
+							<Amount>0.000</Amount>
+							<Description>Babies Price</Description>
+						</Price>
+						<Price>
+							<Amount>0.000</Amount>
+							<Description>Children Price</Description>
+						</Price>
+						<Price>
+							<Amount>17.851</Amount>
+							<Description>Total Price</Description>
+						</Price>
+					</PriceList>
+				</AvailableModality>
+				<Paxes>
+					<AdultCount>1</AdultCount>
+					<ChildCount>0</ChildCount>
+					<GuestList>
+						<Customer type="AD">
+							<CustomerId>1</CustomerId>
+							<Age>30</Age>
+						</Customer>
+						<Customer type="AD">
+							<CustomerId>2</CustomerId>
+							<Age>30</Age>
+						</Customer>
+					</GuestList>
+				</Paxes>
+				<CancellationPolicyList>
+					<Price>
+						<Amount>17.850</Amount>
+						<DateTimeFrom date="20071215"/>
+						<DateTimeTo date="20071215"/>
+					</Price>
+				</CancellationPolicyList>
+			</Service>
+		</ServiceList>
+		<Currency code="EUR"/>
+		<TotalPrice>17.850</TotalPrice>
+	</Purchase>
+</ServiceAddRS>

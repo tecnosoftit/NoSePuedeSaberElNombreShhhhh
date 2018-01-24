@@ -1,0 +1,201 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Turinco", "Turinco", "{BA3897DA-A951-4F6F-8486-4BC0EEC291E4}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{EDE1E872-C11A-49C0-B1DE-305A92E1BA3C}|Ssoft.dll;{2F9FC20B-2BEF-427E-ABDD-F2A2FF42A32A}|Ssoft.Pages.dll;{34FEA7BE-C6F6-4649-B5AB-0249B98CE9D9}|SsoftQuery.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/Turinco"
+		Debug.AspNetCompiler.PhysicalPath = "Turinco\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Turinco\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Turinco"
+		Release.AspNetCompiler.PhysicalPath = "Turinco\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Turinco\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "12153"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{2F9FC20B-2BEF-427E-ABDD-F2A2FF42A32A} = {2F9FC20B-2BEF-427E-ABDD-F2A2FF42A32A}
+		{EDE1E872-C11A-49C0-B1DE-305A92E1BA3C} = {EDE1E872-C11A-49C0-B1DE-305A92E1BA3C}
+		{EFAFB7BC-A7B6-40B3-AFA4-AFD8CC271EA8} = {EFAFB7BC-A7B6-40B3-AFA4-AFD8CC271EA8}
+		{34FEA7BE-C6F6-4649-B5AB-0249B98CE9D9} = {34FEA7BE-C6F6-4649-B5AB-0249B98CE9D9}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Soft", "Soft", "{EB31D59C-A0DC-4026-8792-DA45524F537E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Page", "Page", "{8E99FB39-7B00-47DA-980A-5A50620C9C42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ssoft", "..\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.csproj", "{EDE1E872-C11A-49C0-B1DE-305A92E1BA3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ssoft.Pages", "..\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\Ssoft.Pages.csproj", "{2F9FC20B-2BEF-427E-ABDD-F2A2FF42A32A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EDE1E872-C11A-49C0-B1DE-305A92E1BA3C} = {EDE1E872-C11A-49C0-B1DE-305A92E1BA3C}
+		{EFAFB7BC-A7B6-40B3-AFA4-AFD8CC271EA8} = {EFAFB7BC-A7B6-40B3-AFA4-AFD8CC271EA8}
+		{34FEA7BE-C6F6-4649-B5AB-0249B98CE9D9} = {34FEA7BE-C6F6-4649-B5AB-0249B98CE9D9}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SsoftQuery", "SsoftQuery", "{7106364D-A66C-46BC-92F9-E91140464CAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SsoftQuery", "..\SsoftData\SsoftQuery.csproj", "{34FEA7BE-C6F6-4649-B5AB-0249B98CE9D9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EDE1E872-C11A-49C0-B1DE-305A92E1BA3C} = {EDE1E872-C11A-49C0-B1DE-305A92E1BA3C}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sabre", "Sabre", "{B9E8300B-A322-4F7A-8CD7-0ED0844F3B9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WS_SsoftSabre", "..\sabre\WS_SsoftSabreV2\WS_SsoftSabre\WS_SsoftSabre.csproj", "{22F46C39-25B7-4AFF-B695-8781E3C2B47F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rules", "Rules", "{068A63F5-0C6A-47A4-9145-8B282495FCFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ssoft.Rules", "..\Rules\Ssoft.Rules\Ssoft.Rules.csproj", "{EFAFB7BC-A7B6-40B3-AFA4-AFD8CC271EA8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HotelBeds", "HotelBeds", "{42917727-5F72-44A5-BE17-06075BE39466}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WS_SsoftHotelBeds", "..\HotelBeds\WS_SsoftHotelBeds.csproj", "{284DFE99-4C64-4213-8D02-85B73F370365}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://162.248.52.168:8080/tfs/ssoftcolombia
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\SsoftData\\SsoftQuery.csproj
+		SccProjectTopLevelParentUniqueName1 = Turinco.sln
+		SccProjectName1 = ../SsoftData
+		SccLocalPath1 = ..\\SsoftData
+		SccProjectUniqueName2 = ..\\SsoftV4.0.1.0\\SsoftV4.0.1.0\\Ssoft.csproj
+		SccProjectTopLevelParentUniqueName2 = Turinco.sln
+		SccProjectName2 = ../SsoftV4.0.1.0/SsoftV4.0.1.0
+		SccLocalPath2 = ..\\SsoftV4.0.1.0\\SsoftV4.0.1.0
+		SccProjectUniqueName3 = ..\\Ssoft.PagesV4.0.1.0\\Ssoft_Pages_V4.0.1\\Ssoft.PagesV4.0.1.0\\Ssoft.PagesV4.0.1.0\\Ssoft.Pages.csproj
+		SccProjectTopLevelParentUniqueName3 = Turinco.sln
+		SccProjectName3 = ../Ssoft.PagesV4.0.1.0/Ssoft_Pages_V4.0.1/Ssoft.PagesV4.0.1.0/Ssoft.PagesV4.0.1.0
+		SccLocalPath3 = ..\\Ssoft.PagesV4.0.1.0\\Ssoft_Pages_V4.0.1\\Ssoft.PagesV4.0.1.0\\Ssoft.PagesV4.0.1.0
+		SccProjectUniqueName4 = ..\\sabre\\WS_SsoftSabreV2\\WS_SsoftSabre\\WS_SsoftSabre.csproj
+		SccProjectTopLevelParentUniqueName4 = Turinco.sln
+		SccProjectName4 = ../sabre/WS_SsoftSabreV2/WS_SsoftSabre
+		SccLocalPath4 = ..\\sabre\\WS_SsoftSabreV2\\WS_SsoftSabre
+		SccProjectUniqueName5 = ..\\Rules\\Ssoft.Rules\\Ssoft.Rules.csproj
+		SccProjectTopLevelParentUniqueName5 = Turinco.sln
+		SccProjectName5 = ../Rules/Ssoft.Rules
+		SccLocalPath5 = ..\\Rules\\Ssoft.Rules
+		SccWebProject6 = true
+		SccProjectUniqueName6 = Turinco
+		SccProjectName6 = Turinco
+		SccLocalPath6 = Turinco
+		SccProjectEnlistmentChoice6 = 2
+		SccProjectUniqueName7 = ..\\HotelBeds\\WS_SsoftHotelBeds.csproj
+		SccProjectTopLevelParentUniqueName7 = Turinco.sln
+		SccProjectName7 = ../HotelBeds
+		SccLocalPath7 = ..\\HotelBeds
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA3897DA-A951-4F6F-8486-4BC0EEC291E4}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{BA3897DA-A951-4F6F-8486-4BC0EEC291E4}.Debug|.NET.Build.0 = Debug|Any CPU
+		{BA3897DA-A951-4F6F-8486-4BC0EEC291E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA3897DA-A951-4F6F-8486-4BC0EEC291E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA3897DA-A951-4F6F-8486-4BC0EEC291E4}.Release|.NET.ActiveCfg = Debug|Any CPU
+		{BA3897DA-A951-4F6F-8486-4BC0EEC291E4}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA3897DA-A951-4F6F-8486-4BC0EEC291E4}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{EDE1E872-C11A-49C0-B1DE-305A92E1BA3C}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{EDE1E872-C11A-49C0-B1DE-305A92E1BA3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDE1E872-C11A-49C0-B1DE-305A92E1BA3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDE1E872-C11A-49C0-B1DE-305A92E1BA3C}.Release|.NET.ActiveCfg = Release|Any CPU
+		{EDE1E872-C11A-49C0-B1DE-305A92E1BA3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDE1E872-C11A-49C0-B1DE-305A92E1BA3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F9FC20B-2BEF-427E-ABDD-F2A2FF42A32A}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{2F9FC20B-2BEF-427E-ABDD-F2A2FF42A32A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F9FC20B-2BEF-427E-ABDD-F2A2FF42A32A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F9FC20B-2BEF-427E-ABDD-F2A2FF42A32A}.Release|.NET.ActiveCfg = Release|Any CPU
+		{2F9FC20B-2BEF-427E-ABDD-F2A2FF42A32A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F9FC20B-2BEF-427E-ABDD-F2A2FF42A32A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34FEA7BE-C6F6-4649-B5AB-0249B98CE9D9}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{34FEA7BE-C6F6-4649-B5AB-0249B98CE9D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34FEA7BE-C6F6-4649-B5AB-0249B98CE9D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34FEA7BE-C6F6-4649-B5AB-0249B98CE9D9}.Release|.NET.ActiveCfg = Release|Any CPU
+		{34FEA7BE-C6F6-4649-B5AB-0249B98CE9D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34FEA7BE-C6F6-4649-B5AB-0249B98CE9D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22F46C39-25B7-4AFF-B695-8781E3C2B47F}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{22F46C39-25B7-4AFF-B695-8781E3C2B47F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22F46C39-25B7-4AFF-B695-8781E3C2B47F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22F46C39-25B7-4AFF-B695-8781E3C2B47F}.Release|.NET.ActiveCfg = Release|Any CPU
+		{22F46C39-25B7-4AFF-B695-8781E3C2B47F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22F46C39-25B7-4AFF-B695-8781E3C2B47F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFAFB7BC-A7B6-40B3-AFA4-AFD8CC271EA8}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{EFAFB7BC-A7B6-40B3-AFA4-AFD8CC271EA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFAFB7BC-A7B6-40B3-AFA4-AFD8CC271EA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFAFB7BC-A7B6-40B3-AFA4-AFD8CC271EA8}.Release|.NET.ActiveCfg = Release|Any CPU
+		{EFAFB7BC-A7B6-40B3-AFA4-AFD8CC271EA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFAFB7BC-A7B6-40B3-AFA4-AFD8CC271EA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{284DFE99-4C64-4213-8D02-85B73F370365}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{284DFE99-4C64-4213-8D02-85B73F370365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{284DFE99-4C64-4213-8D02-85B73F370365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{284DFE99-4C64-4213-8D02-85B73F370365}.Release|.NET.ActiveCfg = Release|Any CPU
+		{284DFE99-4C64-4213-8D02-85B73F370365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{284DFE99-4C64-4213-8D02-85B73F370365}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EDE1E872-C11A-49C0-B1DE-305A92E1BA3C} = {EB31D59C-A0DC-4026-8792-DA45524F537E}
+		{2F9FC20B-2BEF-427E-ABDD-F2A2FF42A32A} = {8E99FB39-7B00-47DA-980A-5A50620C9C42}
+		{34FEA7BE-C6F6-4649-B5AB-0249B98CE9D9} = {7106364D-A66C-46BC-92F9-E91140464CAA}
+		{22F46C39-25B7-4AFF-B695-8781E3C2B47F} = {B9E8300B-A322-4F7A-8CD7-0ED0844F3B9E}
+		{EFAFB7BC-A7B6-40B3-AFA4-AFD8CC271EA8} = {068A63F5-0C6A-47A4-9145-8B282495FCFB}
+		{284DFE99-4C64-4213-8D02-85B73F370365} = {42917727-5F72-44A5-BE17-06075BE39466}
+	EndGlobalSection
+	GlobalSection( ) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\sabre\\WS_SsoftSabreV2\\WS_SsoftSabre\\WS_SsoftSabre.csproj
+		SccProjectTopLevelParentUniqueName1 = Turinco.sln
+		SccProjectName1 = ../sabre/WS_SsoftSabreV2/WS_SsoftSabre
+		SccLocalPath1 = ..\\sabre\\WS_SsoftSabreV2\\WS_SsoftSabre
+		SccProjectUniqueName2 = ..\\Ssoft.PagesV4.0.1.0\\Ssoft_Pages_V4.0.1\\Ssoft.PagesV4.0.1.0\\Ssoft.PagesV4.0.1.0\\Ssoft.Pages.csproj
+		SccProjectTopLevelParentUniqueName2 = Turinco.sln
+		SccProjectName2 = ../Ssoft.PagesV4.0.1.0/Ssoft_Pages_V4.0.1/Ssoft.PagesV4.0.1.0/Ssoft.PagesV4.0.1.0
+		SccLocalPath2 = ..\\Ssoft.PagesV4.0.1.0\\Ssoft_Pages_V4.0.1\\Ssoft.PagesV4.0.1.0\\Ssoft.PagesV4.0.1.0
+		SccProjectUniqueName3 = ..\\SsoftV4.0.1.0\\SsoftV4.0.1.0\\Ssoft.csproj
+		SccProjectTopLevelParentUniqueName3 = Turinco.sln
+		SccProjectName3 = ../SsoftV4.0.1.0/SsoftV4.0.1.0
+		SccLocalPath3 = ..\\SsoftV4.0.1.0\\SsoftV4.0.1.0
+		SccWebProject4 = true
+		SccProjectUniqueName4 = Turinco
+		SccProjectName4 = Turinco
+		SccLocalPath4 = Turinco
+		SccProjectEnlistmentChoice4 = 2
+		SccProjectUniqueName5 = ..\\SsoftData\\SsoftQuery.csproj
+		SccProjectTopLevelParentUniqueName5 = Turinco.sln
+		SccProjectName5 = ../SsoftData
+		SccLocalPath5 = ..\\SsoftData
+		SccProjectUniqueName6 = ..\\Rules\\Ssoft.Rules\\Ssoft.Rules.csproj
+		SccProjectTopLevelParentUniqueName6 = Turinco.sln
+		SccProjectName6 = ../Rules/Ssoft.Rules
+		SccLocalPath6 = ..\\Rules\\Ssoft.Rules
+	EndGlobalSection
+	GlobalSection( ) = preSolution
+	EndGlobalSection
+	GlobalSection( ) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal

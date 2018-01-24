@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:eb="http://www.ebxml.org/namespaces/messageHeader" xmlns:xsd1="http://webservices.sabre.com/sabreXML/2003/07" xmlns:tns="https://webservices.sabre.com/websvc" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:wsse="http://schemas.xmlsoap.org/ws/2002/12/secext" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="https://webservices.sabre.com/websvc" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <xsd:import schemaLocation="OTA_AirAvailLLS1.9.1RQRS.xsd" namespace="http://webservices.sabre.com/sabreXML/2003/07" />
+      <xsd:import schemaLocation="msg-header-2_0.xsd" namespace="http://www.ebxml.org/namespaces/messageHeader" />
+      <xsd:import schemaLocation="wsse.xsd" namespace="http://schemas.xmlsoap.org/ws/2002/12/secext" />
+    </xsd:schema>
+  </types>
+  <message name="OTA_AirAvailInput">
+    <part name="header" element="eb:MessageHeader" />
+    <part name="header2" element="wsse:Security" />
+    <part name="body" element="xsd1:OTA_AirAvailRQ" />
+  </message>
+  <message name="OTA_AirAvailOutput">
+    <part name="header" element="eb:MessageHeader" />
+    <part name="header2" element="wsse:Security" />
+    <part name="body" element="xsd1:OTA_AirAvailRS" />
+  </message>
+  <portType name="OTA_AirAvailPortType">
+    <operation name="OTA_AirAvailRQ">
+      <input message="tns:OTA_AirAvailInput" />
+      <output message="tns:OTA_AirAvailOutput" />
+    </operation>
+  </portType>
+  <binding name="OTA_AirAvailSoapBinding" type="tns:OTA_AirAvailPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="OTA_AirAvailRQ">
+      <soap:operation soapAction="OTA" />
+      <input>
+        <soap:header message="tns:OTA_AirAvailInput" part="header" use="literal" />
+        <soap:header message="tns:OTA_AirAvailInput" part="header2" use="literal" />
+        <soap:body use="literal" parts="body" />
+      </input>
+      <output>
+        <soap:header message="tns:OTA_AirAvailOutput" part="header" use="literal" />
+        <soap:header message="tns:OTA_AirAvailOutput" part="header2" use="literal" />
+        <soap:body use="literal" parts="body" />
+      </output>
+    </operation>
+  </binding>
+  <service name="OTA_AirAvailService">
+    <port name="OTA_AirAvailPortType" binding="tns:OTA_AirAvailSoapBinding">
+      <soap:address location="https://webservices.sabre.com/websvc" />
+    </port>
+  </service>
+</definitions>

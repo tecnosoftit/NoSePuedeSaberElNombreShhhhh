@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://www.hotelbeds.com/schemas/2005/06/messages" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.hotelbeds.com/schemas/2005/06/messages" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:include schemaLocation="HotelbedsCommonTypes.xsd"/>
+	<xs:element name="TicketAvailRQ">
+		<xs:annotation>
+			<xs:documentation>Request data to obtain a list of available ticket services according to the requested parameters.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="CoreRequest">
+					<xs:sequence>
+						<xs:element name="PaginationData" type="PaginationRequestData">
+							<xs:annotation>
+								<xs:documentation>Pagination data.</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+						<xs:element name="ServiceOccupancy" type="ServiceOccupancy">
+							<xs:annotation>
+								<xs:documentation>Desired occupancy.</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+						<xs:element name="Destination" type="Destination">
+							<xs:annotation>
+								<xs:documentation>Destination.</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+						<xs:element name="DateFrom" type="DateTime">
+							<xs:annotation>
+								<xs:documentation>Start date range to search.</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+						<xs:element name="DateTo" type="DateTime">
+							<xs:annotation>
+								<xs:documentation>End date range to search.</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+						<xs:element name="Classification" type="Classification" minOccurs="0">
+							<xs:annotation>
+								<xs:documentation>Desired ticket classification.</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+						<xs:element name="TicketZone" type="ProductZone" minOccurs="0">
+							<xs:annotation>
+								<xs:documentation>Desired ticket zone.</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+						<xs:element name="Contract" type="Contract" minOccurs="0">
+							<xs:annotation>
+								<xs:documentation>Contract element.</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+						<xs:element name="TicketCode" minOccurs="0">
+							<xs:annotation>
+								<xs:documentation>Search availability for this ticket code.</xs:documentation>
+							</xs:annotation>
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:minLength value="1"/>
+									<xs:maxLength value="10"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:element>
+						<xs:element name="ModalityCode" minOccurs="0">
+							<xs:annotation>
+								<xs:documentation>Search availability for this modality code. A ticket code MUST be provided if you want to filter by modality code.</xs:documentation>
+							</xs:annotation>
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:minLength value="1"/>
+									<xs:maxLength value="13"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:element>
+					</xs:sequence>
+					<xs:attribute name="sessionId" use="required">
+						<xs:annotation>
+							<xs:documentation>Unique session identifier by user. For each new request you must generate a different session id. If you are using pagination and retrieving next pages from a previous initial search you must use the same session id, because the list results are cached using the session id. This is also applicable when changing sort criteria.</xs:documentation>
+						</xs:annotation>
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:minLength value="1"/>
+								<xs:maxLength value="25"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:attribute>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

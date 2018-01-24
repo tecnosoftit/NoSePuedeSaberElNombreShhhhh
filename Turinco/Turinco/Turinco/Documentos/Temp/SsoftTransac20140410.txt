@@ -1,0 +1,2357 @@
+Fecha:           2014/04/10 09:53
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 635327200027325470yysqczedo144jdvtj41p5kou
+Sesion Local: 635327200027325470yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 09:53
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAAL1QF 
+Info:        Response: L1QF.L1QF*AWS.A
+10APR
+SABRE IS PLEASED TO ANNOUNCE EMIRATES/EK AS OUR NEWEST
+GROUP CLAIM PARTICIPANT
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+Source:      Sesion Local: 635327200027325470yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESG!ICESMSLB\/RES.LB!-3676033968354762971!349030!0
+Complmeneto: SabreCommand
+Sesion Local: 635327200027325470yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 09:53
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESG!ICESMSLB\/RES.LB!-3676033968354762971!349030!0
+Source:      Sesion Local: 635327200027325470yysqczedo144jdvtj41p5kou
+StackTrace:  RespuestaL1QF.L1QF*AWS.A
+10APR
+SABRE IS PLEASED TO ANNOUNCE EMIRATES/EK AS OUR NEWEST
+GROUP CLAIM PARTICIPANT
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+TargetSite:  Comando: AAAL1QF 
+Complmeneto: Credenciales: 
+User: 7971
+Password: WS040209
+Ipcc: L1QF
+Pcc: L1QF 
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 635327200027325470yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 09:53
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327200027325470yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESG!ICESMSLB\/RES.LB!-3676033968354762971!349030!0
+Sesion Local: 635327200027325470yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 09:53
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 635327200027325470yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 09:54
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327200027325470yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESG!ICESMSLB\/RES.LB!-3676033968354762971!349030!0
+Sesion Local: 635327200027325470yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 09:54
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     22MAY DEPARTURE DATE-----LAST DAY TO PURCHASE 10APR/2359
+       BASE FARE                     TAXES             TOTAL
+ 1-     COP60000                     22400XT        COP82400ADT
+    XT      9600YS      12800CO 
+           60000                     22400             82400TTL
+ADT-01  UZS07RIQ
+ BOG AV CLO Q22000 38000COP60000END
+NON REF/CHNG FEE100000COP/PLUS FARE DIFF/NON END
+VALIDATING CARRIER - AV
+                                                               
+AIR EXTRAS AVAILABLE - SEE WP*AE
+BAGGAGE INFO AVAILABLE - SEE WP*BAG
+.
+Info:        Comando Sabre: WP
+Complmeneto: Response: 22MAY DEPARTURE DATE-----LAST DAY TO PURCHASE 10APR/2359
+       BASE FARE                     TAXES             TOTAL
+ 1-     COP60000                     22400XT        COP82400ADT
+    XT      9600YS      12800CO 
+           60000                     22400             82400TTL
+ADT-01  UZS07RIQ
+ BOG AV CLO Q22000 38000COP60000END
+NON REF/CHNG FEE100000COP/PLUS FARE DIFF/NON END
+VALIDATING CARRIER - AV
+                                                               
+AIR EXTRAS AVAILABLE - SEE WP*AE
+BAGGAGE INFO AVAILABLE - SEE WP*BAG
+.
+Sesion Local: 635327200027325470yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 09:54
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327200027325470yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESG!ICESMSLB\/RES.LB!-3676033968354762971!349030!0
+Sesion Local: 635327200027325470yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 09:54
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     PRICE QUOTE RECORD RETAINED                                    
+                                                               
+FARE NOT GUARANTEED UNTIL TICKETED                             
+                                                               
+PQ 1                                                           
+                                                               
+       BASE FARE              TAXES/FEES/CHARGES     TOTAL     
+       COP60000                       22400XT       COP82400ADT
+    XT       9600YS      12800CO                               
+ADT-01  UZS07RIQ                                               
+LAST DAY TO PURCHASE 10APR/2359                                
+BOG AV CLO Q22000 38000COP60000END
+VALIDATING CARRIER - AV                                        
+NON REF/CHNG FEE100000COP/PLUS FARE DIFF/NON END               
+01 O BOG AV8409U 22MAY 1208P UZS07RIQ        22MAY1422MAY14 02P
+     CLO                                                       
+FARE SOURCE - ATPC                                             
+VALIDATING CARRIER-AV                                          
+L1QF L1QF *AWS 0954/10APR14                           PRICE-SYS
+                                                               
+
+.
+Info:        Comando Sabre: PQ
+Complmeneto: Response: PRICE QUOTE RECORD RETAINED                                    
+                                                               
+FARE NOT GUARANTEED UNTIL TICKETED                             
+                                                               
+PQ 1                                                           
+                                                               
+       BASE FARE              TAXES/FEES/CHARGES     TOTAL     
+       COP60000                       22400XT       COP82400ADT
+    XT       9600YS      12800CO                               
+ADT-01  UZS07RIQ                                               
+LAST DAY TO PURCHASE 10APR/2359                                
+BOG AV CLO Q22000 38000COP60000END
+VALIDATING CARRIER - AV                                        
+NON REF/CHNG FEE100000COP/PLUS FARE DIFF/NON END               
+01 O BOG AV8409U 22MAY 1208P UZS07RIQ        22MAY1422MAY14 02P
+     CLO                                                       
+FARE SOURCE - ATPC                                             
+VALIDATING CARRIER-AV                                          
+L1QF L1QF *AWS 0954/10APR14                           PRICE-SYS
+                                                               
+
+.
+Sesion Local: 635327200027325470yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 09:59
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 09:59
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAAL1QF 
+Info:        Response: L1QF.L1QF*AWS.A
+10APR
+SABRE IS PLEASED TO ANNOUNCE EMIRATES/EK AS OUR NEWEST
+GROUP CLAIM PARTICIPANT
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+Source:      Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3676032521202260315!410660!0
+Complmeneto: SabreCommand
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 09:59
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3676032521202260315!410660!0
+Source:      Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+StackTrace:  RespuestaL1QF.L1QF*AWS.A
+10APR
+SABRE IS PLEASED TO ANNOUNCE EMIRATES/EK AS OUR NEWEST
+GROUP CLAIM PARTICIPANT
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+TargetSite:  Comando: AAAL1QF 
+Complmeneto: Credenciales: 
+User: 7971
+Password: WS040209
+Ipcc: L1QF
+Pcc: L1QF 
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 09:59
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3676032521202260315!410660!0
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 09:59
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:00
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3676032521202260315!410660!0
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:00
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     17MAY DEPARTURE DATE-----LAST DAY TO PURCHASE 10APR/2359
+       BASE FARE                     TAXES             TOTAL
+ 1-     COP60000                     22400XT        COP82400ADT
+    XT      9600YS      12800CO 
+           60000                     22400             82400TTL
+ADT-01  UZS07RIQ
+ BOG AV CLO Q22000 38000COP60000END
+NON REF/CHNG FEE100000COP/PLUS FARE DIFF/NON END
+VALIDATING CARRIER - AV
+                                                               
+AIR EXTRAS AVAILABLE - SEE WP*AE
+BAGGAGE INFO AVAILABLE - SEE WP*BAG
+.
+Info:        Comando Sabre: WP
+Complmeneto: Response: 17MAY DEPARTURE DATE-----LAST DAY TO PURCHASE 10APR/2359
+       BASE FARE                     TAXES             TOTAL
+ 1-     COP60000                     22400XT        COP82400ADT
+    XT      9600YS      12800CO 
+           60000                     22400             82400TTL
+ADT-01  UZS07RIQ
+ BOG AV CLO Q22000 38000COP60000END
+NON REF/CHNG FEE100000COP/PLUS FARE DIFF/NON END
+VALIDATING CARRIER - AV
+                                                               
+AIR EXTRAS AVAILABLE - SEE WP*AE
+BAGGAGE INFO AVAILABLE - SEE WP*BAG
+.
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:00
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3676032521202260315!410660!0
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:00
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     PRICE QUOTE RECORD RETAINED                                    
+                                                               
+FARE NOT GUARANTEED UNTIL TICKETED                             
+                                                               
+PQ 1                                                           
+                                                               
+       BASE FARE              TAXES/FEES/CHARGES     TOTAL     
+       COP60000                       22400XT       COP82400ADT
+    XT       9600YS      12800CO                               
+ADT-01  UZS07RIQ                                               
+LAST DAY TO PURCHASE 10APR/2359                                
+BOG AV CLO Q22000 38000COP60000END
+VALIDATING CARRIER - AV                                        
+NON REF/CHNG FEE100000COP/PLUS FARE DIFF/NON END               
+01 O BOG AV9231U 17MAY  805A UZS07RIQ        17MAY1417MAY14 02P
+     CLO                                                       
+FARE SOURCE - ATPC                                             
+VALIDATING CARRIER-AV                                          
+L1QF L1QF *AWS 1000/10APR14                           PRICE-SYS
+                                                               
+
+.
+Info:        Comando Sabre: PQ
+Complmeneto: Response: PRICE QUOTE RECORD RETAINED                                    
+                                                               
+FARE NOT GUARANTEED UNTIL TICKETED                             
+                                                               
+PQ 1                                                           
+                                                               
+       BASE FARE              TAXES/FEES/CHARGES     TOTAL     
+       COP60000                       22400XT       COP82400ADT
+    XT       9600YS      12800CO                               
+ADT-01  UZS07RIQ                                               
+LAST DAY TO PURCHASE 10APR/2359                                
+BOG AV CLO Q22000 38000COP60000END
+VALIDATING CARRIER - AV                                        
+NON REF/CHNG FEE100000COP/PLUS FARE DIFF/NON END               
+01 O BOG AV9231U 17MAY  805A UZS07RIQ        17MAY1417MAY14 02P
+     CLO                                                       
+FARE SOURCE - ATPC                                             
+VALIDATING CARRIER-AV                                          
+L1QF L1QF *AWS 1000/10APR14                           PRICE-SYS
+                                                               
+
+.
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:01
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_AgregarInformacionPNR
+Source:      Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+TargetSite:  Credenciales: 
+User: 7971
+Password: WS040209
+Ipcc: L1QF
+Pcc: L1QF 
+QNumber: 41
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3676032521202260315!410660!0
+
+Complmeneto: HostCommand: -DIAZ/CAMILO MRÂ§957012435706Â§PEÂ¥JDIAZ@SSOFTCOLOMBIA.COMÂ¥-1Â§PDTADT-1.1Â§W-TU TIQUETEÂ¥BOGOTA BOG 057Â§9571-3216548-AÂ§7TAW/
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:01
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3676032521202260315!410660!0
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:01
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     * 
+
+Info:        Comando Sabre: 3DOCSA/DB/01JAN60/M/diaz/camilo MR-1.1
+Complmeneto: Response: * 
+
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:01
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3676032521202260315!410660!0
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:01
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     17MAY DEPARTURE DATE-----LAST DAY TO PURCHASE 10APR/2359
+       BASE FARE                     TAXES             TOTAL
+ 1-     COP60000                     22400XT        COP82400ADT
+    XT      9600YS      12800CO 
+           60000                     22400             82400TTL
+ADT-01  UZS07RIQ
+ BOG AV CLO Q22000 38000COP60000END
+NON REF/CHNG FEE100000COP/PLUS FARE DIFF/NON END
+VALIDATING CARRIER - AV
+                                                               
+AIR EXTRAS AVAILABLE - SEE WP*AE
+BAGGAGE INFO AVAILABLE - SEE WP*BAG
+.
+Info:        Comando Sabre: WP
+Complmeneto: Response: 17MAY DEPARTURE DATE-----LAST DAY TO PURCHASE 10APR/2359
+       BASE FARE                     TAXES             TOTAL
+ 1-     COP60000                     22400XT        COP82400ADT
+    XT      9600YS      12800CO 
+           60000                     22400             82400TTL
+ADT-01  UZS07RIQ
+ BOG AV CLO Q22000 38000COP60000END
+NON REF/CHNG FEE100000COP/PLUS FARE DIFF/NON END
+VALIDATING CARRIER - AV
+                                                               
+AIR EXTRAS AVAILABLE - SEE WP*AE
+BAGGAGE INFO AVAILABLE - SEE WP*BAG
+.
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:01
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3676032521202260315!410660!0
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:01
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     PRICE QUOTE RECORD RETAINED                                    
+                                                               
+FARE NOT GUARANTEED UNTIL TICKETED                             
+                                                               
+PQ 1                                                           
+                                                               
+       BASE FARE              TAXES/FEES/CHARGES     TOTAL     
+       COP60000                       22400XT       COP82400ADT
+    XT       9600YS      12800CO                               
+ADT-01  UZS07RIQ                                               
+LAST DAY TO PURCHASE 10APR/2359                                
+BOG AV CLO Q22000 38000COP60000END
+VALIDATING CARRIER - AV                                        
+NON REF/CHNG FEE100000COP/PLUS FARE DIFF/NON END               
+01 O BOG AV9231U 17MAY  805A UZS07RIQ        17MAY1417MAY14 02P
+     CLO                                                       
+FARE SOURCE - ATPC                                             
+VALIDATING CARRIER-AV                                          
+L1QF L1QF *AWS 1001/10APR14                           PRICE-SYS
+                                                               
+
+.
+Info:        Comando Sabre: PQ
+Complmeneto: Response: PRICE QUOTE RECORD RETAINED                                    
+                                                               
+FARE NOT GUARANTEED UNTIL TICKETED                             
+                                                               
+PQ 1                                                           
+                                                               
+       BASE FARE              TAXES/FEES/CHARGES     TOTAL     
+       COP60000                       22400XT       COP82400ADT
+    XT       9600YS      12800CO                               
+ADT-01  UZS07RIQ                                               
+LAST DAY TO PURCHASE 10APR/2359                                
+BOG AV CLO Q22000 38000COP60000END
+VALIDATING CARRIER - AV                                        
+NON REF/CHNG FEE100000COP/PLUS FARE DIFF/NON END               
+01 O BOG AV9231U 17MAY  805A UZS07RIQ        17MAY1417MAY14 02P
+     CLO                                                       
+FARE SOURCE - ATPC                                             
+VALIDATING CARRIER-AV                                          
+L1QF L1QF *AWS 1001/10APR14                           PRICE-SYS
+                                                               
+
+.
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:01
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3676032521202260315!410660!0
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:01
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     * 
+
+Info:        Comando Sabre: 7T-
+Complmeneto: Response: * 
+
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:01
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3676032521202260315!410660!0
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:01
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:      1.1DIAZ/CAMILO MR
+ 1 AV9231U 17MAY J BOGCLO SS1   805A  917A /DCAV /E
+OPERATED BY /AVIANCA
+/AVIANCA
+TKT/TIME LIMIT
+  1.T-
+PHONES
+  1.BOG57012435706
+  2.BOG571-3216548-A
+PASSENGER EMAIL DATA EXISTS  *PE TO DISPLAY ALL
+ADDRESS
+    TU TIQUETE
+    BOGOTA BOG 057
+PRICE QUOTE RECORD EXISTS
+SECURITY INFO EXISTS *P3D OR *P4D TO DISPLAY
+L1QF.L1QF*AWS 1001/10APR14
+Info:        Comando Sabre: *A
+Complmeneto: Response:  1.1DIAZ/CAMILO MR
+ 1 AV9231U 17MAY J BOGCLO SS1   805A  917A /DCAV /E
+OPERATED BY /AVIANCA
+/AVIANCA
+TKT/TIME LIMIT
+  1.T-
+PHONES
+  1.BOG57012435706
+  2.BOG571-3216548-A
+PASSENGER EMAIL DATA EXISTS  *PE TO DISPLAY ALL
+ADDRESS
+    TU TIQUETE
+    BOGOTA BOG 057
+PRICE QUOTE RECORD EXISTS
+SECURITY INFO EXISTS *P3D OR *P4D TO DISPLAY
+L1QF.L1QF*AWS 1001/10APR14
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:01
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3676032521202260315!410660!0
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:01
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:      1.1DIAZ/CAMILO MR
+ 1 AV9231U 17MAY J BOGCLO SS1   805A  917A /DCAV /E
+OPERATED BY /AVIANCA
+/AVIANCA
+TKT/TIME LIMIT
+  1.T-
+PHONES
+  1.BOG57012435706
+  2.BOG571-3216548-A
+PASSENGER EMAIL DATA EXISTS  *PE TO DISPLAY ALL
+ADDRESS
+    TU TIQUETE
+    BOGOTA BOG 057
+PRICE QUOTE RECORD EXISTS
+SECURITY INFO EXISTS *P3D OR *P4D TO DISPLAY
+L1QF.L1QF*AWS 1001/10APR14
+Info:        Comando Sabre: *A
+Complmeneto: Response:  1.1DIAZ/CAMILO MR
+ 1 AV9231U 17MAY J BOGCLO SS1   805A  917A /DCAV /E
+OPERATED BY /AVIANCA
+/AVIANCA
+TKT/TIME LIMIT
+  1.T-
+PHONES
+  1.BOG57012435706
+  2.BOG571-3216548-A
+PASSENGER EMAIL DATA EXISTS  *PE TO DISPLAY ALL
+ADDRESS
+    TU TIQUETE
+    BOGOTA BOG 057
+PRICE QUOTE RECORD EXISTS
+SECURITY INFO EXISTS *P3D OR *P4D TO DISPLAY
+L1QF.L1QF*AWS 1001/10APR14
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:01
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_GuardarReserva
+Mensaje:     KAUBNJ
+TargetSite:  Credenciales: 
+User: 7971
+Password: WS040209
+Ipcc: L1QF
+Pcc: L1QF 
+QNumber: 41
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Complmeneto: HostCommand: 6WEBÂ§E
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:01
+Codigo:      0
+Tipo:        WebServices
+Método:      _Remark_Observaciones
+Severidad:   Moderada
+Mensaje:     Response: System.Object
+Source:      Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+TargetSite:  Credenciales: 
+User: 7971
+Password: WS040209
+Ipcc: L1QF
+Pcc: L1QF 
+QNumber: 41
+Dominio: DEFAULT
+Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3676032521202260315!410660!0
+
+Complmeneto: HostCommand: 5H-ASD/SS/KAUBNJ/2014
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:01
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: 0OTHAAGK1BOG04FEB
+Info:        Response: SEG 1 GK 
+Source:      Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3676032521202260315!410660!0
+Complmeneto: SabreCommand
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:01
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESE!ICESMSLB\/RES.LB!-3676032521202260315!410660!0
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:01
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     QUEUE PLACEMENT COMPLETED.
+PLACED ON L1QF/0041 1001/10APR KAUBNJ
+
+Info:        Comando Sabre: QP/41/11*KAUBNJ
+Complmeneto: Response: QUEUE PLACEMENT COMPLETED.
+PLACED ON L1QF/0041 1001/10APR KAUBNJ
+
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:06
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:06
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAAL1QF 
+Info:        Response: L1QF.L1QF*AWS.A
+10APR
+SABRE IS PLEASED TO ANNOUNCE EMIRATES/EK AS OUR NEWEST
+GROUP CLAIM PARTICIPANT
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+Source:      Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESD!ICESMSLB\/RES.LB!-3676030757821651918!1784635!0
+Complmeneto: SabreCommand
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:06
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESD!ICESMSLB\/RES.LB!-3676030757821651918!1784635!0
+Source:      Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+StackTrace:  RespuestaL1QF.L1QF*AWS.A
+10APR
+SABRE IS PLEASED TO ANNOUNCE EMIRATES/EK AS OUR NEWEST
+GROUP CLAIM PARTICIPANT
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+TargetSite:  Comando: AAAL1QF 
+Complmeneto: Credenciales: 
+User: 7971
+Password: WS040209
+Ipcc: L1QF
+Pcc: L1QF 
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:06
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESD!ICESMSLB\/RES.LB!-3676030757821651918!1784635!0
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:06
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:08
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESD!ICESMSLB\/RES.LB!-3676030757821651918!1784635!0
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:08
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:            BASE FARE                     TAXES             TOTAL
+ 1-    COP140000                     48200XT       COP188200ADT
+    XT     22400YS      25800CO 
+          140000                     48200            188200TTL
+ADT-01  XEESP505
+ BOG LA MDE Q25000 45000LA BOG Q25000 45000COP140000END
+OPERBY LANCOLOMBIAAIRLINES
+VALIDATING CARRIER - LA
+BAGGAGE INFO AVAILABLE - SEE WP*BAG
+.
+Info:        Comando Sabre: WP
+Complmeneto: Response:        BASE FARE                     TAXES             TOTAL
+ 1-    COP140000                     48200XT       COP188200ADT
+    XT     22400YS      25800CO 
+          140000                     48200            188200TTL
+ADT-01  XEESP505
+ BOG LA MDE Q25000 45000LA BOG Q25000 45000COP140000END
+OPERBY LANCOLOMBIAAIRLINES
+VALIDATING CARRIER - LA
+BAGGAGE INFO AVAILABLE - SEE WP*BAG
+.
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:08
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESD!ICESMSLB\/RES.LB!-3676030757821651918!1784635!0
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:08
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     PRICE QUOTE RECORD RETAINED                                    
+                                                               
+FARE NOT GUARANTEED UNTIL TICKETED                             
+                                                               
+PQ 1                                                           
+                                                               
+       BASE FARE              TAXES/FEES/CHARGES     TOTAL     
+      COP140000                       48200XT      COP188200ADT
+    XT      22400YS      25800CO                               
+ADT-01  XEESP505                                               
+BOG LA MDE Q25000 45000LA BOG Q25000 45000COP140000END
+VALIDATING CARRIER - LA                                        
+OPERBY LANCOLOMBIAAIRLINES                                     
+01 O BOG LA3004X 17MAY  850A XEESP505               17NOV14 23K
+02 O MDE LA3005X 22MAY 1125A XEESP505               17NOV14 23K
+     BOG                                                       
+FARE SOURCE - ATPC                                             
+VALIDATING CARRIER-LA                                          
+L1QF L1QF *AWS 1008/10APR14                           PRICE-SYS
+                                                               
+
+.
+Info:        Comando Sabre: PQ
+Complmeneto: Response: PRICE QUOTE RECORD RETAINED                                    
+                                                               
+FARE NOT GUARANTEED UNTIL TICKETED                             
+                                                               
+PQ 1                                                           
+                                                               
+       BASE FARE              TAXES/FEES/CHARGES     TOTAL     
+      COP140000                       48200XT      COP188200ADT
+    XT      22400YS      25800CO                               
+ADT-01  XEESP505                                               
+BOG LA MDE Q25000 45000LA BOG Q25000 45000COP140000END
+VALIDATING CARRIER - LA                                        
+OPERBY LANCOLOMBIAAIRLINES                                     
+01 O BOG LA3004X 17MAY  850A XEESP505               17NOV14 23K
+02 O MDE LA3005X 22MAY 1125A XEESP505               17NOV14 23K
+     BOG                                                       
+FARE SOURCE - ATPC                                             
+VALIDATING CARRIER-LA                                          
+L1QF L1QF *AWS 1008/10APR14                           PRICE-SYS
+                                                               
+
+.
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:09
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_AgregarInformacionPNR
+Source:      Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+TargetSite:  Credenciales: 
+User: 7971
+Password: WS040209
+Ipcc: L1QF
+Pcc: L1QF 
+QNumber: 41
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESD!ICESMSLB\/RES.LB!-3676030757821651918!1784635!0
+
+Complmeneto: HostCommand: -DIAZ/CAMILO MRÂ§97045831Â§PEÂ¥JDIAZ@SSOFTCOLOMBIA.COMÂ¥-1Â§PDTADT-1.1Â§W-TU TIQUETEÂ¥BOGOTA BOG 057Â§9571-3216548-AÂ§7TAW/
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:09
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESD!ICESMSLB\/RES.LB!-3676030757821651918!1784635!0
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:09
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     * 
+
+Info:        Comando Sabre: 3DOCSA/DB/01JAN88/M/diaz/Camilo MR-1.1
+Complmeneto: Response: * 
+
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:09
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESD!ICESMSLB\/RES.LB!-3676030757821651918!1784635!0
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:09
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:            BASE FARE                     TAXES             TOTAL
+ 1-    COP140000                     48200XT       COP188200ADT
+    XT     22400YS      25800CO 
+          140000                     48200            188200TTL
+ADT-01  XEESP505
+ BOG LA MDE Q25000 45000LA BOG Q25000 45000COP140000END
+OPERBY LANCOLOMBIAAIRLINES
+VALIDATING CARRIER - LA
+BAGGAGE INFO AVAILABLE - SEE WP*BAG
+.
+Info:        Comando Sabre: WP
+Complmeneto: Response:        BASE FARE                     TAXES             TOTAL
+ 1-    COP140000                     48200XT       COP188200ADT
+    XT     22400YS      25800CO 
+          140000                     48200            188200TTL
+ADT-01  XEESP505
+ BOG LA MDE Q25000 45000LA BOG Q25000 45000COP140000END
+OPERBY LANCOLOMBIAAIRLINES
+VALIDATING CARRIER - LA
+BAGGAGE INFO AVAILABLE - SEE WP*BAG
+.
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:09
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESD!ICESMSLB\/RES.LB!-3676030757821651918!1784635!0
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:09
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     PRICE QUOTE RECORD RETAINED                                    
+                                                               
+FARE NOT GUARANTEED UNTIL TICKETED                             
+                                                               
+PQ 1                                                           
+                                                               
+       BASE FARE              TAXES/FEES/CHARGES     TOTAL     
+      COP140000                       48200XT      COP188200ADT
+    XT      22400YS      25800CO                               
+ADT-01  XEESP505                                               
+BOG LA MDE Q25000 45000LA BOG Q25000 45000COP140000END
+VALIDATING CARRIER - LA                                        
+OPERBY LANCOLOMBIAAIRLINES                                     
+01 O BOG LA3004X 17MAY  850A XEESP505               17NOV14 23K
+02 O MDE LA3005X 22MAY 1125A XEESP505               17NOV14 23K
+     BOG                                                       
+FARE SOURCE - ATPC                                             
+VALIDATING CARRIER-LA                                          
+L1QF L1QF *AWS 1009/10APR14                           PRICE-SYS
+                                                               
+
+.
+Info:        Comando Sabre: PQ
+Complmeneto: Response: PRICE QUOTE RECORD RETAINED                                    
+                                                               
+FARE NOT GUARANTEED UNTIL TICKETED                             
+                                                               
+PQ 1                                                           
+                                                               
+       BASE FARE              TAXES/FEES/CHARGES     TOTAL     
+      COP140000                       48200XT      COP188200ADT
+    XT      22400YS      25800CO                               
+ADT-01  XEESP505                                               
+BOG LA MDE Q25000 45000LA BOG Q25000 45000COP140000END
+VALIDATING CARRIER - LA                                        
+OPERBY LANCOLOMBIAAIRLINES                                     
+01 O BOG LA3004X 17MAY  850A XEESP505               17NOV14 23K
+02 O MDE LA3005X 22MAY 1125A XEESP505               17NOV14 23K
+     BOG                                                       
+FARE SOURCE - ATPC                                             
+VALIDATING CARRIER-LA                                          
+L1QF L1QF *AWS 1009/10APR14                           PRICE-SYS
+                                                               
+
+.
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:09
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESD!ICESMSLB\/RES.LB!-3676030757821651918!1784635!0
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:09
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     * 
+
+Info:        Comando Sabre: 7T-
+Complmeneto: Response: * 
+
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:09
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESD!ICESMSLB\/RES.LB!-3676030757821651918!1784635!0
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:09
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:      1.1DIAZ/CAMILO MR
+ 1 LA3004X 17MAY J BOGMDE SS1   850A  945A /DCLA /E
+OPERATED BY LAN COLOMBIA AIRLINES S.A.
+ 2 LA3005X 22MAY Q MDEBOG SS1  1125A 1220P /DCLA /E
+OPERATED BY LAN COLOMBIA AIRLINES S.A.
+TKT/TIME LIMIT
+  1.T-
+PHONES
+  1.BOG7045831
+  2.BOG571-3216548-A
+PASSENGER EMAIL DATA EXISTS  *PE TO DISPLAY ALL
+ADDRESS
+    TU TIQUETE
+    BOGOTA BOG 057
+PRICE QUOTE RECORD EXISTS
+SECURITY INFO EXISTS *P3D OR *P4D TO DISPLAY
+L1QF.L1QF*AWS 1009/10APR14
+Info:        Comando Sabre: *A
+Complmeneto: Response:  1.1DIAZ/CAMILO MR
+ 1 LA3004X 17MAY J BOGMDE SS1   850A  945A /DCLA /E
+OPERATED BY LAN COLOMBIA AIRLINES S.A.
+ 2 LA3005X 22MAY Q MDEBOG SS1  1125A 1220P /DCLA /E
+OPERATED BY LAN COLOMBIA AIRLINES S.A.
+TKT/TIME LIMIT
+  1.T-
+PHONES
+  1.BOG7045831
+  2.BOG571-3216548-A
+PASSENGER EMAIL DATA EXISTS  *PE TO DISPLAY ALL
+ADDRESS
+    TU TIQUETE
+    BOGOTA BOG 057
+PRICE QUOTE RECORD EXISTS
+SECURITY INFO EXISTS *P3D OR *P4D TO DISPLAY
+L1QF.L1QF*AWS 1009/10APR14
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:09
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESD!ICESMSLB\/RES.LB!-3676030757821651918!1784635!0
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:09
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:      1.1DIAZ/CAMILO MR
+ 1 LA3004X 17MAY J BOGMDE SS1   850A  945A /DCLA /E
+OPERATED BY LAN COLOMBIA AIRLINES S.A.
+ 2 LA3005X 22MAY Q MDEBOG SS1  1125A 1220P /DCLA /E
+OPERATED BY LAN COLOMBIA AIRLINES S.A.
+TKT/TIME LIMIT
+  1.T-
+PHONES
+  1.BOG7045831
+  2.BOG571-3216548-A
+PASSENGER EMAIL DATA EXISTS  *PE TO DISPLAY ALL
+ADDRESS
+    TU TIQUETE
+    BOGOTA BOG 057
+PRICE QUOTE RECORD EXISTS
+SECURITY INFO EXISTS *P3D OR *P4D TO DISPLAY
+L1QF.L1QF*AWS 1009/10APR14
+Info:        Comando Sabre: *A
+Complmeneto: Response:  1.1DIAZ/CAMILO MR
+ 1 LA3004X 17MAY J BOGMDE SS1   850A  945A /DCLA /E
+OPERATED BY LAN COLOMBIA AIRLINES S.A.
+ 2 LA3005X 22MAY Q MDEBOG SS1  1125A 1220P /DCLA /E
+OPERATED BY LAN COLOMBIA AIRLINES S.A.
+TKT/TIME LIMIT
+  1.T-
+PHONES
+  1.BOG7045831
+  2.BOG571-3216548-A
+PASSENGER EMAIL DATA EXISTS  *PE TO DISPLAY ALL
+ADDRESS
+    TU TIQUETE
+    BOGOTA BOG 057
+PRICE QUOTE RECORD EXISTS
+SECURITY INFO EXISTS *P3D OR *P4D TO DISPLAY
+L1QF.L1QF*AWS 1009/10APR14
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:09
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_GuardarReserva
+Mensaje:     HUQJTG
+TargetSite:  Credenciales: 
+User: 7971
+Password: WS040209
+Ipcc: L1QF
+Pcc: L1QF 
+QNumber: 41
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Complmeneto: HostCommand: 6WEBÂ§E
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:09
+Codigo:      0
+Tipo:        WebServices
+Método:      _Remark_Observaciones
+Severidad:   Moderada
+Mensaje:     Response: System.Object
+Source:      Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+TargetSite:  Credenciales: 
+User: 7971
+Password: WS040209
+Ipcc: L1QF
+Pcc: L1QF 
+QNumber: 41
+Dominio: DEFAULT
+Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESD!ICESMSLB\/RES.LB!-3676030757821651918!1784635!0
+
+Complmeneto: HostCommand: 5H-ASD/SS/HUQJTG/2014
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:09
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: 0OTHAAGK1BOG04FEB
+Info:        Response: SEG 1 GK 
+Source:      Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESD!ICESMSLB\/RES.LB!-3676030757821651918!1784635!0
+Complmeneto: SabreCommand
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:09
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESD!ICESMSLB\/RES.LB!-3676030757821651918!1784635!0
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 10:09
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     QUEUE PLACEMENT COMPLETED.
+PLACED ON L1QF/0041 1009/10APR HUQJTG
+
+Info:        Comando Sabre: QP/41/11*HUQJTG
+Complmeneto: Response: QUEUE PLACEMENT COMPLETED.
+PLACED ON L1QF/0041 1009/10APR HUQJTG
+
+Sesion Local: 635327207010084861yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:40
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:40
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAAL1QF 
+Info:        Response: L1QF.L1QF*AWS.A
+10APR
+SABRE IS PLEASED TO ANNOUNCE EMIRATES/EK AS OUR NEWEST
+GROUP CLAIM PARTICIPANT
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+Source:      Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESB!ICESMSLB\/RES.LB!-3675933993782900314!1060049!0
+Complmeneto: SabreCommand
+Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:40
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESB!ICESMSLB\/RES.LB!-3675933993782900314!1060049!0
+Source:      Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+StackTrace:  RespuestaL1QF.L1QF*AWS.A
+10APR
+SABRE IS PLEASED TO ANNOUNCE EMIRATES/EK AS OUR NEWEST
+GROUP CLAIM PARTICIPANT
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+TargetSite:  Comando: AAAL1QF 
+Complmeneto: Credenciales: 
+User: 7971
+Password: WS040209
+Ipcc: L1QF
+Pcc: L1QF 
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:40
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESB!ICESMSLB\/RES.LB!-3675933993782900314!1060049!0
+Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:40
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:41
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESB!ICESMSLB\/RES.LB!-3675933993782900314!1060049!0
+Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:41
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     26JUN DEPARTURE DATE-----LAST DAY TO PURCHASE 10APR/2359
+       BASE FARE                     TAXES             TOTAL
+ 1-     COP60000                     22400XT        COP82400ADT
+    XT      9600YS      12800CO 
+           60000                     22400             82400TTL
+ADT-01  UZS07RIQ
+ BOG AV CLO Q22000 38000COP60000END
+NON REF/CHNG FEE100000COP/PLUS FARE DIFF/NON END
+VALIDATING CARRIER - AV
+                                                               
+AIR EXTRAS AVAILABLE - SEE WP*AE
+BAGGAGE INFO AVAILABLE - SEE WP*BAG
+.
+Info:        Comando Sabre: WP
+Complmeneto: Response: 26JUN DEPARTURE DATE-----LAST DAY TO PURCHASE 10APR/2359
+       BASE FARE                     TAXES             TOTAL
+ 1-     COP60000                     22400XT        COP82400ADT
+    XT      9600YS      12800CO 
+           60000                     22400             82400TTL
+ADT-01  UZS07RIQ
+ BOG AV CLO Q22000 38000COP60000END
+NON REF/CHNG FEE100000COP/PLUS FARE DIFF/NON END
+VALIDATING CARRIER - AV
+                                                               
+AIR EXTRAS AVAILABLE - SEE WP*AE
+BAGGAGE INFO AVAILABLE - SEE WP*BAG
+.
+Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:41
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESB!ICESMSLB\/RES.LB!-3675933993782900314!1060049!0
+Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:41
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     PRICE QUOTE RECORD RETAINED                                    
+                                                               
+FARE NOT GUARANTEED UNTIL TICKETED                             
+                                                               
+PQ 1                                                           
+                                                               
+       BASE FARE              TAXES/FEES/CHARGES     TOTAL     
+       COP60000                       22400XT       COP82400ADT
+    XT       9600YS      12800CO                               
+ADT-01  UZS07RIQ                                               
+LAST DAY TO PURCHASE 10APR/2359                                
+BOG AV CLO Q22000 38000COP60000END
+VALIDATING CARRIER - AV                                        
+NON REF/CHNG FEE100000COP/PLUS FARE DIFF/NON END               
+01 O BOG AV9231U 26JUN  805A UZS07RIQ        26JUN1426JUN14 02P
+     CLO                                                       
+FARE SOURCE - ATPC                                             
+VALIDATING CARRIER-AV                                          
+L1QF L1QF *AWS 1641/10APR14                           PRICE-SYS
+                                                               
+
+.
+Info:        Comando Sabre: PQ
+Complmeneto: Response: PRICE QUOTE RECORD RETAINED                                    
+                                                               
+FARE NOT GUARANTEED UNTIL TICKETED                             
+                                                               
+PQ 1                                                           
+                                                               
+       BASE FARE              TAXES/FEES/CHARGES     TOTAL     
+       COP60000                       22400XT       COP82400ADT
+    XT       9600YS      12800CO                               
+ADT-01  UZS07RIQ                                               
+LAST DAY TO PURCHASE 10APR/2359                                
+BOG AV CLO Q22000 38000COP60000END
+VALIDATING CARRIER - AV                                        
+NON REF/CHNG FEE100000COP/PLUS FARE DIFF/NON END               
+01 O BOG AV9231U 26JUN  805A UZS07RIQ        26JUN1426JUN14 02P
+     CLO                                                       
+FARE SOURCE - ATPC                                             
+VALIDATING CARRIER-AV                                          
+L1QF L1QF *AWS 1641/10APR14                           PRICE-SYS
+                                                               
+
+.
+Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:44
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_AgregarInformacionPNR
+Source:      Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+TargetSite:  Credenciales: 
+User: 7971
+Password: WS040209
+Ipcc: L1QF
+Pcc: L1QF 
+QNumber: 41
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESB!ICESMSLB\/RES.LB!-3675933993782900314!1060049!0
+
+Complmeneto: HostCommand: -DIAZ/CAMILO MRÂ§957012435706Â§PEÂ¥JDIAZ@SSOFTCOLOMBIA.COMÂ¥-1Â§PDTADT-1.1Â§W-TU TIQUETEÂ¥BOGOTA BOG 057Â§9571-3216548-AÂ§7TAW/
+Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:44
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESB!ICESMSLB\/RES.LB!-3675933993782900314!1060049!0
+Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:44
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     * 
+
+Info:        Comando Sabre: 3DOCSA/DB/01JAN60/M/diaz/camilo MR-1.1
+Complmeneto: Response: * 
+
+Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:44
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESB!ICESMSLB\/RES.LB!-3675933993782900314!1060049!0
+Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:44
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     26JUN DEPARTURE DATE-----LAST DAY TO PURCHASE 10APR/2359
+       BASE FARE                     TAXES             TOTAL
+ 1-     COP60000                     22400XT        COP82400ADT
+    XT      9600YS      12800CO 
+           60000                     22400             82400TTL
+ADT-01  UZS07RIQ
+ BOG AV CLO Q22000 38000COP60000END
+NON REF/CHNG FEE100000COP/PLUS FARE DIFF/NON END
+VALIDATING CARRIER - AV
+                                                               
+AIR EXTRAS AVAILABLE - SEE WP*AE
+BAGGAGE INFO AVAILABLE - SEE WP*BAG
+.
+Info:        Comando Sabre: WP
+Complmeneto: Response: 26JUN DEPARTURE DATE-----LAST DAY TO PURCHASE 10APR/2359
+       BASE FARE                     TAXES             TOTAL
+ 1-     COP60000                     22400XT        COP82400ADT
+    XT      9600YS      12800CO 
+           60000                     22400             82400TTL
+ADT-01  UZS07RIQ
+ BOG AV CLO Q22000 38000COP60000END
+NON REF/CHNG FEE100000COP/PLUS FARE DIFF/NON END
+VALIDATING CARRIER - AV
+                                                               
+AIR EXTRAS AVAILABLE - SEE WP*AE
+BAGGAGE INFO AVAILABLE - SEE WP*BAG
+.
+Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:44
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESB!ICESMSLB\/RES.LB!-3675933993782900314!1060049!0
+Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:44
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     PRICE QUOTE RECORD RETAINED                                    
+                                                               
+FARE NOT GUARANTEED UNTIL TICKETED                             
+                                                               
+PQ 1                                                           
+                                                               
+       BASE FARE              TAXES/FEES/CHARGES     TOTAL     
+       COP60000                       22400XT       COP82400ADT
+    XT       9600YS      12800CO                               
+ADT-01  UZS07RIQ                                               
+LAST DAY TO PURCHASE 10APR/2359                                
+BOG AV CLO Q22000 38000COP60000END
+VALIDATING CARRIER - AV                                        
+NON REF/CHNG FEE100000COP/PLUS FARE DIFF/NON END               
+01 O BOG AV9231U 26JUN  805A UZS07RIQ        26JUN1426JUN14 02P
+     CLO                                                       
+FARE SOURCE - ATPC                                             
+VALIDATING CARRIER-AV                                          
+L1QF L1QF *AWS 1644/10APR14                           PRICE-SYS
+                                                               
+
+.
+Info:        Comando Sabre: PQ
+Complmeneto: Response: PRICE QUOTE RECORD RETAINED                                    
+                                                               
+FARE NOT GUARANTEED UNTIL TICKETED                             
+                                                               
+PQ 1                                                           
+                                                               
+       BASE FARE              TAXES/FEES/CHARGES     TOTAL     
+       COP60000                       22400XT       COP82400ADT
+    XT       9600YS      12800CO                               
+ADT-01  UZS07RIQ                                               
+LAST DAY TO PURCHASE 10APR/2359                                
+BOG AV CLO Q22000 38000COP60000END
+VALIDATING CARRIER - AV                                        
+NON REF/CHNG FEE100000COP/PLUS FARE DIFF/NON END               
+01 O BOG AV9231U 26JUN  805A UZS07RIQ        26JUN1426JUN14 02P
+     CLO                                                       
+FARE SOURCE - ATPC                                             
+VALIDATING CARRIER-AV                                          
+L1QF L1QF *AWS 1644/10APR14                           PRICE-SYS
+                                                               
+
+.
+Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:44
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESB!ICESMSLB\/RES.LB!-3675933993782900314!1060049!0
+Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:44
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     * 
+
+Info:        Comando Sabre: 7T-
+Complmeneto: Response: * 
+
+Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:44
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESB!ICESMSLB\/RES.LB!-3675933993782900314!1060049!0
+Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:44
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:      1.1DIAZ/CAMILO MR
+ 1 AV9231U 26JUN Q BOGCLO SS1   805A  917A /DCAV /E
+OPERATED BY /AVIANCA
+SKD CHG - TIMES DIFFER FROM BOOKED
+/AVIANCA
+TKT/TIME LIMIT
+  1.T-
+PHONES
+  1.BOG57012435706
+  2.BOG571-3216548-A
+PASSENGER EMAIL DATA EXISTS  *PE TO DISPLAY ALL
+ADDRESS
+    TU TIQUETE
+    BOGOTA BOG 057
+PRICE QUOTE RECORD EXISTS
+SECURITY INFO EXISTS *P3D OR *P4D TO DISPLAY
+L1QF.L1QF*AWS 1644/10APR14
+Info:        Comando Sabre: *A
+Complmeneto: Response:  1.1DIAZ/CAMILO MR
+ 1 AV9231U 26JUN Q BOGCLO SS1   805A  917A /DCAV /E
+OPERATED BY /AVIANCA
+SKD CHG - TIMES DIFFER FROM BOOKED
+/AVIANCA
+TKT/TIME LIMIT
+  1.T-
+PHONES
+  1.BOG57012435706
+  2.BOG571-3216548-A
+PASSENGER EMAIL DATA EXISTS  *PE TO DISPLAY ALL
+ADDRESS
+    TU TIQUETE
+    BOGOTA BOG 057
+PRICE QUOTE RECORD EXISTS
+SECURITY INFO EXISTS *P3D OR *P4D TO DISPLAY
+L1QF.L1QF*AWS 1644/10APR14
+Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:44
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESB!ICESMSLB\/RES.LB!-3675933993782900314!1060049!0
+Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:44
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:      1.1DIAZ/CAMILO MR
+ 1 AV9231U 26JUN Q BOGCLO SS1   805A  917A /DCAV /E
+OPERATED BY /AVIANCA
+SKD CHG - TIMES DIFFER FROM BOOKED
+/AVIANCA
+TKT/TIME LIMIT
+  1.T-
+PHONES
+  1.BOG57012435706
+  2.BOG571-3216548-A
+PASSENGER EMAIL DATA EXISTS  *PE TO DISPLAY ALL
+ADDRESS
+    TU TIQUETE
+    BOGOTA BOG 057
+PRICE QUOTE RECORD EXISTS
+SECURITY INFO EXISTS *P3D OR *P4D TO DISPLAY
+L1QF.L1QF*AWS 1644/10APR14
+Info:        Comando Sabre: *A
+Complmeneto: Response:  1.1DIAZ/CAMILO MR
+ 1 AV9231U 26JUN Q BOGCLO SS1   805A  917A /DCAV /E
+OPERATED BY /AVIANCA
+SKD CHG - TIMES DIFFER FROM BOOKED
+/AVIANCA
+TKT/TIME LIMIT
+  1.T-
+PHONES
+  1.BOG57012435706
+  2.BOG571-3216548-A
+PASSENGER EMAIL DATA EXISTS  *PE TO DISPLAY ALL
+ADDRESS
+    TU TIQUETE
+    BOGOTA BOG 057
+PRICE QUOTE RECORD EXISTS
+SECURITY INFO EXISTS *P3D OR *P4D TO DISPLAY
+L1QF.L1QF*AWS 1644/10APR14
+Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:44
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_GuardarReserva
+Mensaje:     EVEPXL
+TargetSite:  Credenciales: 
+User: 7971
+Password: WS040209
+Ipcc: L1QF
+Pcc: L1QF 
+QNumber: 41
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Complmeneto: HostCommand: 6WEBÂ§E
+Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:44
+Codigo:      0
+Tipo:        WebServices
+Método:      _Remark_Observaciones
+Severidad:   Moderada
+Mensaje:     Response: System.Object
+Source:      Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+TargetSite:  Credenciales: 
+User: 7971
+Password: WS040209
+Ipcc: L1QF
+Pcc: L1QF 
+QNumber: 41
+Dominio: DEFAULT
+Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESB!ICESMSLB\/RES.LB!-3675933993782900314!1060049!0
+
+Complmeneto: HostCommand: 5H-ASD/SS/EVEPXL/2014
+Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:44
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: 0OTHAAGK1BOG04FEB
+Info:        Response: SEG 1 GK 
+Source:      Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESB!ICESMSLB\/RES.LB!-3675933993782900314!1060049!0
+Complmeneto: SabreCommand
+Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:44
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESB!ICESMSLB\/RES.LB!-3675933993782900314!1060049!0
+Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:44
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     QUEUE PLACEMENT COMPLETED.
+PLACED ON L1QF/0041 1644/10APR EVEPXL
+
+Info:        Comando Sabre: QP/41/11*EVEPXL
+Complmeneto: Response: QUEUE PLACEMENT COMPLETED.
+PLACED ON L1QF/0041 1644/10APR EVEPXL
+
+Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:45
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESB!ICESMSLB\/RES.LB!-3675933993782900314!1060049!0
+Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:45
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     FORMAT, CHECK SEGMENT NUMBER-0003
+Info:        Comando Sabre: WP
+Complmeneto: Response: FORMAT, CHECK SEGMENT NUMBER-0003
+Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:45
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESB!ICESMSLB\/RES.LB!-3675933993782900314!1060049!0
+Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:45
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     NEED WP BEFORE PQ
+Info:        Comando Sabre: PQ
+Complmeneto: Response: NEED WP BEFORE PQ
+Sesion Local: 635327444128237243yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:51
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:51
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAAL1QF 
+Info:        Response: L1QF.L1QF*AWS.A
+10APR
+SABRE IS PLEASED TO ANNOUNCE EMIRATES/EK AS OUR NEWEST
+GROUP CLAIM PARTICIPANT
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+Source:      Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESH!ICESMSLB\/RES.LB!-3675931201510122191!991679!0
+Complmeneto: SabreCommand
+Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:51
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESH!ICESMSLB\/RES.LB!-3675931201510122191!991679!0
+Source:      Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+StackTrace:  RespuestaL1QF.L1QF*AWS.A
+10APR
+SABRE IS PLEASED TO ANNOUNCE EMIRATES/EK AS OUR NEWEST
+GROUP CLAIM PARTICIPANT
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+TargetSite:  Comando: AAAL1QF 
+Complmeneto: Credenciales: 
+User: 7971
+Password: WS040209
+Ipcc: L1QF
+Pcc: L1QF 
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:51
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESH!ICESMSLB\/RES.LB!-3675931201510122191!991679!0
+Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:51
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:53
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESH!ICESMSLB\/RES.LB!-3675931201510122191!991679!0
+Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:53
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     29AUG DEPARTURE DATE-----LAST DAY TO PURCHASE 10APR/2359
+       BASE FARE                     TAXES             TOTAL
+ 1-     COP70000                     24000XT        COP94000ADT
+    XT     11200YS      12800CO 
+           70000                     24000             94000TTL
+ADT-01  UZS07RIQ
+ BOG AV MDE Q22000 48000COP70000END
+NON REF/CHNG FEE100000COP/PLUS FARE DIFF/NON END
+VALIDATING CARRIER - AV
+                                                               
+AIR EXTRAS AVAILABLE - SEE WP*AE
+BAGGAGE INFO AVAILABLE - SEE WP*BAG
+.
+Info:        Comando Sabre: WP
+Complmeneto: Response: 29AUG DEPARTURE DATE-----LAST DAY TO PURCHASE 10APR/2359
+       BASE FARE                     TAXES             TOTAL
+ 1-     COP70000                     24000XT        COP94000ADT
+    XT     11200YS      12800CO 
+           70000                     24000             94000TTL
+ADT-01  UZS07RIQ
+ BOG AV MDE Q22000 48000COP70000END
+NON REF/CHNG FEE100000COP/PLUS FARE DIFF/NON END
+VALIDATING CARRIER - AV
+                                                               
+AIR EXTRAS AVAILABLE - SEE WP*AE
+BAGGAGE INFO AVAILABLE - SEE WP*BAG
+.
+Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:53
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESH!ICESMSLB\/RES.LB!-3675931201510122191!991679!0
+Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:53
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     PRICE QUOTE RECORD RETAINED                                    
+                                                               
+FARE NOT GUARANTEED UNTIL TICKETED                             
+                                                               
+PQ 1                                                           
+                                                               
+       BASE FARE              TAXES/FEES/CHARGES     TOTAL     
+       COP70000                       24000XT       COP94000ADT
+    XT      11200YS      12800CO                               
+ADT-01  UZS07RIQ                                               
+LAST DAY TO PURCHASE 10APR/2359                                
+BOG AV MDE Q22000 48000COP70000END
+VALIDATING CARRIER - AV                                        
+NON REF/CHNG FEE100000COP/PLUS FARE DIFF/NON END               
+01 O BOG AV9340U 29AUG  642A UZS07RIQ        29AUG1429AUG14 02P
+     MDE                                                       
+FARE SOURCE - ATPC                                             
+VALIDATING CARRIER-AV                                          
+L1QF L1QF *AWS 1653/10APR14                           PRICE-SYS
+                                                               
+
+.
+Info:        Comando Sabre: PQ
+Complmeneto: Response: PRICE QUOTE RECORD RETAINED                                    
+                                                               
+FARE NOT GUARANTEED UNTIL TICKETED                             
+                                                               
+PQ 1                                                           
+                                                               
+       BASE FARE              TAXES/FEES/CHARGES     TOTAL     
+       COP70000                       24000XT       COP94000ADT
+    XT      11200YS      12800CO                               
+ADT-01  UZS07RIQ                                               
+LAST DAY TO PURCHASE 10APR/2359                                
+BOG AV MDE Q22000 48000COP70000END
+VALIDATING CARRIER - AV                                        
+NON REF/CHNG FEE100000COP/PLUS FARE DIFF/NON END               
+01 O BOG AV9340U 29AUG  642A UZS07RIQ        29AUG1429AUG14 02P
+     MDE                                                       
+FARE SOURCE - ATPC                                             
+VALIDATING CARRIER-AV                                          
+L1QF L1QF *AWS 1653/10APR14                           PRICE-SYS
+                                                               
+
+.
+Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:54
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_AgregarInformacionPNR
+Source:      Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+TargetSite:  Credenciales: 
+User: 7971
+Password: WS040209
+Ipcc: L1QF
+Pcc: L1QF 
+QNumber: 41
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESH!ICESMSLB\/RES.LB!-3675931201510122191!991679!0
+
+Complmeneto: HostCommand: -DIAZ/CAMILO MRÂ§957012435706Â§PEÂ¥JDIAZ@SSOFTCOLOMBIA.COMÂ¥-1Â§PDTADT-1.1Â§W-TU TIQUETEÂ¥BOGOTA BOG 057Â§9571-3216548-AÂ§7TAW/
+Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:54
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESH!ICESMSLB\/RES.LB!-3675931201510122191!991679!0
+Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:54
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     * 
+
+Info:        Comando Sabre: 3DOCSA/DB/01JAN60/M/diaz/camilo MR-1.1
+Complmeneto: Response: * 
+
+Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:54
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESH!ICESMSLB\/RES.LB!-3675931201510122191!991679!0
+Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:54
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     29AUG DEPARTURE DATE-----LAST DAY TO PURCHASE 10APR/2359
+       BASE FARE                     TAXES             TOTAL
+ 1-     COP70000                     24000XT        COP94000ADT
+    XT     11200YS      12800CO 
+           70000                     24000             94000TTL
+ADT-01  UZS07RIQ
+ BOG AV MDE Q22000 48000COP70000END
+NON REF/CHNG FEE100000COP/PLUS FARE DIFF/NON END
+VALIDATING CARRIER - AV
+                                                               
+AIR EXTRAS AVAILABLE - SEE WP*AE
+BAGGAGE INFO AVAILABLE - SEE WP*BAG
+.
+Info:        Comando Sabre: WP
+Complmeneto: Response: 29AUG DEPARTURE DATE-----LAST DAY TO PURCHASE 10APR/2359
+       BASE FARE                     TAXES             TOTAL
+ 1-     COP70000                     24000XT        COP94000ADT
+    XT     11200YS      12800CO 
+           70000                     24000             94000TTL
+ADT-01  UZS07RIQ
+ BOG AV MDE Q22000 48000COP70000END
+NON REF/CHNG FEE100000COP/PLUS FARE DIFF/NON END
+VALIDATING CARRIER - AV
+                                                               
+AIR EXTRAS AVAILABLE - SEE WP*AE
+BAGGAGE INFO AVAILABLE - SEE WP*BAG
+.
+Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:54
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESH!ICESMSLB\/RES.LB!-3675931201510122191!991679!0
+Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:54
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     PRICE QUOTE RECORD RETAINED                                    
+                                                               
+FARE NOT GUARANTEED UNTIL TICKETED                             
+                                                               
+PQ 1                                                           
+                                                               
+       BASE FARE              TAXES/FEES/CHARGES     TOTAL     
+       COP70000                       24000XT       COP94000ADT
+    XT      11200YS      12800CO                               
+ADT-01  UZS07RIQ                                               
+LAST DAY TO PURCHASE 10APR/2359                                
+BOG AV MDE Q22000 48000COP70000END
+VALIDATING CARRIER - AV                                        
+NON REF/CHNG FEE100000COP/PLUS FARE DIFF/NON END               
+01 O BOG AV9340U 29AUG  642A UZS07RIQ        29AUG1429AUG14 02P
+     MDE                                                       
+FARE SOURCE - ATPC                                             
+VALIDATING CARRIER-AV                                          
+L1QF L1QF *AWS 1654/10APR14                           PRICE-SYS
+                                                               
+
+.
+Info:        Comando Sabre: PQ
+Complmeneto: Response: PRICE QUOTE RECORD RETAINED                                    
+                                                               
+FARE NOT GUARANTEED UNTIL TICKETED                             
+                                                               
+PQ 1                                                           
+                                                               
+       BASE FARE              TAXES/FEES/CHARGES     TOTAL     
+       COP70000                       24000XT       COP94000ADT
+    XT      11200YS      12800CO                               
+ADT-01  UZS07RIQ                                               
+LAST DAY TO PURCHASE 10APR/2359                                
+BOG AV MDE Q22000 48000COP70000END
+VALIDATING CARRIER - AV                                        
+NON REF/CHNG FEE100000COP/PLUS FARE DIFF/NON END               
+01 O BOG AV9340U 29AUG  642A UZS07RIQ        29AUG1429AUG14 02P
+     MDE                                                       
+FARE SOURCE - ATPC                                             
+VALIDATING CARRIER-AV                                          
+L1QF L1QF *AWS 1654/10APR14                           PRICE-SYS
+                                                               
+
+.
+Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:54
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESH!ICESMSLB\/RES.LB!-3675931201510122191!991679!0
+Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:54
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     * 
+
+Info:        Comando Sabre: 7T-
+Complmeneto: Response: * 
+
+Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:54
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESH!ICESMSLB\/RES.LB!-3675931201510122191!991679!0
+Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:54
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:      1.1DIAZ/CAMILO MR
+ 1 AV9340U 29AUG F BOGMDE SS1   642A  750A /DCAV /E
+OPERATED BY /AVIANCA
+/AVIANCA
+TKT/TIME LIMIT
+  1.T-
+PHONES
+  1.BOG57012435706
+  2.BOG571-3216548-A
+PASSENGER EMAIL DATA EXISTS  *PE TO DISPLAY ALL
+ADDRESS
+    TU TIQUETE
+    BOGOTA BOG 057
+PRICE QUOTE RECORD EXISTS
+SECURITY INFO EXISTS *P3D OR *P4D TO DISPLAY
+L1QF.L1QF*AWS 1654/10APR14
+Info:        Comando Sabre: *A
+Complmeneto: Response:  1.1DIAZ/CAMILO MR
+ 1 AV9340U 29AUG F BOGMDE SS1   642A  750A /DCAV /E
+OPERATED BY /AVIANCA
+/AVIANCA
+TKT/TIME LIMIT
+  1.T-
+PHONES
+  1.BOG57012435706
+  2.BOG571-3216548-A
+PASSENGER EMAIL DATA EXISTS  *PE TO DISPLAY ALL
+ADDRESS
+    TU TIQUETE
+    BOGOTA BOG 057
+PRICE QUOTE RECORD EXISTS
+SECURITY INFO EXISTS *P3D OR *P4D TO DISPLAY
+L1QF.L1QF*AWS 1654/10APR14
+Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:54
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESH!ICESMSLB\/RES.LB!-3675931201510122191!991679!0
+Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:54
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:      1.1DIAZ/CAMILO MR
+ 1 AV9340U 29AUG F BOGMDE SS1   642A  750A /DCAV /E
+OPERATED BY /AVIANCA
+/AVIANCA
+TKT/TIME LIMIT
+  1.T-
+PHONES
+  1.BOG57012435706
+  2.BOG571-3216548-A
+PASSENGER EMAIL DATA EXISTS  *PE TO DISPLAY ALL
+ADDRESS
+    TU TIQUETE
+    BOGOTA BOG 057
+PRICE QUOTE RECORD EXISTS
+SECURITY INFO EXISTS *P3D OR *P4D TO DISPLAY
+L1QF.L1QF*AWS 1654/10APR14
+Info:        Comando Sabre: *A
+Complmeneto: Response:  1.1DIAZ/CAMILO MR
+ 1 AV9340U 29AUG F BOGMDE SS1   642A  750A /DCAV /E
+OPERATED BY /AVIANCA
+/AVIANCA
+TKT/TIME LIMIT
+  1.T-
+PHONES
+  1.BOG57012435706
+  2.BOG571-3216548-A
+PASSENGER EMAIL DATA EXISTS  *PE TO DISPLAY ALL
+ADDRESS
+    TU TIQUETE
+    BOGOTA BOG 057
+PRICE QUOTE RECORD EXISTS
+SECURITY INFO EXISTS *P3D OR *P4D TO DISPLAY
+L1QF.L1QF*AWS 1654/10APR14
+Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:54
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_GuardarReserva
+Mensaje:     EWCVCU
+TargetSite:  Credenciales: 
+User: 7971
+Password: WS040209
+Ipcc: L1QF
+Pcc: L1QF 
+QNumber: 41
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Complmeneto: HostCommand: 6WEBÂ§E
+Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:54
+Codigo:      0
+Tipo:        WebServices
+Método:      _Remark_Observaciones
+Severidad:   Moderada
+Mensaje:     Response: System.Object
+Source:      Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+TargetSite:  Credenciales: 
+User: 7971
+Password: WS040209
+Ipcc: L1QF
+Pcc: L1QF 
+QNumber: 41
+Dominio: DEFAULT
+Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESH!ICESMSLB\/RES.LB!-3675931201510122191!991679!0
+
+Complmeneto: HostCommand: 5H-ASD/SS/EWCVCU/2014
+Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:54
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: 0OTHAAGK1BOG04FEB
+Info:        Response: SEG 1 GK 
+Source:      Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESH!ICESMSLB\/RES.LB!-3675931201510122191!991679!0
+Complmeneto: SabreCommand
+Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:54
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESH!ICESMSLB\/RES.LB!-3675931201510122191!991679!0
+Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+Sesion WS: 
+
+Fecha:           2014/04/10 04:54
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     QUEUE PLACEMENT COMPLETED.
+PLACED ON L1QF/0041 1654/10APR EWCVCU
+
+Info:        Comando Sabre: QP/41/11*EWCVCU
+Complmeneto: Response: QUEUE PLACEMENT COMPLETED.
+PLACED ON L1QF/0041 1654/10APR EWCVCU
+
+Sesion Local: 635327454631738009yysqczedo144jdvtj41p5kou
+Sesion WS: 
+

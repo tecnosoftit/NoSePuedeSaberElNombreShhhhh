@@ -1,0 +1,187 @@
+<ServiceAddRS xmlns="http://www.hotelbeds.com/schemas/2005/06/messages" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.hotelbeds.com/schemas/2005/06/messages ServiceAddRS.xsd" echoToken="DummyEchoToken">
+	<AuditData>
+		<ProcessTime>1595</ProcessTime>
+		<Timestamp>2007-01-18 12:35:54.120</Timestamp>
+		<RequestHost>10.0.242.224</RequestHost>
+		<ServerName>TEST</ServerName>
+		<ServerId>TS</ServerId>
+		<SchemaRelease>2005/06</SchemaRelease>
+		<HydraCoreRelease>2.0.200612181200</HydraCoreRelease>
+		<HydraEnumerationsRelease>1.0.200612181200</HydraEnumerationsRelease>
+		<MerlinRelease>N/A</MerlinRelease>
+	</AuditData>
+	<Purchase purchaseToken="TS122815002" timeToExpiration="1345775">
+		<Status>SHOPPING_CART</Status>
+		<Agency>
+			<Code>30543</Code>
+			<Branch>1</Branch>
+		</Agency>
+		<Language>CAS</Language>
+		<ServiceList>
+			<Service xsi:type="ServiceHotel" SPUI="1#H#1">
+				<Status>NEW</Status>
+				<ContractList>
+					<Contract>
+						<Name>CGM-VARIOS</Name>
+						<IncomingOffice code="1"/>
+					</Contract>
+				</ContractList>
+				<Supplier name="HOTELBEDS ESPAÑA" vatNumber="B28916765"/>
+				<DateFrom date="20070318"/>
+				<DateTo date="20070320"/>
+				<Currency code="EUR">Euro</Currency>
+				<TotalAmount>285.700</TotalAmount>
+				<AdditionalCostList>
+					<AdditionalCost type="AG_COMMISSION">
+						<Price>
+							<Amount>40.000</Amount>
+						</Price>
+					</AdditionalCost>
+					<AdditionalCost type="COMMISSION_VAT">
+						<Price>
+							<Amount>6.400</Amount>
+						</Price>
+					</AdditionalCost>
+				</AdditionalCostList>
+				<ModificationPolicyList>
+					<ModificationPolicy>Cancellation</ModificationPolicy>
+					<ModificationPolicy>Confirmation</ModificationPolicy>
+					<ModificationPolicy>Modification</ModificationPolicy>
+				</ModificationPolicyList>
+				<HotelInfo xsi:type="ProductHotel">
+					<Code>76</Code>
+					<Name>Bendinat</Name>
+					<Category type="SIMPLE" code="4EST">4 ESTRELLAS</Category>
+					<Destination type="SIMPLE" code="PMI">
+						<Name>Mallorca</Name>
+						<ZoneList>
+							<Zone type="SIMPLE" code="25">Bendinat</Zone>
+						</ZoneList>
+					</Destination>
+				</HotelInfo>
+				<AvailableRoom>
+					<HotelOccupancy>
+						<RoomCount>1</RoomCount>
+						<Occupancy>
+							<AdultCount>2</AdultCount>
+							<ChildCount>0</ChildCount>
+							<GuestList>
+								<Customer type="AD">
+									<CustomerId>1</CustomerId>
+									<Age>30</Age>
+								</Customer>
+								<Customer type="AD">
+									<CustomerId>2</CustomerId>
+									<Age>30</Age>
+								</Customer>
+							</GuestList>
+						</Occupancy>
+					</HotelOccupancy>
+					<HotelRoom SHRUI="jEk+MTbM1xOEWpOcV02AhA==" availCount="1" status="NEW">
+						<Board type="SIMPLE" code="HD-E10">HABITACION Y DESAYUNO</Board>
+						<RoomType type="SIMPLE" code="DBL-E10" characteristic="ST">DOBLE</RoomType>
+						<Price>
+							<Amount>285.700</Amount>
+						</Price>
+						<CancellationPolicy>
+							<Price>
+								<Amount>142.850</Amount>
+								<DateTimeFrom date="20070316" time="0000"/>
+								<DateTimeTo date="20070318"/>
+							</Price>
+						</CancellationPolicy>
+					</HotelRoom>
+				</AvailableRoom>
+			</Service>
+			<Service xsi:type="ServiceCar" SPUI="1#O#1" availToken="1">
+				<Status>NEW</Status>
+				<ContractList>
+					<Contract>
+						<Name>ID_B2B_11</Name>
+						<IncomingOffice code="1"/>
+					</Contract>
+				</ContractList>
+				<Supplier name="Avis" vatNumber="ESA28152767"/>
+				<CommentList>
+					<Comment type="SERVICE">En caso de devolución en un país distinto al de recogida Avis puede cobrar al cliente un sobrecargo por "one-way" que se puede consultar llamando a uno de los siguientes teléfonos: Barcelona Call Centre: +34 93 344 3700 Manchester Call Centre: +44 0870 606010</Comment>
+				</CommentList>
+				<DateFrom date="20070318" time="1000"/>
+				<DateTo date="20070320" time="1000"/>
+				<Currency code="EUR"/>
+				<TotalAmount>112.270</TotalAmount>
+				<AdditionalCostList>
+					<AdditionalCost type="AG_COMMISSION">
+						<Price>
+							<Amount>12.353</Amount>
+						</Price>
+					</AdditionalCost>
+					<AdditionalCost type="COMMISSION_VAT">
+						<Price>
+							<Amount>1.977</Amount>
+						</Price>
+					</AdditionalCost>
+				</AdditionalCostList>
+				<ServiceExtraInfoList>
+					<ExtendedData type="EXT_ADDITIONAL_INFO">
+						<Name>INFO_AVIS_ACCOUNT_NUMBER</Name>
+						<Value>AV875137750019</Value>
+					</ExtendedData>
+					<ExtendedData type="EXT_ADDITIONAL_INFO">
+						<Name>INFO_AVIS_AWD_NUMBER</Name>
+						<Value>X062201</Value>
+					</ExtendedData>
+					<ExtendedData type="EXT_ADDITIONAL_INFO">
+						<Name>INFO_AVIS_IATA_CODE</Name>
+						<Value>0174856E</Value>
+					</ExtendedData>
+					<ExtendedData type="EXT_ADDITIONAL_INFO">
+						<Name>INFO_AVIS_VOUCHER_NUMBER</Name>
+						<Value>AVISHBD0</Value>
+					</ExtendedData>
+					<ExtendedData type="EXT_ADDITIONAL_INFO">
+						<Name>INFO_AVIS_RATE_CODE</Name>
+						<Value>IT</Value>
+					</ExtendedData>
+					<ExtendedData type="EXT_ADDITIONAL_INFO">
+						<Name>INFO_AVIS_RATE_DESCRIPTION</Name>
+						<Value>Impuesto local, Exención parcial de responsabilidad por daños a la integridad del vehículo (CDW), Exención parcial de responsabilidad por robo o disminución del vehículo (TP), Cargo de aeropuerto/tren, Kilometraje ilimitado.</Value>
+					</ExtendedData>
+				</ServiceExtraInfoList>
+				<ModificationPolicyList>
+					<ModificationPolicy>Cancellation</ModificationPolicy>
+					<ModificationPolicy>Confirmation</ModificationPolicy>
+				</ModificationPolicyList>
+				<CarInfo xsi:type="ProductCar">
+					<Code>1877</Code>
+					<Name>Renault Clio 1.5 DCI Confort 80cv</Name>
+					<ImageList>
+						<Image>
+							<Type>S</Type>
+							<Url>es1_b_lrg01.jpg</Url>
+						</Image>
+						<Image>
+							<Type>L</Type>
+							<Url>es1_b_lrg01.jpg</Url>
+						</Image>
+					</ImageList>
+					<Vendor code="11">Avis</Vendor>
+				</CarInfo>
+				<CarGroup code="3">Grupo B</CarGroup>
+				<Driver type="AD">
+					<CustomerId>3</CustomerId>
+					<Age>30</Age>
+				</Driver>
+				<RentalOffice xsi:type="ProductCarOffice">
+					<Code>PMI</Code>
+					<Name>Mallorca - Aeropuerto De Palma (Palma De Mallorca)</Name>
+				</RentalOffice>
+				<ReturnOffice xsi:type="ProductCarOffice">
+					<Code>PMI</Code>
+					<Name>Mallorca - Aeropuerto De Palma (Palma De Mallorca)</Name>
+				</ReturnOffice>
+			</Service>
+		</ServiceList>
+		<Currency code="EUR"/>
+		<TotalPrice>397.970</TotalPrice>
+	</Purchase>
+</ServiceAddRS>

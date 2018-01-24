@@ -1,0 +1,858 @@
+<TicketAvailRS xmlns="http://www.hotelbeds.com/schemas/2005/06/messages" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.hotelbeds.com/schemas/2005/06/messages TicketAvailRS.xsd" totalItems="7" echoToken="DummyEchoToken">
+	<AuditData>
+		<ProcessTime>500</ProcessTime>
+		<Timestamp>2007-01-09 16:10:30.358</Timestamp>
+		<RequestHost>10.0.0.182</RequestHost>
+		<ServerName>ITINTERNET08</ServerName>
+		<ServerId>LO</ServerId>
+		<SchemaRelease>2005/06</SchemaRelease>
+		<HydraCoreRelease>2.0.200701021600</HydraCoreRelease>
+		<HydraEnumerationsRelease>1.0.200701021600</HydraEnumerationsRelease>
+		<MerlinRelease>N/A</MerlinRelease>
+	</AuditData>
+	<PaginationData currentPage="1" totalPages="1"/>
+	<ServiceTicket xsi:type="ServiceTicket" availToken="baJNknypviUi+psO68/NDw==">
+		<DateFrom date="20070309"/>
+		<DateTo date="20070311"/>
+		<Currency code="EUR">Euro</Currency>
+		<TicketInfo xsi:type="ProductTicket">
+			<Code>COSTANORD</Code>
+			<Name>Costa Nord</Name>
+			<DescriptionList>
+				<Description type="generalDescription" languageCode="ENG">Situated in Valldemossa, it is a unique location on the Balearic Islands, designed by the Catalonian architect Dani Freixes. Its audiovisual facilities 
+offer visitors the possibility of learning about the history of the Balearic Islands. These facilities have also enabled all kinds of events, such as concerts, plays, presentations, etc.</Description>
+			</DescriptionList>
+			<ImageList>
+				<Image>
+					<Type>TIC</Type>
+					<Order>1</Order>
+					<VisualizationOrder>1</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl435_costanord1</Url>
+				</Image>
+				<Image>
+					<Type>TIC</Type>
+					<Order>2</Order>
+					<VisualizationOrder>2</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl435_costanord2</Url>
+				</Image>
+				<Image>
+					<Type>TIC</Type>
+					<Order>3</Order>
+					<VisualizationOrder>3</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl435_costanord3</Url>
+				</Image>
+				<Image>
+					<Type>TIC</Type>
+					<Order>4</Order>
+					<VisualizationOrder>4</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl435_costanord4</Url>
+				</Image>
+				<Image>
+					<Type>TIC</Type>
+					<Order>5</Order>
+					<VisualizationOrder>5</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl435_costanord5</Url>
+				</Image>
+			</ImageList>
+			<Destination type="SIMPLE" code="PMI"/>
+			<TicketZone xsi:type="ProductZone"/>
+			<Classification code="CULTU">Cultural</Classification>
+		</TicketInfo>
+		<AvailableModality code="0#CONSUMICIO">
+			<Name>General pass drink included</Name>
+			<Contract>
+				<Name>COSTA NORD</Name>
+				<IncomingOffice code="1"/>
+			</Contract>
+			<PriceList>
+				<Price>
+					<Amount>4.361</Amount>
+					<Description>ADULT PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>2.181</Amount>
+					<Description>CHILD PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>0.000</Amount>
+					<Description>INFANT PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>4.361</Amount>
+					<Description>SERVICE PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>7.750</Amount>
+					<Description>TICKET OFFICE PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>3.900</Amount>
+					<Description>CHILD TICKET OFFICE PRICE</Description>
+				</Price>
+			</PriceList>
+			<OperationDateList>
+				<OperationDate date="20070309" minimumDuration="1" maximumDuration="1"/>
+				<OperationDate date="20070310" minimumDuration="1" maximumDuration="1"/>
+				<OperationDate date="20070311" minimumDuration="1" maximumDuration="1"/>
+			</OperationDateList>
+			<ChildAge ageFrom="2" ageTo="12"/>
+		</AvailableModality>
+		<AvailableModality code="1#CONSUMICIO">
+			<Name>General pass drink included</Name>
+			<Contract>
+				<Name>COSTANORD CANCO</Name>
+				<IncomingOffice code="1"/>
+			</Contract>
+			<PriceList>
+				<Price>
+					<Amount>4.361</Amount>
+					<Description>ADULT PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>2.181</Amount>
+					<Description>CHILD PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>0.000</Amount>
+					<Description>INFANT PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>4.361</Amount>
+					<Description>SERVICE PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>7.750</Amount>
+					<Description>TICKET OFFICE PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>3.900</Amount>
+					<Description>CHILD TICKET OFFICE PRICE</Description>
+				</Price>
+			</PriceList>
+			<OperationDateList>
+				<OperationDate date="20070309" minimumDuration="1" maximumDuration="1"/>
+				<OperationDate date="20070310" minimumDuration="1" maximumDuration="1"/>
+				<OperationDate date="20070311" minimumDuration="1" maximumDuration="1"/>
+			</OperationDateList>
+			<ChildAge ageFrom="2" ageTo="12"/>
+		</AvailableModality>
+		<Paxes>
+			<AdultCount>1</AdultCount>
+			<ChildCount>0</ChildCount>
+			<GuestList>
+				<Customer type="AD"/>
+			</GuestList>
+		</Paxes>
+	</ServiceTicket>
+	<ServiceTicket xsi:type="ServiceTicket" availToken="baJNknypviUi+psO68/NDw==">
+		<DateFrom date="20070309"/>
+		<DateTo date="20070311"/>
+		<Currency code="EUR">Euro</Currency>
+		<TicketInfo xsi:type="ProductTicket">
+			<Code>ES GALATZO</Code>
+			<Name>Es Galatzo Natural Park</Name>
+			<DescriptionList>
+				<Description type="generalDescription" languageCode="ENG">The nature reserve, La Reserva Puig de Galtz&#243;, spans an area of 2.5 million square metres and is situated in the southwest of Mallorca. The signposted road, 3.5 km long, passing by old coal mines, which mark the whole route through this unique nature area. The reserve is at the foot of the Puig de Galatz&#243; mountain, which is considered to be one of the most magnetic in Europe and one of the most famous in Mallorca. Its valley is one of the most beautiful on the island and one of the first to be inhabited by man. Truly one of the most enigmatic areas of the island, and according to the legends of the Comte Mal, the area offered refuge to Muslims during the Reconquest.The nature reserve boasts lush vegetation and a wide range of plants, all on a steep landscape, extending from 200 to 1,026 metres high. Surrounded by caves and waterfalls, the nature reserve also includes bears, ostriches, donkeys, goats, peacocks and many different types of ducks.
+.In the park&apos;s valley there is a superb adventure track where anyone with an adventurous soul can join in the activities and enjoy themselves.</Description>
+			</DescriptionList>
+			<ImageList>
+				<Image>
+					<Type>TIC</Type>
+					<Order>1</Order>
+					<VisualizationOrder>1</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl53_galat1</Url>
+				</Image>
+				<Image>
+					<Type>TIC</Type>
+					<Order>2</Order>
+					<VisualizationOrder>2</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl53_galat2</Url>
+				</Image>
+				<Image>
+					<Type>TIC</Type>
+					<Order>3</Order>
+					<VisualizationOrder>3</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl53_galat3</Url>
+				</Image>
+				<Image>
+					<Type>TIC</Type>
+					<Order>4</Order>
+					<VisualizationOrder>4</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl53_galat4</Url>
+				</Image>
+				<Image>
+					<Type>TIC</Type>
+					<Order>5</Order>
+					<VisualizationOrder>5</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl53_galat5</Url>
+				</Image>
+				<Image>
+					<Type>TIC</Type>
+					<Order>6</Order>
+					<VisualizationOrder>6</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl53_galat6</Url>
+				</Image>
+			</ImageList>
+			<Destination type="SIMPLE" code="PMI"/>
+			<TicketZone xsi:type="ProductZone"/>
+			<Classification code="AVENN">Adventure</Classification>
+		</TicketInfo>
+		<AvailableModality code="0#AVENTURA">
+			<Name>Pass with Adventure</Name>
+			<Contract>
+				<Name>GALATZO</Name>
+				<IncomingOffice code="1"/>
+			</Contract>
+			<PriceList>
+				<Price>
+					<Amount>29.571</Amount>
+					<Description>ADULT PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>29.571</Amount>
+					<Description>CHILD PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>0.000</Amount>
+					<Description>INFANT PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>29.571</Amount>
+					<Description>SERVICE PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>36.400</Amount>
+					<Description>TICKET OFFICE PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>36.400</Amount>
+					<Description>CHILD TICKET OFFICE PRICE</Description>
+				</Price>
+			</PriceList>
+			<OperationDateList>
+				<OperationDate date="20070309" minimumDuration="1" maximumDuration="1"/>
+				<OperationDate date="20070310" minimumDuration="1" maximumDuration="1"/>
+				<OperationDate date="20070311" minimumDuration="1" maximumDuration="1"/>
+			</OperationDateList>
+			<ChildAge ageFrom="4" ageTo="12"/>
+		</AvailableModality>
+		<AvailableModality code="0#BARBACOA">
+			<Name>Pass with Barcacue</Name>
+			<Contract>
+				<Name>GALATZO</Name>
+				<IncomingOffice code="1"/>
+			</Contract>
+			<PriceList>
+				<Price>
+					<Amount>16.601</Amount>
+					<Description>ADULT PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>12.340</Amount>
+					<Description>CHILD PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>0.000</Amount>
+					<Description>INFANT PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>16.601</Amount>
+					<Description>SERVICE PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>20.801</Amount>
+					<Description>TICKET OFFICE PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>15.350</Amount>
+					<Description>CHILD TICKET OFFICE PRICE</Description>
+				</Price>
+			</PriceList>
+			<OperationDateList>
+				<OperationDate date="20070309" minimumDuration="1" maximumDuration="1"/>
+				<OperationDate date="20070310" minimumDuration="1" maximumDuration="1"/>
+				<OperationDate date="20070311" minimumDuration="1" maximumDuration="1"/>
+			</OperationDateList>
+			<ChildAge ageFrom="4" ageTo="12"/>
+		</AvailableModality>
+		<AvailableModality code="0#BARBAVENTU">
+			<Name>Pass with Adventure and Barbacue</Name>
+			<Contract>
+				<Name>GALATZO</Name>
+				<IncomingOffice code="1"/>
+			</Contract>
+			<PriceList>
+				<Price>
+					<Amount>37.650</Amount>
+					<Description>ADULT PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>37.650</Amount>
+					<Description>CHILD PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>0.000</Amount>
+					<Description>INFANT PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>37.650</Amount>
+					<Description>SERVICE PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>46.300</Amount>
+					<Description>TICKET OFFICE PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>46.300</Amount>
+					<Description>CHILD TICKET OFFICE PRICE</Description>
+				</Price>
+			</PriceList>
+			<OperationDateList>
+				<OperationDate date="20070309" minimumDuration="1" maximumDuration="1"/>
+				<OperationDate date="20070310" minimumDuration="1" maximumDuration="1"/>
+				<OperationDate date="20070311" minimumDuration="1" maximumDuration="1"/>
+			</OperationDateList>
+			<ChildAge ageFrom="4" ageTo="12"/>
+		</AvailableModality>
+		<AvailableModality code="0#GENERAL">
+			<Name>General Pass</Name>
+			<Contract>
+				<Name>GALATZO</Name>
+				<IncomingOffice code="1"/>
+			</Contract>
+			<PriceList>
+				<Price>
+					<Amount>8.520</Amount>
+					<Description>ADULT PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>4.250</Amount>
+					<Description>CHILD PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>0.000</Amount>
+					<Description>INFANT PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>8.520</Amount>
+					<Description>SERVICE PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>10.901</Amount>
+					<Description>TICKET OFFICE PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>5.451</Amount>
+					<Description>CHILD TICKET OFFICE PRICE</Description>
+				</Price>
+			</PriceList>
+			<OperationDateList>
+				<OperationDate date="20070309" minimumDuration="1" maximumDuration="1"/>
+				<OperationDate date="20070310" minimumDuration="1" maximumDuration="1"/>
+				<OperationDate date="20070311" minimumDuration="1" maximumDuration="1"/>
+			</OperationDateList>
+			<ChildAge ageFrom="4" ageTo="12"/>
+		</AvailableModality>
+		<Paxes>
+			<AdultCount>1</AdultCount>
+			<ChildCount>0</ChildCount>
+			<GuestList>
+				<Customer type="AD"/>
+			</GuestList>
+		</Paxes>
+	</ServiceTicket>
+	<ServiceTicket xsi:type="ServiceTicket" availToken="baJNknypviUi+psO68/NDw==">
+		<DateFrom date="20070309"/>
+		<DateTo date="20070311"/>
+		<Currency code="EUR">Euro</Currency>
+		<TicketInfo xsi:type="ProductTicket">
+			<Code>HAMS</Code>
+			<Name>Hams Caves</Name>
+			<DescriptionList>
+				<Description type="generalDescription" languageCode="ENG">Discovered by Don Pedro Caldentey in 1905, the Hams Caves are famous for they particular arboreal formations and it&apos;s beautiful underground lake, where it offers a spectacular violin concert. The lake becomes magic thanks to an unbelievable light and colour&apos;s play.  Furthermore you can admire &quot;Digithams&quot; a tribute to the science fiction&apos;s father: Jules Verne.  Original engravings and pictures of 19th century digitally animated and projected over the stone walls of a millenary cave with a last generation show.</Description>
+			</DescriptionList>
+			<ImageList>
+				<Image>
+					<Type>TIC</Type>
+					<Order>1</Order>
+					<VisualizationOrder>1</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl341_hams1</Url>
+				</Image>
+				<Image>
+					<Type>TIC</Type>
+					<Order>2</Order>
+					<VisualizationOrder>2</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl341_hams2</Url>
+				</Image>
+				<Image>
+					<Type>TIC</Type>
+					<Order>3</Order>
+					<VisualizationOrder>3</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl341_hams3</Url>
+				</Image>
+				<Image>
+					<Type>TIC</Type>
+					<Order>4</Order>
+					<VisualizationOrder>4</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl341_hams4</Url>
+				</Image>
+				<Image>
+					<Type>TIC</Type>
+					<Order>5</Order>
+					<VisualizationOrder>5</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl341_hams5</Url>
+				</Image>
+				<Image>
+					<Type>TIC</Type>
+					<Order>6</Order>
+					<VisualizationOrder>6</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl341_hams5</Url>
+				</Image>
+			</ImageList>
+			<Destination type="SIMPLE" code="PMI"/>
+			<TicketZone xsi:type="ProductZone"/>
+			<Classification code="CULTU">Cultural</Classification>
+		</TicketInfo>
+		<AvailableModality code="0#COMBINADO">
+			<Name>Ticket Caves with Julio Verne included</Name>
+			<Contract>
+				<Name>HAMS ENTRADA</Name>
+				<IncomingOffice code="1"/>
+			</Contract>
+			<PriceList>
+				<Price>
+					<Amount>10.120</Amount>
+					<Description>ADULT PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>5.060</Amount>
+					<Description>CHILD PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>0.000</Amount>
+					<Description>INFANT PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>10.120</Amount>
+					<Description>SERVICE PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>16.000</Amount>
+					<Description>TICKET OFFICE PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>8.000</Amount>
+					<Description>CHILD TICKET OFFICE PRICE</Description>
+				</Price>
+			</PriceList>
+			<OperationDateList>
+				<OperationDate date="20070309" minimumDuration="1" maximumDuration="1"/>
+				<OperationDate date="20070310" minimumDuration="1" maximumDuration="1"/>
+				<OperationDate date="20070311" minimumDuration="1" maximumDuration="1"/>
+			</OperationDateList>
+			<ChildAge ageFrom="2" ageTo="12"/>
+		</AvailableModality>
+		<Paxes>
+			<AdultCount>1</AdultCount>
+			<ChildCount>0</ChildCount>
+			<GuestList>
+				<Customer type="AD"/>
+			</GuestList>
+		</Paxes>
+	</ServiceTicket>
+	<ServiceTicket xsi:type="ServiceTicket" availToken="baJNknypviUi+psO68/NDw==">
+		<DateFrom date="20070309"/>
+		<DateTo date="20070311"/>
+		<Currency code="EUR">Euro</Currency>
+		<TicketInfo xsi:type="ProductTicket">
+			<Code>MULTIAVENT</Code>
+			<Name>Multi-adventure</Name>
+			<DescriptionList>
+				<Description type="generalDescription" languageCode="ENG">S&#243;ller village is an exception on the island of Mallorca. It&apos;s geografic location (Central Tramuntana), has granted it with a special singularity; located on a valley separated by various mountains with the sea as only exit.  It&apos;s proximity and relations with the South of France hava left many influences that may be appreciated on the different construction styles and on it&apos;s language.
+The Mountain-Bike itinerary starts at the center of S&#243;ller village hooking on an old path that links the village with the &quot;Finca de B&#224;litx&quot;.  A journey surrounded by Olive Trees, where we may enjoy one of the most beautiful panoramics between the sea and the mountain.
+At B&#224;litx we start the second part which will helps us to change the wheels for the roaps and muskets, starting with an aproximation to the first jumps. A gully with shafts that invite to free jumps with small heights, ideal for beginners.  This gully ends by the sea, but we will get a return path through a lane to our starting point at B&#224;litx.</Description>
+			</DescriptionList>
+			<ImageList>
+				<Image>
+					<Type>TIC</Type>
+					<Order>1</Order>
+					<VisualizationOrder>1</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl432_excursionmultiaventura1</Url>
+				</Image>
+				<Image>
+					<Type>TIC</Type>
+					<Order>2</Order>
+					<VisualizationOrder>2</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl432_excursionmultiaventura2</Url>
+				</Image>
+				<Image>
+					<Type>TIC</Type>
+					<Order>3</Order>
+					<VisualizationOrder>3</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl432_excursionmultiaventura3</Url>
+				</Image>
+				<Image>
+					<Type>TIC</Type>
+					<Order>4</Order>
+					<VisualizationOrder>4</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl432_excursionmultiaventura4</Url>
+				</Image>
+				<Image>
+					<Type>TIC</Type>
+					<Order>5</Order>
+					<VisualizationOrder>5</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl432_excursionmultiaventura5</Url>
+				</Image>
+				<Image>
+					<Type>TIC</Type>
+					<Order>6</Order>
+					<VisualizationOrder>6</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl432_excursionmultiaventura6</Url>
+				</Image>
+			</ImageList>
+			<Destination type="SIMPLE" code="PMI"/>
+			<TicketZone xsi:type="ProductZone"/>
+			<Classification code="AVENN">Adventure</Classification>
+		</TicketInfo>
+		<AvailableModality code="0#GENERAL">
+			<Name>General Pass</Name>
+			<Contract>
+				<Name>MCAXPMULTIAVENT</Name>
+				<IncomingOffice code="1"/>
+			</Contract>
+			<PriceList>
+				<Price>
+					<Amount>91.421</Amount>
+					<Description>ADULT PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>91.421</Amount>
+					<Description>CHILD PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>0.000</Amount>
+					<Description>INFANT PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>91.421</Amount>
+					<Description>SERVICE PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>105.000</Amount>
+					<Description>TICKET OFFICE PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>105.000</Amount>
+					<Description>CHILD TICKET OFFICE PRICE</Description>
+				</Price>
+			</PriceList>
+			<OperationDateList>
+				<OperationDate date="20070310" minimumDuration="1" maximumDuration="1"/>
+			</OperationDateList>
+			<ChildAge ageFrom="0" ageTo="0"/>
+		</AvailableModality>
+		<Paxes>
+			<AdultCount>1</AdultCount>
+			<ChildCount>0</ChildCount>
+			<GuestList>
+				<Customer type="AD"/>
+			</GuestList>
+		</Paxes>
+	</ServiceTicket>
+	<ServiceTicket xsi:type="ServiceTicket" availToken="baJNknypviUi+psO68/NDw==">
+		<DateFrom date="20070309"/>
+		<DateTo date="20070311"/>
+		<Currency code="EUR">Euro</Currency>
+		<TicketInfo xsi:type="ProductTicket">
+			<Code>PALAUMARCH</Code>
+			<Name>Palau March</Name>
+			<DescriptionList>
+				<Description type="generalDescription" languageCode="ENG">In the historic centre  of Palma, next to the Cathedral and the Almudaina, the majestic March Palace can be found.  The monumental palace has converted it&apos;s wide rooms into and attractive museum, housing numerous artistic object: the great collection of Contemporary Sculpture (Rodin, Chillida, Moore...), the Belen Napolitano (Nativity Scene) which dates from the 18th century, the murals of Josep M&#170; Sert, Cartograf&#237;a Mallorquina (Nautic Majorcan Maps), Dal&#237; &quot;Alquimia y Eternidad&quot; (Engravings and Lithographs from Dal&#237;), Bibliography and Art &quot;The Treasures from the Bartolom&#233; March Foundation&quot; (handscripts, rare books and pieces).</Description>
+			</DescriptionList>
+			<ImageList>
+				<Image>
+					<Type>TIC</Type>
+					<Order>1</Order>
+					<VisualizationOrder>1</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl58_march1</Url>
+				</Image>
+				<Image>
+					<Type>TIC</Type>
+					<Order>2</Order>
+					<VisualizationOrder>2</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl58_march2</Url>
+				</Image>
+				<Image>
+					<Type>TIC</Type>
+					<Order>3</Order>
+					<VisualizationOrder>3</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl58_march3</Url>
+				</Image>
+				<Image>
+					<Type>TIC</Type>
+					<Order>4</Order>
+					<VisualizationOrder>4</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl58_march4</Url>
+				</Image>
+				<Image>
+					<Type>TIC</Type>
+					<Order>5</Order>
+					<VisualizationOrder>5</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl58_march5</Url>
+				</Image>
+				<Image>
+					<Type>TIC</Type>
+					<Order>6</Order>
+					<VisualizationOrder>6</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl58_march6</Url>
+				</Image>
+			</ImageList>
+			<Destination type="SIMPLE" code="PMI"/>
+			<TicketZone xsi:type="ProductZone"/>
+			<Classification code="CULTU">Cultural</Classification>
+		</TicketInfo>
+		<AvailableModality code="0#GENERAL">
+			<Name>General Pass</Name>
+			<Contract>
+				<Name>PALAU MARCH</Name>
+				<IncomingOffice code="1"/>
+			</Contract>
+			<PriceList>
+				<Price>
+					<Amount>2.980</Amount>
+					<Description>ADULT PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>0.000</Amount>
+					<Description>CHILD PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>0.000</Amount>
+					<Description>INFANT PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>2.980</Amount>
+					<Description>SERVICE PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>3.601</Amount>
+					<Description>TICKET OFFICE PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>3.601</Amount>
+					<Description>CHILD TICKET OFFICE PRICE</Description>
+				</Price>
+			</PriceList>
+			<OperationDateList>
+				<OperationDate date="20070309" minimumDuration="1" maximumDuration="1"/>
+				<OperationDate date="20070310" minimumDuration="1" maximumDuration="1"/>
+			</OperationDateList>
+			<ChildAge ageFrom="0" ageTo="12"/>
+		</AvailableModality>
+		<Paxes>
+			<AdultCount>1</AdultCount>
+			<ChildCount>0</ChildCount>
+			<GuestList>
+				<Customer type="AD"/>
+			</GuestList>
+		</Paxes>
+	</ServiceTicket>
+	<ServiceTicket xsi:type="ServiceTicket" availToken="baJNknypviUi+psO68/NDw==">
+		<DateFrom date="20070309"/>
+		<DateTo date="20070311"/>
+		<Currency code="EUR">Euro</Currency>
+		<TicketInfo xsi:type="ProductTicket">
+			<Code>TORRECUBER</Code>
+			<Name>Hiking to Son Torella de Cuber&#180;s viewpoint</Name>
+			<DescriptionList>
+				<Description type="generalDescription" languageCode="ENG">Enjoy the panoramic views over the mountains of Mallorca, along easy paths without the need of big efforts during difficult courses.
+&quot;La Coma de Son Torrella&quot; is a high plateau situated at 800 m. in ancient times used for agriculture.  It is a Cart path completely even which takes us to the &quot;Portell de Sa Costa&quot;, from where we may find the best view over the &quot;Vall de S&#243;ller&quot;.  Just a small lane separates us from the &quot;Coll de L&apos;Ofre&quot;, the bay window to the fantastic &quot;C&#250;ber&quot; reservoir, surprinsingly, more similar to the Pyrinean sights that to the proper Mallorca.</Description>
+			</DescriptionList>
+			<ImageList>
+				<Image>
+					<Type>TIC</Type>
+					<Order>1</Order>
+					<VisualizationOrder>1</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl370_senderismosontorrela1</Url>
+				</Image>
+				<Image>
+					<Type>TIC</Type>
+					<Order>2</Order>
+					<VisualizationOrder>2</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl370_senderismosontorrela2</Url>
+				</Image>
+				<Image>
+					<Type>TIC</Type>
+					<Order>3</Order>
+					<VisualizationOrder>3</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl370_senderismosontorrela3</Url>
+				</Image>
+				<Image>
+					<Type>TIC</Type>
+					<Order>4</Order>
+					<VisualizationOrder>4</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl370_senderismosontorrela4</Url>
+				</Image>
+				<Image>
+					<Type>TIC</Type>
+					<Order>5</Order>
+					<VisualizationOrder>5</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl370_senderismosontorrela5</Url>
+				</Image>
+				<Image>
+					<Type>TIC</Type>
+					<Order>6</Order>
+					<VisualizationOrder>6</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl370_senderismosontorrela6</Url>
+				</Image>
+			</ImageList>
+			<Destination type="SIMPLE" code="PMI"/>
+			<TicketZone xsi:type="ProductZone"/>
+			<Classification code="AVENN">Adventure</Classification>
+		</TicketInfo>
+		<AvailableModality code="0#GENERAL">
+			<Name>General ticket</Name>
+			<Contract>
+				<Name>MCAXPSONTORRELL</Name>
+				<IncomingOffice code="1"/>
+			</Contract>
+			<PriceList>
+				<Price>
+					<Amount>28.731</Amount>
+					<Description>ADULT PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>28.731</Amount>
+					<Description>CHILD PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>0.000</Amount>
+					<Description>INFANT PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>28.731</Amount>
+					<Description>SERVICE PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>33.000</Amount>
+					<Description>TICKET OFFICE PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>33.000</Amount>
+					<Description>CHILD TICKET OFFICE PRICE</Description>
+				</Price>
+			</PriceList>
+			<OperationDateList>
+				<OperationDate date="20070309" minimumDuration="1" maximumDuration="1"/>
+			</OperationDateList>
+			<ChildAge ageFrom="0" ageTo="0"/>
+		</AvailableModality>
+		<Paxes>
+			<AdultCount>1</AdultCount>
+			<ChildCount>0</ChildCount>
+			<GuestList>
+				<Customer type="AD"/>
+			</GuestList>
+		</Paxes>
+	</ServiceTicket>
+	<ServiceTicket xsi:type="ServiceTicket" availToken="baJNknypviUi+psO68/NDw==">
+		<DateFrom date="20070309"/>
+		<DateTo date="20070311"/>
+		<Currency code="EUR">Euro</Currency>
+		<TicketInfo xsi:type="ProductTicket">
+			<Code>VALLDEMOSS</Code>
+			<Name>Real Cartuja De Valldemossa</Name>
+			<DescriptionList>
+				<Description type="generalDescription" languageCode="ENG">Valldemossa, a municipality of Mallorca island, near Palma, is located in on high ground, being part of the valley of the Tramontana&#180;s mountain range, full of olive and almond trees. The area boasts a wide range of springs and it&#191;s surrounded by lush vegetation, recreating the feel of a quite and peaceful village. The narrow and steep streets give this little village a special kind of charm. The house in the village where Santa Catalina Thomas was born has been preserved. Refurbished in the 18th century, the church which originally dates back to 13th century, particularly stands out.Its main attraction is the Cartuja (monastery) and the memory which was left from the winter of 1838-39 by the romantic couple, the composer Chopin and the authoress George Sand. The Cartuja was also home to such important personalities as Rub&#233;n Dar&#237;o, Jovellanos, Santiago Rusi&#241;ol and others.
+&quot;Everything an artist or a poet can imagine has been created by the nature of this region&quot;. Geroge Sand</Description>
+			</DescriptionList>
+			<ImageList>
+				<Image>
+					<Type>TIC</Type>
+					<Order>1</Order>
+					<VisualizationOrder>1</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl59_vall1</Url>
+				</Image>
+				<Image>
+					<Type>TIC</Type>
+					<Order>2</Order>
+					<VisualizationOrder>2</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl59_vall2</Url>
+				</Image>
+				<Image>
+					<Type>TIC</Type>
+					<Order>3</Order>
+					<VisualizationOrder>3</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl59_vall3</Url>
+				</Image>
+				<Image>
+					<Type>TIC</Type>
+					<Order>4</Order>
+					<VisualizationOrder>4</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl59_vall4</Url>
+				</Image>
+				<Image>
+					<Type>TIC</Type>
+					<Order>5</Order>
+					<VisualizationOrder>5</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl59_vall5</Url>
+				</Image>
+				<Image>
+					<Type>TIC</Type>
+					<Order>6</Order>
+					<VisualizationOrder>6</VisualizationOrder>
+					<Url>img_es_pmi_tc_hl59_vall6</Url>
+				</Image>
+			</ImageList>
+			<Destination type="SIMPLE" code="PMI"/>
+			<TicketZone xsi:type="ProductZone"/>
+			<Classification code="CULTU">Cultural</Classification>
+		</TicketInfo>
+		<AvailableModality code="0#GENERAL">
+			<Name>General Pass</Name>
+			<Contract>
+				<Name>CARTUJA</Name>
+				<IncomingOffice code="1"/>
+			</Contract>
+			<PriceList>
+				<Price>
+					<Amount>4.481</Amount>
+					<Description>ADULT PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>4.481</Amount>
+					<Description>CHILD PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>0.000</Amount>
+					<Description>INFANT PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>4.481</Amount>
+					<Description>SERVICE PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>7.500</Amount>
+					<Description>TICKET OFFICE PRICE</Description>
+				</Price>
+				<Price>
+					<Amount>7.500</Amount>
+					<Description>CHILD TICKET OFFICE PRICE</Description>
+				</Price>
+			</PriceList>
+			<OperationDateList>
+				<OperationDate date="20070309" minimumDuration="1" maximumDuration="1"/>
+				<OperationDate date="20070310" minimumDuration="1" maximumDuration="1"/>
+				<OperationDate date="20070311" minimumDuration="1" maximumDuration="1"/>
+			</OperationDateList>
+			<ChildAge ageFrom="0" ageTo="10"/>
+		</AvailableModality>
+		<Paxes>
+			<AdultCount>1</AdultCount>
+			<ChildCount>0</ChildCount>
+			<GuestList>
+				<Customer type="AD"/>
+			</GuestList>
+		</Paxes>
+	</ServiceTicket>
+</TicketAvailRS>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.hotelbeds.com/schemas/2005/06/messages" targetNamespace="http://www.hotelbeds.com/schemas/2005/06/messages" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:include schemaLocation="HotelbedsCommonTypes.xsd"/>
+	<xs:element name="TicketClassificationListRS">
+		<xs:annotation>
+			<xs:documentation>Response data containing al list of available classifications for ticket services.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="CoreResponse">
+					<xs:sequence minOccurs="0">
+						<xs:element name="Classification" type="Classification" maxOccurs="unbounded">
+							<xs:annotation>
+								<xs:documentation>Classification data.</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+					</xs:sequence>
+					<xs:attribute name="totalItems" type="xs:int">
+						<xs:annotation>
+							<xs:documentation>Total available classifications in the list.</xs:documentation>
+						</xs:annotation>
+					</xs:attribute>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

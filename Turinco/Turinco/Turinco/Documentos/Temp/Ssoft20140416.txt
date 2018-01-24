@@ -1,0 +1,19 @@
+Fecha:           2014/04/16 08:50
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:31267/TuTiqueteV4/default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 
+Sesion WS: 
+
+Fecha:           2014/04/16 08:51
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Object reference not set to an instance of an object.
+Info:        No se puede recuperar la sesion
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.csGeneralsPag.SesionIdPage()
+Sesion Local: 635332350703382946pu3vyqrflvwitrvu0anmacxp
+Sesion WS: 
+

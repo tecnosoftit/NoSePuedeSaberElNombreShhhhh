@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EDE1E872-C11A-49C0-B1DE-305A92E1BA3C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ssoft</RootNamespace>
+    <AssemblyName>Ssoft</AssemblyName>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\..\Turinco\Turinco\Bin\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Ssoft.DataNet\clsDataNet.cs" />
+    <Compile Include="Ssoft.Data\AccesoSQL.cs" />
+    <Compile Include="Ssoft.Email\Message.cs" />
+    <Compile Include="Ssoft.ManejadorExcepciones\publicar.cs" />
+    <Compile Include="Ssoft.ManejadorExcepciones\tblLogError.cs" />
+    <Compile Include="Ssoft.Security\clsCertificate.cs" />
+    <Compile Include="Ssoft.Sql\clsDataSql.cs" />
+    <Compile Include="Ssoft.Sql\clsField.cs" />
+    <Compile Include="Ssoft.Sql\clsSql.cs" />
+    <Compile Include="Ssoft.Utils\clsCacheReserva.cs" />
+    <Compile Include="Ssoft.Utils\clsControls.cs" />
+    <Compile Include="Ssoft.Utils\clsCredenciales.cs" />
+    <Compile Include="Ssoft.Utils\clsEmail.cs" />
+    <Compile Include="Ssoft.Utils\clsEnumerados.cs" />
+    <Compile Include="Ssoft.Utils\clsGaleria.cs" />
+    <Compile Include="Ssoft.Utils\clsHttpZipper.cs" />
+    <Compile Include="Ssoft.Utils\clsIdioma.cs" />
+    <Compile Include="Ssoft.Utils\clsInterfaceWSHttp.cs" />
+    <Compile Include="Ssoft.Utils\clsLogin.cs" />
+    <Compile Include="Ssoft.Utils\clsMapa.cs" />
+    <Compile Include="Ssoft.Utils\clsObjects.cs" />
+    <Compile Include="Ssoft.Utils\clsSesiones.cs" />
+    <Compile Include="Ssoft.Utils\clsUtils.cs" />
+    <Compile Include="Ssoft.Utils\clsCache.cs" />
+    <Compile Include="Ssoft.Utils\clsSerializer.cs" />
+    <Compile Include="Ssoft.Utils\clsValidaciones.cs" />
+    <Compile Include="Ssoft.Utils\clsMensajesError.cs" />
+    <Compile Include="Ssoft.Utils\SqlSentencia.cs" />
+    <Compile Include="Ssoft.ValueObjects\General\VO_Account.cs" />
+    <Compile Include="Ssoft.ValueObjects\General\VO_Credentials.cs" />
+    <Compile Include="Ssoft.ValueObjects\General\VO_Passenger.cs" />
+    <Compile Include="Ssoft.ValueObjects\General\VO_Remarks.cs" />
+    <Compile Include="Ssoft.ValueObjects\General\VO_SabreErrors.cs" />
+    <Compile Include="Ssoft.ValueObjects\Hoteles\VO_HotelDetailRQ.cs" />
+    <Compile Include="Ssoft.ValueObjects\Hoteles\VO_HotelOccupancy.cs" />
+    <Compile Include="Ssoft.ValueObjects\Hoteles\VO_HotelRoom.cs" />
+    <Compile Include="Ssoft.ValueObjects\Hoteles\VO_HotelValuedAvailRQ.cs" />
+    <Compile Include="Ssoft.ValueObjects\Hoteles\VO_PurchaseConfirmRQ.cs" />
+    <Compile Include="Ssoft.ValueObjects\Hoteles\VO_PurchaseReference.cs" />
+    <Compile Include="Ssoft.ValueObjects\Hoteles\VO_ServiceAddRQ.cs" />
+    <Compile Include="Ssoft.ValueObjects\MySabre\VO_AutenticationMySabre.cs" />
+    <Compile Include="Ssoft.ValueObjects\Planes\VO_ParametrosTarifas.cs" />
+    <Compile Include="Ssoft.ValueObjects\Vuelos\VO_Aeropuerto.cs" />
+    <Compile Include="Ssoft.ValueObjects\Vuelos\VO_AeropuertoAlterno.cs" />
+    <Compile Include="Ssoft.ValueObjects\Vuelos\VO_AirItinerary.cs" />
+    <Compile Include="Ssoft.ValueObjects\Vuelos\VO_CandidatoTarifaPlan.cs" />
+    <Compile Include="Ssoft.ValueObjects\Vuelos\VO_Cargo.cs" />
+    <Compile Include="Ssoft.ValueObjects\Vuelos\VO_DataTravelItineraryAddInfo.cs" />
+    <Compile Include="Ssoft.ValueObjects\Vuelos\VO_DetalleTarifa.cs" />
+    <Compile Include="Ssoft.ValueObjects\Vuelos\VO_Impuesto.cs" />
+    <Compile Include="Ssoft.ValueObjects\Vuelos\VO_OrigenDestinationOption.cs" />
+    <Compile Include="Ssoft.ValueObjects\Vuelos\VO_OriginDestinationInformation.cs" />
+    <Compile Include="Ssoft.ValueObjects\Vuelos\VO_OTA_AirBookRQ.cs" />
+    <Compile Include="Ssoft.ValueObjects\Vuelos\VO_OTA_AirLowFareSearchLLSRQ.cs" />
+    <Compile Include="Ssoft.ValueObjects\Vuelos\VO_OTA_AirLowFareSearchLLSRS.cs" />
+    <Compile Include="Ssoft.ValueObjects\Vuelos\VO_OTA_AirPriceRQ.cs" />
+    <Compile Include="Ssoft.ValueObjects\Vuelos\VO_OTA_AirRulesRQ.cs" />
+    <Compile Include="Ssoft.ValueObjects\Vuelos\VO_Pasajero.cs" />
+    <Compile Include="Ssoft.ValueObjects\Vuelos\VO_PrintersTicketsRQ.cs" />
+    <Compile Include="Ssoft.ValueObjects\Vuelos\VO_Prioridades.cs" />
+    <Compile Include="Ssoft.ValueObjects\Vuelos\VO_Reglastarifa.cs" />
+    <Compile Include="Ssoft.ValueObjects\Vuelos\VO_ResultTravelItineraryAddInfo.cs" />
+    <Compile Include="Ssoft.ValueObjects\Vuelos\VO_ResultTravelItineraryAddInfo_Itinerario.cs" />
+    <Compile Include="Ssoft.ValueObjects\Vuelos\VO_ResultTravelItineraryAddInfo_Pasajeros.cs" />
+    <Compile Include="Ssoft.ValueObjects\Vuelos\VO_RulesFromPriceRQ.cs" />
+    <Compile Include="Ssoft.ValueObjects\Vuelos\VO_SabreBase.cs" />
+    <Compile Include="Ssoft.ValueObjects\Vuelos\VO_SabreCommandLLSRS.cs" />
+    <Compile Include="Ssoft.ValueObjects\Vuelos\VO_SegmentoAereo.cs" />
+    <Compile Include="Ssoft.ValueObjects\Vuelos\VO_SegmentSelect.cs" />
+    <Compile Include="Ssoft.ValueObjects\Vuelos\VO_SessionCreateRQ.cs" />
+    <Compile Include="Ssoft.ValueObjects\Vuelos\VO_TA.cs" />
+    <Compile Include="Ssoft.ValueObjects\Vuelos\VO_TarifaPago.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Ssoft.Email\Email.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ssoft.Email\EmailConfig.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

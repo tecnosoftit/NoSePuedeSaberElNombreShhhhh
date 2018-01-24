@@ -1,0 +1,1298 @@
+
+/*	Resets
+	------	*/
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figure, figcaption, hgroup, menu, footer, header, nav, section, summary, time, mark, audio, video
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+article, aside, canvas, figure, figure img, figcaption, hgroup, footer, header, nav, section, audio, video
+{
+    display: block;
+}
+
+a img
+{
+    border: 0;
+}
+
+
+
+/*	Typography presets
+	------------------	*/
+
+.gigantic
+{
+    font-size: 110px;
+    line-height: 120px;
+    letter-spacing: -2px;
+}
+
+.huge
+{
+    font-size: 68px;
+    line-height: 72px;
+    letter-spacing: -1px;
+}
+
+.large
+{
+    font-size: 42px;
+    line-height: 48px;
+}
+
+.bigger
+{
+    font-size: 26px;
+    line-height: 36px;
+}
+
+.big
+{
+    font-size: 22px;
+    line-height: 30px;
+}
+
+body
+{
+    font: 13px/1.5em Helvetica, Arial, sans-serif;
+}
+
+.small, small
+{
+    font-size: 13px;
+    line-height: 18px;
+}
+
+/* Selection colours (easy to forget) */
+
+::selection
+{
+    background: rgb(255,255,158);
+}
+::-moz-selection
+{
+    background: rgb(255,255,158);
+}
+img::selection
+{
+    background: transparent;
+}
+img::-moz-selection
+{
+    background: transparent;
+}
+body
+{
+    -webkit-tap-highlight-color: rgb(255,255,158);
+}
+
+
+
+/*		Default Layout: 992px.
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+
+body
+{
+    -webkit-text-size-adjust: 100%; /* Stops Mobile Safari from auto-adjusting font-sizes */
+}
+
+.wrapper
+{
+    width: 982px; /*padding-left: 68px;*/
+}
+
+#main
+{
+    width: 920px;
+    padding-left: 0px;
+    margin: 0 auto;
+}
+
+#mobile-nav-holder
+{
+    display: none;
+}
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px)
+{
+
+    .wrapper, #main
+    {
+        padding-left: 0px;
+        width: 760px;
+    }
+
+    #logo
+    {
+        padding-left: 0px;
+    }
+
+    #logo img
+    {
+        width: 350px;
+    }
+
+    /* nav */
+
+    nav
+    {
+    }
+
+    #nav li
+    {
+        font-size: 13px;
+        font-weight: lighter;
+    }
+
+    #nav > li ul
+    {
+        margin-top: -5px;
+    }
+
+    #nav > li > a > .subheader
+    {
+        display: none;
+    }
+
+    #mobile-nav-holder
+    {
+        display: none;
+    }
+
+    /* social 
+
+                                                                                                	#social-bar{
+                                                                                                		position: absolute;
+                                                                                                		top: -35px;
+                                                                                                		right: 0px;
+                                                                                                		width: auto;
+                                                                                                		background: none;
+                                                                                                	}
+
+                                                                                                	#social-bar ul{
+                                                                                                		float: right;
+                                                                                                		display: block;
+                                                                                                		overflow: hidden;
+                                                                                                		margin: 0px;
+                                                                                                		width: auto;
+                                                                                                	}
+
+                                                                                                	#social-bar li{
+                                                                                                		display: block;
+                                                                                                		float: left;
+                                                                                                		margin: 0px 2px;
+                                                                                                	}
+
+                                                                                                	#social-bar li img{
+                                                                                                		width: 16px;
+                                                                                                		height: 16px;
+                                                                                                	}*/
+
+    /* main */
+
+    #main #content
+    {
+        width: 760px !important; /*float: none!important;*/
+        margin-top: 30px;
+    }
+
+    .shadow-main
+    {
+        width: 760px;
+        height: 11px;
+        margin-left: 0px;
+        background: url(../img/shadow-main-tablet.png) no-repeat top center;
+    }
+
+    .unCu
+    {
+        width: 80% !important;
+        margin-top: -30px;
+        margin-left: 80px;
+    }
+
+    .flexRigth
+    {
+        width: 80% !important;
+        position: relative;
+        margin-left: 75px;
+        margin-bottom: 40px;
+        float: none;
+        margin-top: 465px;
+        margin-right: 70px;
+    }
+
+    /* masthead */
+
+    #masthead .breadcrumbs
+    {
+        display: none;
+    }
+
+    /* slider */
+
+    .shadow-slider
+    {
+        background: url(../img/shadow-main-tablet.png) no-repeat top center;
+    }
+
+    /* featured */
+
+    .featured figure
+    {
+        /*position: absolute;*/
+        width: 272px;
+        margin-left: 30px;
+        margin-bottom: 21px;
+        left: 0px;
+    }
+
+    /*text posts */
+
+    .text-posts li
+    {
+        margin-left: 24px;
+        width: 160px;
+    }
+
+    /* home gallery */
+
+    .home-gallery li
+    {
+        margin-left: 24px;
+        width: 160px;
+    }
+
+
+    /* aside */
+
+    aside.retractil
+    {
+        top: 72px;
+    }
+
+    /* portfolio */
+
+    .project-description
+    {
+        width: 528px;
+    }
+
+    .project-info
+    {
+        width: 160px;
+    }
+
+    .related-projects figure
+    {
+        width: 200px;
+    }
+
+    /* blog */
+
+    #posts-list, #post-content, #page-content
+    {
+        width: 436px;
+    }
+
+    /* footer */
+
+    #footer-cols > li
+    {
+        display: block;
+        float: left;
+        width: 200px !important;
+        margin-left: 14px;
+    }
+
+    /* widgets */
+
+    .recent-post .post-head
+    {
+        width: 162px;
+    }
+
+    .project-heading
+    {
+        margin: 24px;
+        padding-top: 20px;
+        margin-top: -30px;
+    }
+
+    #sidebar
+    {
+        width: 222px;
+        float: right;
+        margin-top: 15px;
+        margin-bottom: 24px;
+        margin-right: 54px;
+    }
+
+    .related-projects
+    {
+        padding: 14px 0px 10px 30px;
+    }
+
+    #masthead
+    {
+        margin-top: -30px !important;
+    }
+
+    /* nuevos estilos */
+
+    #page-content-full
+    {
+        margin-top: 500px !important;
+    }
+
+    #page-content-full2
+    {
+        width: 88%;
+        display: inline-block;
+        margin-top: 25px !important;
+    }
+
+    /*PLANES*/
+
+    #ucPlanes_txtFiltroTexto
+    {
+        width: 106px !important;
+        font-size: 11px;
+    }
+    #ucPlanes_UpdatePanel4
+    {
+        width: 129px !important;
+    }
+    #ucPlanes_ddlZonaGeo
+    {
+        width: 111px !important;
+    }
+    #ucPlanes_UpdatePanel1
+    {
+        width: 129px !important;
+    }
+    #ucPlanes_ddlPais
+    {
+        width: 111px !important;
+    }
+    #ucPlanes_UpdatePanel3
+    {
+        width: 129px !important;
+    }
+    #ucPlanes_ddlCiudad
+    {
+        width: 111px !important;
+    }
+    #ucPlanes_UpdatePanel2
+    {
+        width: 129px !important;
+    }
+    #ucPlanes_ddlTipologia
+    {
+        width: 111px !important;
+    }
+    #ucPlanes_lbBuscar
+    {
+        width: 61px !important;
+        margin-left: 9px !important;
+    }
+    .contenedorNumerosPaginacion
+    {
+        margin-right: 607px;
+    }
+
+    /*CONTACTENOS*/
+    .textoContacto
+    {
+        width: 100%;
+    }
+    .ContentFormulario
+    {
+        width: 91% !important;
+    }
+    .ContentMapa
+    {
+        margin-left: 30px !important;
+        width: 91% !important;
+    }
+    .ContentMapa div .contenedorInformacion1
+    {
+        width: 47%;
+        display: inline-block;
+    }
+    .ContentMapa .block div:last-child
+    {
+        float: right;
+        margin-top: -105px;
+    }
+    #map-holder iframe
+    {
+        width: 100%;
+    }
+
+    /*TERMINOS Y CONDICIONES*/
+    .textoTerminos p
+    {
+        width: 91%;
+    }
+
+    /*DESCRIPCION PLAN*/
+    .valorFinal
+    {
+        float: right;
+        margin-right: 54px;
+        margin-top: 0px !important;
+    }
+    .GaleriaDetalle
+    {
+        height: 176px;
+    }
+    .GaleriaDetalle .project-slider
+    {
+        height: 150px;
+    }
+    .GaleriaDetalle .project-slider .flexslider
+    {
+        height: 150px;
+    }
+    .GaleriaDetalle .project-slider img
+    {
+        height: 150px !important;
+    }
+    /*COTIZADOR*/
+    .listaCotizador
+    {
+        width: 17%;
+    }
+    .celda15
+    {
+        width: 66px;
+    }
+    .celda10
+    {
+        width: 87px;
+    }
+    .tituloCotizador span
+    {
+        font-size: 9px;
+    }
+    #ucDetallePlan_UcTarifasRotativos1_rptCabina_ctl00_rptHoteles_ctl00_Label6
+    {
+        font-size: 9px;
+    }
+
+    /*RESULTADOS VUELOS*/
+    .buscadorInterno
+    {
+        width: 100%;
+        margin-left: 38px;
+    }
+    .contenedorVuelos
+    {
+        margin-top: 407px;
+        margin-left: 14px;
+        float: left;
+    }
+
+    /*FORMULARIO DE RESERVA VUELOS*/
+
+    .datosObligatorios
+    {
+        margin-left: 376px;
+    }
+    .superior
+    {
+        margin-left: 325px;
+        font-size: 9px;
+    }
+    .superior li
+    {
+        margin-left: 5px;
+    }
+    #ucReservaVuelos_DivEfe
+    {
+        width: 91% !important;
+    }
+}
+
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px)
+{
+
+    .wrapper, #main
+    {
+        padding-left: 0px;
+        width: 319px;
+    }
+
+    #logo
+    {
+        float: none !important;
+        padding-left: 0px;
+    }
+
+    #logo img
+    {
+        display: block;
+        margin: 0 auto;
+    }
+
+    nav
+    {
+        display: none;
+    }
+
+    #mobile-nav-holder
+    {
+        display: block;
+    }
+
+    .home-block-heading
+    {
+        font-size: 24px;
+        margin-left: 33px;
+        margin-right: 33px;
+    }
+
+    /* social */
+
+    #social-bar
+    {
+        position: absolute !important;
+        top: -60px !important;
+        right: 43px !important;
+        width: auto !important;
+        background: none;
+    }
+
+    #social-bar ul
+    {
+        float: right;
+        display: block !important;
+        overflow: hidden;
+        margin: 0px !important;
+        width: auto !important;
+    }
+
+    #social-bar li
+    {
+        display: block;
+        float: left;
+        margin: 0px 2px;
+    }
+
+    #social-bar li img
+    {
+        width: 36px;
+        height: 36px;
+    }
+
+    .setp
+    {
+        width: 100%;
+    }
+
+    /* columns */
+
+    .one-half, .one-third
+    {
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    /* main */
+
+    #main #content
+    {
+        width: 390px;
+        float: none;
+    }
+
+    .shadow-main
+    {
+        width: 319px;
+        height: 11px;
+        margin-left: 0px;
+        background: url(../img/shadow-main-mobile-por.png) no-repeat top center;
+    }
+
+    /* masthead */
+
+    #masthead .breadcrumbs
+    {
+        display: none;
+    }
+
+    #masthead .head
+    {
+        font-family: helvetica, arial, sans-serif;
+        font-size: 16px;
+    }
+
+    #masthead .subhead
+    {
+        display: none;
+    }
+
+    /* slider */
+
+    .shadow-slider
+    {
+        background: url(../img/shadow-main-mobile-por.png) no-repeat top center;
+    }
+
+    /* featured */
+
+    .featured figure
+    {
+        width: 252px;
+        margin-left: 33px;
+    }
+
+    /* aside */
+
+    aside.retractil
+    {
+        top: 69px;
+    }
+
+    /* portfolio */
+
+    .project-description
+    {
+        width: 252px;
+        clear: both;
+    }
+
+    .project-info
+    {
+        width: 252px;
+    }
+
+    /* blog */
+
+    #posts-list, #post-content, #page-content
+    {
+        width: 252px;
+        margin-left: 33px;
+    }
+
+    #contactForm label, #commentform label
+    {
+        margin-top: -13px;
+        margin-bottom: 13px;
+        display: block;
+    }
+
+    /* sidebar */
+
+    #sidebar
+    {
+        width: 252px;
+        margin-left: 33px;
+        display: none;
+    }
+
+    /* footer */
+
+    #footer-cols > li
+    {
+        display: block;
+        float: left;
+        width: 282px;
+        margin-left: 32px;
+    }
+
+    footer #to-top
+    {
+        display: block;
+    }
+
+
+    /* widgets */
+
+    .recent-post .post-head
+    {
+        width: 185px;
+    }
+
+    /* slider */
+
+    .slider-home .flex-control-nav
+    {
+        display: none;
+    }
+
+    /* headline */
+
+    .headline
+    {
+        font-family: Helvetica, arial, sans-serif !important;
+        font-size: 16px !important;
+    }
+
+    /* portfolio */
+
+    .project-heading h1
+    {
+        font-family: helvetica, arial, sans-serif;
+        font-size: 26px;
+        padding: 14px 24px;
+    }
+
+    .related-projects figure
+    {
+        margin-left: 33px;
+        width: 252px;
+    }
+
+    /*text posts */
+
+    .text-posts li
+    {
+        margin-left: 33px;
+        width: 252px;
+    }
+
+    /* home gallery */
+
+    .home-gallery li
+    {
+        margin-left: 33px;
+        width: 252px;
+    }
+
+    .unCu
+    {
+        width: 90% !important;
+        margin-top: -30px !important;
+        margin-left: 25px;
+    }
+
+    .flexRigth
+    {
+        width: 90% !important;
+        position: relative;
+        float: none !important;
+        right: 0px !important;
+        left: 24px;
+        top: 0;
+        padding-bottom: 20px;
+        margin-top: 448px;
+    }
+
+    .featured
+    {
+        margin-left: -25px;
+    }
+
+    #footer-cols
+    {
+        padding-left: 0px;
+    }
+
+    #logo img
+    {
+        width: 260px;
+        float: left;
+    }
+
+    h4
+    {
+        font-size: 11px !important;
+    }
+
+    .pbx
+    {
+        margin-top: 93px !important;
+        position: absolute !important;
+        float: left;
+        left: -90px;
+    }
+
+    ul.tabs a span
+    {
+        display: block;
+        height: 90%;
+        padding-right: 5px;
+        padding-left: 5px;
+        font-size: 10px;
+        color: #28ABE3;
+        margin-top: 7px;
+    }
+
+    .project-heading
+    {
+        margin: 0px;
+    }
+
+    .related-heading h4
+    {
+        font-size: 16px;
+    }
+
+    /* nuevos estilos */
+
+    #page-content-full
+    {
+        margin-top: 487px !important;
+    }
+
+
+    /*PLANES*/
+
+    #ucPlanes_txtFiltroTexto
+    {
+        width: 106px !important;
+        font-size: 11px;
+    }
+    #ucPlanes_UpdatePanel4
+    {
+        width: 141px !important;
+    }
+    #ucPlanes_ddlZonaGeo
+    {
+        width: 111px !important;
+    }
+    #ucPlanes_UpdatePanel1
+    {
+        width: 160px !important;
+    }
+    #ucPlanes_ddlPais
+    {
+        width: 130px !important;
+    }
+    #ucPlanes_UpdatePanel3
+    {
+        width: 129px !important;
+    }
+    #ucPlanes_ddlCiudad
+    {
+        width: 111px !important;
+    }
+    #ucPlanes_UpdatePanel2
+    {
+        width: 129px !important;
+    }
+    #ucPlanes_ddlTipologia
+    {
+        width: 111px !important;
+    }
+    #ucPlanes_lbBuscar
+    {
+        width: 61px !important;
+        margin-left: 9px !important;
+    }
+    .contenedorNumerosPaginacion
+    {
+        margin-right: 607px;
+    }
+    .featured figure
+    {
+        float: none !important;
+    }
+
+
+    /*DETALLE PLANES*/
+    ul.tabs li a span
+    {
+        font-size: 11px !important;
+    }
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 280px) and (max-width: 767px)
+{
+
+    .wrapper, #main
+    {
+        padding-left: 0px;
+        width: 600px;
+    }
+
+    #main #content
+    {
+        width: 564px !important;
+        float: left;
+    }
+
+    .shadow-main
+    {
+        width: 484px;
+        height: 11px;
+        margin-left: 0px;
+        background: url(../img/shadow-main-mobile-lan.png) no-repeat top center;
+    }
+
+    #logo img
+    {
+        width: 370px;
+    }
+
+
+    .setp
+    {
+        width: 100%;
+    }
+
+
+    .project-heading
+    {
+        margin: 0px;
+    }
+
+    .home-block-heading
+    {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+
+    /* columns */
+
+    .one-half
+    {
+        width: 47.72%;
+        margin-right: 4.54%;
+    }
+
+    .one-third
+    {
+        width: 30.30%;
+        margin-right: 4.54%;
+    }
+
+    /* slider */
+
+    .shadow-slider
+    {
+        background: url(../img/shadow-main-mobile-lan.png) no-repeat top center;
+    }
+
+    /* featured */
+
+    .featured figure
+    {
+        width: 436px;
+        margin-left: 110px !important;
+    }
+
+    /*text posts */
+
+    .text-posts li
+    {
+        margin-left: 24px;
+        width: 207px;
+    }
+
+    /* home gallery */
+
+    .home-gallery li
+    {
+        margin-left: 24px;
+        width: 206px;
+    }
+
+    /* portfolio */
+
+    .project-description
+    {
+        width: 435px;
+        clear: both;
+    }
+
+    .project-info
+    {
+        width: 435px;
+    }
+
+    .related-projects figure
+    {
+        margin-left: 24px;
+        width: 206px;
+    }
+
+    /* blog */
+
+    #posts-list, #post-content, #page-content
+    {
+        width: 434px;
+        margin-left: 24px;
+    }
+
+    #contactForm label, #commentform label
+    {
+        margin-top: auto;
+        margin-bottom: auto;
+        display: inline;
+    }
+
+    /* sidebar */
+
+    #sidebar
+    {
+        width: 434px;
+        margin-left: 24px;
+        display: none;
+    }
+
+    /* footer */
+
+    #footer-cols > li
+    {
+        display: block !important;
+        float: left !important;
+        width: 207px !important;
+        margin-left: 24px !important;
+    }
+
+    #footer-cols > li.third-col
+    {
+        clear: left;
+        width: 436px !important;
+        margin-right: 0px;
+    }
+
+    /* widgets */
+
+    .recent-post .post-head
+    {
+        width: 140px;
+    }
+
+
+    #page-content-full2
+    {
+        margin-top: 1400px !important;
+    }
+
+    .page-content-full
+    {
+        margin-top: 23px !important;
+    }
+
+    /*RESULTADOS DE VUELOS*/
+    .contenedorVuelos
+    {
+        margin-top: 415px;
+        float: left;
+    }
+    .resultadosBorder
+    {
+        width: 31%;
+    }
+    .encabezadoResultadoVuelos
+    {
+        width: 33%;
+    }
+    .tituloResultadoVuelos
+    {
+        width: 33%;
+    }
+    .resultados
+    {
+        width: 31%;
+    }
+
+}
+/* Nuevos Omitar */
+#paginadorHidden
+{
+    margin-bottom: 150px;
+    width: 100%;
+}
+.HotelBokDet
+{
+    border-top: 1px solid black;
+    background: transparent;
+    height: 500px;
+}
+.resultadoHoteles
+{
+    position: relative;
+    z-index: 10000001;
+}
+.resumenHoteles
+{
+    width: 20% !important;
+    float: left;
+    border-right: 1px solid black;
+    margin-left: 9px;
+}
+.contenidoResultado .resumenHoteles:nth-child(4)
+{
+    border-right: none;
+}
+#resultadoshotel_chkCategoria
+{
+    width: 100%;
+    background-color: #c3c3c3;
+}
+.contenidoResultados table tbody .alineacionIzquierda td table tbody tr td input
+{
+    display: block;
+    width: 15px;
+    margin-right: 13px;
+}
+.contenidoResultados table tbody .alineacionIzquierda td table tbody tr .stars
+{
+    margin-top: 9px;
+}
+#paginadorHidden table tbody tr td input
+{
+    line-height: 5px;
+    text-indent: -6px;
+    width: 20%;
+}
+#paginadorHidden table
+{
+    width: 100%;
+}
+#resultadoshotel_btnBack
+{
+    float: left;
+}
+.panelResultadosHotel .contenidoResultado .plb .contenidoResultados table tbody .alineacionIzquierda:nth-child(3)
+{
+    margin-top: 68px;
+    display: block;
+}
+.panelResultadosHotel .contenidoResultado .plb .contenidoResultados table tbody .alineacionIzquierda:nth-child(3) td
+{
+    width: 100%;
+    display: block;
+}
+.panelResultadosHotel .contenidoResultado .plb .contenidoResultados table tbody .alineacionIzquierda:nth-child(3) td input:nth-child(3)
+{
+    width: 80%;
+    margin-left: 8px;
+}
+.panelResultadosHotel .contenidoResultado .plb .contenidoResultados table tbody .alineacionIzquierda:nth-child(3) td input:nth-child(4)
+{
+    float: right;
+    width: 20%;
+    line-height: 5px;
+    margin-right: 24%;
+}
+.panelResultadosHotel .contenidoResultado .plb .contenidoResultados table tbody .alineacionIzquierda:nth-child(3) td input:nth-child(5)
+{
+    float: right;
+    width: 20%;
+    line-height: 5px;
+    margin-right: -43%;
+}
+.inner_box_side .right
+{
+    width: 72% !important;
+    float: right;
+}
+.inner_box_side .left
+{
+    width: 18% !important;
+    float: left;
+}
+.descripcionHotelBtn
+{
+    right: 14px !important;
+    margin-top: 125px;
+}
+.inner_box_side .table_2:nth-child(1)
+{
+    width: 60% !important;
+    margin-left: 12px;
+}
+.inner_box_side .table_2:nth-child(2)
+{
+    width: 15% !important;
+}
+.inner_box_side .table_2:nth-child(3)
+{
+    width: 15% !important;
+}
+.inner_box_side .table_2:nth-child(4)
+{
+    width: 8%;
+}
+.descripcionHotelBtn img
+{
+    position: absolute;
+    margin-top: -43px;
+    right: 360px;
+}
+.alignleftImgDes
+{
+    float: left;
+    margin-top: -47px;
+    margin-left: -5px;
+        position: relative;
+}
+.botonBuscadorReservarHotel
+{
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    margin-top: 20px;
+    outline: none;
+    border: 1px solid #a3f6f9;
+    color: #737272;
+    background: #fff;
+    padding: 5px 12px;
+    width: 20%;
+    font: 14px/20px tahoma, sans-serif;
+    border-radius: 8px;
+}
+#hoteles .hotel_f div:nth-child(4)
+{
+    margin-left: 35px;
+}
+#hoteles .hotel_f div:nth-child(3)
+{
+    width: 155px;
+}
+#hoteles .hotel_f div:nth-child(5)
+{
+    width: 155px;
+}
+#hoteles .hotel_f div:nth-child(9) input
+{
+    width: 20%;
+    float: left;
+    line-height: 5px;
+}

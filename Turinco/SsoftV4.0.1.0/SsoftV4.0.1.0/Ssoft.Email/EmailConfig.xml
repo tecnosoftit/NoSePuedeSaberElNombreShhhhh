@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+- <root>
+- <config>
+  <ServerName>smtpout.secureserver.net</ServerName> 
+  <MailFrom>corporativo@bcmviajes.com</MailFrom> 
+  <MailSubject>Ssoft Colombia</MailSubject> 
+  <Password>ssoft00</Password> 
+  <HeadBody>Ssoft Colombia</HeadBody> 
+  <Port>25</Port> 
+  <SendPort>2</SendPort> 
+  </config>
+  </root>

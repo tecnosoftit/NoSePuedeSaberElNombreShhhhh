@@ -1,0 +1,33 @@
+<ServiceAddRQ xmlns="http://www.hotelbeds.com/schemas/2005/06/messages" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.hotelbeds.com/schemas/2005/06/messages ServiceAddRQ.xsd" echoToken="DummyEchoToken">
+	<Language>CAS</Language>
+	<Credentials>
+		<User>16783</User>
+		<Password>16783</Password>
+	</Credentials>
+	<Service xsi:type="ServiceTicket" availToken="mSaQXYr3nZlc5XjSoU/jcw==">
+		<DateFrom date="20071215"/>
+		<DateTo date="20071215"/>		
+		<ContractList>
+			<Contract>
+				<Name>PALMA AQUARIUM</Name>
+				<IncomingOffice code="1"/>
+			</Contract>
+		</ContractList>
+		<TicketInfo xsi:type="ProductTicket">
+			<Code>PALMAAQUAR</Code>
+			<Destination type="SIMPLE" code="PMI"/>
+		</TicketInfo>
+		<AvailableModality code="0#GENERAL">
+			<Name>Entrada General</Name>
+			<Contract>
+				<Name>PALMA AQUARIUM</Name>
+				<IncomingOffice code="1"/>
+			</Contract>
+		</AvailableModality>
+		<Paxes xsi:type="ServiceOccupancy">
+			<AdultCount>2</AdultCount>
+			<ChildCount>0</ChildCount>
+		</Paxes>
+	</Service>
+</ServiceAddRQ>
+

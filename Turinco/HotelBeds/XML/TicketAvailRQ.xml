@@ -1,0 +1,15 @@
+<TicketAvailRQ echoToken="DummyEchoToken" sessionId="DummySessionId" xmlns="http://www.hotelbeds.com/schemas/2005/06/messages" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.hotelbeds.com/schemas/2005/06/messages TicketAvailRQ.xsd">
+	<Language>ENG</Language>
+	<Credentials>
+		<User>TEST</User>
+		<Password>TEST</Password>
+	</Credentials>
+	<PaginationData itemsPerPage="25" pageNumber="1"/>
+	<ServiceOccupancy>
+		<AdultCount>1</AdultCount>
+		<ChildCount>0</ChildCount>
+	</ServiceOccupancy>
+	<Destination code="PMI" type="SIMPLE"/>
+	<DateFrom date="20070309"/>
+	<DateTo date="20070311"/>
+</TicketAvailRQ>

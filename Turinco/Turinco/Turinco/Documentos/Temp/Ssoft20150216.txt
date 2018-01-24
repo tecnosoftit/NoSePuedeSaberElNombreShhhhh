@@ -1,0 +1,183 @@
+Fecha:           2015/02/16 08:59
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Referencia a objeto no establecida como instancia de un objeto.
+Info:        No se puede recuperar la sesion
+Source:      Ssoft.Pages
+StackTrace:     en Ssoft.Pages.csGeneralsPag.SesionIdPage() en D:\PROYECTOS\TURINCO\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\Utilidades\csGeneralsPag.cs:línea 641
+Sesion Local: 6355967394739814135d3uq5zodj3drss4bv3txvtm
+Sesion WS: 
+
+Fecha:           2015/02/16 09:04
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Referencia a objeto no establecida como instancia de un objeto.
+Info:        No se puede recuperar la sesion
+Source:      Ssoft.Pages
+StackTrace:     en Ssoft.Pages.csGeneralsPag.SesionIdPage() en D:\PROYECTOS\TURINCO\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\Utilidades\csGeneralsPag.cs:línea 641
+Sesion Local: 6355967426078410135d3uq5zodj3drss4bv3txvtm
+Sesion WS: 
+
+Fecha:           2015/02/16 09:12
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Referencia a objeto no establecida como instancia de un objeto.
+Info:        No se puede recuperar la sesion
+Source:      Ssoft.Pages
+StackTrace:     en Ssoft.Pages.csGeneralsPag.SesionIdPage() en D:\PROYECTOS\TURINCO\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\Utilidades\csGeneralsPag.cs:línea 641
+Sesion Local: 6355967477799505935d3uq5zodj3drss4bv3txvtm
+Sesion WS: 
+
+Fecha:           2015/02/16 09:13
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6355967477799505935d3uq5zodj3drss4bv3txvtm
+Sesion Local: 6355967477799505935d3uq5zodj3drss4bv3txvtm
+Sesion WS: 
+
+Fecha:           2015/02/16 09:15
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Referencia a objeto no establecida como instancia de un objeto.
+Info:        No se puede recuperar la sesion
+Source:      Ssoft.Pages
+StackTrace:     en Ssoft.Pages.csGeneralsPag.SesionIdPage() en D:\PROYECTOS\TURINCO\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\Utilidades\csGeneralsPag.cs:línea 641
+Sesion Local: 6355967494788061215d3uq5zodj3drss4bv3txvtm
+Sesion WS: 
+
+Fecha:           2015/02/16 09:16
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6355967494788061215d3uq5zodj3drss4bv3txvtm
+Sesion Local: 6355967494788061215d3uq5zodj3drss4bv3txvtm
+Sesion WS: 
+
+Fecha:           2015/02/16 09:18
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6355967494788061215d3uq5zodj3drss4bv3txvtm
+Sesion Local: 6355967494788061215d3uq5zodj3drss4bv3txvtm
+Sesion WS: 
+
+Fecha:           2015/02/16 09:18
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6355967494788061215d3uq5zodj3drss4bv3txvtm
+Sesion Local: 6355967494788061215d3uq5zodj3drss4bv3txvtm
+Sesion WS: 
+
+Fecha:           2015/02/16 09:19
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6355967494788061215d3uq5zodj3drss4bv3txvtm
+Sesion Local: 6355967494788061215d3uq5zodj3drss4bv3txvtm
+Sesion WS: 
+
+Fecha:           2015/02/16 09:31
+Codigo:      0
+Tipo:        Libreria
+Método:      SesionIdPage
+Severidad:   Alta
+Mensaje:     El campo oculto hdfSesionId, no existe en la pagina ASP.presentacion_index_aspx
+Info:        Sesion recuperada 6355967494788061215d3uq5zodj3drss4bv3txvtm
+Sesion Local: 6355967494788061215d3uq5zodj3drss4bv3txvtm
+Sesion WS: 
+
+Fecha:           2015/02/16 09:35
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Referencia a objeto no establecida como instancia de un objeto.
+Info:        No se puede recuperar la sesion
+Source:      Ssoft.Pages
+StackTrace:     en Ssoft.Pages.csGeneralsPag.SesionIdPage() en D:\PROYECTOS\TURINCO\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\Utilidades\csGeneralsPag.cs:línea 641
+Sesion Local: 6355967610591268715d3uq5zodj3drss4bv3txvtm
+Sesion WS: 
+
+Fecha:           2015/02/16 09:35
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     No existe el procedimiento almacenado 'SPConsultaResultadosCruceros'.
+Source:      System.Data
+StackTrace:     en System.Data.SqlClient.SqlCommand.DeriveParameters()
+   en System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   en Ssoft.Data.AccesoSQLParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:línea 2782
+   en Ssoft.Data.AccesoSQLParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:línea 2993
+   en Ssoft.Data.AccesoSQLParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:línea 2927
+   en Ssoft.Data.AccesoSQLParameterCache.GetSpParameterSet(String connectionString, String spName) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:línea 2902
+   en Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:línea 73
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurinco; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6355967610591268715d3uq5zodj3drss4bv3txvtm
+Sesion WS: 
+
+Fecha:           2015/02/16 09:35
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     No existe el procedimiento almacenado 'SPConsultaResultadosCruceros'.
+Source:      System.Data
+StackTrace:     en System.Data.SqlClient.SqlCommand.DeriveParameters()
+   en System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   en Ssoft.Data.AccesoSQLParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:línea 2782
+   en Ssoft.Data.AccesoSQLParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:línea 2993
+   en Ssoft.Data.AccesoSQLParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:línea 2927
+   en Ssoft.Data.AccesoSQLParameterCache.GetSpParameterSet(String connectionString, String spName) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:línea 2902
+   en Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:línea 73
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurinco; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6355967610591268715d3uq5zodj3drss4bv3txvtm
+Sesion WS: 
+
+Fecha:           2015/02/16 09:35
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     No existe el procedimiento almacenado 'SPConsultaResultadosCruceros'.
+Source:      System.Data
+StackTrace:     en System.Data.SqlClient.SqlCommand.DeriveParameters()
+   en System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   en Ssoft.Data.AccesoSQLParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:línea 2782
+   en Ssoft.Data.AccesoSQLParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:línea 2993
+   en Ssoft.Data.AccesoSQLParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:línea 2927
+   en Ssoft.Data.AccesoSQLParameterCache.GetSpParameterSet(String connectionString, String spName) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:línea 2902
+   en Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:línea 73
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurinco; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6355967610591268715d3uq5zodj3drss4bv3txvtm
+Sesion WS: 
+
+Fecha:           2015/02/16 09:38
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     No existe el procedimiento almacenado 'SPConsultaResultadosCruceros'.
+Source:      System.Data
+StackTrace:     en System.Data.SqlClient.SqlCommand.DeriveParameters()
+   en System.Data.SqlClient.SqlCommandBuilder.DeriveParameters(SqlCommand command)
+   en Ssoft.Data.AccesoSQLParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:línea 2782
+   en Ssoft.Data.AccesoSQLParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:línea 2993
+   en Ssoft.Data.AccesoSQLParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:línea 2927
+   en Ssoft.Data.AccesoSQLParameterCache.GetSpParameterSet(String connectionString, String spName) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:línea 2902
+   en Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:línea 73
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurinco; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6355967610591268715d3uq5zodj3drss4bv3txvtm
+Sesion WS: 
+

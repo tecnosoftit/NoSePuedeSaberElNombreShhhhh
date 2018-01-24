@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="tblReserva">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="intAplicacion" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intProyecto" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="strLocalizadorExt" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intContacto" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intCliente" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="dtmFechaIni" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="dtmFechaFin" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="dtmVencimiento" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intEstado" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intResponsable" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intTipoPlan" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="strReserva" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="dtmFecha" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="strObservacion" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intCodigoPlan" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intFormaPago" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intEstadoPago" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="dtmFechaLimitePago" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intCentroC" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="strCodigo" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intConsecRes" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="intConvenio" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="strConvenioCorp" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="strDuracion" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="strCodigoAscesor" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="strContacto" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="strCliente" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="strResponsable" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="StrTipoPlan" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="StrEstado" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="StrFormaPago" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="StrEstadoPago" type="xs:string" default="" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="tblTransac">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="strReserva" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intTipoPlan" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intCodigoPlan" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intSegmento" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intOrigen" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="strOrigen" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intDestino" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="strDestino" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="dtmFechaIni" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="dtmFechaFin" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="strHoraIni" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="strHoraFin" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intProveedor" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intCantidadPersonas" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intTipoAcomodacion" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intTipoHabitacion" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="strOperador" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="strConfirma" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="strObservacion" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intEstado" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="strCodigo" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intConsecRes" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="strTipoAcomodacion" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="strTipoHabitacion" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="strCantidadPersonas" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="strRegimen" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="StrProveedor" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="StrOrigen" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="StrDestino" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="StrAcomodacion" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="StrSubTipoHab" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="dblValor" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intIdVigencia" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="StrHoteles" type="xs:string" default="" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="tblPax">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="strReserva" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intCodigoPax" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" />
+                <xs:element name="intTipoPax" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="strNombre" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="dtmFechaNac" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intEdad" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="strCodigo" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intConsecRes" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="intGenero" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="strPasaporte" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intTipoDoc" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="strViajeroFrecuente" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="strNacionalidad" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="strPaisResidencia" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="dtmFechaExpPasaporte" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intSegmento" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="strEmail" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="strTelefono" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="strTipoPax" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="strValor" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="strTarifa" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="strTipoMoneda" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="strDocumento" type="xs:string" default="" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="tblTarifa">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="strReserva" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intTipoPax" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intCodigFare" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intMoneda" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="dblValor" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="dblTotal" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="dblDescuento" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="dblTax" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="strCodigo" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intConsecRes" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="dblPenalidad" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intSegmento" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="StrTipoMoneda" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="StrTipoPax" type="xs:string" default="" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="tblTax">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="intCodigFare" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intTipoPax" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intCodigoTax" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="intMoneda" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="dblValorTax" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="dblPorcent" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="strCodigo" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intConsecRes" type="xs:int" default="0" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="tblRemark">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="strRecord" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intidrefere" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intConsecutivo" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="strDescripcion" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="strDetalle" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intConsecRes" type="xs:int" default="0" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="tblPol">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="strReserva" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intCodigo" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="dblTotalBase" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="dblTotalTarifa" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="dblTotalIVA_Tarifa" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="dblTotalImpuestos" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="dblTotalImpuestoGasolina" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="dblTotaBaselTA" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="dblTotalIVA_TA" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="strAerolinea" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="dblTotalCarritoSinFormato" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="intConsecRes" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="strCodigo" type="xs:string" default="" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="CarritoCompras">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="intConsecRes" type="xs:int" default="0" />
+                <xs:element name="IntValorTotal" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="IntCodigoTarifa" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="IntNumeroHabitaciones" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="IntcantidadPersonas" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="StrLocalizadorExt" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="IntCapacidad" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="IntCapacidadMaxima" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="IntNumeroDias" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="IntNumeroNoches" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="IntNochesAdicionales" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="StrIdentificadorDelPlan" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="StrPasajeros" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="StrFechaInicial" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="StrHoraFin" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="StrHoraIni" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="StrFechaFinal" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="StrFechaVencimiento" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="StrNombrePlan" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="StrImagen" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="StrDescripcion" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="StrRestricciones" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="StrIncluye" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="StrNoIncluye" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="StrBeneFicios" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="StrEncuenta" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="StrObservacion" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="StrDetalles" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="StrRuta" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="StrUbicacion" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="StrTipoPlan" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="IntTipoPlan" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="StrSubTipoPlan" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="IntSubTipoPlan" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="StrPais" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="IntPais" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="StrCiudad" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="IntCiudad" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="StrTemporada" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="IntTemporada" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="StrCategoria" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="IntCategoria" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="StrAcomodacion" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="IntAcomodacion" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="StrTipoHabitacion" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="IntTipoHabitacion" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="StrServicio" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="IntServicio" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="StrTipoServicio" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="IntTipoServicio" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="StrZonaGeografica" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="IntZonaGeografica" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="StrTipoPasajero" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="IntTipoPasajero" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="StrTipoMoneda" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="IntTipoMoneda" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="StrSeccionPublicacion" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="IntSeccionPublicacion" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="StrTipoPropiedad" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="IntTipoPropiedad" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="StrOrigen" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="strReserva" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="IntOrigen" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="StrDestino" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="IntDestino" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="IntConfirmacion" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="BolImpuestos" type="xs:boolean" minOccurs="0" />
+                <xs:element name="IntConvenio" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="StrConvenioCorp" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="StrDuracion" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="StrCantidadPersonas" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="StrRegimen" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="IntValorOferta" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="DblValorBono" type="xs:decimal" minOccurs="0" />
+                <xs:element name="DblValorCalculoBono" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="tblHabitaciones">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="intConsecRes" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="intNumeroHabitacion" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="1" type="xs:int" minOccurs="0" />
+                <xs:element name="intCantPersonas" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="intAcomodacion" type="xs:int" default="0" minOccurs="0" />
+                <xs:element name="intTipoHabitacion" type="xs:int" default="0" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="TablaDatosVisibles">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="intConsecRes" type="xs:int" default="0" />
+                <xs:element name="NombrePlan" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="ValorTotalPlan" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="TipoMoneda" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="DatoUno" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="DatoDos" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="DatoTres" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="DatoCuatro" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="DatoCinco" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="DatoSeis" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="DatoSiete" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="DatoOcho" type="xs:string" default="" minOccurs="0" />
+                <xs:element name="DatoNueve" type="xs:string" default="" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//tblPax" />
+        <xs:field xpath="intCodigoPax" />
+      </xs:unique>
+      <xs:unique name="CarritoCompras_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//CarritoCompras" />
+        <xs:field xpath="intConsecRes" />
+      </xs:unique>
+      <xs:unique name="TablaDatosVisibles_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//TablaDatosVisibles" />
+        <xs:field xpath="intConsecRes" />
+      </xs:unique>
+      <xs:keyref name="CarritoCompras_TablaDatosVisibles" refer="CarritoCompras_Constraint1">
+        <xs:selector xpath=".//TablaDatosVisibles" />
+        <xs:field xpath="intConsecRes" />
+      </xs:keyref>
+      <xs:keyref name="CarritoCompras_tblHabitaciones" refer="CarritoCompras_Constraint1">
+        <xs:selector xpath=".//tblHabitaciones" />
+        <xs:field xpath="intConsecRes" />
+      </xs:keyref>
+      <xs:keyref name="CarritoCompras_tblRemark" refer="CarritoCompras_Constraint1">
+        <xs:selector xpath=".//tblRemark" />
+        <xs:field xpath="intConsecRes" />
+      </xs:keyref>
+      <xs:keyref name="CarritoCompras_tblTax" refer="CarritoCompras_Constraint1">
+        <xs:selector xpath=".//tblTax" />
+        <xs:field xpath="intConsecRes" />
+      </xs:keyref>
+      <xs:keyref name="CarritoCompras_tblTarifa" refer="CarritoCompras_Constraint1">
+        <xs:selector xpath=".//tblTarifa" />
+        <xs:field xpath="intConsecRes" />
+      </xs:keyref>
+      <xs:keyref name="CarritoCompras_tblPax" refer="CarritoCompras_Constraint1">
+        <xs:selector xpath=".//tblPax" />
+        <xs:field xpath="intConsecRes" />
+      </xs:keyref>
+      <xs:keyref name="CarritoCompras_tblTransac" refer="CarritoCompras_Constraint1">
+        <xs:selector xpath=".//tblTransac" />
+        <xs:field xpath="intConsecRes" />
+      </xs:keyref>
+      <xs:keyref name="CarritoCompras_tblReserva" refer="CarritoCompras_Constraint1">
+        <xs:selector xpath=".//tblReserva" />
+        <xs:field xpath="intConsecRes" />
+      </xs:keyref>
+    </xs:element>
+  </xs:schema>
+  <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+</DataSet>

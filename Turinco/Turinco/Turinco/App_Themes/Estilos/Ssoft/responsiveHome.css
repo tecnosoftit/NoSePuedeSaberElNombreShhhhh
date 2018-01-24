@@ -1,0 +1,313 @@
+/* @media(max-width:991px)
+{
+    body
+    {
+        width:100%;
+    }
+    
+    .container
+    {
+        width: 90%;
+        padding-top: 50px;
+    }
+    
+    .barraResponsive
+    {
+        display: block;
+        height: 50px;
+        text-align: left;
+        padding: 12px 5%;
+        background: url(../../Imagenes/imagesNactur/bgMenuPrincipal.png) repeat-x;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index:99;
+    }
+    
+    .barraResponsive .iconoFb
+    {
+        margin-left:0;
+        margin-right:20px;
+    }
+    
+    .barraResponsive .iconoTw
+    {
+        margin-left:0;
+        margin-right:20px;
+    }
+    
+    .barraResponsive .iconoIn
+    {
+        margin-left:0;
+        margin-right:20px;
+    }
+    
+    .botonMenuResponsive
+    {
+        float: right;
+        position: absolute;
+        top: 7px;
+        right: 5%;
+    }
+    
+    .botonMenuResponsive img
+    {
+        height: 35px;
+    }
+    
+    nav
+    {
+        width:100%;
+        margin:0;
+        max-height:inherit;
+    }
+    
+    nav ul
+    {
+        display:none;
+        background: #006ab4;
+        max-height:inherit;
+        position:fixed;
+        top:50px;
+        left:0px;
+        right:0;
+        padding:20px 5%;   
+        z-index:99;     
+        text-align:right;
+    }
+    
+    nav ul li.iblock
+    {
+        display:block;
+    }
+    
+    nav li a
+    {
+        line-height: 25px;
+    }
+    
+    nav li a:after
+    {
+        display:none;
+    }
+       
+    header .iconoIn,
+    header .iconoTw,
+    header .iconoFb
+    {
+        display:none;
+    }
+    
+    #bannerSuperior
+    {
+        text-align:center;
+    }
+    
+    .iconomoneda
+    {
+        margin-left:0;
+    }
+    
+    .logoNationalTours
+    {
+        margin-left: 10px;
+        margin-top: -5px;
+        width: 80px;
+    }
+    
+    .datosContactoHeader
+    {
+        margin-left: 5px;
+    }
+    
+    .iconoTel
+    {
+        border:0;
+    }
+    
+    .rotadorHome
+    {
+        display: inline-block;
+        width: 100%;
+        min-width:inherit;
+    }
+    
+    .buscadorHome
+    {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        margin:0;
+        margin-top:40px;
+    }
+    
+    .buscador
+    {
+        max-width: 450px;
+        width:100%;
+    }
+    
+    .contenedorRotadorHome
+    {
+        display:none;
+    }
+        
+    
+    .bannersDerecha
+    {
+        display: inline-block;
+        width: 100%;
+        position: relative;
+        text-align: center;
+        margin-top: 15px;
+        max-width: inherit;
+    }
+    
+    .ofertasHome
+    {
+        width:100%;
+        margin-left:0;
+    }
+    
+    .ofertasHome .oferta
+    {
+        width:32%;
+    }
+    
+    footer
+    {
+        padding: 25px;
+    }
+    
+    footer ul.iblock
+    {
+        display:none;
+    }
+    
+    .tarjetasFooter
+    {
+        max-width:33%;
+        margin-left:0;
+    }
+    
+    .aliadosFooter
+    {
+        max-width:33%;
+        margin-right: 0;
+    }
+    
+    .textosFooter
+    {
+        margin-left: 20px;
+        max-width: 40%;
+        margin: 0;
+        padding-left: 15px;
+    }
+    
+    .tarjetasFooter
+    {
+        display:none;
+    }
+    
+    .textosFooter
+    {
+        max-width:inherit;
+        width:100%;
+    }
+    
+    .aliadosFooter
+    {
+        display:none;
+    }
+    
+    .utilidadesResponsive
+    {
+        margin-left:0;
+        margin-top:20px;
+        margin-left: 15px;
+    }
+    
+}
+ 
+@media(max-width:825px)
+{
+    .contenidoHeader
+    {
+        display: inline-block;
+        margin-top: 30px;
+        margin-left: 0;
+        width: 100%;
+    }
+}   
+   
+    
+@media(max-width:767px)
+{
+    .utilidadesResponsive
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }    
+       
+    .logoNationalTours
+    {
+        margin-left: 10px;
+        margin-top: -10px;
+        width: 100px;
+        margin-right: 30px;
+    }
+    
+    .home .logoInterno
+    {
+        width: 200px;
+        top: 110px;
+        left: 80px;
+    }
+    
+      
+    ol.bjqs-markers
+    {
+        display:none;
+    }
+    
+    
+    
+    .ofertasHome .oferta
+    {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+
+@media(max-width:500px)   
+{
+    body    
+   {
+       min-width:360px;
+   }
+       
+    
+    .selectSkin select
+    {
+        height: 100%;
+        border: 0;
+        width: 120%;
+        background: none;
+        font-size: 11px;
+    }
+            
+    .logoNationalTours
+    {
+        margin-right: 20px;
+    }
+    
+    .container
+    {
+        width: 100%;
+        padding-top: 50px;
+    }
+}  */

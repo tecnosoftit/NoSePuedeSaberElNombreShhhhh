@@ -1,0 +1,398 @@
+Fecha:           2015/02/13 10:11
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Referencia a objeto no establecida como instancia de un objeto.
+Info:        No se puede recuperar la sesion
+Source:      Ssoft.Pages
+StackTrace:     en Ssoft.Pages.csGeneralsPag.SesionIdPage() en D:\PROYECTOS\TURINCO\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\Utilidades\csGeneralsPag.cs:línea 641
+Sesion Local: 6355941908486047215d3uq5zodj3drss4bv3txvtm
+Sesion WS: 
+
+Fecha:           2015/02/13 10:26
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 6355941908486047215d3uq5zodj3drss4bv3txvtm
+Sesion WS: 
+
+Fecha:           2015/02/13 10:38
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 6355941908486047215d3uq5zodj3drss4bv3txvtm
+Sesion WS: 
+
+Fecha:           2015/02/13 10:56
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 6355941908486047215d3uq5zodj3drss4bv3txvtm
+Sesion WS: 
+
+Fecha:           2015/02/13 10:58
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Error en el nivel del transporte al recibir los resultados del servidor. (provider: TCP Provider, error: 0 - Se agotó el tiempo de espera del semáforo.)
+Source:      .Net SqlClient Data Provider
+StackTrace:     en System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   en System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   en System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   en System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   en System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   en System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   en System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   en System.Data.SqlClient.SqlDataReader.get_MetaData()
+   en System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   en System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   en System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   en Ssoft.Data.AccesoSQL.ExecuteDataset(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:línea 699
+   en Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:línea 603
+   en Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:línea 78
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurinco; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6355941908486047215d3uq5zodj3drss4bv3txvtm
+Sesion WS: 
+
+Fecha:           2015/02/13 10:58
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: Named Pipes Provider, error: 40 - No se pudo abrir una conexión con SQL Server)
+Source:      .Net SqlClient Data Provider
+StackTrace:     en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   en System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   en System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   en System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   en System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
+   en System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   en System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:línea 601
+   en Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:línea 573
+   en Ssoft.Sql.DataSql.Select(String Sql) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:línea 52
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurinco; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select. Sql: SELECT DISTINCT TBLTIPOLOGIASPLAN.INTCODIGO,STRDESCRIPCION FROM TBLPLANES INNER JOIN TBLTIPOLOGIASPLAN_PLAN ON TBLTIPOLOGIASPLAN_PLAN.INTCODPLAN=TBLPLANES.INTCODIGO INNER JOIN TBLTIPOLOGIASPLAN ON TBLTIPOLOGIASPLAN.INTCODIGO=TBLTIPOLOGIASPLAN_PLAN.INTCODTIPOLOGIAPLAN INNER JOIN TBLTIPOLOGIASPLANIDIOMA ON TBLTIPOLOGIASPLAN.INTCODIGO=TBLTIPOLOGIASPLANIDIOMA.INTCODIGO WHERE TBLPLANES.BITACTIVO=1 AND INTEMPRESA='3'
+Sesion Local: 6355941908486047215d3uq5zodj3drss4bv3txvtm
+Sesion WS: 
+
+Fecha:           2015/02/13 10:58
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: Named Pipes Provider, error: 40 - No se pudo abrir una conexión con SQL Server)
+Source:      .Net SqlClient Data Provider
+StackTrace:     en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en Ssoft.Data.AccesoSQLParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:línea 2781
+   en Ssoft.Data.AccesoSQLParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:línea 2993
+   en Ssoft.Data.AccesoSQLParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:línea 2927
+   en Ssoft.Data.AccesoSQLParameterCache.GetSpParameterSet(String connectionString, String spName) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:línea 2902
+   en Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:línea 73
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurinco; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6355941908486047215d3uq5zodj3drss4bv3txvtm
+Sesion WS: 
+
+Fecha:           2015/02/13 10:59
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: Named Pipes Provider, error: 40 - No se pudo abrir una conexión con SQL Server)
+Source:      .Net SqlClient Data Provider
+StackTrace:     en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   en System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   en System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   en System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   en System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
+   en System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   en System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en Ssoft.Data.AccesoSQLParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:línea 2781
+   en Ssoft.Data.AccesoSQLParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:línea 2993
+   en Ssoft.Data.AccesoSQLParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:línea 2927
+   en Ssoft.Data.AccesoSQLParameterCache.GetSpParameterSet(String connectionString, String spName) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:línea 2902
+   en Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:línea 73
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurinco; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6355941908486047215d3uq5zodj3drss4bv3txvtm
+Sesion WS: 
+
+Fecha:           2015/02/13 10:59
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: Named Pipes Provider, error: 40 - No se pudo abrir una conexión con SQL Server)
+Source:      .Net SqlClient Data Provider
+StackTrace:     en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en Ssoft.Data.AccesoSQLParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:línea 2781
+   en Ssoft.Data.AccesoSQLParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:línea 2993
+   en Ssoft.Data.AccesoSQLParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:línea 2927
+   en Ssoft.Data.AccesoSQLParameterCache.GetSpParameterSet(String connectionString, String spName) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:línea 2902
+   en Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:línea 73
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurinco; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6355941908486047215d3uq5zodj3drss4bv3txvtm
+Sesion WS: 
+
+Fecha:           2015/02/13 11:37
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 
+Sesion WS: 
+
+Fecha:           2015/02/13 12:05
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: Named Pipes Provider, error: 40 - No se pudo abrir una conexión con SQL Server)
+Source:      .Net SqlClient Data Provider
+StackTrace:     en System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   en System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   en System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   en System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   en System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   en System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   en System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
+   en System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   en System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   en System.Data.SqlClient.SqlConnection.Open()
+   en Ssoft.Data.AccesoSQLParameterCache.DiscoverSpParameterSet(SqlConnection connection, String spName, Boolean includeReturnValueParameter) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:línea 2781
+   en Ssoft.Data.AccesoSQLParameterCache.GetSpParameterSetInternal(SqlConnection connection, String spName, Boolean includeReturnValueParameter) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:línea 2993
+   en Ssoft.Data.AccesoSQLParameterCache.GetSpParameterSet(String connectionString, String spName, Boolean includeReturnValueParameter) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:línea 2927
+   en Ssoft.Data.AccesoSQLParameterCache.GetSpParameterSet(String connectionString, String spName) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:línea 2902
+   en Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:línea 73
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurinco; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6355942425255506135d3uq5zodj3drss4bv3txvtm
+Sesion WS: 
+
+Fecha:           2015/02/13 12:16
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 6355942425255506135d3uq5zodj3drss4bv3txvtm
+Sesion WS: 
+
+Fecha:           2015/02/13 12:22
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/planes.aspx?tipo=PLN
+Complmeneto: ResultadoPlanes.aspx?ORIGEN=BUSCADOR
+Sesion Local: 6355942425255506135d3uq5zodj3drss4bv3txvtm
+Sesion WS: 
+
+Fecha:           2015/02/13 12:22
+Codigo:      0
+Tipo:        Libreria
+Método:      setGuardarParametrosBusqueda
+Severidad:   Moderada
+Mensaje:     Subproceso anulado.
+Source:      Ssoft
+StackTrace:     en Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:línea 4470
+   en Ssoft.Pages.PaginaPlanes.csBuscadorPlanes.GuardarParametrosBusquedaCircular(UserControl PageSource) en D:\PROYECTOS\TURINCO\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csBuscadorPlanes.cs:línea 167
+Complmeneto: Error en al guardar los parametros de busqueda en traslados
+Sesion Local: 6355942425255506135d3uq5zodj3drss4bv3txvtm
+Sesion WS: 
+
+Fecha:           2015/02/13 01:11
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 
+Sesion WS: 
+
+Fecha:           2015/02/13 01:24
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 
+Sesion WS: 
+
+Fecha:           2015/02/13 02:20
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 
+Sesion WS: 
+
+Fecha:           2015/02/13 02:21
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/planes.aspx?tipo=PLN
+Complmeneto: ResultadoPlanes.aspx?ORIGEN=BUSCADOR
+Sesion Local: 6355943403687899425d3uq5zodj3drss4bv3txvtm
+Sesion WS: 
+
+Fecha:           2015/02/13 02:21
+Codigo:      0
+Tipo:        Libreria
+Método:      setGuardarParametrosBusqueda
+Severidad:   Moderada
+Mensaje:     Subproceso anulado.
+Source:      Ssoft
+StackTrace:     en Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:línea 4470
+   en Ssoft.Pages.PaginaPlanes.csBuscadorPlanes.GuardarParametrosBusquedaCircular(UserControl PageSource) en D:\PROYECTOS\TURINCO\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csBuscadorPlanes.cs:línea 167
+Complmeneto: Error en al guardar los parametros de busqueda en traslados
+Sesion Local: 6355943403687899425d3uq5zodj3drss4bv3txvtm
+Sesion WS: 
+
+Fecha:           2015/02/13 02:22
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Referencia a objeto no establecida como instancia de un objeto.
+Source:      Ssoft
+StackTrace:     en Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:línea 76
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurinco; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6355943403687899425d3uq5zodj3drss4bv3txvtm
+Sesion WS: 
+
+Fecha:           2015/02/13 02:23
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Referencia a objeto no establecida como instancia de un objeto.
+Source:      Ssoft
+StackTrace:     en Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:línea 76
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTurinco; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6355943403687899425d3uq5zodj3drss4bv3txvtm
+Sesion WS: 
+
+Fecha:           2015/02/13 02:25
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/planes.aspx?tipo=PLN
+Complmeneto: ResultadoPlanes.aspx?ORIGEN=BUSCADOR
+Sesion Local: 6355943403687899425d3uq5zodj3drss4bv3txvtm
+Sesion WS: 
+
+Fecha:           2015/02/13 02:25
+Codigo:      0
+Tipo:        Libreria
+Método:      setGuardarParametrosBusqueda
+Severidad:   Moderada
+Mensaje:     Subproceso anulado.
+Source:      Ssoft
+StackTrace:     en Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:línea 4470
+   en Ssoft.Pages.PaginaPlanes.csBuscadorPlanes.GuardarParametrosBusquedaCircular(UserControl PageSource) en D:\PROYECTOS\TURINCO\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csBuscadorPlanes.cs:línea 167
+Complmeneto: Error en al guardar los parametros de busqueda en traslados
+Sesion Local: 6355943403687899425d3uq5zodj3drss4bv3txvtm
+Sesion WS: 
+
+Fecha:           2015/02/13 02:26
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/planes.aspx?tipo=PLN
+Complmeneto: ResultadoPlanes.aspx?ORIGEN=BUSCADOR
+Sesion Local: 6355943403687899425d3uq5zodj3drss4bv3txvtm
+Sesion WS: 
+
+Fecha:           2015/02/13 02:26
+Codigo:      0
+Tipo:        Libreria
+Método:      setGuardarParametrosBusqueda
+Severidad:   Moderada
+Mensaje:     Subproceso anulado.
+Source:      Ssoft
+StackTrace:     en Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:línea 4470
+   en Ssoft.Pages.PaginaPlanes.csBuscadorPlanes.GuardarParametrosBusquedaCircular(UserControl PageSource) en D:\PROYECTOS\TURINCO\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csBuscadorPlanes.cs:línea 167
+Complmeneto: Error en al guardar los parametros de busqueda en traslados
+Sesion Local: 6355943403687899425d3uq5zodj3drss4bv3txvtm
+Sesion WS: 
+
+Fecha:           2015/02/13 02:26
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 6355943403687899425d3uq5zodj3drss4bv3txvtm
+Sesion WS: 
+
+Fecha:           2015/02/13 02:29
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/Presentacion/planes.aspx?tipo=PLN
+Complmeneto: ResultadoPlanes.aspx?ORIGEN=BUSCADOR
+Sesion Local: 6355943403687899425d3uq5zodj3drss4bv3txvtm
+Sesion WS: 
+
+Fecha:           2015/02/13 02:29
+Codigo:      0
+Tipo:        Libreria
+Método:      setGuardarParametrosBusqueda
+Severidad:   Moderada
+Mensaje:     Subproceso anulado.
+Source:      Ssoft
+StackTrace:     en Ssoft.Utils.clsValidaciones.RedirectPagina(String sPagina) en D:\PROYECTOS\TURINCO\Turinco\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Utils\clsValidaciones.cs:línea 4470
+   en Ssoft.Pages.PaginaPlanes.csBuscadorPlanes.GuardarParametrosBusquedaCircular(UserControl PageSource) en D:\PROYECTOS\TURINCO\Turinco\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaPlanes\csBuscadorPlanes.cs:línea 167
+Complmeneto: Error en al guardar los parametros de busqueda en traslados
+Sesion Local: 6355943403687899425d3uq5zodj3drss4bv3txvtm
+Sesion WS: 
+
+Fecha:           2015/02/13 03:28
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:52232/Turinco/default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 
+Sesion WS: 
+

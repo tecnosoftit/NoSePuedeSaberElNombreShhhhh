@@ -1,0 +1,98 @@
+Fecha:           2013/12/26 10:33
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:27134/TuTiqueteV4/Default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 
+Sesion WS: 
+
+Fecha:           2013/12/26 11:04
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:27134/TuTiqueteV4/Default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 
+Sesion WS: 
+
+Fecha:           2013/12/26 12:27
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:27134/TuTiqueteV4/Default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 
+Sesion WS: 
+
+Fecha:           2013/12/26 02:41
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:27134/TuTiqueteV4/Default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 
+Sesion WS: 
+
+Fecha:           2013/12/26 03:01
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Controlador no válido. (Exception from HRESULT: 0x80070006 (E_HANDLE))
+Source:      mscorlib
+StackTrace:     at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\PSsoftNew\PSoftnewstructure\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 601
+   at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\PSsoftNew\PSoftnewstructure\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 78
+Complmeneto: Libreria: DataSql.  Conexion Server=69.89.226.49; DataBase=ssoftnewversion; User ID=sa; password=345!!jjUiiii;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6352366570865488682rkjkqvhf35d55ylo15pcuia
+Sesion WS: 
+
+Fecha:           2013/12/26 03:01
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Controlador no válido. (Exception from HRESULT: 0x80070006 (E_HANDLE))
+Source:      mscorlib
+StackTrace:     at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\PSsoftNew\PSoftnewstructure\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 601
+   at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\PSsoftNew\PSoftnewstructure\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 78
+Complmeneto: Libreria: DataSql.  Conexion Server=69.89.226.49; DataBase=ssoftnewversion; User ID=sa; password=345!!jjUiiii;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6352366570865488682rkjkqvhf35d55ylo15pcuia
+Sesion WS: 
+
+Fecha:           2013/12/26 03:11
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:27134/TuTiqueteV4/Default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 
+Sesion WS: 
+
+Fecha:           2013/12/26 03:57
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:27134/TuTiqueteV4/Default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 
+Sesion WS: 
+
+Fecha:           2013/12/26 05:37
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:27134/TuTiqueteV4/Default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 
+Sesion WS: 
+
+Fecha:           2013/12/26 05:51
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:27134/TuTiqueteV4/Default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 
+Sesion WS: 
+

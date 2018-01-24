@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://www.hotelbeds.com/schemas/2005/06/messages" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.hotelbeds.com/schemas/2005/06/messages" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:include schemaLocation="HotelbedsCommonTypes.xsd"/>
+	<xs:element name="TicketValuationRQ">
+		<xs:annotation>
+			<xs:documentation>Request data to obtain a final valuation of a ticket service for the desired dates and occupancy. This service comes from a previous ticket availability.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:complexContent>
+				<xs:extension base="CoreRequest">
+					<xs:sequence>
+						<xs:element name="AvailToken">
+							<xs:annotation>
+								<xs:documentation>Avail token. Provided in the ticket availability response.</xs:documentation>
+							</xs:annotation>
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:minLength value="1"/>
+									<xs:maxLength value="24"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:element>
+						<xs:element name="ServiceOccupancy" type="ServiceOccupancy">
+							<xs:annotation>
+								<xs:documentation>Desired occupancy.</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+						<xs:element name="DateFrom" type="DateTime">
+							<xs:annotation>
+								<xs:documentation>Desired service start date.</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+						<xs:element name="DateTo" type="DateTime">
+							<xs:annotation>
+								<xs:documentation>Desired service end date.</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+						<xs:element name="ModalityCode">
+							<xs:annotation>
+								<xs:documentation>Desired modality code. Provided in the ticket availability response. </xs:documentation>
+							</xs:annotation>
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:minLength value="1"/>
+									<xs:maxLength value="13"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:element>
+						<xs:element name="TicketCode">
+							<xs:annotation>
+								<xs:documentation>Ticket code. Provided in the ticket availability response. </xs:documentation>
+							</xs:annotation>
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:minLength value="1"/>
+									<xs:maxLength value="10"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:element>
+					</xs:sequence>
+				</xs:extension>
+			</xs:complexContent>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns="http://www.hotelbeds.com/schemas/2005/06/messages" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.hotelbeds.com/schemas/2005/06/messages" elementFormDefault="qualified" attributeFormDefault="unqualified">
+  <xs:include schemaLocation="HotelbedsCommonTypes.xsd" />
+  <xs:element name="HotelValuedAvailRQ">
+    <xs:annotation>
+      <xs:documentation>Request data to obtain a list of hotel services with available rooms according to the requested parameters. The returned prices are final prices.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:complexContent>
+        <xs:extension base="CoreRequest">
+          <xs:sequence>
+            <xs:element name="PaginationData" type="PaginationRequestData">
+              <xs:annotation>
+                <xs:documentation>Pagination request data.</xs:documentation>
+              </xs:annotation>
+            </xs:element>
+            <xs:element name="Contract" type="Contract" minOccurs="0">
+              <xs:annotation>
+                <xs:documentation>Contract element.</xs:documentation>
+              </xs:annotation>
+            </xs:element>
+            <xs:element name="CheckInDate" type="DateTime">
+              <xs:annotation>
+                <xs:documentation>Desired arrival date.</xs:documentation>
+              </xs:annotation>
+            </xs:element>
+            <xs:element name="CheckOutDate" type="DateTime">
+              <xs:annotation>
+                <xs:documentation>Desired departure date.</xs:documentation>
+              </xs:annotation>
+            </xs:element>
+            <xs:element name="Destination" type="Destination">
+              <xs:annotation>
+                <xs:documentation>destination for the requested establishment list.</xs:documentation>
+              </xs:annotation>
+            </xs:element>
+            <xs:element name="OccupancyList" type="ServiceHotelOccupancyList">
+              <xs:annotation>
+                <xs:documentation>List of all desired occupancies.</xs:documentation>
+              </xs:annotation>
+            </xs:element>
+            <xs:element name="HotelCodeList" type="ProductCodeList" minOccurs="0">
+              <xs:annotation>
+                <xs:documentation>Search availability for these hotel codes.</xs:documentation>
+              </xs:annotation>
+            </xs:element>
+            <xs:element name="CategoryList" type="ProductHotelCategoryList" minOccurs="0">
+              <xs:annotation>
+                <xs:documentation>List of desired categories to search.</xs:documentation>
+              </xs:annotation>
+            </xs:element>
+            <xs:element name="BoardList" type="ProductHotelBoardList" minOccurs="0">
+              <xs:annotation>
+                <xs:documentation>List of desired boards to search.</xs:documentation>
+              </xs:annotation>
+            </xs:element>
+          </xs:sequence>
+          <xs:attribute name="sessionId" use="required">
+            <xs:annotation>
+              <xs:documentation>Unique session identifier by user. For each new request you must generate a different session id. If you are using pagination and retrieving next pages from a previous initial search you must use the same session id, because the list results are cached using the session id. This is also applicable when changing sort criteria.</xs:documentation>
+            </xs:annotation>
+            <xs:simpleType>
+              <xs:restriction base="xs:string">
+                <xs:minLength value="1" />
+                <xs:maxLength value="25" />
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+        </xs:extension>
+      </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

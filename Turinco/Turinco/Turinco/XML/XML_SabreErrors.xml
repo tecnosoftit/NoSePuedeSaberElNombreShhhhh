@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<SabreErrors>
+  <SabreError description="DIRECT CONNECT MESSAGES RECEIVED - ENTER *A OR *IM">
+    <SabreSolution value="*IM" />
+  </SabreError>
+  <SabreError description="!DIRECT CONNECT MESSAGES RECEIVED - ENTER *A OR *IM">
+    <SabreSolution value="*IM" />
+    <SabreSolution value="WP" />
+    <SabreSolution value="PQ" />
+  </SabreError>
+  <SabreError description="MANUALLY LINK NAMES TO THE CORRECT PQ">
+    <SabreSolution value="WP" />
+    <SabreSolution value="PQ" />
+  </SabreError>
+  <SabreError description="DIRECT CONNECT MESSAGES RECEIVED - ENTER *A OR *IM        MANUALLY LINK NAMES TO THE CORRECT PQ">
+    <SabreSolution value="*IM" />
+    <SabreSolution value="WP" />
+    <SabreSolution value="PQ" />
+  </SabreError>
+  <SabreError description="!NEED TICKETING/TIMELIMIT - USE 7 OR 8">
+    <SabreSolution value="7T-" />
+  </SabreError>
+  <SabreError description="NEED TICKETING/TIMELIMIT - USE 7 OR 8">
+    <SabreSolution value="7T-" />
+  </SabreError>
+  <SabreError description="!UNABLE TO PROCESS DUPLICATE NAMES - COMBINE AND REENTER - 01/02">
+    <SabreSolution value="RETURN" />
+  </SabreError>
+  <SabreError description="!ITINERARY REQUIRED TO COMPLETE TRANSACTION">
+    <SabreSolution value="RETURNCOMPLETE" />
+  </SabreError>
+  <SabreError description="!DIRECT CONNECT MESSAGES RECEIVED - ENTER *A OR *IM        NEED TICKETING/TIMELIMIT - USE 7 OR 8">
+    <SabreSolution value="*IM" />
+    <SabreSolution value="7T-" />
+  </SabreError>
+  <SabreError description="!VERIFY ORDER OF ITINERARY SEGMENTS - MODIFY OR END TRANSACTION        NEED TICKETING/TIMELIMIT - USE 7 OR 8">
+    <SabreSolution value="7T-" />
+  </SabreError>
+  <SabreError description="!VERIFY SEGMENT DATE/TIME ORDER - MODIFY ITINERARY        VERIFY ORDER OF ITINERARY SEGMENTS - MODIFY OR END TRANSACTION        NEED TICKETING/TIMELIMIT - USE 7 OR 8">
+    <SabreSolution value="7T-" />
+  </SabreError>
+  <SabreError description="!MANUALLY LINK NAMES TO THE CORRECT PQ">
+    <SabreSolution value="PDTADT" />
+  </SabreError>
+  <SabreError description="VERIFY ORDER OF ITINERARY SEGMENTS - MODIFY OR END TRANSACTION">
+    <SabreSolution value="E" />
+  </SabreError>
+	<SabreError description="NEED 5Â">
+		<SabreSolution value="5¥" />
+	</SabreError>
+  <SabreError description="* IM AND CANCEL UNABLE SEGMENTS">
+    <SabreSolution value="RETURN" />
+  </SabreError>
+</SabreErrors>

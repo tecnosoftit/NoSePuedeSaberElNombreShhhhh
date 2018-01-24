@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clsCache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Moneda />
+  <Nombre />
+  <SessionID />
+  <User />
+  <Nivel />
+  <Pass />
+  <Pagina />
+  <UrlActual />
+  <UrlAnterior />
+  <AerolineaValidadora />
+  <TipoContacto />
+  <RefereContacto />
+  <Idioma />
+  <Cultura />
+  <Contacto />
+  <Identificacion />
+  <FechaNac />
+  <Genero />
+  <Nombres />
+  <Apellidos />
+  <Direccion />
+  <Telefono />
+  <Celular />
+  <Ciudad />
+  <Aplicacion />
+  <Tipo />
+  <TipoIdentificacion />
+  <Email />
+  <Viajero />
+  <Empresa />
+  <UNegocio />
+  <Verifica>false</Verifica>
+  <IndexSeleccion />
+  <Proyecto />
+  <CodPlan />
+  <FormatoFecha />
+  <FormatoFechaBD />
+  <Impuestos>true</Impuestos>
+  <TipoVuelo>Nacional</TipoVuelo>
+  <TipoWebServices>CotelcoHotel</TipoWebServices>
+  <Facturacion>false</Facturacion>
+  <Terminos>false</Terminos>
+  <TiempoCache>0</TiempoCache>
+  <TiempoInicial />
+  <TiempoFinal />
+  <Pin />
+  <ImagenTipoTC />
+  <ImagenBanco />
+  <TipoTC />
+  <Banco />
+</clsCache>

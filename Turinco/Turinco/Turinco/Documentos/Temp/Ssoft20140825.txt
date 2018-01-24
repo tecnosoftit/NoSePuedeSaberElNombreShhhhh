@@ -1,0 +1,519 @@
+Fecha:           2014/08/25 03:28
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:64457/TuTiqueteV4/Default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 
+Sesion WS: 
+
+Fecha:           2014/08/25 03:28
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Object reference not set to an instance of an object.
+Info:        No se puede recuperar la sesion
+Source:      Ssoft.Pages
+StackTrace:     at Ssoft.Pages.csGeneralsPag.SesionIdPage() in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\Utilidades\csGeneralsPag.cs:line 636
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:30
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Moderada
+Mensaje:     Object reference not set to an instance of an object.
+Source:      WS_SsoftSabre
+StackTrace:     at Negocios_WebService_OTA_AirLowFareSearch.GetResultadosReserva(UserControl ucControl) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\sabre\WS_SsoftSabreV2\WS_SsoftSabre\Air\Negocios_WebService_OTA_AirLowFareSearch.cs:line 3823
+   at Ssoft.Pages.csResultadoVuelos.setCargar(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaVuelos\csResultadoVuelos.cs:line 753
+Complmeneto: Confirmacion Vuelos
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:30
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Moderada
+Mensaje:     Object reference not set to an instance of an object.
+Source:      WS_SsoftSabre
+StackTrace:     at Negocios_WebService_OTA_AirLowFareSearch.GetResultadosReserva(UserControl ucControl) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\sabre\WS_SsoftSabreV2\WS_SsoftSabre\Air\Negocios_WebService_OTA_AirLowFareSearch.cs:line 3823
+   at Ssoft.Pages.csResultadoVuelos.setCargar(UserControl PageSource) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\Ssoft.PagesV4.0.1.0\Ssoft_Pages_V4.0.1\Ssoft.PagesV4.0.1.0\Ssoft.PagesV4.0.1.0\PaginaVuelos\csResultadoVuelos.cs:line 753
+Complmeneto: Confirmacion Vuelos
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:44
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Source:      .Net SqlClient Data Provider
+StackTrace:     at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 601
+   at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 78
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTTQNewVersionTest; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:44
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Source:      .Net SqlClient Data Provider
+StackTrace:     at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 601
+   at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 78
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTTQNewVersionTest; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:44
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Source:      .Net SqlClient Data Provider
+StackTrace:     at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 601
+   at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 78
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTTQNewVersionTest; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:44
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Source:      .Net SqlClient Data Provider
+StackTrace:     at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 601
+   at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 78
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTTQNewVersionTest; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:44
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Source:      .Net SqlClient Data Provider
+StackTrace:     at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 601
+   at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 78
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTTQNewVersionTest; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:44
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Source:      .Net SqlClient Data Provider
+StackTrace:     at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 601
+   at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 78
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTTQNewVersionTest; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:44
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Source:      .Net SqlClient Data Provider
+StackTrace:     at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 601
+   at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 78
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTTQNewVersionTest; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:44
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Source:      .Net SqlClient Data Provider
+StackTrace:     at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 601
+   at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 78
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTTQNewVersionTest; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:44
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Source:      .Net SqlClient Data Provider
+StackTrace:     at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 601
+   at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 78
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTTQNewVersionTest; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:44
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Source:      .Net SqlClient Data Provider
+StackTrace:     at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 601
+   at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 78
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTTQNewVersionTest; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:44
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Source:      .Net SqlClient Data Provider
+StackTrace:     at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 601
+   at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 78
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTTQNewVersionTest; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:44
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Source:      .Net SqlClient Data Provider
+StackTrace:     at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 601
+   at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 78
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTTQNewVersionTest; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:44
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Source:      .Net SqlClient Data Provider
+StackTrace:     at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 601
+   at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 78
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTTQNewVersionTest; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:44
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Source:      .Net SqlClient Data Provider
+StackTrace:     at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 601
+   at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 78
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTTQNewVersionTest; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:45
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Source:      .Net SqlClient Data Provider
+StackTrace:     at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 601
+   at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 78
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTTQNewVersionTest; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:46
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Source:      .Net SqlClient Data Provider
+StackTrace:     at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 601
+   at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 78
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTTQNewVersionTest; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:47
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+Source:      .Net SqlClient Data Provider
+StackTrace:     at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   at System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity)
+   at System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   at System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   at System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at Ssoft.Data.AccesoSQL.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Data\AccesoSQL.cs:line 601
+   at Ssoft.Sql.DataSql.Select(String sSp, String[] sParameters) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\SsoftV4.0.1.0\SsoftV4.0.1.0\Ssoft.Sql\clsDataSql.cs:line 78
+Complmeneto: Libreria: DataSql.  Conexion Server=162.248.52.168; DataBase=BDTTQNewVersionTest; User ID=DataBase2014; password=Ssoft$Database$2014;. Procedimiento: Select con Sp y Parameros
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:48
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:64457/TuTiqueteV4/Presentacion/index.aspx
+Complmeneto: ResultadoVuelos.aspx?COTAIR
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:50
+Codigo:      0
+Tipo:        WebServices
+Método:      getBusqueda
+Severidad:   Moderada
+Complmeneto: HostCommand: ÂÂÂAÂÂRS01S093ÂJA200001360048QH 01SBS                                  DT0064FL 0101   BOG  MDE  201410100905201410101009   AV 9310L 32000016SP 0101001NN
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 03:50
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:64457/TuTiqueteV4/Presentacion/ResultadoVuelos.aspx?COTAIR
+Complmeneto: ReservaVuelosTarjeta.aspx?ITIID=17
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 04:49
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Object reference not set to an instance of an object.
+Source:      WS_SsoftSabre
+StackTrace:     at Negocios_WebServiceSabreCommand.ComandoGen(String Comando_) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\sabre\WS_SsoftSabreV2\WS_SsoftSabre\General\Comando\Negocios_WebServiceSabreCommand.cs:line 174
+Complmeneto: Error al ejecutar Comando WP  Sabre
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 04:49
+Codigo:      0
+Tipo:        Libreria
+Severidad:   Alta
+Mensaje:     Object reference not set to an instance of an object.
+Source:      WS_SsoftSabre
+StackTrace:     at Negocios_WebServiceSabreCommand.ComandoGen(String Comando_) in D:\Desarrollo\Desarrollo2013\TTQBFMTFSNewUser\PSoftnewstructure\sabre\WS_SsoftSabreV2\WS_SsoftSabre\General\Comando\Negocios_WebServiceSabreCommand.cs:line 174
+Complmeneto: Error al ejecutar Comando PQ  Sabre
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 04:49
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:64457/TuTiqueteV4/Presentacion/index.aspx
+Complmeneto: ResultadoVuelos.aspx?COTAIR
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 04:51
+Codigo:      0
+Tipo:        WebServices
+Método:      getBusqueda
+Severidad:   Moderada
+Complmeneto: HostCommand: ÂÂÂAÂÂRS01S093ÂJA200001360048QH 01SBS                                  DT0064FL 0101   BOG  MDE  201410100550201410100656   AV 9322L 31800016SP 0101001NN
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 04:51
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:64457/TuTiqueteV4/Presentacion/ResultadoVuelos.aspx?COTAIR
+Complmeneto: ReservaVuelosTarjeta.aspx?ITIID=4
+Sesion Local: 6354457733946396582hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 05:33
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:64457/TuTiqueteV4/Default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 
+Sesion WS: 
+
+Fecha:           2014/08/25 05:34
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:64457/TuTiqueteV4/Presentacion/Index.aspx
+Complmeneto: ResultadoVuelos.aspx?COTAIR
+Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 05:34
+Codigo:      0
+Tipo:        WebServices
+Método:      getBusqueda
+Severidad:   Moderada
+Complmeneto: HostCommand: ÂÂÂAÂÂRS01S093ÂJA200001360048QH 01SBS                                  DT0064FL 0101   BOG  MDE  201410022135201410022240   CM 7508N E9000016SP 0101001NN
+Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 05:34
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:64457/TuTiqueteV4/Presentacion/ResultadoVuelos.aspx?COTAIR
+Complmeneto: ReservaVuelosTarjeta.aspx?ITIID=26
+Sesion Local: 6354458482383004702hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 05:59
+Codigo:      0
+Mensaje:     RedirectPaginaIni - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:64457/TuTiqueteV4/Default.aspx
+Complmeneto: ~/Presentacion/Index.aspx
+Sesion Local: 
+Sesion WS: 
+
+Fecha:           2014/08/25 06:01
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:64457/TuTiqueteV4/Presentacion/Index.aspx
+Complmeneto: ResultadoVuelos.aspx?COTAIR
+Sesion Local: 6354458635339153302hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 06:03
+Codigo:      0
+Tipo:        WebServices
+Método:      getBusqueda
+Severidad:   Moderada
+Complmeneto: HostCommand: ÂÂÂAÂÂRS01S093ÂJA200001360048QH 01SBS                                  DT0064FL 0101   BOG  CLO  201410092119201410092226   CM 7459N E9000016SP 0101001NN
+Sesion Local: 6354458635339153302hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+
+Fecha:           2014/08/25 06:03
+Codigo:      0
+Mensaje:     RedirectPagina - Se redirecciona la pagina
+Info:        Llamada desde http://localhost:64457/TuTiqueteV4/Presentacion/ResultadoVuelos.aspx?COTAIR
+Complmeneto: ReservaVuelosTarjeta.aspx?ITIID=1
+Sesion Local: 6354458635339153302hhiqugdgecwzk1dcdt3mrih
+Sesion WS: 
+

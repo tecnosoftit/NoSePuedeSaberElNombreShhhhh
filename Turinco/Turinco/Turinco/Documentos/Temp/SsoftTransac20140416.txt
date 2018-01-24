@@ -1,0 +1,327 @@
+Fecha:           2014/04/16 08:00
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 635332319508200881t0nebk3svxfgjmny0zrwpbg3
+Sesion Local: 635332319508200881t0nebk3svxfgjmny0zrwpbg3
+Sesion WS: 
+
+Fecha:           2014/04/16 08:00
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAAL1QF 
+Info:        Response: L1QF.L1QF*AWS.A
+16APR
+SABRE IS PLEASE TO ANNOUNCE VIRGIN AUSTRALIA/VA AIR
+EXTRAS ARE AVBL FOR SALE. SEE AES FOR MORE DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+Source:      Sesion Local: 635332319508200881t0nebk3svxfgjmny0zrwpbg3
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESA!ICESMSLB\/RES.LB!-3673938410796458716!448488!0
+Complmeneto: SabreCommand
+Sesion Local: 635332319508200881t0nebk3svxfgjmny0zrwpbg3
+Sesion WS: 
+
+Fecha:           2014/04/16 08:00
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESA!ICESMSLB\/RES.LB!-3673938410796458716!448488!0
+Source:      Sesion Local: 635332319508200881t0nebk3svxfgjmny0zrwpbg3
+StackTrace:  RespuestaL1QF.L1QF*AWS.A
+16APR
+SABRE IS PLEASE TO ANNOUNCE VIRGIN AUSTRALIA/VA AIR
+EXTRAS ARE AVBL FOR SALE. SEE AES FOR MORE DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+TargetSite:  Comando: AAAL1QF 
+Complmeneto: Credenciales: 
+User: 7971
+Password: WS040209
+Ipcc: L1QF
+Pcc: L1QF 
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 635332319508200881t0nebk3svxfgjmny0zrwpbg3
+Sesion WS: 
+
+Fecha:           2014/04/16 08:00
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635332319508200881t0nebk3svxfgjmny0zrwpbg3
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESA!ICESMSLB\/RES.LB!-3673938410796458716!448488!0
+Sesion Local: 635332319508200881t0nebk3svxfgjmny0zrwpbg3
+Sesion WS: 
+
+Fecha:           2014/04/16 08:00
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 635332319508200881t0nebk3svxfgjmny0zrwpbg3
+Sesion WS: 
+
+Fecha:           2014/04/16 08:00
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635332319508200881t0nebk3svxfgjmny0zrwpbg3
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESA!ICESMSLB\/RES.LB!-3673938410796458716!448488!0
+Sesion Local: 635332319508200881t0nebk3svxfgjmny0zrwpbg3
+Sesion WS: 
+
+Fecha:           2014/04/16 08:00
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     RATE BSR 1COP - 0.000517485846    USD
+COP        1932.4     TRUNCATED
+COP        2000       ROUNDED UP TO NEXT   100    - FARES
+COP        2000       ROUNDED UP TO NEXT   100    - TAXES
+Info:        Comando Sabre: DC¥USD1.00/COP
+Complmeneto: Response: RATE BSR 1COP - 0.000517485846    USD
+COP        1932.4     TRUNCATED
+COP        2000       ROUNDED UP TO NEXT   100    - FARES
+COP        2000       ROUNDED UP TO NEXT   100    - TAXES
+Sesion Local: 635332319508200881t0nebk3svxfgjmny0zrwpbg3
+Sesion WS: 
+
+Fecha:           2014/04/16 08:04
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 635332319508200881t0nebk3svxfgjmny0zrwpbg3
+Sesion Local: 635332319508200881t0nebk3svxfgjmny0zrwpbg3
+Sesion WS: 
+
+Fecha:           2014/04/16 08:04
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAAL1QF 
+Info:        Response: L1QF.L1QF*AWS.A
+16APR
+SABRE IS PLEASE TO ANNOUNCE VIRGIN AUSTRALIA/VA AIR
+EXTRAS ARE AVBL FOR SALE. SEE AES FOR MORE DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+Source:      Sesion Local: 635332319508200881t0nebk3svxfgjmny0zrwpbg3
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESB!ICESMSLB\/RES.LB!-3673937338607576666!953993!0
+Complmeneto: SabreCommand
+Sesion Local: 635332319508200881t0nebk3svxfgjmny0zrwpbg3
+Sesion WS: 
+
+Fecha:           2014/04/16 08:04
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESB!ICESMSLB\/RES.LB!-3673937338607576666!953993!0
+Source:      Sesion Local: 635332319508200881t0nebk3svxfgjmny0zrwpbg3
+StackTrace:  RespuestaL1QF.L1QF*AWS.A
+16APR
+SABRE IS PLEASE TO ANNOUNCE VIRGIN AUSTRALIA/VA AIR
+EXTRAS ARE AVBL FOR SALE. SEE AES FOR MORE DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+TargetSite:  Comando: AAAL1QF 
+Complmeneto: Credenciales: 
+User: 7971
+Password: WS040209
+Ipcc: L1QF
+Pcc: L1QF 
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 635332319508200881t0nebk3svxfgjmny0zrwpbg3
+Sesion WS: 
+
+Fecha:           2014/04/16 08:04
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635332319508200881t0nebk3svxfgjmny0zrwpbg3
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESB!ICESMSLB\/RES.LB!-3673937338607576666!953993!0
+Sesion Local: 635332319508200881t0nebk3svxfgjmny0zrwpbg3
+Sesion WS: 
+
+Fecha:           2014/04/16 08:04
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 635332319508200881t0nebk3svxfgjmny0zrwpbg3
+Sesion WS: 
+
+Fecha:           2014/04/16 10:35
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 635332412979637142t0nebk3svxfgjmny0zrwpbg3
+Sesion Local: 635332412979637142t0nebk3svxfgjmny0zrwpbg3
+Sesion WS: 
+
+Fecha:           2014/04/16 10:35
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAAL1QF 
+Info:        Response: L1QF.L1QF*AWS.A
+16APR
+SABRE IS PLEASE TO ANNOUNCE VIRGIN AUSTRALIA/VA AIR
+EXTRAS ARE AVBL FOR SALE. SEE AES FOR MORE DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+Source:      Sesion Local: 635332412979637142t0nebk3svxfgjmny0zrwpbg3
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESC!ICESMSLB\/RES.LB!-3673900167861182288!286930!0
+Complmeneto: SabreCommand
+Sesion Local: 635332412979637142t0nebk3svxfgjmny0zrwpbg3
+Sesion WS: 
+
+Fecha:           2014/04/16 10:35
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESC!ICESMSLB\/RES.LB!-3673900167861182288!286930!0
+Source:      Sesion Local: 635332412979637142t0nebk3svxfgjmny0zrwpbg3
+StackTrace:  RespuestaL1QF.L1QF*AWS.A
+16APR
+SABRE IS PLEASE TO ANNOUNCE VIRGIN AUSTRALIA/VA AIR
+EXTRAS ARE AVBL FOR SALE. SEE AES FOR MORE DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+TargetSite:  Comando: AAAL1QF 
+Complmeneto: Credenciales: 
+User: 7971
+Password: WS040209
+Ipcc: L1QF
+Pcc: L1QF 
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 635332412979637142t0nebk3svxfgjmny0zrwpbg3
+Sesion WS: 
+
+Fecha:           2014/04/16 10:35
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635332412979637142t0nebk3svxfgjmny0zrwpbg3
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESC!ICESMSLB\/RES.LB!-3673900167861182288!286930!0
+Sesion Local: 635332412979637142t0nebk3svxfgjmny0zrwpbg3
+Sesion WS: 
+
+Fecha:           2014/04/16 10:35
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 635332412979637142t0nebk3svxfgjmny0zrwpbg3
+Sesion WS: 
+
+Fecha:           2014/04/16 11:15
+Codigo:      0
+Tipo:        WebServices
+Método:      _Cerrar Sesion
+Severidad:   Moderada
+Mensaje:     Cerrar Sesion
+Source:      Sesion Local: 635332412979637142t0nebk3svxfgjmny0zrwpbg3
+Sesion Local: 635332412979637142t0nebk3svxfgjmny0zrwpbg3
+Sesion WS: 
+
+Fecha:           2014/04/16 11:15
+Codigo:      0
+Tipo:        WebServices
+Método:      getEjecutarComando
+Severidad:   Moderada
+Mensaje:     HostCommand: AAAL1QF 
+Info:        Response: L1QF.L1QF*AWS.A
+16APR
+SABRE IS PLEASE TO ANNOUNCE VIRGIN AUSTRALIA/VA AIR
+EXTRAS ARE AVBL FOR SALE. SEE AES FOR MORE DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+Source:      Sesion Local: 635332412979637142t0nebk3svxfgjmny0zrwpbg3
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESC!ICESMSLB\/RES.LB!-3673890413254014160!518418!0
+Complmeneto: SabreCommand
+Sesion Local: 635332412979637142t0nebk3svxfgjmny0zrwpbg3
+Sesion WS: 
+
+Fecha:           2014/04/16 11:15
+Codigo:      0
+Tipo:        WebServices
+Método:      _CrearSesion
+Severidad:   Baja
+Mensaje:     Ejecucion del comando AAA y perfil de agencia
+Info:        Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESC!ICESMSLB\/RES.LB!-3673890413254014160!518418!0
+Source:      Sesion Local: 635332412979637142t0nebk3svxfgjmny0zrwpbg3
+StackTrace:  RespuestaL1QF.L1QF*AWS.A
+16APR
+SABRE IS PLEASE TO ANNOUNCE VIRGIN AUSTRALIA/VA AIR
+EXTRAS ARE AVBL FOR SALE. SEE AES FOR MORE DETAILS
+WITH JETBLUE ENJOY COMFORTABLE, LIE-FLAT SEATS WITH MINT       
+     MINT IS A REFRESHING TAKE ON A PREMIUM PRODUCT
+TargetSite:  Comando: AAAL1QF 
+Complmeneto: Credenciales: 
+User: 7971
+Password: WS040209
+Ipcc: L1QF
+Pcc: L1QF 
+Dominio: DEFAULT
+Url Sabre: https://webservices.sabre.com/websvc
+
+Sesion Local: 635332412979637142t0nebk3svxfgjmny0zrwpbg3
+Sesion WS: 
+
+Fecha:           2014/04/16 11:15
+Codigo:      0
+Tipo:        WebServices
+Método:      _Sabre_EjecutarComando
+Severidad:   Moderada
+Mensaje:     SabreCommand
+Source:      Sesion Local: 635332412979637142t0nebk3svxfgjmny0zrwpbg3
+StackTrace:  Session Sabre: Shared/IDL:IceSess\/SessMgr:1\.0.IDL/Common/!ICESMS\/RESC!ICESMSLB\/RES.LB!-3673890413254014160!518418!0
+Sesion Local: 635332412979637142t0nebk3svxfgjmny0zrwpbg3
+Sesion WS: 
+
+Fecha:           2014/04/16 11:15
+Codigo:      0
+Tipo:        Libreria
+Método:      ComandoGen
+Mensaje:     IGD 
+Info:        Comando Sabre: I
+Complmeneto: Response: IGD 
+Sesion Local: 635332412979637142t0nebk3svxfgjmny0zrwpbg3
+Sesion WS: 
+

@@ -1,0 +1,8 @@
+<TicketClassificationListRQ echoToken="DummyEchoToken" xmlns="http://www.hotelbeds.com/schemas/2005/06/messages" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.hotelbeds.com/schemas/2005/06/messages TicketClassificationListRQ.xsd">
+	<Language>ENG</Language>
+	<Credentials>
+		<User>TEST</User>
+		<Password>TEST</Password>
+	</Credentials>
+	<Destination code="PMI" type="SIMPLE"/>
+</TicketClassificationListRQ>

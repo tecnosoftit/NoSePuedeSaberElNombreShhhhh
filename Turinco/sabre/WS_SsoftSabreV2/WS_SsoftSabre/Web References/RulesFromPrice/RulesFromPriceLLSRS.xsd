@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://webservices.sabre.com/sabreXML/2003/07" elementFormDefault="qualified" targetNamespace="http://webservices.sabre.com/sabreXML/2003/07" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="RulesFromPriceRS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Success" type="xs:string" />
+        <xs:element minOccurs="0" name="Warnings">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Warning">
+                <xs:complexType>
+                  <xs:attribute name="ShortText" type="xs:string" use="optional" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" name="FareRuleResponseInfo">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:documentation>The collection of Fare Rule requests and the applicable Fare Rule categories.</xs:documentation>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="OriginDestinationCurrencyInfo">
+                <xs:complexType>
+                  <xs:annotation>
+                    <xs:documentation>An indication of a new paragraph for a sub-section of a formatted text message.</xs:documentation>
+                  </xs:annotation>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="OriginLocation" type="xs:string" />
+                    <xs:element minOccurs="0" name="DestinationLocation" type="xs:string" />
+                    <xs:element minOccurs="0" name="CurrencyCode" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FareRuleInfo">
+                <xs:complexType>
+                  <xs:annotation>
+                    <xs:documentation>Rules for this priced option. </xs:documentation>
+                  </xs:annotation>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="FareBasis">
+                      <xs:complexType>
+                        <xs:attribute name="Code" type="xs:string" use="optional" />
+                        <xs:attribute name="Type" type="xs:string" use="optional" />
+                        <xs:attribute name="ResBookDesigCode" type="xs:string" use="optional" />
+                        <xs:attribute name="PassengerType" type="xs:string" use="optional" />
+                        <xs:attribute name="Rule" type="xs:string" use="optional" />
+                        <xs:attribute name="Vendor" type="xs:string" use="optional" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="OriginLocation" type="xs:string" />
+                    <xs:element minOccurs="0" name="DestinationLocation" type="xs:string" />
+                    <xs:element minOccurs="0" name="FareCarrier" type="xs:string" />
+                    <xs:element minOccurs="0" name="GoverningCarrier" type="xs:string" />
+                    <xs:element minOccurs="0" name="Routing">
+                      <xs:complexType>
+                        <xs:attribute name="Sequence" type="xs:string" use="optional" />
+                        <xs:attribute name="Number" type="xs:string" use="optional" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="BaseFare">
+                      <xs:complexType>
+                        <xs:attribute name="Class" type="xs:string" use="optional" />
+                        <xs:attribute name="Tariff" type="xs:string" use="optional" />
+                        <xs:attribute name="LinkNumber" type="xs:integer" use="optional" />
+                        <xs:attribute name="SequenceNumber" type="xs:integer" use="optional" />
+                        <xs:attribute name="CreateDateTime" type="xs:string" use="optional" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="Amount">
+                      <xs:complexType>
+                        <xs:annotation>
+                          <xs:documentation xml:lang="en">Identifies a company by name.</xs:documentation>
+                        </xs:annotation>
+                        <xs:attribute name="Original" type="xs:decimal" use="optional" />
+                        <xs:attribute name="Calculated" type="xs:decimal" use="optional" />
+                        <xs:attribute name="CurrencyCode" type="xs:string" use="optional" />
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="Indicators">
+                      <xs:complexType>
+                        <xs:annotation>
+                          <xs:documentation xml:lang="en">Identifies a company by name.</xs:documentation>
+                        </xs:annotation>
+                        <xs:attribute name="Constructed" type="xs:string" use="optional" />
+                        <xs:attribute name="Private" type="xs:string" use="optional" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="0" name="FareRules">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" maxOccurs="unbounded" name="SubSection">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element minOccurs="0" name="Paragraph">
+                            <xs:complexType>
+                              <xs:annotation>
+                                <xs:documentation>An indication of a new paragraph for a sub-section of a formatted text message.</xs:documentation>
+                              </xs:annotation>
+                              <xs:sequence>
+                                <xs:element minOccurs="0" maxOccurs="unbounded" name="Text">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:string" />
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="Type" type="xs:string" use="optional">
+                          <xs:annotation>
+                            <xs:documentation>This attribute may be used to provide a title for a sub-section of the formatted free text.  A sub-section may have multiple 														related 			paragraphs 	of 		information.  		For 	example, if used to provide driving directions there 														may be 	multiple 	paragraphs, and 		these 		paragraphs 	may be 	grouped 	into a 			sub-														section 	called 	"Driving 		from the 	North".  A 				second 	subsection 	may 	be 														titled"Driving 		from the 	South", and 	may 	contain several 	paragraphs to 	describe the 																	driving directions 	when driving from 	the south. 		</xs:documentation>
+                          </xs:annotation>
+                        </xs:attribute>
+                        <xs:attribute name="FailCode" type="xs:string" use="optional">
+                          <xs:annotation>
+                            <xs:documentation>An optional code that may be assigned to this sub-section of formatted free text.</xs:documentation>
+                          </xs:annotation>
+                        </xs:attribute>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" name="TPA_Extensions">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="HostCommand" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" name="Errors">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Error">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="ErrorInfo">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element minOccurs="0" name="Message" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="ErrorCode" type="xs:string" use="optional" />
+                  <xs:attribute name="Severity" type="xs:string" use="optional" />
+                  <xs:attribute name="ErrorMessage" type="xs:string" use="optional" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="EchoToken" use="optional">
+        <xs:annotation>
+          <xs:documentation>A sequence number for additional message identification, assigned by the requesting host system. When a request 										message includes an echo token the corresponding response message MUST include an echo token with an identical value.											</xs:documentation>
+        </xs:annotation>
+        <xs:simpleType>
+          <xs:annotation>
+            <xs:documentation xml:lang="en">Used for Character Strings, length 1 to 64</xs:documentation>
+          </xs:annotation>
+          <xs:restriction base="xs:string">
+            <xs:minLength value="1" />
+            <xs:maxLength value="64" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="TimeStamp" type="xs:string" use="optional">
+        <xs:annotation>
+          <xs:documentation>Indicates the creation date and time of the message in UTC using the following format specified by ISO 8601; YYYY-	MM-									DDThh:mm:ssZ with time values using the 24 hour clock (e.g. 20 November 2003, 1:59:38 pm UTC becomes 2003-11-	20T13:59:38Z).										</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+      <xs:attribute default="Production" name="Target" use="optional">
+        <xs:annotation>
+          <xs:documentation>Used to indicate whether the request is for the Test or Production system.</xs:documentation>
+        </xs:annotation>
+        <xs:simpleType>
+          <xs:restriction base="xs:NMTOKEN">
+            <xs:enumeration value="Test" />
+            <xs:enumeration value="Production" />
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+      <xs:attribute name="Version" type="xs:string" use="optional">
+        <xs:annotation>
+          <xs:documentation>For all OTA versioned messages, the version of the message is indicated by a decimal value.</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+      <xs:attribute name="SequenceNmbr" type="xs:string" use="optional">
+        <xs:annotation>
+          <xs:documentation>Used to identify the sequence number of the transaction as assigned by the sending system; allows for an application 	to 										process messages in a certain order or to request a resynchronization of messages in the event that a system has been off-line and 	needs to 								retrieve 	messages that were missed. </xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+      <xs:attribute name="PrimaryLangID" type="xs:language" use="optional">
+        <xs:annotation>
+          <xs:documentation>Identifes the primary language preference for the form of travel represented in a collection.
+					 The human language is identified by ISO 639 codes.</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+      <xs:attribute name="AltLangID" type="xs:language" use="optional">
+        <xs:annotation>
+          <xs:documentation>Identifes the primary language preference for the form of travel represented in a collection.
+					 The human language is identified by ISO 639 codes.</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

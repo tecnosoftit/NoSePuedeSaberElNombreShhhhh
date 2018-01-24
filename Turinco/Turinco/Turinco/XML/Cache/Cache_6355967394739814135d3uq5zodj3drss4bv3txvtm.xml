@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clsCache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Moneda />
+  <Nombre />
+  <SessionID>6355967394739814135d3uq5zodj3drss4bv3txvtm</SessionID>
+  <User />
+  <Nivel>4</Nivel>
+  <Pass />
+  <Pagina>default.aspx</Pagina>
+  <UrlActual>http://localhost:52232/Turinco/Presentacion/Cruceros.aspx?tipo=PLN</UrlActual>
+  <UrlAnterior>http://localhost:52232/Turinco/Presentacion/index.aspx</UrlAnterior>
+  <PantallaRespuestaLogin />
+  <AerolineaValidadora />
+  <TipoContacto>4</TipoContacto>
+  <RefereContacto>4</RefereContacto>
+  <Idioma>es</Idioma>
+  <Cultura>es</Cultura>
+  <Contacto>4</Contacto>
+  <Identificacion>Identificacion</Identificacion>
+  <FechaNac />
+  <Genero>1</Genero>
+  <Nombres>Nombre pasajero</Nombres>
+  <Apellidos>Apellido pasajero</Apellidos>
+  <Direccion />
+  <Telefono />
+  <Celular />
+  <Ciudad />
+  <Aplicacion>1</Aplicacion>
+  <Tipo />
+  <TipoIdentificacion>1</TipoIdentificacion>
+  <Email />
+  <Viajero>4</Viajero>
+  <Empresa>3</Empresa>
+  <UNegocio>0</UNegocio>
+  <Verifica>true</Verifica>
+  <IndexSeleccion />
+  <Proyecto>0</Proyecto>
+  <CodPlan />
+  <Reserva />
+  <DatosAdicionales />
+  <FormatoFecha>MM/dd/yyyy</FormatoFecha>
+  <FormatoFechaBD>yyyy/MM/dd</FormatoFechaBD>
+  <Impuestos>true</Impuestos>
+  <TipoVuelo>Nacional</TipoVuelo>
+  <TipoWebServices>CotelcoHotel</TipoWebServices>
+  <Passenger />
+  <Facturacion>false</Facturacion>
+  <Terminos>false</Terminos>
+  <ServiciosMB />
+  <TiempoCache>0</TiempoCache>
+  <TiempoInicial>16/02/2015 08:59:07</TiempoInicial>
+  <TiempoFinal>18/02/2015 08:59:07</TiempoFinal>
+  <Pin />
+  <ImagenTipoTC />
+  <ImagenBanco />
+  <TipoTC />
+  <Banco />
+</clsCache>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:eb="http://www.ebxml.org/namespaces/messageHeader" xmlns:xsd1="http://webservices.sabre.com/sabreXML/2003/07" xmlns:tns="https://webservices.sabre.com/websvc" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:wsse="http://schemas.xmlsoap.org/ws/2002/12/secext" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" targetNamespace="https://webservices.sabre.com/websvc" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <xsd:import schemaLocation="OTA_AirBookLLS1.4.1RQRS.xsd" namespace="http://webservices.sabre.com/sabreXML/2003/07" />
+      <xsd:import schemaLocation="msg-header-2_0.xsd" namespace="http://www.ebxml.org/namespaces/messageHeader" />
+      <xsd:import schemaLocation="wsse.xsd" namespace="http://schemas.xmlsoap.org/ws/2002/12/secext" />
+    </xsd:schema>
+  </types>
+  <message name="OTA_AirBookInput">
+    <part name="header" element="eb:MessageHeader" />
+    <part name="header2" element="wsse:Security" />
+    <part name="body" element="xsd1:OTA_AirBookRQ" />
+  </message>
+  <message name="OTA_AirBookOutput">
+    <part name="header" element="eb:MessageHeader" />
+    <part name="header2" element="wsse:Security" />
+    <part name="body" element="xsd1:OTA_AirBookRS" />
+  </message>
+  <portType name="OTA_AirBookPortType">
+    <operation name="OTA_AirBookRQ">
+      <input message="tns:OTA_AirBookInput" />
+      <output message="tns:OTA_AirBookOutput" />
+    </operation>
+  </portType>
+  <binding name="OTA_AirBookSoapBinding" type="tns:OTA_AirBookPortType">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="OTA_AirBookRQ">
+      <soap:operation soapAction="OTA" />
+      <input>
+        <soap:header message="tns:OTA_AirBookInput" part="header" use="literal" />
+        <soap:header message="tns:OTA_AirBookInput" part="header2" use="literal" />
+        <soap:body use="literal" parts="body" />
+      </input>
+      <output>
+        <soap:header message="tns:OTA_AirBookOutput" part="header" use="literal" />
+        <soap:header message="tns:OTA_AirBookOutput" part="header2" use="literal" />
+        <soap:body use="literal" parts="body" />
+      </output>
+    </operation>
+  </binding>
+  <service name="OTA_AirBookService">
+    <port name="OTA_AirBookPortType" binding="tns:OTA_AirBookSoapBinding">
+      <soap:address location="https://webservices.sabre.com/websvc" />
+    </port>
+  </service>
+</definitions>

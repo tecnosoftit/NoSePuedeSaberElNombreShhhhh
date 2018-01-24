@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns="http://webservices.sabre.com/sabreXML/2003/07" elementFormDefault="qualified" targetNamespace="http://webservices.sabre.com/sabreXML/2003/07" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="BargainFinderPlusRS">
+    <xs:annotation>
+      <xs:documentation>Root element for response from a BargainFinderPlus request.</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="Success" type="xs:string" />
+        <xs:element minOccurs="0" name="Warnings">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Warning">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="ShortText" type="xs:string" use="optional" />
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" name="PricedItineraries">
+          <xs:complexType>
+            <xs:annotation>
+              <xs:documentation>
+								Container for priced itineraries.
+								</xs:documentation>
+            </xs:annotation>
+            <xs:sequence>
+              <xs:element minOccurs="0" maxOccurs="unbounded" name="PricedItinerary">
+                <xs:annotation>
+                  <xs:documentation>Container for priced itinerary type.</xs:documentation>
+                </xs:annotation>
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="AirItinerary">
+                      <xs:complexType>
+                        <xs:annotation>
+                          <xs:documentation xml:lang="en">Specifies the origin and destination of the traveler.
+														Attributes:
+														DirectionInd - A directional indicator that identifies a type of air booking, either one-way, round-trip, or open-jaw with the enumeration of (OneWay 														| RT 	| 		OpenJaw) 				respectively.
+														ActionCode - Indicates the status of the booking, such as OK or Wait-List.
+														NumberInParty - Indicates the traveler count.
+														 </xs:documentation>
+                        </xs:annotation>
+                        <xs:sequence>
+                          <xs:element minOccurs="0" name="OriginDestinationOptions">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element minOccurs="0" name="OriginDestinationOption">
+                                  <xs:complexType>
+                                    <xs:annotation>
+                                      <xs:documentation>
+													A container for flight segments.
+													</xs:documentation>
+                                    </xs:annotation>
+                                    <xs:sequence>
+                                      <xs:element minOccurs="0" maxOccurs="unbounded" name="FlightSegment">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element minOccurs="0" name="DepartureAirport">
+                                              <xs:annotation>
+                                                <xs:documentation>Departure point of flight segment.</xs:documentation>
+                                              </xs:annotation>
+                                              <xs:complexType>
+                                                <xs:attribute name="LocationCode" type="xs:string" use="optional" />
+                                                <xs:attribute default="IATA" name="CodeContext" type="xs:string" use="optional" />
+                                              </xs:complexType>
+                                            </xs:element>
+                                            <xs:element minOccurs="0" name="ArrivalAirport">
+                                              <xs:annotation>
+                                                <xs:documentation>Arrival point of flight segment.</xs:documentation>
+                                              </xs:annotation>
+                                              <xs:complexType>
+                                                <xs:attribute name="LocationCode" type="xs:string" use="optional" />
+                                                <xs:attribute default="IATA" name="CodeContext" type="xs:string" use="optional" />
+                                              </xs:complexType>
+                                            </xs:element>
+                                            <xs:element minOccurs="0" name="Equipment">
+                                              <xs:annotation>
+                                                <xs:documentation> The type of equipment  used for the  flight..</xs:documentation>
+                                              </xs:annotation>
+                                              <xs:complexType>
+                                                <xs:annotation>
+                                                  <xs:documentation xml:lang="en">Specifies the aircraft equipment type.</xs:documentation>
+                                                </xs:annotation>
+                                                <xs:attribute name="AirEquipType" type="xs:string" use="optional">
+                                                  <xs:annotation>
+                                                    <xs:documentation>This is the 3 character IATA code.</xs:documentation>
+                                                  </xs:annotation>
+                                                </xs:attribute>
+                                              </xs:complexType>
+                                            </xs:element>
+                                            <xs:element minOccurs="0" name="MarketingAirline">
+                                              <xs:annotation>
+                                                <xs:documentation>The marketing airline.</xs:documentation>
+                                              </xs:annotation>
+                                              <xs:complexType>
+                                                <xs:attribute name="Code" type="xs:string" use="optional">
+                                                  <xs:annotation>
+                                                    <xs:documentation xml:lang="en">Identifies a company by the company code.</xs:documentation>
+                                                  </xs:annotation>
+                                                </xs:attribute>
+                                              </xs:complexType>
+                                            </xs:element>
+                                            <xs:element minOccurs="0" name="MarriageGrp" type="xs:string" />
+                                            <xs:element minOccurs="0" name="MarketingCabin">
+                                              <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element minOccurs="0" name="Meal">
+                                                    <xs:complexType>
+                                                      <xs:attribute name="MealCode" type="xs:string" use="optional" />
+                                                    </xs:complexType>
+                                                  </xs:element>
+                                                </xs:sequence>
+                                                <xs:attribute name="CabinType" type="xs:string" use="optional" />
+                                              </xs:complexType>
+                                            </xs:element>
+                                            <xs:element minOccurs="0" name="TPA_Extensions">
+                                              <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element minOccurs="0" name="ConnectionIndicator">
+                                                    <xs:complexType>
+                                                      <xs:attribute name="Type" type="xs:string" use="optional" />
+                                                    </xs:complexType>
+                                                  </xs:element>
+                                                  <xs:element minOccurs="0" name="DepartureTimeZone">
+                                                    <xs:complexType>
+                                                      <xs:attribute name="GMTMinus" type="xs:string" use="optional" />
+                                                    </xs:complexType>
+                                                  </xs:element>
+                                                  <xs:element minOccurs="0" name="ArrivalTimeZone">
+                                                    <xs:complexType>
+                                                      <xs:attribute name="GMTMinus" type="xs:string" use="optional" />
+                                                    </xs:complexType>
+                                                  </xs:element>
+                                                  <xs:element minOccurs="0" name="eTicket">
+                                                    <xs:complexType>
+                                                      <xs:attribute name="Ind" type="xs:boolean" use="optional" />
+                                                    </xs:complexType>
+                                                  </xs:element>
+                                                </xs:sequence>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                          <xs:attribute name="DepartureDateTime" type="xs:string" use="optional" />
+                                          <xs:attribute name="ArrivalDateTime" type="xs:string" use="optional" />
+                                          <xs:attribute name="FlightNumber" type="xs:string" use="optional">
+                                            <xs:annotation>
+                                              <xs:documentation> The flight number of the flight.</xs:documentation>
+                                            </xs:annotation>
+                                          </xs:attribute>
+                                          <xs:attribute name="StopQuantity" type="xs:string" use="optional">
+                                            <xs:annotation>
+                                              <xs:documentation> The number of stops the flight makes</xs:documentation>
+                                            </xs:annotation>
+                                          </xs:attribute>
+                                          <xs:attribute name="ResBookDesigCode" type="xs:string" use="optional">
+                                            <xs:annotation>
+                                              <xs:documentation xml:lang="en">Specific Booking Class for this segment.																									</xs:documentation>
+                                            </xs:annotation>
+                                          </xs:attribute>
+                                          <xs:attribute name="ElapsedTime" type="xs:string" use="optional">
+                                            <xs:annotation>
+                                              <xs:documentation xml:lang="en">Specific Booking Class for this segment.																									</xs:documentation>
+                                            </xs:annotation>
+                                          </xs:attribute>
+                                          <xs:attribute name="RPH" type="xs:string" use="optional" />
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="ElapsedTime" type="xs:string" use="optional" />
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="AirItineraryPricingInfo">
+                      <xs:complexType>
+                        <xs:annotation>
+                          <xs:documentation>Pricing Information for an Air Itinerary</xs:documentation>
+                        </xs:annotation>
+                        <xs:sequence>
+                          <xs:element minOccurs="0" name="ItinTotalFare">
+                            <xs:annotation>
+                              <xs:documentation>Total price of the itinerary</xs:documentation>
+                            </xs:annotation>
+                            <xs:complexType>
+                              <xs:annotation>
+                                <xs:documentation>Holds a base fare, tax, total and currency information on a price</xs:documentation>
+                              </xs:annotation>
+                              <xs:sequence>
+                                <xs:element minOccurs="0" name="TotalFare">
+                                  <xs:annotation>
+                                    <xs:documentation>The total price that the passenger would pay (includes fare, taxes, fees)  </xs:documentation>
+                                  </xs:annotation>
+                                  <xs:complexType>
+                                    <xs:attribute name="Amount" type="xs:string" use="optional" />
+                                    <xs:attribute name="CurrencyCode" type="xs:string" use="optional" />
+                                    <xs:attribute name="DecimalPlaces" type="xs:string" use="optional">
+                                      <xs:annotation>
+                                        <xs:documentation>Indicates the number of decimal places for a 																										particular 	currency. 	This is 	equivalent 																										to the ISO 	4217 standard "minor unit".																												</xs:documentation>
+                                      </xs:annotation>
+                                    </xs:attribute>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element minOccurs="0" name="PTC_FareInfo">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element minOccurs="0" maxOccurs="unbounded" name="PTC_FareBreakdown">
+                                  <xs:complexType>
+                                    <xs:annotation>
+                                      <xs:documentation>Per passenger type code pricing for this itinerary. Set if fareBreakdown was requested.</xs:documentation>
+                                    </xs:annotation>
+                                    <xs:sequence>
+                                      <xs:element minOccurs="0" maxOccurs="unbounded" name="PassengerTypeQuantity">
+                                        <xs:complexType>
+                                          <xs:annotation>
+                                            <xs:documentation>Specifies a PTC and the associated number of PTC's - for use in specifying passenger lists																					</xs:documentation>
+                                          </xs:annotation>
+                                          <xs:attribute name="Code" type="xs:string" use="optional" />
+                                          <xs:attribute name="Quantity" type="xs:string" use="optional">
+                                            <xs:annotation>
+                                              <xs:documentation>Used to define a quantity of an associated element or attribute.</xs:documentation>
+                                            </xs:annotation>
+                                          </xs:attribute>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element minOccurs="0" maxOccurs="unbounded" name="FareBasis">
+                                        <xs:annotation>
+                                          <xs:documentation>Fare basis code for the price for this PTC</xs:documentation>
+                                        </xs:annotation>
+                                        <xs:complexType>
+                                          <xs:attribute name="Code" type="xs:string" use="optional" />
+                                          <xs:attribute name="TicketDesignator" type="xs:string" use="optional" />
+                                          <xs:attribute name="Market" type="xs:string" use="optional" />
+                                          <xs:attribute name="RPH" type="xs:string" use="optional" />
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element minOccurs="0" name="PassengerFare">
+                                        <xs:annotation>
+                                          <xs:documentation>The total passenger fare with cost breakdown.</xs:documentation>
+                                        </xs:annotation>
+                                        <xs:complexType>
+                                          <xs:annotation>
+                                            <xs:documentation>Holds a base fare, tax, total and currency information on a price</xs:documentation>
+                                          </xs:annotation>
+                                          <xs:sequence>
+                                            <xs:element minOccurs="0" name="BaseFare">
+                                              <xs:annotation>
+                                                <xs:documentation>Price of the inventory excluding taxes and fees.</xs:documentation>
+                                              </xs:annotation>
+                                              <xs:complexType>
+                                                <xs:annotation>
+                                                  <xs:documentation>Provides a monetary amount and the code of the currency in which this amount is 																						expressed.</xs:documentation>
+                                                </xs:annotation>
+                                                <xs:attribute name="Amount" type="xs:string" use="optional" />
+                                                <xs:attribute name="CurrencyCode" type="xs:string" use="optional" />
+                                                <xs:attribute name="DecimalPlaces" type="xs:string" use="optional">
+                                                  <xs:annotation>
+                                                    <xs:documentation>Indicates the number of decimal places for a particular currency. This is 																							equivalent to the ISO 4217 standard "minor unit".	</xs:documentation>
+                                                  </xs:annotation>
+                                                </xs:attribute>
+                                              </xs:complexType>
+                                            </xs:element>
+                                            <xs:element minOccurs="0" name="EquivFare">
+                                              <xs:annotation>
+                                                <xs:documentation>Price of the inventory excluding taxes and fees in the payable currency.</xs:documentation>
+                                              </xs:annotation>
+                                              <xs:complexType>
+                                                <xs:annotation>
+                                                  <xs:documentation>Provides a monetary amount and the code of the currency in which this amount is 																						expressed.</xs:documentation>
+                                                </xs:annotation>
+                                                <xs:attribute name="Amount" type="xs:string" use="optional" />
+                                                <xs:attribute name="CurrencyCode" type="xs:string" use="optional" />
+                                                <xs:attribute name="DecimalPlaces" type="xs:string" use="optional">
+                                                  <xs:annotation>
+                                                    <xs:documentation>Indicates the number of decimal places for a particular currency. This is 																							equivalent to the ISO 4217 standard "minor unit".	</xs:documentation>
+                                                  </xs:annotation>
+                                                </xs:attribute>
+                                              </xs:complexType>
+                                            </xs:element>
+                                            <xs:element minOccurs="0" name="Taxes">
+                                              <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element minOccurs="0" maxOccurs="99" name="Tax">
+                                                    <xs:complexType>
+                                                      <xs:annotation>
+                                                        <xs:documentation>
+																								Defines the data fields available for air tax.
+																								</xs:documentation>
+                                                      </xs:annotation>
+                                                      <xs:simpleContent>
+                                                        <xs:extension base="xs:string">
+                                                          <xs:attribute name="TaxCode" type="xs:string" use="optional" />
+                                                          <xs:attribute name="Amount" type="xs:string" use="optional" />
+                                                          <xs:attribute name="CurrencyCode" type="xs:string" use="optional" />
+                                                          <xs:attribute name="DecimalPlaces" type="xs:string" use="optional">
+                                                            <xs:annotation>
+                                                              <xs:documentation>Indicates the number of decimal places for a particular currency. This is 																							equivalent to the ISO 4217 standard "minor unit".	</xs:documentation>
+                                                            </xs:annotation>
+                                                          </xs:attribute>
+                                                        </xs:extension>
+                                                      </xs:simpleContent>
+                                                    </xs:complexType>
+                                                  </xs:element>
+                                                </xs:sequence>
+                                              </xs:complexType>
+                                            </xs:element>
+                                            <xs:element minOccurs="0" name="TPA_Extensions">
+                                              <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element minOccurs="0" maxOccurs="unbounded" name="Text" type="xs:string" />
+                                                  <xs:element minOccurs="0" name="FareCalc" type="xs:string" />
+                                                  <xs:element minOccurs="0" name="WebFare">
+                                                    <xs:complexType>
+                                                      <xs:attribute name="Ind" type="xs:boolean" use="optional" />
+                                                    </xs:complexType>
+                                                  </xs:element>
+                                                  <xs:element minOccurs="0" name="PrivateFare">
+                                                    <xs:complexType>
+                                                      <xs:sequence>
+                                                        <xs:element minOccurs="0" maxOccurs="unbounded" name="Type" type="xs:string" />
+                                                      </xs:sequence>
+                                                      <xs:attribute name="Ind" type="xs:string" use="optional" />
+                                                    </xs:complexType>
+                                                  </xs:element>
+                                                </xs:sequence>
+                                              </xs:complexType>
+                                            </xs:element>
+                                            <xs:element minOccurs="0" name="TotalFare">
+                                              <xs:annotation>
+                                                <xs:documentation>The total price that the passenger would pay (includes fare, taxes, fees)</xs:documentation>
+                                              </xs:annotation>
+                                              <xs:complexType>
+                                                <xs:annotation>
+                                                  <xs:documentation>Provides a monetary amount and the code of the currency in which this amount is 																						expressed.</xs:documentation>
+                                                </xs:annotation>
+                                                <xs:attribute name="Amount" type="xs:string" use="optional" />
+                                                <xs:attribute name="CurrencyCode" type="xs:string" use="optional" />
+                                                <xs:attribute name="DecimalPlaces" type="xs:string" use="optional">
+                                                  <xs:annotation>
+                                                    <xs:documentation>Indicates the number of decimal places for a particular currency. This is 																							equivalent to the ISO 4217 standard "minor unit".	</xs:documentation>
+                                                  </xs:annotation>
+                                                </xs:attribute>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="SequenceNumber" type="xs:integer" use="optional">
+                    <xs:annotation>
+                      <xs:documentation>Assigns a number to priced itineraries.		</xs:documentation>
+                    </xs:annotation>
+                  </xs:attribute>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" name="TPA_Extensions">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="HostCommand" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element minOccurs="0" name="Errors">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Error">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="ErrorInfo">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element minOccurs="0" name="Message" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="ErrorCode" type="xs:string" use="optional" />
+                  <xs:attribute name="Severity" type="xs:string" use="optional" />
+                  <xs:attribute name="ErrorMessage" type="xs:string" use="optional" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="EchoToken" type="xs:string" use="optional">
+        <xs:annotation>
+          <xs:documentation>A sequence number for additional message identification, assigned by the requesting host system. When a request 										message includes an echo token the corresponding response message MUST include an echo token with an identical value.											</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+      <xs:attribute name="TimeStamp" type="xs:string" use="optional">
+        <xs:annotation>
+          <xs:documentation>Indicates the creation date and time of the message in UTC using the following format specified by ISO 8601; YYYY-	MM-					DDThh:mm:ssZ with time values using the 24 hour clock (e.g. 20 November 2003, 1:59:38 pm UTC becomes 2003-11-	20T13:59:38Z).						</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+      <xs:attribute default="Production" name="Target" type="xs:string" use="optional">
+        <xs:annotation>
+          <xs:documentation>Used to indicate whether the request is for the Test or Production system.</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+      <xs:attribute name="Version" type="xs:string" use="optional">
+        <xs:annotation>
+          <xs:documentation>For all OTA versioned messages, the version of the message is indicated by a decimal value.</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+      <xs:attribute name="SequenceNmbr" type="xs:string" use="optional">
+        <xs:annotation>
+          <xs:documentation>Used to identify the sequence number of the transaction as assigned by the sending system; allows for an application 	to 					process messages in a certain order or to request a resynchronization of messages in the event that a system has been off-line and 	needs to 				retrieve messages that were missed. </xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+      <xs:attribute name="PrimaryLangID" type="xs:language" use="optional">
+        <xs:annotation>
+          <xs:documentation>Identifes the primary language preference for the form of travel represented in a collection.
+					 The human language is identified by ISO 639 codes.</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+      <xs:attribute name="AltLangID" type="xs:language" use="optional">
+        <xs:annotation>
+          <xs:documentation>Identifes the primary language preference for the form of travel represented in a collection.
+					 The human language is identified by ISO 639 codes.</xs:documentation>
+        </xs:annotation>
+      </xs:attribute>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

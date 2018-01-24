@@ -1,0 +1,63 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WS_SsoftSabre.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="WS_SsoftSabre_OTA_AirRules_OTA_AirRulesService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://webservices.sabre.com/websvc</Value>
+    </Setting>
+    <Setting Name="WS_SsoftSabre_SabreCommandLLS_SabreCommandLLSService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://webservices.sabre.com/websvc</Value>
+    </Setting>
+    <Setting Name="WS_SsoftSabre_OTA_AirLowFareSearch_OTA_AirLowFareSearchService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://webservices.sabre.com/websvc</Value>
+    </Setting>
+    <Setting Name="WS_SsoftSabre_SessionClose_SessionCloseRQService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://webservices.sabre.com/websvc</Value>
+    </Setting>
+    <Setting Name="WS_SsoftSabre_SessionCreateRQ_SessionCreateRQService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://webservices.sabre.com/websvc</Value>
+    </Setting>
+    <Setting Name="WS_SsoftSabre_OTA_AirPrice_OTA_AirPriceService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://webservices.sabre.com/websvc</Value>
+    </Setting>
+    <Setting Name="WS_SsoftSabre_SessionValidate_SessionValidateRQService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://webservices.sabre.com/websvc</Value>
+    </Setting>
+    <Setting Name="WS_SsoftSabre_EndTransactionRQ1_EndTransactionService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://webservices.sabre.com/websvc</Value>
+    </Setting>
+    <Setting Name="WS_SsoftSabre_RulesFromPriceRQ_RulesFromPriceService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://cert.webservices.sabre.com/websvc</Value>
+    </Setting>
+    <Setting Name="WS_SsoftSabre_OTA_TravelItineraryRead_OTA_TravelItineraryService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://webservices.sabre.com/websvc</Value>
+    </Setting>
+    <Setting Name="WS_SsoftSabre_OTA_Cancel_OTA_CancelService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://webservices.sabre.com/websvc</Value>
+    </Setting>
+    <Setting Name="WS_SsoftSabre_OTA_AirBook_OTA_AirBookService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://webservices.sabre.com/websvc</Value>
+    </Setting>
+    <Setting Name="WS_SsoftSabre_OTA_AirAvail_OTA_AirAvailService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://webservices.sabre.com/websvc</Value>
+    </Setting>
+    <Setting Name="WS_SsoftSabre_ShortSell_ShortSellService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://webservices.sabre.com/websvc</Value>
+    </Setting>
+    <Setting Name="WS_SsoftSabre_BargainFinderPlus_BargainFinderPlusService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://webservices.sabre.com/websvc</Value>
+    </Setting>
+    <Setting Name="WS_SsoftSabre_DisplayPriceQuote_DisplayPriceQuoteService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://webservices.sabre.com/websvc</Value>
+    </Setting>
+    <Setting Name="WS_SsoftSabre_DesignatePrinterRQ_DesignatePrinterService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://webservices.sabre.com/websvc</Value>
+    </Setting>
+    <Setting Name="WS_SsoftSabre_AirTicketRQ_AirTicketService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://webservices.sabre.com/websvc</Value>
+    </Setting>
+    <Setting Name="WS_SsoftSabre_SWS_BargainFinderMaxRQ_BargainFinderMaxService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://webservices.sabre.com/websvc</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
